@@ -11,15 +11,8 @@
     <!-- CSS -->
     <link rel="stylesheet" href="style.css?v=2">
     
-    <!-- Carga de datos local convertidos desde Excel con prevención de caché (timestamp) -->
-    <script>
-        (function() {
-            var script = document.createElement('script');
-            script.src = 'data.js?t=' + new Date().getTime();
-            script.async = false;
-            document.head.appendChild(script);
-        })();
-    </script>
+    <!-- Carga de datos local convertidos desde Excel -->
+    <script src="data.js"></script>
     
     <!-- Carga de SheetJS (para soporte de mapeo en memoria si se requiere en el futuro) -->
     <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
