@@ -118,6 +118,9 @@ document.addEventListener('DOMContentLoaded', () => {
         metricTotalValue: document.getElementById('metric-total-value'),
         metricCupoBolsa: document.getElementById('metric-cupo-bolsa'),
         metricBolsaComplementaria: document.getElementById('metric-bolsa-complementaria'),
+        metricPoblacionTotal: document.getElementById('metric-poblacion-total'),
+        metricPoblacionMP: document.getElementById('metric-poblacion-mp'),
+        metricPoblacionCompartida: document.getElementById('metric-poblacion-compartida'),
         metricCriticalContracts: document.getElementById('metric-critical-contracts'),
         
         // Fichas
@@ -133,6 +136,9 @@ document.addEventListener('DOMContentLoaded', () => {
         detailDateEnd: document.getElementById('detail-card-date-end'),
         detailTimelineFill: document.getElementById('detail-card-timeline-fill'),
         detailDaysLeft: document.getElementById('detail-card-days-left'),
+        detailPoblacionTotal: document.getElementById('detail-poblacion-total'),
+        detailPoblacionMP: document.getElementById('detail-poblacion-mp'),
+        detailPoblacionCompartida: document.getElementById('detail-poblacion-compartida'),
         clearFilterBtn: document.getElementById('clear-filter-btn'),
         
         // Paneles laterales
@@ -704,6 +710,32 @@ document.addEventListener('DOMContentLoaded', () => {
             elements.metricBolsaComplementaria.textContent = formatCOP(totalBolsaComp);
         }
         
+        // 2c. Población (Total, MP, Compartidos) - Deduplicada por colectivo
+        const colectivosUnicos = new Map();
+        contracts.forEach(c => {
+            const key = (c.colectivo || c.colectivoBeneficiado || c.id).trim().toLowerCase();
+            if (key && !colectivosUnicos.has(key)) {
+                colectivosUnicos.set(key, {
+                    pob: c.poblacion || 0,
+                    mp: c.poblacionSoloMP || 0,
+                    comp: c.poblacionCompartida || 0
+                });
+            }
+        });
+
+        let totalPoblacion = 0;
+        let totalPoblacionMP = 0;
+        let totalPoblacionComp = 0;
+        colectivosUnicos.forEach(val => {
+            totalPoblacion += val.pob;
+            totalPoblacionMP += val.mp;
+            totalPoblacionComp += val.comp;
+        });
+
+        if (elements.metricPoblacionTotal) elements.metricPoblacionTotal.textContent = totalPoblacion.toLocaleString('es-CO');
+        if (elements.metricPoblacionMP) elements.metricPoblacionMP.textContent = totalPoblacionMP.toLocaleString('es-CO');
+        if (elements.metricPoblacionCompartida) elements.metricPoblacionCompartida.textContent = totalPoblacionComp.toLocaleString('es-CO');
+        
         // 3. Alertas de vencimiento (< 30 días) (REMOVIDO POR USUARIO)
         // 4. Distribución de Estados (Barra apilada y leyenda) (REMOVIDO POR USUARIO)
         // 5. Mayores Contratistas (Leaderboard por Monto) (REMOVIDO POR USUARIO)
@@ -748,16 +780,27 @@ document.addEventListener('DOMContentLoaded', () => {
 
         elements.detailColectivo.textContent = `COLECTIVO: ${c.colectivo.toUpperCase()}`;
         
+        const b = c.colectivoBeneficiado ? c.colectivoBeneficiado.toUpperCase() : c.colectivo.toUpperCase();
         const detailBeneficiado = document.getElementById('detail-card-colectivo-beneficiado');
-        if (detailBeneficiado) detailBeneficiado.textContent = `COLECTIVO BENEFICIADO: ${c.colectivoBeneficiado.toUpperCase()}`;
+        if (detailBeneficiado) detailBeneficiado.textContent = `COLECTIVO BENEFICIADO: ${b}`;
+
+        if (elements.detailId) elements.detailId.textContent = `CONTRATO N° ${c.id}`;
+        if (elements.detailContratista) elements.detailContratista.textContent = c.contratista.toUpperCase();
+        if (elements.detailBolsa) elements.detailBolsa.textContent = formatCOP(c.valor) + " COP";
+        if (elements.detailObjeto) elements.detailObjeto.textContent = c.objeto;
         
-        elements.detailId.textContent = `CONTRATO N° ${c.id}`;
-        
-        elements.detailStatus.textContent = c.estado.toUpperCase();
-        elements.detailStatus.className = 'status-badge';
-        if (c.estado === 'En Ejecución') elements.detailStatus.classList.add('status-ejecucion');
-        else if (c.estado === 'Liquidado') elements.detailStatus.classList.add('status-liquidado');
-        else if (c.estado === 'Suspendido') elements.detailStatus.classList.add('status-suspendido');
+        // Populate detail population metrics
+        if (elements.detailPoblacionTotal) elements.detailPoblacionTotal.textContent = (c.poblacion || 0).toLocaleString('es-CO');
+        if (elements.detailPoblacionMP) elements.detailPoblacionMP.textContent = (c.poblacionSoloMP || 0).toLocaleString('es-CO');
+        if (elements.detailPoblacionCompartida) elements.detailPoblacionCompartida.textContent = (c.poblacionCompartida || 0).toLocaleString('es-CO');
+
+        if (elements.detailStatus) {
+            elements.detailStatus.textContent = c.estado.toUpperCase();
+            elements.detailStatus.className = 'status-badge';
+            if (c.estado === 'En Ejecución') elements.detailStatus.classList.add('status-ejecucion');
+            else if (c.estado === 'Liquidado') elements.detailStatus.classList.add('status-liquidado');
+            else if (c.estado === 'Suspendido') elements.detailStatus.classList.add('status-suspendido');
+        }
 
         if (elements.detailBolsa) elements.detailBolsa.textContent = formatCOP(c.valor);
         

@@ -13,6 +13,7 @@
     
     <!-- Carga de datos local convertidos desde Excel -->
     <script src="data.js"></script>
+    <script src="dane_coords.js"></script>
     
     <!-- Carga de SheetJS (para soporte de mapeo en memoria si se requiere en el futuro) -->
     <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
@@ -25,9 +26,6 @@
         <!-- CABECERA PRINCIPAL -->
         <header class="app-header">
             <div class="brand">
-                <a href="index.html" style="color: var(--color-primary); text-decoration: none; margin-right: 15px; font-weight: bold; font-size: 1.2rem; display: flex; align-items: center;" title="Volver al Portal">
-                    <span style="margin-right: 5px; font-size: 1.5rem;">←</span> 
-                </a>
                 <div class="logo-mark">
                     <svg viewBox="0 0 24 24" width="24" height="24">
                         <path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z" fill="var(--color-primary)" />
@@ -39,6 +37,13 @@
                 </div>
             </div>
 
+            <a href="index.html" class="nav-home-btn" title="Volver al Inicio">
+                <svg viewBox="0 0 24 24" width="20" height="20" style="stroke: currentColor; fill: none; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round;">
+                    <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                    <polyline points="9 22 9 12 15 12 15 22"></polyline>
+                </svg>
+                <span>Inicio</span>
+            </a>
 
             <!-- Filtros Ejecutivos Integrados en Cabecera -->
             <div class="header-filters-group">
@@ -95,6 +100,22 @@
             </div>
         </section>
 
+        <!-- BARRA DE POBLACIÓN (RESUMEN GLOBAL) -->
+        <section class="validity-summary-bar" style="margin-top: 10px;">
+            <div class="validity-card" style="flex: 1; border-left: 4px solid #3b82f6;">
+                <span class="label">POBLACIÓN TOTAL CUBIERTA</span>
+                <span class="value font-mono text-primary" id="metric-poblacion-total">0</span>
+            </div>
+            <div class="validity-card" style="flex: 1; border-left: 4px solid #10b981;">
+                <span class="label">POBLACIÓN SOLO MP</span>
+                <span class="value font-mono text-success" id="metric-poblacion-mp">0</span>
+            </div>
+            <div class="validity-card" style="flex: 1; border-left: 4px solid #3b82f6;">
+                <span class="label">POBLACIÓN COMPARTIDA</span>
+                <span class="value font-mono text-secondary" id="metric-poblacion-compartida">0</span>
+            </div>
+        </section>
+
         <!-- CUERPO PRINCIPAL DEL DASHBOARD -->
         <main class="app-main">
             <!-- PANEL IZQUIERDO: METRICAS E INDICADORES CONSOLIDADOS -->
@@ -139,6 +160,8 @@
                         </div>
                         <span class="desc">Bolsa complementaria acumulada</span>
                     </div>
+
+
 
                     <!-- Métrica: Alertas críticas -->
                     <div class="metric-card-vertical alert-border-soft">
@@ -243,6 +266,25 @@
                             <div class="detail-item full-width">
                                 <span class="label" style="font-size: 0.6rem; color: var(--color-text-muted); text-transform: uppercase;">BOLSA CONTRATADA</span>
                                 <span class="value font-mono text-secondary" id="detail-card-bolsa" style="font-size: 0.78rem; font-weight: 600;">$4,500,000,000 COP</span>
+                            </div>
+
+                            <!-- Poblacion Detalle -->
+                            <div class="detail-item full-width" style="margin-top: 4px;">
+                                <span class="label" style="font-size: 0.6rem; color: var(--color-text-muted); text-transform: uppercase; margin-bottom: 5px; display: block;">POBLACIÓN DEL CONTRATO</span>
+                                <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 10px;">
+                                    <div style="background: rgba(4,7,16,0.4); padding: 8px; border-radius: 6px; border: 1px solid var(--color-border); border-left: 3px solid #3b82f6;">
+                                        <span style="font-size: 0.55rem; color: var(--color-text-muted); display: block;">TOTAL</span>
+                                        <span class="font-mono text-primary" id="detail-poblacion-total" style="font-size: 0.75rem; font-weight: 600;">0</span>
+                                    </div>
+                                    <div style="background: rgba(4,7,16,0.4); padding: 8px; border-radius: 6px; border: 1px solid var(--color-border); border-left: 3px solid #10b981;">
+                                        <span style="font-size: 0.55rem; color: var(--color-text-muted); display: block;">SOLO MP</span>
+                                        <span class="font-mono text-success" id="detail-poblacion-mp" style="font-size: 0.75rem; font-weight: 600;">0</span>
+                                    </div>
+                                    <div style="background: rgba(4,7,16,0.4); padding: 8px; border-radius: 6px; border: 1px solid var(--color-border); border-left: 3px solid #3b82f6;">
+                                        <span style="font-size: 0.55rem; color: var(--color-text-muted); display: block;">COMPARTIDOS</span>
+                                        <span class="font-mono text-secondary" id="detail-poblacion-compartida" style="font-size: 0.75rem; font-weight: 600;">0</span>
+                                    </div>
+                                </div>
                             </div>
 
                             <!-- Nueva sección de coberturas del contrato -->

@@ -104,7 +104,7 @@
                 </div>
             </div>
 
-            <a href="home.html" class="nav-home-btn" title="Volver al Inicio">
+            <a href="index.html" class="nav-home-btn" title="Volver al Inicio">
                 <svg viewBox="0 0 24 24" width="20" height="20" style="stroke: currentColor; fill: none; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round;">
                     <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
                     <polyline points="9 22 9 12 15 12 15 22"></polyline>
@@ -122,11 +122,9 @@
                     </div>
                 </div>
                 <div class="filter-group">
-                    <label class="filter-label" for="filter-actividad">ACTIVIDAD VALIDADA</label>
+                    <label class="filter-label" for="filter-actividad">CLIENTE / CONTRATO</label>
                     <select id="filter-actividad" class="filter-select">
-                        <option value="">-- Todas --</option>
-                        <option value="D1">Dispensación Efectiva</option>
-                        <option value="D2">Atención Farmacéutica</option>
+                        <option value="">-- Todos --</option>
                     </select>
                 </div>
             </div>
@@ -169,13 +167,20 @@
             <div class="dashboard-grid" style="display: grid; grid-template-columns: 1fr; gap: 20px;">
                 
                 <!-- NEW ROW: Usuarios Status -->
-                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+                <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 20px;">
+                    <div class="kpi-card glass-panel" style="display: flex; align-items: center; justify-content: space-between; padding: 20px;">
+                        <div>
+                            <span class="kpi-label" style="font-size: 0.8rem; color: var(--color-text-muted);">TOTAL PACIENTES</span>
+                            <div class="kpi-value text-primary font-mono" id="kpi-total-pac" style="font-size: 1.8rem; font-weight: 700; margin-top: 5px;">0</div>
+                        </div>
+                        <i class="fas fa-users text-primary" style="font-size: 2.5rem; opacity: 0.5;"></i>
+                    </div>
                     <div class="kpi-card glass-panel" style="display: flex; align-items: center; justify-content: space-between; padding: 20px;">
                         <div>
                             <span class="kpi-label" style="font-size: 0.8rem; color: var(--color-text-muted);">USUARIOS PREVALENTES</span>
                             <div class="kpi-value text-warn font-mono" id="kpi-con-int" style="font-size: 1.8rem; font-weight: 700; margin-top: 5px;">0</div>
                         </div>
-                        <i class="fas fa-users text-warn" style="font-size: 2.5rem; opacity: 0.5;"></i>
+                        <i class="fas fa-user-clock text-warn" style="font-size: 2.5rem; opacity: 0.5;"></i>
                     </div>
                     <div class="kpi-card glass-panel" style="display: flex; align-items: center; justify-content: space-between; padding: 20px;">
                         <div>
@@ -246,54 +251,8 @@
                     </div>
                 </div>
 
-                <!-- Charts and Tables -->
-                <div style="display: grid; grid-template-columns: 1.5fr 1fr; gap: 20px;">
-                    <!-- Table: Interacciones -->
-                    <div class="glass-panel" style="padding: 20px; border-radius: 12px; display: flex; flex-direction: column;">
-                        <h3 class="text-main" style="margin-top: 0; margin-bottom: 15px; display: flex; align-items: center; gap: 10px; font-size: 1.1rem;">
-                            <i class="fas fa-list-alt text-primary"></i> 
-                            Top Interacciones Detectadas
-                        </h3>
-                        <div style="overflow-y: auto; max-height: 400px; flex: 1;">
-                            <table class="contracts-data-table" style="width: 100%;">
-                                <thead>
-                                    <tr>
-                                        <th>INTERACCIÓN</th>
-                                        <th>GRAVEDAD</th>
-                                        <th>CASOS</th>
-                                        <th style="text-align: right;">AHORRO GESTIONADO</th>
-                                    </tr>
-                                </thead>
-                                <tbody id="interacciones-tbody">
-                                    <!-- Dynamic rows -->
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-
-                    <!-- Chart: Tendencia o Top Pacientes -->
-                    <div style="display: flex; flex-direction: column; gap: 20px;">
-                        <div class="glass-panel" style="padding: 20px; border-radius: 12px; flex: 1;">
-                            <h3 class="text-main" style="margin-top: 0; margin-bottom: 15px; display: flex; align-items: center; gap: 10px; font-size: 1.1rem;">
-                                <i class="fas fa-chart-line text-secondary"></i> 
-                                Tendencia Identificado vs Evitado
-                            </h3>
-                            <canvas id="tendenciaChart" style="width: 100%; height: 250px;"></canvas>
-                        </div>
-                        
-                        <div class="glass-panel" style="padding: 20px; border-radius: 12px;">
-                            <h3 class="text-main" style="margin-top: 0; margin-bottom: 15px; display: flex; align-items: center; gap: 10px; font-size: 1.1rem;">
-                                <i class="fas fa-exclamation-triangle text-danger"></i> 
-                                Top 3 Pacientes Mayor Riesgo
-                            </h3>
-                            <div id="top-pacientes-container" style="display: flex; flex-direction: column; gap: 10px;">
-                                <!-- Dynamic cards -->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
             </div>
+
 
                 <!-- END TAB 1 -->
                 </div>
