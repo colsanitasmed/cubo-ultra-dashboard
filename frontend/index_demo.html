@@ -3,16 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contratos360 // Caracterización y Gestión Contractual Gerencial</title>
+    <title>Contratos360 // Caracterización y Gestión Contractual Gerencial (DEMO)</title>
     <!-- Fuentes -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&family=Sora:wght@400;600;700;800&display=swap" rel="stylesheet">
     <!-- CSS -->
     <link rel="stylesheet" href="style.css?v=2">
-    
-    <!-- Carga de datos local convertidos desde Excel -->
-    <script src="data.js"></script>
     
     <!-- Carga de SheetJS (para soporte de mapeo en memoria si se requiere en el futuro) -->
     <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
@@ -25,33 +22,39 @@
         <!-- CABECERA PRINCIPAL -->
         <header class="app-header">
             <div class="brand">
-                <a href="index.html" style="color: var(--color-primary); text-decoration: none; margin-right: 15px; font-weight: bold; font-size: 1.2rem; display: flex; align-items: center;" title="Volver al Portal">
-                    <span style="margin-right: 5px; font-size: 1.5rem;">←</span> 
-                </a>
                 <div class="logo-mark">
                     <svg viewBox="0 0 24 24" width="24" height="24">
                         <path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z" fill="var(--color-primary)" />
                     </svg>
                 </div>
                 <div class="brand-text">
-                    <h1>CARACTERIZACIÓN Y GESTIÓN CONTRACTUAL</h1>
+                    <h1>CARACTERIZACIÓN Y GESTIÓN CONTRACTUAL (MODO DEMO)</h1>
                     <span class="sub-brand">Subgerencia de Medicamentos MP</span>
                 </div>
             </div>
-
+            
+            <a href="home.html" class="nav-home-btn" title="Volver al Inicio">
+                <svg viewBox="0 0 24 24" width="20" height="20" style="stroke: currentColor; fill: none; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round;">
+                    <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                    <polyline points="9 22 9 12 15 12 15 22"></polyline>
+                </svg>
+                <span>Inicio</span>
+            </a>
 
             <!-- Filtros Ejecutivos Integrados en Cabecera -->
             <div class="header-filters-group">
-                <div class="filter-item">
-                    <select id="filter-contratante" class="filter-select">
-                        <option value="">-- Contratante --</option>
-                    </select>
-                </div>
-                <div class="filter-item">
-                    <select id="filter-colectivo" class="filter-select">
-                        <option value="">-- Colectivo --</option>
-                    </select>
-                </div>
+                <div class="filter-group">
+                            <label class="filter-label" for="filter-contratante">COMPAÑÍA</label>
+                            <select id="filter-contratante" class="filter-select">
+                                <option value="">-- Todos --</option>
+                            </select>
+                        </div>
+                        <div class="filter-group">
+                            <label class="filter-label" for="filter-colectivo">CONTRATANTE</label>
+                            <select id="filter-colectivo" class="filter-select">
+                                <option value="">-- Todos --</option>
+                            </select>
+                        </div>
                 <div class="filter-item">
                     <select id="filter-plan" class="filter-select">
                         <option value="">-- Plan --</option>
@@ -140,47 +143,6 @@
                         <span class="desc">Bolsa complementaria acumulada</span>
                     </div>
 
-                    <!-- Métrica: Alertas críticas -->
-                    <div class="metric-card-vertical alert-border-soft">
-                        <span class="label">ALERTAS VENCIMIENTO</span>
-                        <div class="value-row">
-                            <span class="value font-mono text-danger" id="metric-critical-contracts">0</span>
-                        </div>
-                        <span class="desc">Contratos próximos (&lt; 30 días)</span>
-                    </div>
-
-                    <hr class="panel-divider">
-
-                    <!-- Desglose por Estado -->
-                    <div class="status-breakdown-container">
-                        <h3>Distribución de Estados</h3>
-                        <div class="progress-bar-stack" id="status-bar-stack">
-                            <!-- Populated dynamically -->
-                        </div>
-                        <div class="status-legend-list" id="status-legend-list">
-                            <!-- Populated dynamically -->
-                        </div>
-                    </div>
-
-                    <hr class="panel-divider">
-
-                    <!-- Líderes de Contratación -->
-                    <div class="financial-yield">
-                        <h3>Mayores Contratistas (Por Monto)</h3>
-                        <div class="contractor-leaderboard" id="contractor-leaderboard">
-                            <!-- Populated dynamically -->
-                        </div>
-                    </div>
-
-                    <hr class="panel-divider">
-
-                    <!-- Alertas de Vencimiento Recientes -->
-                    <div class="ledger-container">
-                        <h3>Cronograma de Vencimientos</h3>
-                        <div class="ledger-list" id="ledger-list">
-                            <!-- Populated dynamically -->
-                        </div>
-                    </div>
                 </div>
             </section>
             <!-- PANEL CENTRAL: DETALLE DE CONTRATOS Y FICHA DETALLADA (Ocupa el resto de la hoja) -->
@@ -189,8 +151,6 @@
                     <span class="panel-eyebrow">PORTAFOLIO</span>
                     <h2>Detalle de Contratos y Colectivos</h2>
                 </div>
-
-
 
                 <!-- Contenedor Grid para Tabla y Mapa -->
                 <div class="visualizer-content-grid" style="display: grid; grid-template-columns: 400px 1fr; gap: 20px; flex: 1; min-height: 0; padding: 10px 20px 16px 20px; overflow: hidden;">
@@ -204,9 +164,9 @@
                             <table class="contracts-data-table">
                                 <thead>
                                     <tr>
-                                        <th>N° CONTRATO</th>
-                                        <th>COLECTIVO BENEFICIADO</th>
-                                    </tr>
+                                <th>COLECTIVO BENEFICIADO</th>
+                                <th>N° CONTRATO</th>
+                            </tr>
                                 </thead>
                                 <tbody id="contracts-table-body">
                                     <!-- Populated dynamically -->
@@ -240,11 +200,26 @@
                     <div class="detail-card-grid" style="display: grid; grid-template-columns: 1.2fr 1fr; gap: 20px; flex: 1; min-height: 0; overflow: hidden; height: 100%;">
                         <!-- COLUMNA IZQUIERDA: DETALLES DEL CONTRATO -->
                         <div class="detail-left-column" style="display: flex; flex-direction: column; gap: 12px; overflow-y: auto; padding-right: 4px; min-height: 0;">
-                            <div class="detail-item full-width">
-                                <span class="label" style="font-size: 0.6rem; color: var(--color-text-muted); text-transform: uppercase;">BOLSA CONTRATADA</span>
-                                <span class="value font-mono text-secondary" id="detail-card-bolsa" style="font-size: 0.78rem; font-weight: 600;">$4,500,000,000 COP</span>
+                            <div class="detail-item full-width" style="display: flex; justify-content: space-between; align-items: center;">
+                                <div style="display: flex; flex-direction: column;">
+                                    <span class="label" style="font-size: 0.6rem; color: var(--color-text-muted); text-transform: uppercase;">BOLSA CONTRATADA</span>
+                                    <span class="value font-mono text-secondary" id="detail-card-bolsa" style="font-size: 0.78rem; font-weight: 600;">$4,500,000,000 COP</span>
+                                </div>
+                                <div class="metric-card">
+                            <div class="icon bg-pink">
+                                <i class="fas fa-users text-pink"></i>
                             </div>
-
+                            <div class="metric-content">
+                                <span class="label text-muted">POBLACIÓN CUBIERTA</span>
+                                <span class="value font-mono text-main" id="detail-card-poblacion">N/A</span>
+                                <div style="display: flex; gap: 10px; margin-top: 5px;">
+                                    <span style="font-size: 11px; color: var(--color-text-muted);">Compartido: <strong class="font-mono" style="color: var(--color-text-main);" id="detail-pob-compartida">0</strong></span>
+                                    <span style="font-size: 11px; color: var(--color-text-muted);">Solo MP: <strong class="font-mono" style="color: var(--color-text-main);" id="detail-pob-solomp">0</strong></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                            
                             <!-- Nueva sección de coberturas del contrato -->
                             <div class="detail-item full-width" style="margin-top: 4px;">
                                 <span class="label" style="font-size: 0.6rem; color: var(--color-text-muted); text-transform: uppercase;">COBERTURAS ASOCIADAS</span>
@@ -314,18 +289,7 @@
             </section>
         </main>
 
-        <!-- SECCIÓN INFERIOR: HISTÓRICO Y PROYECCIÓN FINANCIERA -->
-        <footer class="app-footer">
-            <div class="trend-panel">
-                <div class="trend-info">
-                    <span class="panel-eyebrow">VALOR HISTÓRICO ACUMULADO</span>
-                    <h3>Evolución de Presupuestos Contractuales</h3>
-                </div>
-                <div class="chart-container">
-                    <canvas id="trend-canvas"></canvas>
-                </div>
-            </div>
-        </footer>
+
     </div>
 
     <div id="pharmacies-modal" class="modal-overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background: rgba(0,0,0,0.85); z-index: 1100; backdrop-filter: blur(8px); align-items: center; justify-content: center;">
@@ -371,7 +335,9 @@
         </div>
     </div>
     
-    <!-- Lógica de la aplicación -->
-    <script src="app.js?v=2"></script>
+    <!-- Lógica de la aplicación DEMO -->
+    <script src="demo_data.js?v=2"></script>
+    <script src="dane_coords.js?v=2"></script>
+    <script src="app.js?v=5"></script>
 </body>
 </html>
