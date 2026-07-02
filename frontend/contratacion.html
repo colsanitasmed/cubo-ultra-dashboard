@@ -57,10 +57,9 @@
                         <option value="">-- Colectivo --</option>
                     </select>
                 </div>
-                <div class="filter-item">
-                    <select id="filter-plan" class="filter-select">
-                        <option value="">-- Plan --</option>
-                    </select>
+                <div class="filter-item" style="display: flex; align-items: center; background: rgba(59, 130, 246, 0.1); border: 1px solid rgba(59, 130, 246, 0.3); border-radius: var(--radius-sm); padding: 0 15px; height: 38px;">
+                    <span style="font-size: 0.7rem; color: var(--color-text-muted); margin-right: 8px; text-transform: uppercase;">PLAN:</span>
+                    <span id="display-plan" style="font-size: 0.8rem; color: var(--color-primary); font-weight: 600; text-transform: uppercase;">TODOS</span>
                 </div>
                 <div class="filter-item">
                     <select id="filter-tipo-contratacion" class="filter-select">
@@ -172,38 +171,7 @@
                         <span class="desc">Contratos próximos (&lt; 30 días)</span>
                     </div>
 
-                    <hr class="panel-divider">
 
-                    <!-- Desglose por Estado -->
-                    <div class="status-breakdown-container">
-                        <h3>Distribución de Estados</h3>
-                        <div class="progress-bar-stack" id="status-bar-stack">
-                            <!-- Populated dynamically -->
-                        </div>
-                        <div class="status-legend-list" id="status-legend-list">
-                            <!-- Populated dynamically -->
-                        </div>
-                    </div>
-
-                    <hr class="panel-divider">
-
-                    <!-- Líderes de Contratación -->
-                    <div class="financial-yield">
-                        <h3>Mayores Contratistas (Por Monto)</h3>
-                        <div class="contractor-leaderboard" id="contractor-leaderboard">
-                            <!-- Populated dynamically -->
-                        </div>
-                    </div>
-
-                    <hr class="panel-divider">
-
-                    <!-- Alertas de Vencimiento Recientes -->
-                    <div class="ledger-container">
-                        <h3>Cronograma de Vencimientos</h3>
-                        <div class="ledger-list" id="ledger-list">
-                            <!-- Populated dynamically -->
-                        </div>
-                    </div>
                 </div>
             </section>
             <!-- PANEL CENTRAL: DETALLE DE CONTRATOS Y FICHA DETALLADA (Ocupa el resto de la hoja) -->
@@ -227,8 +195,8 @@
                             <table class="contracts-data-table">
                                 <thead>
                                     <tr>
-                                        <th>N° CONTRATO</th>
                                         <th>COLECTIVO BENEFICIADO</th>
+                                        <th>N° CONTRATO</th>
                                     </tr>
                                 </thead>
                                 <tbody id="contracts-table-body">
@@ -356,18 +324,7 @@
             </section>
         </main>
 
-        <!-- SECCIÓN INFERIOR: HISTÓRICO Y PROYECCIÓN FINANCIERA -->
-        <footer class="app-footer">
-            <div class="trend-panel">
-                <div class="trend-info">
-                    <span class="panel-eyebrow">VALOR HISTÓRICO ACUMULADO</span>
-                    <h3>Evolución de Presupuestos Contractuales</h3>
-                </div>
-                <div class="chart-container">
-                    <canvas id="trend-canvas"></canvas>
-                </div>
-            </div>
-        </footer>
+
     </div>
 
     <div id="pharmacies-modal" class="modal-overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background: rgba(0,0,0,0.85); z-index: 1100; backdrop-filter: blur(8px); align-items: center; justify-content: center;">

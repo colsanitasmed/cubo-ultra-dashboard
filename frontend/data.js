@@ -14,7 +14,16 @@ window.CONTRATOS_DATA = [
     "fechaInicio": "2026-01-09 00:00:00",
     "fechaFin": "2026-01-08 00:00:00",
     "poblacion": 11957,
-    "coberturas": [],
+    "coberturas": [
+      {
+        "tipo": "VADEMECUM CERRADO",
+        "descripcion": "MEDICAMENTOS,FITOTERAPEUTICOS,"
+      },
+      {
+        "tipo": "FUERA DE VADEMECUM",
+        "descripcion": "FUERA DE VADEMECUM"
+      }
+    ],
     "vihHeader": "N/A",
     "vihSub": "N/A",
     "oncoHeader": "N/A",
@@ -593,7 +602,16 @@ window.CONTRATOS_DATA = [
     "fechaInicio": "2026-01-09 00:00:00",
     "fechaFin": "2026-01-08 00:00:00",
     "poblacion": 11957,
-    "coberturas": [],
+    "coberturas": [
+      {
+        "tipo": "VADEMECUM CERRADO",
+        "descripcion": "MEDICAMENTOS,FITOTERAPEUTICOS,"
+      },
+      {
+        "tipo": "FUERA DE VADEMECUM",
+        "descripcion": "FUERA DE VADEMECUM"
+      }
+    ],
     "vihHeader": "N/A",
     "vihSub": "N/A",
     "oncoHeader": "N/A",
@@ -1172,7 +1190,12 @@ window.CONTRATOS_DATA = [
     "fechaInicio": "2026-11-01 00:00:00",
     "fechaFin": "2026-10-31 00:00:00",
     "poblacion": 14,
-    "coberturas": [],
+    "coberturas": [
+      {
+        "tipo": "VADEMECUM ABIERTO",
+        "descripcion": "MEDICAMENTOS,FITOTERAPEUTICOS Y HOMEOPÁTICOS"
+      }
+    ],
     "vihHeader": "NO",
     "vihSub": "POR EPS",
     "oncoHeader": "SI",
@@ -1216,7 +1239,12 @@ window.CONTRATOS_DATA = [
     "fechaInicio": "2026-11-01 00:00:00",
     "fechaFin": "2026-10-31 00:00:00",
     "poblacion": 10,
-    "coberturas": [],
+    "coberturas": [
+      {
+        "tipo": "VADEMECUM ABIERTO",
+        "descripcion": "MEDICAMENTOS,FITOTERAPEUTICOS Y HOMEOPÁTICOS"
+      }
+    ],
     "vihHeader": "NO",
     "vihSub": "POR EPS",
     "oncoHeader": "SI",
@@ -1255,7 +1283,12 @@ window.CONTRATOS_DATA = [
     "fechaInicio": "2026-11-01 00:00:00",
     "fechaFin": "2026-10-31 00:00:00",
     "poblacion": 1219,
-    "coberturas": [],
+    "coberturas": [
+      {
+        "tipo": "VADEMECUM ABIERTO",
+        "descripcion": "MEDICAMENTOS,FITOTERAPEUTICOS Y HOMEOPÁTICOS"
+      }
+    ],
     "vihHeader": "NO",
     "vihSub": "POR EPS",
     "oncoHeader": "SI",
@@ -1394,7 +1427,12 @@ window.CONTRATOS_DATA = [
     "fechaInicio": "2026-11-01 00:00:00",
     "fechaFin": "2026-10-31 00:00:00",
     "poblacion": 139,
-    "coberturas": [],
+    "coberturas": [
+      {
+        "tipo": "VADEMECUM ABIERTO",
+        "descripcion": "MEDICAMENTOS,FITOTERAPEUTICOS Y HOMEOPÁTICOS"
+      }
+    ],
     "vihHeader": "NO",
     "vihSub": "POR EPS",
     "oncoHeader": "SI",
@@ -1448,7 +1486,12 @@ window.CONTRATOS_DATA = [
     "fechaInicio": "2026-11-01 00:00:00",
     "fechaFin": "2026-10-31 00:00:00",
     "poblacion": 5,
-    "coberturas": [],
+    "coberturas": [
+      {
+        "tipo": "VADEMECUM ABIERTO",
+        "descripcion": "MEDICAMENTOS,FITOTERAPEUTICOS Y HOMEOPÁTICOS"
+      }
+    ],
     "vihHeader": "NO",
     "vihSub": "POR EPS",
     "oncoHeader": "SI",
@@ -1468,3013 +1511,6 @@ window.CONTRATOS_DATA = [
       "88001": {
         "total": 4,
         "compartida": 4,
-        "solo_mp": 0
-      }
-    }
-  },
-  {
-    "id": "C-10",
-    "actividadValidada": "",
-    "contratista": "Sin Contratista",
-    "objeto": "Sin Objeto",
-    "valor": 0.0,
-    "estado": "EN REVISIÓN",
-    "tipo": "Servicios",
-    "contratante": "COLSANITAS (10)",
-    "colectivo": "TRANSELCA PIS",
-    "colectivoBeneficiado": "General",
-    "plan": "MODULAR",
-    "fechaInicio": "",
-    "fechaFin": "",
-    "poblacion": 0,
-    "coberturas": [],
-    "vihHeader": "N/A",
-    "vihSub": "N/A",
-    "oncoHeader": "N/A",
-    "oncoSub": "N/A",
-    "prePostHeader": "N/A",
-    "prePostSub": "N/A",
-    "ortesisHeader": "N/A",
-    "ortesisSub": "N/A",
-    "poblacionCompartida": 0,
-    "poblacionSoloMP": 0,
-    "poblacionDane": {}
-  },
-  {
-    "id": "C-11",
-    "actividadValidada": "",
-    "contratista": "Sin Contratista",
-    "objeto": "Sin Objeto",
-    "valor": 0.0,
-    "estado": "En Ejecución",
-    "tipo": "Servicios",
-    "contratante": "COLSANITAS (10)",
-    "colectivo": "TRÁNSELA ESTÁNDAR -FEISA",
-    "colectivoBeneficiado": "General",
-    "plan": "INTEGRAL",
-    "fechaInicio": "",
-    "fechaFin": "",
-    "poblacion": 463959,
-    "coberturas": [],
-    "vihHeader": "N/A",
-    "vihSub": "N/A",
-    "oncoHeader": "N/A",
-    "oncoSub": "N/A",
-    "prePostHeader": "N/A",
-    "prePostSub": "N/A",
-    "ortesisHeader": "N/A",
-    "ortesisSub": "N/A",
-    "poblacionCompartida": 349113,
-    "poblacionSoloMP": 114844,
-    "poblacionDane": {
-      "11001": {
-        "total": 252886,
-        "compartida": 197132,
-        "solo_mp": 55754
-      },
-      "68276": {
-        "total": 3455,
-        "compartida": 2713,
-        "solo_mp": 742
-      },
-      "05615": {
-        "total": 1673,
-        "compartida": 1146,
-        "solo_mp": 527
-      },
-      "05001": {
-        "total": 17260,
-        "compartida": 10707,
-        "solo_mp": 6553
-      },
-      "25126": {
-        "total": 5970,
-        "compartida": 4815,
-        "solo_mp": 1155
-      },
-      "76001": {
-        "total": 27130,
-        "compartida": 21062,
-        "solo_mp": 6068
-      },
-      "25377": {
-        "total": 977,
-        "compartida": 782,
-        "solo_mp": 195
-      },
-      "23001": {
-        "total": 2272,
-        "compartida": 1499,
-        "solo_mp": 773
-      },
-      "08558": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "05360": {
-        "total": 1009,
-        "compartida": 453,
-        "solo_mp": 556
-      },
-      "13001": {
-        "total": 9620,
-        "compartida": 6377,
-        "solo_mp": 3243
-      },
-      "05266": {
-        "total": 4449,
-        "compartida": 2956,
-        "solo_mp": 1493
-      },
-      "50568": {
-        "total": 227,
-        "compartida": 71,
-        "solo_mp": 156
-      },
-      "50001": {
-        "total": 12787,
-        "compartida": 10146,
-        "solo_mp": 2641
-      },
-      "47001": {
-        "total": 7532,
-        "compartida": 5955,
-        "solo_mp": 1577
-      },
-      "68001": {
-        "total": 8654,
-        "compartida": 6946,
-        "solo_mp": 1708
-      },
-      "54405": {
-        "total": 51,
-        "compartida": 6,
-        "solo_mp": 45
-      },
-      "08001": {
-        "total": 19743,
-        "compartida": 13859,
-        "solo_mp": 5884
-      },
-      "17001": {
-        "total": 2825,
-        "compartida": 1958,
-        "solo_mp": 867
-      },
-      "25175": {
-        "total": 10911,
-        "compartida": 9022,
-        "solo_mp": 1889
-      },
-      "05607": {
-        "total": 79,
-        "compartida": 5,
-        "solo_mp": 74
-      },
-      "44430": {
-        "total": 333,
-        "compartida": 220,
-        "solo_mp": 113
-      },
-      "25430": {
-        "total": 1124,
-        "compartida": 661,
-        "solo_mp": 463
-      },
-      "05059": {
-        "total": 2445,
-        "compartida": 1926,
-        "solo_mp": 519
-      },
-      "66001": {
-        "total": 4225,
-        "compartida": 3117,
-        "solo_mp": 1108
-      },
-      "73001": {
-        "total": 4223,
-        "compartida": 3305,
-        "solo_mp": 918
-      },
-      "25386": {
-        "total": 35,
-        "compartida": 8,
-        "solo_mp": 27
-      },
-      "05088": {
-        "total": 959,
-        "compartida": 280,
-        "solo_mp": 679
-      },
-      "05148": {
-        "total": 73,
-        "compartida": 0,
-        "solo_mp": 73
-      },
-      "88001": {
-        "total": 1051,
-        "compartida": 888,
-        "solo_mp": 163
-      },
-      "05631": {
-        "total": 727,
-        "compartida": 23,
-        "solo_mp": 704
-      },
-      "05376": {
-        "total": 112,
-        "compartida": 1,
-        "solo_mp": 111
-      },
-      "05380": {
-        "total": 227,
-        "compartida": 3,
-        "solo_mp": 224
-      },
-      "25799": {
-        "total": 191,
-        "compartida": 108,
-        "solo_mp": 83
-      },
-      "44001": {
-        "total": 1120,
-        "compartida": 836,
-        "solo_mp": 284
-      },
-      "76892": {
-        "total": 474,
-        "compartida": 312,
-        "solo_mp": 162
-      },
-      "15293": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "19001": {
-        "total": 1166,
-        "compartida": 898,
-        "solo_mp": 268
-      },
-      "85001": {
-        "total": 2932,
-        "compartida": 2444,
-        "solo_mp": 488
-      },
-      "25899": {
-        "total": 2397,
-        "compartida": 1728,
-        "solo_mp": 669
-      },
-      "25214": {
-        "total": 1646,
-        "compartida": 1293,
-        "solo_mp": 353
-      },
-      "25758": {
-        "total": 665,
-        "compartida": 518,
-        "solo_mp": 147
-      },
-      "54001": {
-        "total": 2928,
-        "compartida": 2186,
-        "solo_mp": 742
-      },
-      "25317": {
-        "total": 12,
-        "compartida": 0,
-        "solo_mp": 12
-      },
-      "25290": {
-        "total": 842,
-        "compartida": 685,
-        "solo_mp": 157
-      },
-      "41001": {
-        "total": 3965,
-        "compartida": 3223,
-        "solo_mp": 742
-      },
-      "50006": {
-        "total": 987,
-        "compartida": 730,
-        "solo_mp": 257
-      },
-      "25224": {
-        "total": 3,
-        "compartida": 1,
-        "solo_mp": 2
-      },
-      "81736": {
-        "total": 34,
-        "compartida": 14,
-        "solo_mp": 20
-      },
-      "15759": {
-        "total": 1296,
-        "compartida": 1043,
-        "solo_mp": 253
-      },
-      "25269": {
-        "total": 896,
-        "compartida": 611,
-        "solo_mp": 285
-      },
-      "18001": {
-        "total": 620,
-        "compartida": 507,
-        "solo_mp": 113
-      },
-      "25473": {
-        "total": 2217,
-        "compartida": 1491,
-        "solo_mp": 726
-      },
-      "76520": {
-        "total": 1875,
-        "compartida": 1419,
-        "solo_mp": 456
-      },
-      "25754": {
-        "total": 1852,
-        "compartida": 1146,
-        "solo_mp": 706
-      },
-      "15835": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "25843": {
-        "total": 95,
-        "compartida": 10,
-        "solo_mp": 85
-      },
-      "25286": {
-        "total": 770,
-        "compartida": 466,
-        "solo_mp": 304
-      },
-      "15238": {
-        "total": 1284,
-        "compartida": 979,
-        "solo_mp": 305
-      },
-      "68547": {
-        "total": 727,
-        "compartida": 528,
-        "solo_mp": 199
-      },
-      "23162": {
-        "total": 56,
-        "compartida": 3,
-        "solo_mp": 53
-      },
-      "15491": {
-        "total": 15,
-        "compartida": 8,
-        "solo_mp": 7
-      },
-      "76109": {
-        "total": 87,
-        "compartida": 3,
-        "solo_mp": 84
-      },
-      "15455": {
-        "total": 5,
-        "compartida": 0,
-        "solo_mp": 5
-      },
-      "70713": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "25740": {
-        "total": 48,
-        "compartida": 16,
-        "solo_mp": 32
-      },
-      "68679": {
-        "total": 357,
-        "compartida": 285,
-        "solo_mp": 72
-      },
-      "99001": {
-        "total": 9,
-        "compartida": 0,
-        "solo_mp": 9
-      },
-      "05318": {
-        "total": 86,
-        "compartida": 3,
-        "solo_mp": 83
-      },
-      "15599": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "23466": {
-        "total": 922,
-        "compartida": 772,
-        "solo_mp": 150
-      },
-      "68406": {
-        "total": 9,
-        "compartida": 4,
-        "solo_mp": 5
-      },
-      "05313": {
-        "total": 84,
-        "compartida": 31,
-        "solo_mp": 53
-      },
-      "20001": {
-        "total": 3146,
-        "compartida": 2463,
-        "solo_mp": 683
-      },
-      "70001": {
-        "total": 1851,
-        "compartida": 1291,
-        "solo_mp": 560
-      },
-      "73671": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "25035": {
-        "total": 26,
-        "compartida": 8,
-        "solo_mp": 18
-      },
-      "76306": {
-        "total": 11,
-        "compartida": 0,
-        "solo_mp": 11
-      },
-      "73443": {
-        "total": 13,
-        "compartida": 0,
-        "solo_mp": 13
-      },
-      "41551": {
-        "total": 281,
-        "compartida": 213,
-        "solo_mp": 68
-      },
-      "73349": {
-        "total": 166,
-        "compartida": 143,
-        "solo_mp": 23
-      },
-      "47555": {
-        "total": 19,
-        "compartida": 2,
-        "solo_mp": 17
-      },
-      "66170": {
-        "total": 557,
-        "compartida": 317,
-        "solo_mp": 240
-      },
-      "13836": {
-        "total": 107,
-        "compartida": 0,
-        "solo_mp": 107
-      },
-      "81001": {
-        "total": 302,
-        "compartida": 231,
-        "solo_mp": 71
-      },
-      "47318": {
-        "total": 35,
-        "compartida": 1,
-        "solo_mp": 34
-      },
-      "19548": {
-        "total": 15,
-        "compartida": 6,
-        "solo_mp": 9
-      },
-      "15516": {
-        "total": 177,
-        "compartida": 133,
-        "solo_mp": 44
-      },
-      "08573": {
-        "total": 837,
-        "compartida": 542,
-        "solo_mp": 295
-      },
-      "99624": {
-        "total": 7,
-        "compartida": 0,
-        "solo_mp": 7
-      },
-      "68081": {
-        "total": 1250,
-        "compartida": 931,
-        "solo_mp": 319
-      },
-      "85139": {
-        "total": 26,
-        "compartida": 8,
-        "solo_mp": 18
-      },
-      "76364": {
-        "total": 1642,
-        "compartida": 1182,
-        "solo_mp": 460
-      },
-      "23660": {
-        "total": 83,
-        "compartida": 1,
-        "solo_mp": 82
-      },
-      "73352": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "76275": {
-        "total": 36,
-        "compartida": 10,
-        "solo_mp": 26
-      },
-      "23555": {
-        "total": 31,
-        "compartida": 0,
-        "solo_mp": 31
-      },
-      "76834": {
-        "total": 435,
-        "compartida": 310,
-        "solo_mp": 125
-      },
-      "70215": {
-        "total": 29,
-        "compartida": 0,
-        "solo_mp": 29
-      },
-      "15001": {
-        "total": 3130,
-        "compartida": 2531,
-        "solo_mp": 599
-      },
-      "70235": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "95001": {
-        "total": 42,
-        "compartida": 0,
-        "solo_mp": 42
-      },
-      "23417": {
-        "total": 30,
-        "compartida": 0,
-        "solo_mp": 30
-      },
-      "76736": {
-        "total": 11,
-        "compartida": 0,
-        "solo_mp": 11
-      },
-      "25307": {
-        "total": 641,
-        "compartida": 506,
-        "solo_mp": 135
-      },
-      "25785": {
-        "total": 55,
-        "compartida": 2,
-        "solo_mp": 53
-      },
-      "25841": {
-        "total": 24,
-        "compartida": 0,
-        "solo_mp": 24
-      },
-      "68432": {
-        "total": 11,
-        "compartida": 4,
-        "solo_mp": 7
-      },
-      "94001": {
-        "total": 24,
-        "compartida": 0,
-        "solo_mp": 24
-      },
-      "25402": {
-        "total": 33,
-        "compartida": 10,
-        "solo_mp": 23
-      },
-      "25612": {
-        "total": 30,
-        "compartida": 7,
-        "solo_mp": 23
-      },
-      "47288": {
-        "total": 46,
-        "compartida": 0,
-        "solo_mp": 46
-      },
-      "05212": {
-        "total": 124,
-        "compartida": 0,
-        "solo_mp": 124
-      },
-      "23182": {
-        "total": 12,
-        "compartida": 0,
-        "solo_mp": 12
-      },
-      "08433": {
-        "total": 35,
-        "compartida": 0,
-        "solo_mp": 35
-      },
-      "13873": {
-        "total": 87,
-        "compartida": 56,
-        "solo_mp": 31
-      },
-      "05129": {
-        "total": 72,
-        "compartida": 1,
-        "solo_mp": 71
-      },
-      "52001": {
-        "total": 1756,
-        "compartida": 1466,
-        "solo_mp": 288
-      },
-      "91001": {
-        "total": 161,
-        "compartida": 132,
-        "solo_mp": 29
-      },
-      "73449": {
-        "total": 130,
-        "compartida": 44,
-        "solo_mp": 86
-      },
-      "05079": {
-        "total": 34,
-        "compartida": 0,
-        "solo_mp": 34
-      },
-      "54498": {
-        "total": 215,
-        "compartida": 184,
-        "solo_mp": 31
-      },
-      "17877": {
-        "total": 11,
-        "compartida": 0,
-        "solo_mp": 11
-      },
-      "20621": {
-        "total": 6,
-        "compartida": 0,
-        "solo_mp": 6
-      },
-      "54874": {
-        "total": 90,
-        "compartida": 36,
-        "solo_mp": 54
-      },
-      "05893": {
-        "total": 7,
-        "compartida": 0,
-        "solo_mp": 7
-      },
-      "17777": {
-        "total": 11,
-        "compartida": 0,
-        "solo_mp": 11
-      },
-      "91430": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "17873": {
-        "total": 61,
-        "compartida": 1,
-        "solo_mp": 60
-      },
-      "68307": {
-        "total": 254,
-        "compartida": 179,
-        "solo_mp": 75
-      },
-      "15469": {
-        "total": 21,
-        "compartida": 0,
-        "solo_mp": 21
-      },
-      "76111": {
-        "total": 92,
-        "compartida": 22,
-        "solo_mp": 70
-      },
-      "70508": {
-        "total": 11,
-        "compartida": 0,
-        "solo_mp": 11
-      },
-      "05045": {
-        "total": 23,
-        "compartida": 1,
-        "solo_mp": 22
-      },
-      "44078": {
-        "total": 71,
-        "compartida": 49,
-        "solo_mp": 22
-      },
-      "18029": {
-        "total": 51,
-        "compartida": 35,
-        "solo_mp": 16
-      },
-      "17272": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "05541": {
-        "total": 9,
-        "compartida": 0,
-        "solo_mp": 9
-      },
-      "44650": {
-        "total": 129,
-        "compartida": 98,
-        "solo_mp": 31
-      },
-      "54518": {
-        "total": 66,
-        "compartida": 22,
-        "solo_mp": 44
-      },
-      "73024": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "05440": {
-        "total": 67,
-        "compartida": 3,
-        "solo_mp": 64
-      },
-      "25817": {
-        "total": 635,
-        "compartida": 434,
-        "solo_mp": 201
-      },
-      "76828": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "25572": {
-        "total": 13,
-        "compartida": 0,
-        "solo_mp": 13
-      },
-      "76622": {
-        "total": 26,
-        "compartida": 1,
-        "solo_mp": 25
-      },
-      "68755": {
-        "total": 43,
-        "compartida": 23,
-        "solo_mp": 20
-      },
-      "15572": {
-        "total": 24,
-        "compartida": 3,
-        "solo_mp": 21
-      },
-      "05837": {
-        "total": 10,
-        "compartida": 1,
-        "solo_mp": 9
-      },
-      "08758": {
-        "total": 866,
-        "compartida": 512,
-        "solo_mp": 354
-      },
-      "66682": {
-        "total": 52,
-        "compartida": 11,
-        "solo_mp": 41
-      },
-      "18756": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "25288": {
-        "total": 10,
-        "compartida": 0,
-        "solo_mp": 10
-      },
-      "52435": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "73268": {
-        "total": 63,
-        "compartida": 22,
-        "solo_mp": 41
-      },
-      "05308": {
-        "total": 60,
-        "compartida": 0,
-        "solo_mp": 60
-      },
-      "15600": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "68655": {
-        "total": 18,
-        "compartida": 0,
-        "solo_mp": 18
-      },
-      "86568": {
-        "total": 18,
-        "compartida": 0,
-        "solo_mp": 18
-      },
-      "08296": {
-        "total": 26,
-        "compartida": 0,
-        "solo_mp": 26
-      },
-      "76113": {
-        "total": 29,
-        "compartida": 1,
-        "solo_mp": 28
-      },
-      "76147": {
-        "total": 431,
-        "compartida": 333,
-        "solo_mp": 98
-      },
-      "41396": {
-        "total": 38,
-        "compartida": 26,
-        "solo_mp": 12
-      },
-      "15761": {
-        "total": 6,
-        "compartida": 0,
-        "solo_mp": 6
-      },
-      "15367": {
-        "total": 7,
-        "compartida": 0,
-        "solo_mp": 7
-      },
-      "13657": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "73226": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "20770": {
-        "total": 22,
-        "compartida": 3,
-        "solo_mp": 19
-      },
-      "20238": {
-        "total": 9,
-        "compartida": 0,
-        "solo_mp": 9
-      },
-      "05154": {
-        "total": 20,
-        "compartida": 0,
-        "solo_mp": 20
-      },
-      "85010": {
-        "total": 92,
-        "compartida": 58,
-        "solo_mp": 34
-      },
-      "05652": {
-        "total": 2,
-        "compartida": 1,
-        "solo_mp": 1
-      },
-      "25743": {
-        "total": 13,
-        "compartida": 2,
-        "solo_mp": 11
-      },
-      "08638": {
-        "total": 18,
-        "compartida": 0,
-        "solo_mp": 18
-      },
-      "50573": {
-        "total": 90,
-        "compartida": 33,
-        "solo_mp": 57
-      },
-      "25875": {
-        "total": 208,
-        "compartida": 181,
-        "solo_mp": 27
-      },
-      "85300": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "85440": {
-        "total": 48,
-        "compartida": 32,
-        "solo_mp": 16
-      },
-      "25151": {
-        "total": 32,
-        "compartida": 14,
-        "solo_mp": 18
-      },
-      "15176": {
-        "total": 374,
-        "compartida": 307,
-        "solo_mp": 67
-      },
-      "50150": {
-        "total": 50,
-        "compartida": 15,
-        "solo_mp": 35
-      },
-      "08685": {
-        "total": 16,
-        "compartida": 0,
-        "solo_mp": 16
-      },
-      "00000": {
-        "total": 27,
-        "compartida": 2,
-        "solo_mp": 25
-      },
-      "52356": {
-        "total": 162,
-        "compartida": 134,
-        "solo_mp": 28
-      },
-      "44279": {
-        "total": 110,
-        "compartida": 92,
-        "solo_mp": 18
-      },
-      "19785": {
-        "total": 9,
-        "compartida": 0,
-        "solo_mp": 9
-      },
-      "86571": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "08634": {
-        "total": 14,
-        "compartida": 0,
-        "solo_mp": 14
-      },
-      "50330": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "47189": {
-        "total": 63,
-        "compartida": 2,
-        "solo_mp": 61
-      },
-      "76318": {
-        "total": 18,
-        "compartida": 0,
-        "solo_mp": 18
-      },
-      "85430": {
-        "total": 7,
-        "compartida": 4,
-        "solo_mp": 3
-      },
-      "05240": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "85410": {
-        "total": 129,
-        "compartida": 91,
-        "solo_mp": 38
-      },
-      "63401": {
-        "total": 13,
-        "compartida": 3,
-        "solo_mp": 10
-      },
-      "19418": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "52835": {
-        "total": 26,
-        "compartida": 6,
-        "solo_mp": 20
-      },
-      "25530": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "86001": {
-        "total": 18,
-        "compartida": 0,
-        "solo_mp": 18
-      },
-      "15189": {
-        "total": 10,
-        "compartida": 0,
-        "solo_mp": 10
-      },
-      "85250": {
-        "total": 40,
-        "compartida": 27,
-        "solo_mp": 13
-      },
-      "17380": {
-        "total": 27,
-        "compartida": 3,
-        "solo_mp": 24
-      },
-      "70221": {
-        "total": 18,
-        "compartida": 0,
-        "solo_mp": 18
-      },
-      "13140": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "13468": {
-        "total": 7,
-        "compartida": 0,
-        "solo_mp": 7
-      },
-      "19455": {
-        "total": 7,
-        "compartida": 0,
-        "solo_mp": 7
-      },
-      "18592": {
-        "total": 5,
-        "compartida": 3,
-        "solo_mp": 2
-      },
-      "15776": {
-        "total": 8,
-        "compartida": 0,
-        "solo_mp": 8
-      },
-      "08141": {
-        "total": 54,
-        "compartida": 1,
-        "solo_mp": 53
-      },
-      "23807": {
-        "total": 10,
-        "compartida": 0,
-        "solo_mp": 10
-      },
-      "47053": {
-        "total": 6,
-        "compartida": 0,
-        "solo_mp": 6
-      },
-      "20060": {
-        "total": 12,
-        "compartida": 0,
-        "solo_mp": 12
-      },
-      "50711": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "50124": {
-        "total": 8,
-        "compartida": 0,
-        "solo_mp": 8
-      },
-      "76248": {
-        "total": 27,
-        "compartida": 3,
-        "solo_mp": 24
-      },
-      "63190": {
-        "total": 38,
-        "compartida": 8,
-        "solo_mp": 30
-      },
-      "05656": {
-        "total": 20,
-        "compartida": 2,
-        "solo_mp": 18
-      },
-      "70473": {
-        "total": 8,
-        "compartida": 1,
-        "solo_mp": 7
-      },
-      "76895": {
-        "total": 8,
-        "compartida": 0,
-        "solo_mp": 8
-      },
-      "25322": {
-        "total": 22,
-        "compartida": 5,
-        "solo_mp": 17
-      },
-      "25295": {
-        "total": 33,
-        "compartida": 0,
-        "solo_mp": 33
-      },
-      "25718": {
-        "total": 7,
-        "compartida": 2,
-        "solo_mp": 5
-      },
-      "25769": {
-        "total": 29,
-        "compartida": 10,
-        "solo_mp": 19
-      },
-      "25488": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "19573": {
-        "total": 13,
-        "compartida": 0,
-        "solo_mp": 13
-      },
-      "15407": {
-        "total": 66,
-        "compartida": 48,
-        "solo_mp": 18
-      },
-      "81591": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "05628": {
-        "total": 38,
-        "compartida": 1,
-        "solo_mp": 37
-      },
-      "50606": {
-        "total": 39,
-        "compartida": 1,
-        "solo_mp": 38
-      },
-      "25513": {
-        "total": 7,
-        "compartida": 0,
-        "solo_mp": 7
-      },
-      "25001": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "25772": {
-        "total": 7,
-        "compartida": 0,
-        "solo_mp": 7
-      },
-      "15806": {
-        "total": 10,
-        "compartida": 2,
-        "solo_mp": 8
-      },
-      "18753": {
-        "total": 8,
-        "compartida": 3,
-        "solo_mp": 5
-      },
-      "25745": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "41298": {
-        "total": 161,
-        "compartida": 146,
-        "solo_mp": 15
-      },
-      "15753": {
-        "total": 16,
-        "compartida": 7,
-        "solo_mp": 9
-      },
-      "54245": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "25491": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "63272": {
-        "total": 4,
-        "compartida": 2,
-        "solo_mp": 2
-      },
-      "54172": {
-        "total": 11,
-        "compartida": 4,
-        "solo_mp": 7
-      },
-      "17541": {
-        "total": 5,
-        "compartida": 0,
-        "solo_mp": 5
-      },
-      "25123": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "05051": {
-        "total": 7,
-        "compartida": 0,
-        "solo_mp": 7
-      },
-      "41770": {
-        "total": 3,
-        "compartida": 1,
-        "solo_mp": 2
-      },
-      "25797": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "20787": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "73483": {
-        "total": 6,
-        "compartida": 3,
-        "solo_mp": 3
-      },
-      "05647": {
-        "total": 188,
-        "compartida": 148,
-        "solo_mp": 40
-      },
-      "05250": {
-        "total": 7,
-        "compartida": 0,
-        "solo_mp": 7
-      },
-      "73585": {
-        "total": 17,
-        "compartida": 5,
-        "solo_mp": 12
-      },
-      "17013": {
-        "total": 5,
-        "compartida": 0,
-        "solo_mp": 5
-      },
-      "68572": {
-        "total": 5,
-        "compartida": 0,
-        "solo_mp": 5
-      },
-      "25181": {
-        "total": 16,
-        "compartida": 4,
-        "solo_mp": 12
-      },
-      "15276": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "08520": {
-        "total": 8,
-        "compartida": 0,
-        "solo_mp": 8
-      },
-      "25898": {
-        "total": 5,
-        "compartida": 0,
-        "solo_mp": 5
-      },
-      "73563": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "44847": {
-        "total": 8,
-        "compartida": 4,
-        "solo_mp": 4
-      },
-      "19698": {
-        "total": 232,
-        "compartida": 177,
-        "solo_mp": 55
-      },
-      "13188": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "25320": {
-        "total": 14,
-        "compartida": 2,
-        "solo_mp": 12
-      },
-      "41797": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "50223": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "50110": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "15204": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "41524": {
-        "total": 14,
-        "compartida": 11,
-        "solo_mp": 3
-      },
-      "25312": {
-        "total": 65,
-        "compartida": 31,
-        "solo_mp": 34
-      },
-      "17513": {
-        "total": 5,
-        "compartida": 0,
-        "solo_mp": 5
-      },
-      "76233": {
-        "total": 5,
-        "compartida": 0,
-        "solo_mp": 5
-      },
-      "81794": {
-        "total": 27,
-        "compartida": 17,
-        "solo_mp": 10
-      },
-      "25040": {
-        "total": 6,
-        "compartida": 3,
-        "solo_mp": 3
-      },
-      "25851": {
-        "total": 3,
-        "compartida": 2,
-        "solo_mp": 1
-      },
-      "05400": {
-        "total": 22,
-        "compartida": 1,
-        "solo_mp": 21
-      },
-      "76563": {
-        "total": 28,
-        "compartida": 4,
-        "solo_mp": 24
-      },
-      "76036": {
-        "total": 8,
-        "compartida": 0,
-        "solo_mp": 8
-      },
-      "25779": {
-        "total": 7,
-        "compartida": 1,
-        "solo_mp": 6
-      },
-      "73275": {
-        "total": 8,
-        "compartida": 0,
-        "solo_mp": 8
-      },
-      "25178": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "68861": {
-        "total": 25,
-        "compartida": 12,
-        "solo_mp": 13
-      },
-      "70702": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "08372": {
-        "total": 5,
-        "compartida": 0,
-        "solo_mp": 5
-      },
-      "97001": {
-        "total": 8,
-        "compartida": 0,
-        "solo_mp": 8
-      },
-      "88564": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "23580": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "66594": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "41615": {
-        "total": 18,
-        "compartida": 15,
-        "solo_mp": 3
-      },
-      "68575": {
-        "total": 21,
-        "compartida": 4,
-        "solo_mp": 17
-      },
-      "25486": {
-        "total": 24,
-        "compartida": 5,
-        "solo_mp": 19
-      },
-      "25183": {
-        "total": 11,
-        "compartida": 4,
-        "solo_mp": 7
-      },
-      "25658": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "25200": {
-        "total": 35,
-        "compartida": 5,
-        "solo_mp": 30
-      },
-      "25873": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "05002": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "25326": {
-        "total": 5,
-        "compartida": 0,
-        "solo_mp": 5
-      },
-      "13052": {
-        "total": 14,
-        "compartida": 0,
-        "solo_mp": 14
-      },
-      "70820": {
-        "total": 9,
-        "compartida": 2,
-        "solo_mp": 7
-      },
-      "05361": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "73217": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "17174": {
-        "total": 17,
-        "compartida": 1,
-        "solo_mp": 16
-      },
-      "73152": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "15322": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "05483": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "05697": {
-        "total": 9,
-        "compartida": 0,
-        "solo_mp": 9
-      },
-      "13430": {
-        "total": 12,
-        "compartida": 0,
-        "solo_mp": 12
-      },
-      "08137": {
-        "total": 3,
-        "compartida": 1,
-        "solo_mp": 2
-      },
-      "15646": {
-        "total": 24,
-        "compartida": 15,
-        "solo_mp": 9
-      },
-      "15087": {
-        "total": 5,
-        "compartida": 1,
-        "solo_mp": 4
-      },
-      "73319": {
-        "total": 6,
-        "compartida": 2,
-        "solo_mp": 4
-      },
-      "27450": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "25260": {
-        "total": 36,
-        "compartida": 10,
-        "solo_mp": 26
-      },
-      "25736": {
-        "total": 12,
-        "compartida": 0,
-        "solo_mp": 12
-      },
-      "05789": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "05237": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "05467": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "15466": {
-        "total": 5,
-        "compartida": 0,
-        "solo_mp": 5
-      },
-      "08832": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "70708": {
-        "total": 21,
-        "compartida": 0,
-        "solo_mp": 21
-      },
-      "05579": {
-        "total": 10,
-        "compartida": 0,
-        "solo_mp": 10
-      },
-      "41668": {
-        "total": 9,
-        "compartida": 5,
-        "solo_mp": 4
-      },
-      "08849": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "50226": {
-        "total": 41,
-        "compartida": 20,
-        "solo_mp": 21
-      },
-      "15820": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "15693": {
-        "total": 5,
-        "compartida": 0,
-        "solo_mp": 5
-      },
-      "15187": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "73411": {
-        "total": 8,
-        "compartida": 0,
-        "solo_mp": 8
-      },
-      "05679": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "20443": {
-        "total": 5,
-        "compartida": 2,
-        "solo_mp": 3
-      },
-      "44378": {
-        "total": 18,
-        "compartida": 11,
-        "solo_mp": 7
-      },
-      "63130": {
-        "total": 99,
-        "compartida": 65,
-        "solo_mp": 34
-      },
-      "25324": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "25815": {
-        "total": 6,
-        "compartida": 2,
-        "solo_mp": 4
-      },
-      "73148": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "15272": {
-        "total": 9,
-        "compartida": 2,
-        "solo_mp": 7
-      },
-      "63470": {
-        "total": 12,
-        "compartida": 0,
-        "solo_mp": 12
-      },
-      "20178": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "76126": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "27001": {
-        "total": 89,
-        "compartida": 70,
-        "solo_mp": 19
-      },
-      "85162": {
-        "total": 23,
-        "compartida": 14,
-        "solo_mp": 9
-      },
-      "47551": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "68500": {
-        "total": 5,
-        "compartida": 3,
-        "solo_mp": 2
-      },
-      "20011": {
-        "total": 89,
-        "compartida": 74,
-        "solo_mp": 15
-      },
-      "20400": {
-        "total": 136,
-        "compartida": 0,
-        "solo_mp": 136
-      },
-      "50287": {
-        "total": 2,
-        "compartida": 1,
-        "solo_mp": 1
-      },
-      "50683": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "44855": {
-        "total": 5,
-        "compartida": 2,
-        "solo_mp": 3
-      },
-      "15757": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "15104": {
-        "total": 4,
-        "compartida": 2,
-        "solo_mp": 2
-      },
-      "44110": {
-        "total": 15,
-        "compartida": 10,
-        "solo_mp": 5
-      },
-      "23350": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "15299": {
-        "total": 7,
-        "compartida": 1,
-        "solo_mp": 6
-      },
-      "20032": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "23855": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "19290": {
-        "total": 9,
-        "compartida": 7,
-        "solo_mp": 2
-      },
-      "76890": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "47245": {
-        "total": 5,
-        "compartida": 1,
-        "solo_mp": 4
-      },
-      "05664": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "41807": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "05660": {
-        "total": 9,
-        "compartida": 0,
-        "solo_mp": 9
-      },
-      "17042": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "05034": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "15476": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "20228": {
-        "total": 5,
-        "compartida": 0,
-        "solo_mp": 5
-      },
-      "76869": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "05674": {
-        "total": 6,
-        "compartida": 1,
-        "solo_mp": 5
-      },
-      "68464": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "15667": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "70670": {
-        "total": 5,
-        "compartida": 0,
-        "solo_mp": 5
-      },
-      "68079": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "73283": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "05172": {
-        "total": 5,
-        "compartida": 0,
-        "solo_mp": 5
-      },
-      "17442": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "05264": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "25293": {
-        "total": 3,
-        "compartida": 1,
-        "solo_mp": 2
-      },
-      "25328": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "25398": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "15638": {
-        "total": 4,
-        "compartida": 2,
-        "solo_mp": 2
-      },
-      "15537": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "15325": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "68770": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "18150": {
-        "total": 6,
-        "compartida": 4,
-        "solo_mp": 2
-      },
-      "52240": {
-        "total": 3,
-        "compartida": 2,
-        "solo_mp": 1
-      },
-      "15185": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "68549": {
-        "total": 2,
-        "compartida": 2,
-        "solo_mp": 0
-      },
-      "25297": {
-        "total": 5,
-        "compartida": 4,
-        "solo_mp": 1
-      },
-      "85325": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "41885": {
-        "total": 11,
-        "compartida": 2,
-        "solo_mp": 9
-      },
-      "41016": {
-        "total": 3,
-        "compartida": 2,
-        "solo_mp": 1
-      },
-      "15814": {
-        "total": 6,
-        "compartida": 6,
-        "solo_mp": 0
-      },
-      "73168": {
-        "total": 18,
-        "compartida": 7,
-        "solo_mp": 11
-      },
-      "25245": {
-        "total": 13,
-        "compartida": 3,
-        "solo_mp": 10
-      },
-      "73504": {
-        "total": 4,
-        "compartida": 4,
-        "solo_mp": 0
-      },
-      "25592": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      },
-      "68162": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      },
-      "41548": {
-        "total": 7,
-        "compartida": 7,
-        "solo_mp": 0
-      },
-      "52838": {
-        "total": 9,
-        "compartida": 3,
-        "solo_mp": 6
-      },
-      "68418": {
-        "total": 10,
-        "compartida": 4,
-        "solo_mp": 6
-      },
-      "13670": {
-        "total": 3,
-        "compartida": 3,
-        "solo_mp": 0
-      },
-      "41801": {
-        "total": 2,
-        "compartida": 2,
-        "solo_mp": 0
-      },
-      "41483": {
-        "total": 2,
-        "compartida": 2,
-        "solo_mp": 0
-      },
-      "73408": {
-        "total": 9,
-        "compartida": 2,
-        "solo_mp": 7
-      },
-      "41306": {
-        "total": 9,
-        "compartida": 9,
-        "solo_mp": 0
-      },
-      "25839": {
-        "total": 4,
-        "compartida": 4,
-        "solo_mp": 0
-      },
-      "63594": {
-        "total": 6,
-        "compartida": 3,
-        "solo_mp": 3
-      },
-      "25662": {
-        "total": 2,
-        "compartida": 1,
-        "solo_mp": 1
-      },
-      "18247": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      },
-      "44098": {
-        "total": 10,
-        "compartida": 4,
-        "solo_mp": 6
-      },
-      "41132": {
-        "total": 14,
-        "compartida": 10,
-        "solo_mp": 4
-      },
-      "15542": {
-        "total": 2,
-        "compartida": 2,
-        "solo_mp": 0
-      },
-      "15051": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      },
-      "85230": {
-        "total": 11,
-        "compartida": 4,
-        "solo_mp": 7
-      },
-      "15798": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      },
-      "52694": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      },
-      "23300": {
-        "total": 3,
-        "compartida": 2,
-        "solo_mp": 1
-      },
-      "68468": {
-        "total": 2,
-        "compartida": 2,
-        "solo_mp": 0
-      },
-      "05113": {
-        "total": 89,
-        "compartida": 0,
-        "solo_mp": 89
-      },
-      "15215": {
-        "total": 7,
-        "compartida": 1,
-        "solo_mp": 6
-      },
-      "17614": {
-        "total": 12,
-        "compartida": 0,
-        "solo_mp": 12
-      },
-      "23670": {
-        "total": 7,
-        "compartida": 0,
-        "solo_mp": 7
-      },
-      "86885": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "86573": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "19100": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "13160": {
-        "total": 7,
-        "compartida": 0,
-        "solo_mp": 7
-      },
-      "68190": {
-        "total": 5,
-        "compartida": 0,
-        "solo_mp": 5
-      },
-      "41518": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "25777": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "20013": {
-        "total": 12,
-        "compartida": 0,
-        "solo_mp": 12
-      },
-      "41357": {
-        "total": 3,
-        "compartida": 1,
-        "solo_mp": 2
-      },
-      "05604": {
-        "total": 5,
-        "compartida": 0,
-        "solo_mp": 5
-      },
-      "17088": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "86865": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "47707": {
-        "total": 7,
-        "compartida": 0,
-        "solo_mp": 7
-      },
-      "25878": {
-        "total": 4,
-        "compartida": 1,
-        "solo_mp": 3
-      },
-      "05306": {
-        "total": 29,
-        "compartida": 0,
-        "solo_mp": 29
-      },
-      "47268": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "05591": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "73555": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "47980": {
-        "total": 6,
-        "compartida": 0,
-        "solo_mp": 6
-      },
-      "13442": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "54003": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "25279": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "68271": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "25053": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "25099": {
-        "total": 7,
-        "compartida": 1,
-        "solo_mp": 6
-      },
-      "81065": {
-        "total": 8,
-        "compartida": 2,
-        "solo_mp": 6
-      },
-      "15514": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "05890": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "25483": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "08421": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "76020": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "05321": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "25426": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "66400": {
-        "total": 5,
-        "compartida": 0,
-        "solo_mp": 5
-      },
-      "15047": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "15808": {
-        "total": 2,
-        "compartida": 1,
-        "solo_mp": 1
-      },
-      "08078": {
-        "total": 8,
-        "compartida": 0,
-        "solo_mp": 8
-      },
-      "41872": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "17662": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "17616": {
-        "total": 5,
-        "compartida": 0,
-        "solo_mp": 5
-      },
-      "13433": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "70418": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "15183": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "05284": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "19845": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "73624": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "47058": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "73861": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "54261": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "05761": {
-        "total": 5,
-        "compartida": 0,
-        "solo_mp": 5
-      },
-      "15774": {
-        "total": 2,
-        "compartida": 1,
-        "solo_mp": 1
-      },
-      "05030": {
-        "total": 9,
-        "compartida": 0,
-        "solo_mp": 9
-      },
-      "23079": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "70823": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "05147": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "08560": {
-        "total": 9,
-        "compartida": 0,
-        "solo_mp": 9
-      },
-      "68152": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "05031": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "73547": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "41006": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "52079": {
-        "total": 13,
-        "compartida": 0,
-        "solo_mp": 13
-      },
-      "54810": {
-        "total": 16,
-        "compartida": 4,
-        "solo_mp": 12
-      },
-      "73026": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "86320": {
-        "total": 5,
-        "compartida": 0,
-        "solo_mp": 5
-      },
-      "15690": {
-        "total": 5,
-        "compartida": 0,
-        "solo_mp": 5
-      },
-      "18610": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "81300": {
-        "total": 2,
-        "compartida": 1,
-        "solo_mp": 1
-      },
-      "81220": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "52354": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "15494": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "23189": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "20750": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "41020": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "15879": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "15223": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "05847": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "05667": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "76823": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "19110": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "20250": {
-        "total": 6,
-        "compartida": 0,
-        "solo_mp": 6
-      },
-      "15480": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "05895": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "25781": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "05282": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "05686": {
-        "total": 10,
-        "compartida": 0,
-        "solo_mp": 10
-      },
-      "05364": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "05790": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "76122": {
-        "total": 3,
-        "compartida": 1,
-        "solo_mp": 2
-      },
-      "13212": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "86569": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "17486": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "20045": {
-        "total": 60,
-        "compartida": 9,
-        "solo_mp": 51
-      },
-      "85263": {
-        "total": 6,
-        "compartida": 6,
-        "solo_mp": 0
-      },
-      "41503": {
-        "total": 4,
-        "compartida": 3,
-        "solo_mp": 1
-      },
-      "52352": {
-        "total": 3,
-        "compartida": 2,
-        "solo_mp": 1
-      },
-      "52678": {
-        "total": 2,
-        "compartida": 2,
-        "solo_mp": 0
-      },
-      "15861": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      },
-      "05315": {
-        "total": 5,
-        "compartida": 2,
-        "solo_mp": 3
-      },
-      "05649": {
-        "total": 3,
-        "compartida": 2,
-        "solo_mp": 1
-      },
-      "15362": {
-        "total": 2,
-        "compartida": 1,
-        "solo_mp": 1
-      },
-      "41078": {
-        "total": 2,
-        "compartida": 2,
-        "solo_mp": 0
-      },
-      "41013": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      },
-      "25805": {
-        "total": 2,
-        "compartida": 2,
-        "solo_mp": 0
-      },
-      "76377": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "25807": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "15686": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "19212": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "23464": {
-        "total": 5,
-        "compartida": 0,
-        "solo_mp": 5
-      },
-      "70742": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "63690": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "05887": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "17444": {
-        "total": 4,
-        "compartida": 2,
-        "solo_mp": 2
-      },
-      "52203": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "13074": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "68229": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "68524": {
-        "total": 4,
-        "compartida": 3,
-        "solo_mp": 1
-      },
-      "15097": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "05819": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "19397": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "15172": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "05809": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "47460": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "25645": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "05659": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "15664": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "54720": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "54051": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      },
-      "73067": {
-        "total": 4,
-        "compartida": 4,
-        "solo_mp": 0
-      },
-      "41359": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      },
-      "25019": {
-        "total": 2,
-        "compartida": 2,
-        "solo_mp": 0
-      },
-      "52687": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      },
-      "52573": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      },
-      "05368": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      },
-      "15673": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      },
-      "25438": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      },
-      "25120": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      },
-      "05197": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "15804": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "52378": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "13244": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "25596": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "19701": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "19256": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "25368": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "68855": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "05411": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "52320": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "15377": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "54670": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "66440": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "23570": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "05042": {
-        "total": 5,
-        "compartida": 0,
-        "solo_mp": 5
-      },
-      "05138": {
-        "total": 6,
-        "compartida": 0,
-        "solo_mp": 6
-      },
-      "05190": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "05736": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "05101": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "05858": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "15244": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "20175": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "15696": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "23068": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "41660": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "76497": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "20614": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "13654": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "66456": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "05854": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "19743": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      },
-      "85225": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      },
-      "54313": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      },
-      "15755": {
-        "total": 1,
-        "compartida": 1,
         "solo_mp": 0
       }
     }
@@ -4602,10 +1638,10 @@ window.CONTRATOS_DATA = [
     "id": "1027",
     "actividadValidada": "",
     "contratista": "Sin Contratista",
-    "objeto": "Sin Objeto",
-    "valor": 0.0,
-    "estado": "En Ejecución",
-    "tipo": "NO APLICA",
+    "objeto": "CUPO USUARIOS CONTRATO",
+    "valor": 1950000000.0,
+    "estado": "ACTUALIZADO",
+    "tipo": "BOLSA CERRADA",
     "contratante": "COLSANITAS (10)",
     "colectivo": "CENIT",
     "colectivoBeneficiado": "CENIT",
@@ -4613,8 +1649,17 @@ window.CONTRATOS_DATA = [
     "fechaInicio": "2026-04-01 00:00:00",
     "fechaFin": "2026-03-31 00:00:00",
     "poblacion": 1252,
-    "coberturas": [],
-    "vihHeader": "N/A",
+    "coberturas": [
+      {
+        "tipo": "VADEMECUM CERRADO",
+        "descripcion": "VADEMECUM"
+      },
+      {
+        "tipo": "EXCEPCIONES",
+        "descripcion": "AUTORIZADA POR EL COLECTIVO"
+      }
+    ],
+    "vihHeader": "SI",
     "vihSub": "N/A",
     "oncoHeader": "N/A",
     "oncoSub": "N/A",
@@ -5108,3534 +2153,190 @@ window.CONTRATOS_DATA = [
     }
   },
   {
-    "id": "C-15",
+    "id": "1010349553",
     "actividadValidada": "",
     "contratista": "Sin Contratista",
-    "objeto": "Sin Objeto",
+    "objeto": "CUPO FAMILIAR POR CANTIDAD DE INTEGRANTES\nGrupo 1 (1-2 usuarios): 3 SMMLV\nGrupo 2 (3-4 usuarios): 6 SMMLV\nGrupo 3 (5 usuarios en adelante): 9,75 SMMLV",
     "valor": 0.0,
-    "estado": "En Ejecución",
-    "tipo": "Servicios",
+    "estado": "ACTUALIZADO",
+    "tipo": "BOLSA CERRADA",
     "contratante": "COLSANITAS (10)",
     "colectivo": "CENIT BENEFLEX",
-    "colectivoBeneficiado": "General",
+    "colectivoBeneficiado": "CENIT BENEFLEX",
     "plan": "INTEGRAL",
-    "fechaInicio": "",
-    "fechaFin": "",
-    "poblacion": 463959,
-    "coberturas": [],
-    "vihHeader": "N/A",
-    "vihSub": "N/A",
-    "oncoHeader": "N/A",
-    "oncoSub": "N/A",
-    "prePostHeader": "N/A",
-    "prePostSub": "N/A",
-    "ortesisHeader": "N/A",
-    "ortesisSub": "N/A",
-    "poblacionCompartida": 349113,
-    "poblacionSoloMP": 114844,
+    "fechaInicio": "2026-05-01 00:00:00",
+    "fechaFin": "2026-04-30 00:00:00",
+    "poblacion": 277,
+    "coberturas": [
+      {
+        "tipo": "VADEMECUM ABIERTO",
+        "descripcion": "MEDICAMENTOS INCLUYE LOS DE USO PARA OBESIDAD O ADELAGAZANTE VER EXCLUSIONES"
+      }
+    ],
+    "vihHeader": "SI",
+    "vihSub": "147 SMMLV",
+    "oncoHeader": "SI",
+    "oncoSub": "ILIMITADO",
+    "prePostHeader": "SI",
+    "prePostSub": "3",
+    "ortesisHeader": "SI",
+    "ortesisSub": "Volante",
+    "poblacionCompartida": 253,
+    "poblacionSoloMP": 24,
     "poblacionDane": {
-      "11001": {
-        "total": 252886,
-        "compartida": 197132,
-        "solo_mp": 55754
-      },
-      "68276": {
-        "total": 3455,
-        "compartida": 2713,
-        "solo_mp": 742
-      },
-      "05615": {
-        "total": 1673,
-        "compartida": 1146,
-        "solo_mp": 527
-      },
-      "05001": {
-        "total": 17260,
-        "compartida": 10707,
-        "solo_mp": 6553
-      },
-      "25126": {
-        "total": 5970,
-        "compartida": 4815,
-        "solo_mp": 1155
-      },
-      "76001": {
-        "total": 27130,
-        "compartida": 21062,
-        "solo_mp": 6068
-      },
-      "25377": {
-        "total": 977,
-        "compartida": 782,
-        "solo_mp": 195
-      },
-      "23001": {
-        "total": 2272,
-        "compartida": 1499,
-        "solo_mp": 773
-      },
-      "08558": {
-        "total": 4,
-        "compartida": 0,
+      "08001": {
+        "total": 10,
+        "compartida": 6,
         "solo_mp": 4
       },
-      "05360": {
-        "total": 1009,
-        "compartida": 453,
-        "solo_mp": 556
+      "68276": {
+        "total": 8,
+        "compartida": 7,
+        "solo_mp": 1
       },
-      "13001": {
-        "total": 9620,
-        "compartida": 6377,
-        "solo_mp": 3243
+      "76001": {
+        "total": 9,
+        "compartida": 9,
+        "solo_mp": 0
       },
-      "05266": {
-        "total": 4449,
-        "compartida": 2956,
-        "solo_mp": 1493
-      },
-      "50568": {
-        "total": 227,
-        "compartida": 71,
-        "solo_mp": 156
-      },
-      "50001": {
-        "total": 12787,
-        "compartida": 10146,
-        "solo_mp": 2641
-      },
-      "47001": {
-        "total": 7532,
-        "compartida": 5955,
-        "solo_mp": 1577
-      },
-      "68001": {
-        "total": 8654,
-        "compartida": 6946,
-        "solo_mp": 1708
-      },
-      "54405": {
-        "total": 51,
-        "compartida": 6,
-        "solo_mp": 45
-      },
-      "08001": {
-        "total": 19743,
-        "compartida": 13859,
-        "solo_mp": 5884
-      },
-      "17001": {
-        "total": 2825,
-        "compartida": 1958,
-        "solo_mp": 867
+      "54001": {
+        "total": 9,
+        "compartida": 8,
+        "solo_mp": 1
       },
       "25175": {
-        "total": 10911,
-        "compartida": 9022,
-        "solo_mp": 1889
+        "total": 11,
+        "compartida": 11,
+        "solo_mp": 0
       },
-      "05607": {
-        "total": 79,
-        "compartida": 5,
-        "solo_mp": 74
+      "11001": {
+        "total": 165,
+        "compartida": 152,
+        "solo_mp": 13
       },
-      "44430": {
-        "total": 333,
-        "compartida": 220,
-        "solo_mp": 113
-      },
-      "25430": {
-        "total": 1124,
-        "compartida": 661,
-        "solo_mp": 463
-      },
-      "05059": {
-        "total": 2445,
-        "compartida": 1926,
-        "solo_mp": 519
-      },
-      "66001": {
-        "total": 4225,
-        "compartida": 3117,
-        "solo_mp": 1108
-      },
-      "73001": {
-        "total": 4223,
-        "compartida": 3305,
-        "solo_mp": 918
-      },
-      "25386": {
-        "total": 35,
-        "compartida": 8,
-        "solo_mp": 27
-      },
-      "05088": {
-        "total": 959,
-        "compartida": 280,
-        "solo_mp": 679
-      },
-      "05148": {
-        "total": 73,
-        "compartida": 0,
-        "solo_mp": 73
-      },
-      "88001": {
-        "total": 1051,
-        "compartida": 888,
-        "solo_mp": 163
-      },
-      "05631": {
-        "total": 727,
-        "compartida": 23,
-        "solo_mp": 704
-      },
-      "05376": {
-        "total": 112,
-        "compartida": 1,
-        "solo_mp": 111
-      },
-      "05380": {
-        "total": 227,
-        "compartida": 3,
-        "solo_mp": 224
-      },
-      "25799": {
-        "total": 191,
-        "compartida": 108,
-        "solo_mp": 83
-      },
-      "44001": {
-        "total": 1120,
-        "compartida": 836,
-        "solo_mp": 284
-      },
-      "76892": {
-        "total": 474,
-        "compartida": 312,
-        "solo_mp": 162
-      },
-      "15293": {
+      "19001": {
         "total": 1,
         "compartida": 0,
         "solo_mp": 1
-      },
-      "19001": {
-        "total": 1166,
-        "compartida": 898,
-        "solo_mp": 268
-      },
-      "85001": {
-        "total": 2932,
-        "compartida": 2444,
-        "solo_mp": 488
-      },
-      "25899": {
-        "total": 2397,
-        "compartida": 1728,
-        "solo_mp": 669
-      },
-      "25214": {
-        "total": 1646,
-        "compartida": 1293,
-        "solo_mp": 353
-      },
-      "25758": {
-        "total": 665,
-        "compartida": 518,
-        "solo_mp": 147
-      },
-      "54001": {
-        "total": 2928,
-        "compartida": 2186,
-        "solo_mp": 742
-      },
-      "25317": {
-        "total": 12,
-        "compartida": 0,
-        "solo_mp": 12
-      },
-      "25290": {
-        "total": 842,
-        "compartida": 685,
-        "solo_mp": 157
-      },
-      "41001": {
-        "total": 3965,
-        "compartida": 3223,
-        "solo_mp": 742
       },
       "50006": {
-        "total": 987,
-        "compartida": 730,
-        "solo_mp": 257
-      },
-      "25224": {
-        "total": 3,
-        "compartida": 1,
-        "solo_mp": 2
-      },
-      "81736": {
-        "total": 34,
-        "compartida": 14,
-        "solo_mp": 20
-      },
-      "15759": {
-        "total": 1296,
-        "compartida": 1043,
-        "solo_mp": 253
-      },
-      "25269": {
-        "total": 896,
-        "compartida": 611,
-        "solo_mp": 285
-      },
-      "18001": {
-        "total": 620,
-        "compartida": 507,
-        "solo_mp": 113
-      },
-      "25473": {
-        "total": 2217,
-        "compartida": 1491,
-        "solo_mp": 726
-      },
-      "76520": {
-        "total": 1875,
-        "compartida": 1419,
-        "solo_mp": 456
-      },
-      "25754": {
-        "total": 1852,
-        "compartida": 1146,
-        "solo_mp": 706
-      },
-      "15835": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "25843": {
-        "total": 95,
-        "compartida": 10,
-        "solo_mp": 85
-      },
-      "25286": {
-        "total": 770,
-        "compartida": 466,
-        "solo_mp": 304
-      },
-      "15238": {
-        "total": 1284,
-        "compartida": 979,
-        "solo_mp": 305
-      },
-      "68547": {
-        "total": 727,
-        "compartida": 528,
-        "solo_mp": 199
-      },
-      "23162": {
-        "total": 56,
-        "compartida": 3,
-        "solo_mp": 53
-      },
-      "15491": {
-        "total": 15,
-        "compartida": 8,
-        "solo_mp": 7
-      },
-      "76109": {
-        "total": 87,
-        "compartida": 3,
-        "solo_mp": 84
-      },
-      "15455": {
-        "total": 5,
-        "compartida": 0,
-        "solo_mp": 5
-      },
-      "70713": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "25740": {
-        "total": 48,
-        "compartida": 16,
-        "solo_mp": 32
-      },
-      "68679": {
-        "total": 357,
-        "compartida": 285,
-        "solo_mp": 72
-      },
-      "99001": {
-        "total": 9,
-        "compartida": 0,
-        "solo_mp": 9
-      },
-      "05318": {
-        "total": 86,
-        "compartida": 3,
-        "solo_mp": 83
-      },
-      "15599": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "23466": {
-        "total": 922,
-        "compartida": 772,
-        "solo_mp": 150
-      },
-      "68406": {
-        "total": 9,
-        "compartida": 4,
-        "solo_mp": 5
-      },
-      "05313": {
-        "total": 84,
-        "compartida": 31,
-        "solo_mp": 53
-      },
-      "20001": {
-        "total": 3146,
-        "compartida": 2463,
-        "solo_mp": 683
-      },
-      "70001": {
-        "total": 1851,
-        "compartida": 1291,
-        "solo_mp": 560
-      },
-      "73671": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "25035": {
-        "total": 26,
-        "compartida": 8,
-        "solo_mp": 18
-      },
-      "76306": {
-        "total": 11,
-        "compartida": 0,
-        "solo_mp": 11
-      },
-      "73443": {
-        "total": 13,
-        "compartida": 0,
-        "solo_mp": 13
-      },
-      "41551": {
-        "total": 281,
-        "compartida": 213,
-        "solo_mp": 68
-      },
-      "73349": {
-        "total": 166,
-        "compartida": 143,
-        "solo_mp": 23
-      },
-      "47555": {
-        "total": 19,
-        "compartida": 2,
-        "solo_mp": 17
-      },
-      "66170": {
-        "total": 557,
-        "compartida": 317,
-        "solo_mp": 240
-      },
-      "13836": {
-        "total": 107,
-        "compartida": 0,
-        "solo_mp": 107
-      },
-      "81001": {
-        "total": 302,
-        "compartida": 231,
-        "solo_mp": 71
-      },
-      "47318": {
-        "total": 35,
-        "compartida": 1,
-        "solo_mp": 34
-      },
-      "19548": {
-        "total": 15,
-        "compartida": 6,
-        "solo_mp": 9
-      },
-      "15516": {
-        "total": 177,
-        "compartida": 133,
-        "solo_mp": 44
-      },
-      "08573": {
-        "total": 837,
-        "compartida": 542,
-        "solo_mp": 295
-      },
-      "99624": {
-        "total": 7,
-        "compartida": 0,
-        "solo_mp": 7
-      },
-      "68081": {
-        "total": 1250,
-        "compartida": 931,
-        "solo_mp": 319
-      },
-      "85139": {
-        "total": 26,
-        "compartida": 8,
-        "solo_mp": 18
-      },
-      "76364": {
-        "total": 1642,
-        "compartida": 1182,
-        "solo_mp": 460
-      },
-      "23660": {
-        "total": 83,
-        "compartida": 1,
-        "solo_mp": 82
-      },
-      "73352": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "76275": {
-        "total": 36,
-        "compartida": 10,
-        "solo_mp": 26
-      },
-      "23555": {
-        "total": 31,
-        "compartida": 0,
-        "solo_mp": 31
-      },
-      "76834": {
-        "total": 435,
-        "compartida": 310,
-        "solo_mp": 125
-      },
-      "70215": {
-        "total": 29,
-        "compartida": 0,
-        "solo_mp": 29
-      },
-      "15001": {
-        "total": 3130,
-        "compartida": 2531,
-        "solo_mp": 599
-      },
-      "70235": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "95001": {
-        "total": 42,
-        "compartida": 0,
-        "solo_mp": 42
-      },
-      "23417": {
-        "total": 30,
-        "compartida": 0,
-        "solo_mp": 30
-      },
-      "76736": {
-        "total": 11,
-        "compartida": 0,
-        "solo_mp": 11
-      },
-      "25307": {
-        "total": 641,
-        "compartida": 506,
-        "solo_mp": 135
-      },
-      "25785": {
-        "total": 55,
-        "compartida": 2,
-        "solo_mp": 53
-      },
-      "25841": {
-        "total": 24,
-        "compartida": 0,
-        "solo_mp": 24
-      },
-      "68432": {
-        "total": 11,
-        "compartida": 4,
-        "solo_mp": 7
-      },
-      "94001": {
-        "total": 24,
-        "compartida": 0,
-        "solo_mp": 24
-      },
-      "25402": {
-        "total": 33,
-        "compartida": 10,
-        "solo_mp": 23
-      },
-      "25612": {
-        "total": 30,
-        "compartida": 7,
-        "solo_mp": 23
-      },
-      "47288": {
-        "total": 46,
-        "compartida": 0,
-        "solo_mp": 46
-      },
-      "05212": {
-        "total": 124,
-        "compartida": 0,
-        "solo_mp": 124
-      },
-      "23182": {
-        "total": 12,
-        "compartida": 0,
-        "solo_mp": 12
-      },
-      "08433": {
-        "total": 35,
-        "compartida": 0,
-        "solo_mp": 35
-      },
-      "13873": {
-        "total": 87,
-        "compartida": 56,
-        "solo_mp": 31
-      },
-      "05129": {
-        "total": 72,
-        "compartida": 1,
-        "solo_mp": 71
-      },
-      "52001": {
-        "total": 1756,
-        "compartida": 1466,
-        "solo_mp": 288
-      },
-      "91001": {
-        "total": 161,
-        "compartida": 132,
-        "solo_mp": 29
-      },
-      "73449": {
-        "total": 130,
-        "compartida": 44,
-        "solo_mp": 86
-      },
-      "05079": {
-        "total": 34,
-        "compartida": 0,
-        "solo_mp": 34
-      },
-      "54498": {
-        "total": 215,
-        "compartida": 184,
-        "solo_mp": 31
-      },
-      "17877": {
-        "total": 11,
-        "compartida": 0,
-        "solo_mp": 11
-      },
-      "20621": {
-        "total": 6,
-        "compartida": 0,
-        "solo_mp": 6
-      },
-      "54874": {
-        "total": 90,
-        "compartida": 36,
-        "solo_mp": 54
-      },
-      "05893": {
-        "total": 7,
-        "compartida": 0,
-        "solo_mp": 7
-      },
-      "17777": {
-        "total": 11,
-        "compartida": 0,
-        "solo_mp": 11
-      },
-      "91430": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "17873": {
-        "total": 61,
-        "compartida": 1,
-        "solo_mp": 60
-      },
-      "68307": {
-        "total": 254,
-        "compartida": 179,
-        "solo_mp": 75
-      },
-      "15469": {
-        "total": 21,
-        "compartida": 0,
-        "solo_mp": 21
-      },
-      "76111": {
-        "total": 92,
-        "compartida": 22,
-        "solo_mp": 70
-      },
-      "70508": {
-        "total": 11,
-        "compartida": 0,
-        "solo_mp": 11
-      },
-      "05045": {
-        "total": 23,
-        "compartida": 1,
-        "solo_mp": 22
-      },
-      "44078": {
-        "total": 71,
-        "compartida": 49,
-        "solo_mp": 22
-      },
-      "18029": {
-        "total": 51,
-        "compartida": 35,
-        "solo_mp": 16
-      },
-      "17272": {
         "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "05541": {
-        "total": 9,
-        "compartida": 0,
-        "solo_mp": 9
-      },
-      "44650": {
-        "total": 129,
-        "compartida": 98,
-        "solo_mp": 31
-      },
-      "54518": {
-        "total": 66,
-        "compartida": 22,
-        "solo_mp": 44
-      },
-      "73024": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "05440": {
-        "total": 67,
-        "compartida": 3,
-        "solo_mp": 64
-      },
-      "25817": {
-        "total": 635,
-        "compartida": 434,
-        "solo_mp": 201
-      },
-      "76828": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "25572": {
-        "total": 13,
-        "compartida": 0,
-        "solo_mp": 13
-      },
-      "76622": {
-        "total": 26,
         "compartida": 1,
-        "solo_mp": 25
-      },
-      "68755": {
-        "total": 43,
-        "compartida": 23,
-        "solo_mp": 20
-      },
-      "15572": {
-        "total": 24,
-        "compartida": 3,
-        "solo_mp": 21
-      },
-      "05837": {
-        "total": 10,
-        "compartida": 1,
-        "solo_mp": 9
-      },
-      "08758": {
-        "total": 866,
-        "compartida": 512,
-        "solo_mp": 354
-      },
-      "66682": {
-        "total": 52,
-        "compartida": 11,
-        "solo_mp": 41
-      },
-      "18756": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "25288": {
-        "total": 10,
-        "compartida": 0,
-        "solo_mp": 10
-      },
-      "52435": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "73268": {
-        "total": 63,
-        "compartida": 22,
-        "solo_mp": 41
-      },
-      "05308": {
-        "total": 60,
-        "compartida": 0,
-        "solo_mp": 60
-      },
-      "15600": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "68655": {
-        "total": 18,
-        "compartida": 0,
-        "solo_mp": 18
-      },
-      "86568": {
-        "total": 18,
-        "compartida": 0,
-        "solo_mp": 18
-      },
-      "08296": {
-        "total": 26,
-        "compartida": 0,
-        "solo_mp": 26
-      },
-      "76113": {
-        "total": 29,
-        "compartida": 1,
-        "solo_mp": 28
-      },
-      "76147": {
-        "total": 431,
-        "compartida": 333,
-        "solo_mp": 98
-      },
-      "41396": {
-        "total": 38,
-        "compartida": 26,
-        "solo_mp": 12
-      },
-      "15761": {
-        "total": 6,
-        "compartida": 0,
-        "solo_mp": 6
-      },
-      "15367": {
-        "total": 7,
-        "compartida": 0,
-        "solo_mp": 7
-      },
-      "13657": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "73226": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "20770": {
-        "total": 22,
-        "compartida": 3,
-        "solo_mp": 19
-      },
-      "20238": {
-        "total": 9,
-        "compartida": 0,
-        "solo_mp": 9
-      },
-      "05154": {
-        "total": 20,
-        "compartida": 0,
-        "solo_mp": 20
-      },
-      "85010": {
-        "total": 92,
-        "compartida": 58,
-        "solo_mp": 34
-      },
-      "05652": {
-        "total": 2,
-        "compartida": 1,
-        "solo_mp": 1
-      },
-      "25743": {
-        "total": 13,
-        "compartida": 2,
-        "solo_mp": 11
-      },
-      "08638": {
-        "total": 18,
-        "compartida": 0,
-        "solo_mp": 18
-      },
-      "50573": {
-        "total": 90,
-        "compartida": 33,
-        "solo_mp": 57
-      },
-      "25875": {
-        "total": 208,
-        "compartida": 181,
-        "solo_mp": 27
-      },
-      "85300": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "85440": {
-        "total": 48,
-        "compartida": 32,
-        "solo_mp": 16
-      },
-      "25151": {
-        "total": 32,
-        "compartida": 14,
-        "solo_mp": 18
+        "solo_mp": 0
       },
       "15176": {
-        "total": 374,
-        "compartida": 307,
-        "solo_mp": 67
-      },
-      "50150": {
-        "total": 50,
-        "compartida": 15,
-        "solo_mp": 35
-      },
-      "08685": {
-        "total": 16,
-        "compartida": 0,
-        "solo_mp": 16
-      },
-      "00000": {
-        "total": 27,
-        "compartida": 2,
-        "solo_mp": 25
-      },
-      "52356": {
-        "total": 162,
-        "compartida": 134,
-        "solo_mp": 28
-      },
-      "44279": {
-        "total": 110,
-        "compartida": 92,
-        "solo_mp": 18
-      },
-      "19785": {
-        "total": 9,
-        "compartida": 0,
-        "solo_mp": 9
-      },
-      "86571": {
         "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "08634": {
-        "total": 14,
-        "compartida": 0,
-        "solo_mp": 14
-      },
-      "50330": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "47189": {
-        "total": 63,
-        "compartida": 2,
-        "solo_mp": 61
-      },
-      "76318": {
-        "total": 18,
-        "compartida": 0,
-        "solo_mp": 18
-      },
-      "85430": {
-        "total": 7,
-        "compartida": 4,
-        "solo_mp": 3
-      },
-      "05240": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "85410": {
-        "total": 129,
-        "compartida": 91,
-        "solo_mp": 38
-      },
-      "63401": {
-        "total": 13,
-        "compartida": 3,
-        "solo_mp": 10
-      },
-      "19418": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "52835": {
-        "total": 26,
-        "compartida": 6,
-        "solo_mp": 20
-      },
-      "25530": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "86001": {
-        "total": 18,
-        "compartida": 0,
-        "solo_mp": 18
-      },
-      "15189": {
-        "total": 10,
-        "compartida": 0,
-        "solo_mp": 10
-      },
-      "85250": {
-        "total": 40,
-        "compartida": 27,
-        "solo_mp": 13
-      },
-      "17380": {
-        "total": 27,
-        "compartida": 3,
-        "solo_mp": 24
-      },
-      "70221": {
-        "total": 18,
-        "compartida": 0,
-        "solo_mp": 18
-      },
-      "13140": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "13468": {
-        "total": 7,
-        "compartida": 0,
-        "solo_mp": 7
-      },
-      "19455": {
-        "total": 7,
-        "compartida": 0,
-        "solo_mp": 7
-      },
-      "18592": {
-        "total": 5,
-        "compartida": 3,
-        "solo_mp": 2
-      },
-      "15776": {
-        "total": 8,
-        "compartida": 0,
-        "solo_mp": 8
-      },
-      "08141": {
-        "total": 54,
         "compartida": 1,
-        "solo_mp": 53
+        "solo_mp": 0
       },
-      "23807": {
-        "total": 10,
-        "compartida": 0,
-        "solo_mp": 10
-      },
-      "47053": {
-        "total": 6,
-        "compartida": 0,
-        "solo_mp": 6
-      },
-      "20060": {
-        "total": 12,
-        "compartida": 0,
-        "solo_mp": 12
-      },
-      "50711": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "50124": {
-        "total": 8,
-        "compartida": 0,
-        "solo_mp": 8
-      },
-      "76248": {
-        "total": 27,
-        "compartida": 3,
-        "solo_mp": 24
-      },
-      "63190": {
-        "total": 38,
-        "compartida": 8,
-        "solo_mp": 30
-      },
-      "05656": {
-        "total": 20,
-        "compartida": 2,
-        "solo_mp": 18
-      },
-      "70473": {
-        "total": 8,
+      "15238": {
+        "total": 1,
         "compartida": 1,
-        "solo_mp": 7
+        "solo_mp": 0
       },
-      "76895": {
-        "total": 8,
-        "compartida": 0,
-        "solo_mp": 8
-      },
-      "25322": {
-        "total": 22,
-        "compartida": 5,
-        "solo_mp": 17
-      },
-      "25295": {
-        "total": 33,
-        "compartida": 0,
-        "solo_mp": 33
-      },
-      "25718": {
-        "total": 7,
-        "compartida": 2,
-        "solo_mp": 5
-      },
-      "25769": {
-        "total": 29,
-        "compartida": 10,
-        "solo_mp": 19
-      },
-      "25488": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "19573": {
-        "total": 13,
-        "compartida": 0,
-        "solo_mp": 13
-      },
-      "15407": {
-        "total": 66,
-        "compartida": 48,
-        "solo_mp": 18
-      },
-      "81591": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "05628": {
-        "total": 38,
+      "76147": {
+        "total": 1,
         "compartida": 1,
-        "solo_mp": 37
+        "solo_mp": 0
       },
-      "50606": {
-        "total": 39,
+      "76520": {
+        "total": 1,
         "compartida": 1,
-        "solo_mp": 38
-      },
-      "25513": {
-        "total": 7,
-        "compartida": 0,
-        "solo_mp": 7
-      },
-      "25001": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "25772": {
-        "total": 7,
-        "compartida": 0,
-        "solo_mp": 7
-      },
-      "15806": {
-        "total": 10,
-        "compartida": 2,
-        "solo_mp": 8
-      },
-      "18753": {
-        "total": 8,
-        "compartida": 3,
-        "solo_mp": 5
-      },
-      "25745": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "41298": {
-        "total": 161,
-        "compartida": 146,
-        "solo_mp": 15
-      },
-      "15753": {
-        "total": 16,
-        "compartida": 7,
-        "solo_mp": 9
-      },
-      "54245": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "25491": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "63272": {
-        "total": 4,
-        "compartida": 2,
-        "solo_mp": 2
-      },
-      "54172": {
-        "total": 11,
-        "compartida": 4,
-        "solo_mp": 7
-      },
-      "17541": {
-        "total": 5,
-        "compartida": 0,
-        "solo_mp": 5
-      },
-      "25123": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "05051": {
-        "total": 7,
-        "compartida": 0,
-        "solo_mp": 7
-      },
-      "41770": {
-        "total": 3,
-        "compartida": 1,
-        "solo_mp": 2
-      },
-      "25797": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "20787": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "73483": {
-        "total": 6,
-        "compartida": 3,
-        "solo_mp": 3
-      },
-      "05647": {
-        "total": 188,
-        "compartida": 148,
-        "solo_mp": 40
-      },
-      "05250": {
-        "total": 7,
-        "compartida": 0,
-        "solo_mp": 7
-      },
-      "73585": {
-        "total": 17,
-        "compartida": 5,
-        "solo_mp": 12
-      },
-      "17013": {
-        "total": 5,
-        "compartida": 0,
-        "solo_mp": 5
-      },
-      "68572": {
-        "total": 5,
-        "compartida": 0,
-        "solo_mp": 5
-      },
-      "25181": {
-        "total": 16,
-        "compartida": 4,
-        "solo_mp": 12
-      },
-      "15276": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "08520": {
-        "total": 8,
-        "compartida": 0,
-        "solo_mp": 8
-      },
-      "25898": {
-        "total": 5,
-        "compartida": 0,
-        "solo_mp": 5
-      },
-      "73563": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "44847": {
-        "total": 8,
-        "compartida": 4,
-        "solo_mp": 4
-      },
-      "19698": {
-        "total": 232,
-        "compartida": 177,
-        "solo_mp": 55
-      },
-      "13188": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "25320": {
-        "total": 14,
-        "compartida": 2,
-        "solo_mp": 12
-      },
-      "41797": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "50223": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "50110": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "15204": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "41524": {
-        "total": 14,
-        "compartida": 11,
-        "solo_mp": 3
-      },
-      "25312": {
-        "total": 65,
-        "compartida": 31,
-        "solo_mp": 34
-      },
-      "17513": {
-        "total": 5,
-        "compartida": 0,
-        "solo_mp": 5
-      },
-      "76233": {
-        "total": 5,
-        "compartida": 0,
-        "solo_mp": 5
-      },
-      "81794": {
-        "total": 27,
-        "compartida": 17,
-        "solo_mp": 10
-      },
-      "25040": {
-        "total": 6,
-        "compartida": 3,
-        "solo_mp": 3
-      },
-      "25851": {
-        "total": 3,
-        "compartida": 2,
-        "solo_mp": 1
-      },
-      "05400": {
-        "total": 22,
-        "compartida": 1,
-        "solo_mp": 21
-      },
-      "76563": {
-        "total": 28,
-        "compartida": 4,
-        "solo_mp": 24
-      },
-      "76036": {
-        "total": 8,
-        "compartida": 0,
-        "solo_mp": 8
-      },
-      "25779": {
-        "total": 7,
-        "compartida": 1,
-        "solo_mp": 6
-      },
-      "73275": {
-        "total": 8,
-        "compartida": 0,
-        "solo_mp": 8
-      },
-      "25178": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "68861": {
-        "total": 25,
-        "compartida": 12,
-        "solo_mp": 13
-      },
-      "70702": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "08372": {
-        "total": 5,
-        "compartida": 0,
-        "solo_mp": 5
-      },
-      "97001": {
-        "total": 8,
-        "compartida": 0,
-        "solo_mp": 8
-      },
-      "88564": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "23580": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "66594": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "41615": {
-        "total": 18,
-        "compartida": 15,
-        "solo_mp": 3
-      },
-      "68575": {
-        "total": 21,
-        "compartida": 4,
-        "solo_mp": 17
-      },
-      "25486": {
-        "total": 24,
-        "compartida": 5,
-        "solo_mp": 19
-      },
-      "25183": {
-        "total": 11,
-        "compartida": 4,
-        "solo_mp": 7
-      },
-      "25658": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "25200": {
-        "total": 35,
-        "compartida": 5,
-        "solo_mp": 30
-      },
-      "25873": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "05002": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "25326": {
-        "total": 5,
-        "compartida": 0,
-        "solo_mp": 5
-      },
-      "13052": {
-        "total": 14,
-        "compartida": 0,
-        "solo_mp": 14
-      },
-      "70820": {
-        "total": 9,
-        "compartida": 2,
-        "solo_mp": 7
-      },
-      "05361": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "73217": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "17174": {
-        "total": 17,
-        "compartida": 1,
-        "solo_mp": 16
-      },
-      "73152": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "15322": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "05483": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "05697": {
-        "total": 9,
-        "compartida": 0,
-        "solo_mp": 9
-      },
-      "13430": {
-        "total": 12,
-        "compartida": 0,
-        "solo_mp": 12
-      },
-      "08137": {
-        "total": 3,
-        "compartida": 1,
-        "solo_mp": 2
-      },
-      "15646": {
-        "total": 24,
-        "compartida": 15,
-        "solo_mp": 9
-      },
-      "15087": {
-        "total": 5,
-        "compartida": 1,
-        "solo_mp": 4
-      },
-      "73319": {
-        "total": 6,
-        "compartida": 2,
-        "solo_mp": 4
-      },
-      "27450": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "25260": {
-        "total": 36,
-        "compartida": 10,
-        "solo_mp": 26
-      },
-      "25736": {
-        "total": 12,
-        "compartida": 0,
-        "solo_mp": 12
-      },
-      "05789": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "05237": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "05467": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "15466": {
-        "total": 5,
-        "compartida": 0,
-        "solo_mp": 5
-      },
-      "08832": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "70708": {
-        "total": 21,
-        "compartida": 0,
-        "solo_mp": 21
-      },
-      "05579": {
-        "total": 10,
-        "compartida": 0,
-        "solo_mp": 10
-      },
-      "41668": {
-        "total": 9,
-        "compartida": 5,
-        "solo_mp": 4
-      },
-      "08849": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "50226": {
-        "total": 41,
-        "compartida": 20,
-        "solo_mp": 21
-      },
-      "15820": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "15693": {
-        "total": 5,
-        "compartida": 0,
-        "solo_mp": 5
-      },
-      "15187": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "73411": {
-        "total": 8,
-        "compartida": 0,
-        "solo_mp": 8
-      },
-      "05679": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "20443": {
-        "total": 5,
-        "compartida": 2,
-        "solo_mp": 3
-      },
-      "44378": {
-        "total": 18,
-        "compartida": 11,
-        "solo_mp": 7
-      },
-      "63130": {
-        "total": 99,
-        "compartida": 65,
-        "solo_mp": 34
-      },
-      "25324": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "25815": {
-        "total": 6,
-        "compartida": 2,
-        "solo_mp": 4
-      },
-      "73148": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "15272": {
-        "total": 9,
-        "compartida": 2,
-        "solo_mp": 7
-      },
-      "63470": {
-        "total": 12,
-        "compartida": 0,
-        "solo_mp": 12
-      },
-      "20178": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "76126": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "27001": {
-        "total": 89,
-        "compartida": 70,
-        "solo_mp": 19
-      },
-      "85162": {
-        "total": 23,
-        "compartida": 14,
-        "solo_mp": 9
-      },
-      "47551": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "68500": {
-        "total": 5,
-        "compartida": 3,
-        "solo_mp": 2
+        "solo_mp": 0
       },
       "20011": {
-        "total": 89,
-        "compartida": 74,
-        "solo_mp": 15
-      },
-      "20400": {
-        "total": 136,
-        "compartida": 0,
-        "solo_mp": 136
-      },
-      "50287": {
-        "total": 2,
+        "total": 1,
         "compartida": 1,
-        "solo_mp": 1
+        "solo_mp": 0
       },
-      "50683": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "44855": {
-        "total": 5,
-        "compartida": 2,
-        "solo_mp": 3
-      },
-      "15757": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "15104": {
-        "total": 4,
-        "compartida": 2,
-        "solo_mp": 2
-      },
-      "44110": {
-        "total": 15,
-        "compartida": 10,
-        "solo_mp": 5
-      },
-      "23350": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "15299": {
-        "total": 7,
-        "compartida": 1,
-        "solo_mp": 6
-      },
-      "20032": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "23855": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "19290": {
-        "total": 9,
-        "compartida": 7,
-        "solo_mp": 2
-      },
-      "76890": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "47245": {
-        "total": 5,
-        "compartida": 1,
-        "solo_mp": 4
-      },
-      "05664": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "41807": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "05660": {
-        "total": 9,
-        "compartida": 0,
-        "solo_mp": 9
-      },
-      "17042": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "05034": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "15476": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "20228": {
-        "total": 5,
-        "compartida": 0,
-        "solo_mp": 5
-      },
-      "76869": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "05674": {
-        "total": 6,
-        "compartida": 1,
-        "solo_mp": 5
-      },
-      "68464": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "15667": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "70670": {
-        "total": 5,
-        "compartida": 0,
-        "solo_mp": 5
-      },
-      "68079": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "73283": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "05172": {
-        "total": 5,
-        "compartida": 0,
-        "solo_mp": 5
-      },
-      "17442": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "05264": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "25293": {
-        "total": 3,
-        "compartida": 1,
-        "solo_mp": 2
-      },
-      "25328": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "25398": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "15638": {
-        "total": 4,
-        "compartida": 2,
-        "solo_mp": 2
-      },
-      "15537": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "15325": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "68770": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "18150": {
-        "total": 6,
-        "compartida": 4,
-        "solo_mp": 2
-      },
-      "52240": {
-        "total": 3,
-        "compartida": 2,
-        "solo_mp": 1
-      },
-      "15185": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "68549": {
+      "05647": {
         "total": 2,
         "compartida": 2,
         "solo_mp": 0
-      },
-      "25297": {
-        "total": 5,
-        "compartida": 4,
-        "solo_mp": 1
-      },
-      "85325": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "41885": {
-        "total": 11,
-        "compartida": 2,
-        "solo_mp": 9
-      },
-      "41016": {
-        "total": 3,
-        "compartida": 2,
-        "solo_mp": 1
-      },
-      "15814": {
-        "total": 6,
-        "compartida": 6,
-        "solo_mp": 0
-      },
-      "73168": {
-        "total": 18,
-        "compartida": 7,
-        "solo_mp": 11
-      },
-      "25245": {
-        "total": 13,
-        "compartida": 3,
-        "solo_mp": 10
-      },
-      "73504": {
-        "total": 4,
-        "compartida": 4,
-        "solo_mp": 0
-      },
-      "25592": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      },
-      "68162": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      },
-      "41548": {
-        "total": 7,
-        "compartida": 7,
-        "solo_mp": 0
-      },
-      "52838": {
-        "total": 9,
-        "compartida": 3,
-        "solo_mp": 6
-      },
-      "68418": {
-        "total": 10,
-        "compartida": 4,
-        "solo_mp": 6
-      },
-      "13670": {
-        "total": 3,
-        "compartida": 3,
-        "solo_mp": 0
-      },
-      "41801": {
-        "total": 2,
-        "compartida": 2,
-        "solo_mp": 0
-      },
-      "41483": {
-        "total": 2,
-        "compartida": 2,
-        "solo_mp": 0
-      },
-      "73408": {
-        "total": 9,
-        "compartida": 2,
-        "solo_mp": 7
-      },
-      "41306": {
-        "total": 9,
-        "compartida": 9,
-        "solo_mp": 0
-      },
-      "25839": {
-        "total": 4,
-        "compartida": 4,
-        "solo_mp": 0
-      },
-      "63594": {
-        "total": 6,
-        "compartida": 3,
-        "solo_mp": 3
-      },
-      "25662": {
-        "total": 2,
-        "compartida": 1,
-        "solo_mp": 1
-      },
-      "18247": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      },
-      "44098": {
-        "total": 10,
-        "compartida": 4,
-        "solo_mp": 6
-      },
-      "41132": {
-        "total": 14,
-        "compartida": 10,
-        "solo_mp": 4
-      },
-      "15542": {
-        "total": 2,
-        "compartida": 2,
-        "solo_mp": 0
-      },
-      "15051": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      },
-      "85230": {
-        "total": 11,
-        "compartida": 4,
-        "solo_mp": 7
-      },
-      "15798": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      },
-      "52694": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      },
-      "23300": {
-        "total": 3,
-        "compartida": 2,
-        "solo_mp": 1
-      },
-      "68468": {
-        "total": 2,
-        "compartida": 2,
-        "solo_mp": 0
-      },
-      "05113": {
-        "total": 89,
-        "compartida": 0,
-        "solo_mp": 89
-      },
-      "15215": {
-        "total": 7,
-        "compartida": 1,
-        "solo_mp": 6
-      },
-      "17614": {
-        "total": 12,
-        "compartida": 0,
-        "solo_mp": 12
-      },
-      "23670": {
-        "total": 7,
-        "compartida": 0,
-        "solo_mp": 7
-      },
-      "86885": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "86573": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "19100": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "13160": {
-        "total": 7,
-        "compartida": 0,
-        "solo_mp": 7
-      },
-      "68190": {
-        "total": 5,
-        "compartida": 0,
-        "solo_mp": 5
-      },
-      "41518": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "25777": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "20013": {
-        "total": 12,
-        "compartida": 0,
-        "solo_mp": 12
-      },
-      "41357": {
-        "total": 3,
-        "compartida": 1,
-        "solo_mp": 2
-      },
-      "05604": {
-        "total": 5,
-        "compartida": 0,
-        "solo_mp": 5
-      },
-      "17088": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "86865": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "47707": {
-        "total": 7,
-        "compartida": 0,
-        "solo_mp": 7
-      },
-      "25878": {
-        "total": 4,
-        "compartida": 1,
-        "solo_mp": 3
-      },
-      "05306": {
-        "total": 29,
-        "compartida": 0,
-        "solo_mp": 29
-      },
-      "47268": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "05591": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "73555": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "47980": {
-        "total": 6,
-        "compartida": 0,
-        "solo_mp": 6
-      },
-      "13442": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "54003": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "25279": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "68271": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "25053": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "25099": {
-        "total": 7,
-        "compartida": 1,
-        "solo_mp": 6
-      },
-      "81065": {
-        "total": 8,
-        "compartida": 2,
-        "solo_mp": 6
-      },
-      "15514": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "05890": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "25483": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "08421": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "76020": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "05321": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "25426": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "66400": {
-        "total": 5,
-        "compartida": 0,
-        "solo_mp": 5
-      },
-      "15047": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "15808": {
-        "total": 2,
-        "compartida": 1,
-        "solo_mp": 1
-      },
-      "08078": {
-        "total": 8,
-        "compartida": 0,
-        "solo_mp": 8
-      },
-      "41872": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "17662": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "17616": {
-        "total": 5,
-        "compartida": 0,
-        "solo_mp": 5
-      },
-      "13433": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "70418": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "15183": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "05284": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "19845": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "73624": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "47058": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "73861": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "54261": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "05761": {
-        "total": 5,
-        "compartida": 0,
-        "solo_mp": 5
-      },
-      "15774": {
-        "total": 2,
-        "compartida": 1,
-        "solo_mp": 1
-      },
-      "05030": {
-        "total": 9,
-        "compartida": 0,
-        "solo_mp": 9
-      },
-      "23079": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "70823": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "05147": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "08560": {
-        "total": 9,
-        "compartida": 0,
-        "solo_mp": 9
-      },
-      "68152": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "05031": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "73547": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "41006": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "52079": {
-        "total": 13,
-        "compartida": 0,
-        "solo_mp": 13
-      },
-      "54810": {
-        "total": 16,
-        "compartida": 4,
-        "solo_mp": 12
-      },
-      "73026": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "86320": {
-        "total": 5,
-        "compartida": 0,
-        "solo_mp": 5
-      },
-      "15690": {
-        "total": 5,
-        "compartida": 0,
-        "solo_mp": 5
-      },
-      "18610": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "81300": {
-        "total": 2,
-        "compartida": 1,
-        "solo_mp": 1
-      },
-      "81220": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "52354": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "15494": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "23189": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "20750": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "41020": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "15879": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "15223": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "05847": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "05667": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "76823": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "19110": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "20250": {
-        "total": 6,
-        "compartida": 0,
-        "solo_mp": 6
-      },
-      "15480": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "05895": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "25781": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "05282": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "05686": {
-        "total": 10,
-        "compartida": 0,
-        "solo_mp": 10
-      },
-      "05364": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "05790": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "76122": {
-        "total": 3,
-        "compartida": 1,
-        "solo_mp": 2
-      },
-      "13212": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "86569": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "17486": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "20045": {
-        "total": 60,
-        "compartida": 9,
-        "solo_mp": 51
-      },
-      "85263": {
-        "total": 6,
-        "compartida": 6,
-        "solo_mp": 0
-      },
-      "41503": {
-        "total": 4,
-        "compartida": 3,
-        "solo_mp": 1
-      },
-      "52352": {
-        "total": 3,
-        "compartida": 2,
-        "solo_mp": 1
-      },
-      "52678": {
-        "total": 2,
-        "compartida": 2,
-        "solo_mp": 0
-      },
-      "15861": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      },
-      "05315": {
-        "total": 5,
-        "compartida": 2,
-        "solo_mp": 3
-      },
-      "05649": {
-        "total": 3,
-        "compartida": 2,
-        "solo_mp": 1
-      },
-      "15362": {
-        "total": 2,
-        "compartida": 1,
-        "solo_mp": 1
-      },
-      "41078": {
-        "total": 2,
-        "compartida": 2,
-        "solo_mp": 0
-      },
-      "41013": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      },
-      "25805": {
-        "total": 2,
-        "compartida": 2,
-        "solo_mp": 0
-      },
-      "76377": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "25807": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "15686": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "19212": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "23464": {
-        "total": 5,
-        "compartida": 0,
-        "solo_mp": 5
-      },
-      "70742": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "63690": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "05887": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "17444": {
-        "total": 4,
-        "compartida": 2,
-        "solo_mp": 2
-      },
-      "52203": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "13074": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "68229": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "68524": {
-        "total": 4,
-        "compartida": 3,
-        "solo_mp": 1
-      },
-      "15097": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "05819": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "19397": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "15172": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "05809": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "47460": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "25645": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "05659": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "15664": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "54720": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "54051": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      },
-      "73067": {
-        "total": 4,
-        "compartida": 4,
-        "solo_mp": 0
-      },
-      "41359": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      },
-      "25019": {
-        "total": 2,
-        "compartida": 2,
-        "solo_mp": 0
-      },
-      "52687": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      },
-      "52573": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      },
-      "05368": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      },
-      "15673": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      },
-      "25438": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      },
-      "25120": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      },
-      "05197": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "15804": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "52378": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "13244": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "25596": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "19701": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "19256": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "25368": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "68855": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "05411": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "52320": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "15377": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "54670": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "66440": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "23570": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "05042": {
-        "total": 5,
-        "compartida": 0,
-        "solo_mp": 5
-      },
-      "05138": {
-        "total": 6,
-        "compartida": 0,
-        "solo_mp": 6
-      },
-      "05190": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "05736": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "05101": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "05858": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "15244": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "20175": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "15696": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "23068": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "41660": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "76497": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "20614": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "13654": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "66456": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "05854": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "19743": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      },
-      "85225": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      },
-      "54313": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      },
-      "15755": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      }
-    }
-  },
-  {
-    "id": "C-16",
-    "actividadValidada": "",
-    "contratista": "Sin Contratista",
-    "objeto": "Sin Objeto",
-    "valor": 0.0,
-    "estado": "EN REVISIÓN",
-    "tipo": "PRIMA",
-    "contratante": "COLSANITAS (10)",
-    "colectivo": "CERREJÓN",
-    "colectivoBeneficiado": "General",
-    "plan": "INTEGRAL",
-    "fechaInicio": "",
-    "fechaFin": "",
-    "poblacion": 22068,
-    "coberturas": [],
-    "vihHeader": "N/A",
-    "vihSub": "N/A",
-    "oncoHeader": "N/A",
-    "oncoSub": "N/A",
-    "prePostHeader": "N/A",
-    "prePostSub": "N/A",
-    "ortesisHeader": "N/A",
-    "ortesisSub": "N/A",
-    "poblacionCompartida": 19632,
-    "poblacionSoloMP": 2436,
-    "poblacionDane": {
-      "18029": {
-        "total": 2346,
-        "compartida": 2158,
-        "solo_mp": 188
-      },
-      "11001": {
-        "total": 632,
-        "compartida": 525,
-        "solo_mp": 107
-      },
-      "15001": {
-        "total": 6,
-        "compartida": 2,
-        "solo_mp": 4
-      },
-      "13001": {
-        "total": 196,
-        "compartida": 154,
-        "solo_mp": 42
-      },
-      "44001": {
-        "total": 3226,
-        "compartida": 2877,
-        "solo_mp": 349
-      },
-      "08001": {
-        "total": 2075,
-        "compartida": 1813,
-        "solo_mp": 262
-      },
-      "44279": {
-        "total": 2369,
-        "compartida": 2173,
-        "solo_mp": 196
-      },
-      "44650": {
-        "total": 1653,
-        "compartida": 1513,
-        "solo_mp": 140
-      },
-      "68001": {
-        "total": 141,
-        "compartida": 113,
-        "solo_mp": 28
-      },
-      "44098": {
-        "total": 124,
-        "compartida": 106,
-        "solo_mp": 18
       },
       "20001": {
-        "total": 2446,
-        "compartida": 2139,
-        "solo_mp": 307
-      },
-      "44110": {
-        "total": 124,
-        "compartida": 108,
-        "solo_mp": 16
-      },
-      "44078": {
-        "total": 1972,
-        "compartida": 1782,
-        "solo_mp": 190
-      },
-      "44378": {
-        "total": 1069,
-        "compartida": 964,
-        "solo_mp": 105
-      },
-      "05001": {
-        "total": 183,
-        "compartida": 141,
-        "solo_mp": 42
-      },
-      "73671": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "08573": {
-        "total": 95,
-        "compartida": 83,
-        "solo_mp": 12
-      },
-      "47189": {
         "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "52001": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "68276": {
-        "total": 61,
-        "compartida": 51,
-        "solo_mp": 10
-      },
-      "44430": {
-        "total": 750,
-        "compartida": 667,
-        "solo_mp": 83
-      },
-      "13873": {
-        "total": 988,
-        "compartida": 921,
-        "solo_mp": 67
-      },
-      "66682": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "44855": {
-        "total": 503,
-        "compartida": 470,
-        "solo_mp": 33
-      },
-      "05380": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "05266": {
-        "total": 29,
-        "compartida": 24,
-        "solo_mp": 5
-      },
-      "20400": {
-        "total": 39,
-        "compartida": 0,
-        "solo_mp": 39
-      },
-      "54125": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "17001": {
-        "total": 4,
-        "compartida": 1,
-        "solo_mp": 3
-      },
-      "47001": {
-        "total": 237,
-        "compartida": 208,
-        "solo_mp": 29
-      },
-      "08685": {
-        "total": 5,
-        "compartida": 1,
-        "solo_mp": 4
-      },
-      "20045": {
-        "total": 16,
-        "compartida": 10,
-        "solo_mp": 6
-      },
-      "20517": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "20250": {
-        "total": 8,
-        "compartida": 0,
-        "solo_mp": 8
-      },
-      "47980": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "47288": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "08758": {
-        "total": 315,
-        "compartida": 282,
-        "solo_mp": 33
-      },
-      "20013": {
-        "total": 6,
-        "compartida": 0,
-        "solo_mp": 6
-      },
-      "20443": {
-        "total": 5,
-        "compartida": 1,
-        "solo_mp": 4
-      },
-      "70001": {
-        "total": 16,
-        "compartida": 13,
-        "solo_mp": 3
-      },
-      "44847": {
-        "total": 98,
-        "compartida": 90,
-        "solo_mp": 8
-      },
-      "47318": {
-        "total": 2,
-        "compartida": 1,
-        "solo_mp": 1
-      },
-      "47058": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "81001": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "25126": {
-        "total": 12,
-        "compartida": 8,
-        "solo_mp": 4
-      },
-      "13052": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "20770": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "20621": {
-        "total": 6,
-        "compartida": 3,
-        "solo_mp": 3
-      },
-      "19001": {
-        "total": 9,
-        "compartida": 8,
-        "solo_mp": 1
-      },
-      "23001": {
-        "total": 34,
-        "compartida": 29,
-        "solo_mp": 5
-      },
-      "23672": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "08638": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "41770": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "76001": {
-        "total": 29,
-        "compartida": 23,
-        "solo_mp": 6
-      },
-      "05088": {
-        "total": 7,
         "compartida": 2,
-        "solo_mp": 5
-      },
-      "05360": {
-        "total": 4,
-        "compartida": 3,
-        "solo_mp": 1
-      },
-      "08078": {
-        "total": 2,
-        "compartida": 1,
-        "solo_mp": 1
-      },
-      "76364": {
-        "total": 2,
-        "compartida": 1,
-        "solo_mp": 1
-      },
-      "08433": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "54001": {
-        "total": 9,
-        "compartida": 6,
-        "solo_mp": 3
-      },
-      "25175": {
-        "total": 14,
-        "compartida": 13,
-        "solo_mp": 1
-      },
-      "15759": {
-        "total": 6,
-        "compartida": 6,
         "solo_mp": 0
       },
-      "15516": {
-        "total": 1,
-        "compartida": 1,
+      "15759": {
+        "total": 2,
+        "compartida": 2,
+        "solo_mp": 0
+      },
+      "54498": {
+        "total": 2,
+        "compartida": 2,
         "solo_mp": 0
       },
       "73001": {
-        "total": 12,
-        "compartida": 9,
-        "solo_mp": 3
+        "total": 2,
+        "compartida": 2,
+        "solo_mp": 0
       },
-      "66001": {
-        "total": 5,
-        "compartida": 5,
+      "68001": {
+        "total": 2,
+        "compartida": 2,
+        "solo_mp": 0
+      },
+      "08573": {
+        "total": 2,
+        "compartida": 2,
+        "solo_mp": 0
+      },
+      "05001": {
+        "total": 3,
+        "compartida": 3,
+        "solo_mp": 0
+      },
+      "50001": {
+        "total": 3,
+        "compartida": 3,
+        "solo_mp": 0
+      },
+      "76364": {
+        "total": 3,
+        "compartida": 3,
         "solo_mp": 0
       },
       "05615": {
-        "total": 23,
-        "compartida": 23,
+        "total": 3,
+        "compartida": 3,
         "solo_mp": 0
-      },
-      "85001": {
-        "total": 2,
-        "compartida": 2,
-        "solo_mp": 0
-      },
-      "15238": {
-        "total": 2,
-        "compartida": 1,
-        "solo_mp": 1
-      },
-      "50001": {
-        "total": 6,
-        "compartida": 5,
-        "solo_mp": 1
-      },
-      "68547": {
-        "total": 8,
-        "compartida": 7,
-        "solo_mp": 1
-      },
-      "66170": {
-        "total": 5,
-        "compartida": 5,
-        "solo_mp": 0
-      },
-      "25214": {
-        "total": 5,
-        "compartida": 4,
-        "solo_mp": 1
-      },
-      "23466": {
-        "total": 10,
-        "compartida": 9,
-        "solo_mp": 1
-      },
-      "41001": {
-        "total": 2,
-        "compartida": 2,
-        "solo_mp": 0
-      },
-      "68679": {
-        "total": 4,
-        "compartida": 4,
-        "solo_mp": 0
-      },
-      "25290": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "05059": {
-        "total": 11,
-        "compartida": 10,
-        "solo_mp": 1
-      },
-      "25473": {
-        "total": 6,
-        "compartida": 4,
-        "solo_mp": 2
-      },
-      "25286": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "25269": {
-        "total": 8,
-        "compartida": 1,
-        "solo_mp": 7
       },
       "68081": {
-        "total": 6,
-        "compartida": 6,
-        "solo_mp": 0
+        "total": 4,
+        "compartida": 2,
+        "solo_mp": 2
       },
-      "08558": {
+      "47001": {
         "total": 4,
         "compartida": 4,
         "solo_mp": 0
       },
-      "23168": {
-        "total": 1,
-        "compartida": 1,
+      "25269": {
+        "total": 4,
+        "compartida": 2,
+        "solo_mp": 2
+      },
+      "70001": {
+        "total": 4,
+        "compartida": 4,
         "solo_mp": 0
       },
-      "20011": {
-        "total": 6,
-        "compartida": 5,
-        "solo_mp": 1
-      },
-      "54498": {
+      "17001": {
         "total": 5,
         "compartida": 5,
         "solo_mp": 0
       },
-      "25430": {
-        "total": 9,
+      "05266": {
+        "total": 5,
         "compartida": 5,
-        "solo_mp": 4
-      },
-      "25307": {
-        "total": 2,
-        "compartida": 1,
-        "solo_mp": 1
-      },
-      "54518": {
-        "total": 2,
-        "compartida": 1,
-        "solo_mp": 1
-      },
-      "05142": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "68755": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "25754": {
-        "total": 1,
-        "compartida": 1,
         "solo_mp": 0
       },
-      "23079": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      },
-      "20750": {
-        "total": 2,
-        "compartida": 2,
-        "solo_mp": 0
-      },
-      "76520": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      },
-      "44420": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      },
-      "76147": {
-        "total": 2,
-        "compartida": 2,
-        "solo_mp": 0
-      },
-      "76834": {
-        "total": 2,
-        "compartida": 2,
-        "solo_mp": 0
-      },
-      "88001": {
-        "total": 2,
-        "compartida": 1,
-        "solo_mp": 1
-      },
-      "05313": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      },
-      "41551": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      },
-      "54172": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      },
-      "25817": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      },
-      "47555": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      },
-      "15753": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      },
-      "18001": {
-        "total": 1,
-        "compartida": 1,
+      "25126": {
+        "total": 6,
+        "compartida": 6,
         "solo_mp": 0
       }
     }
@@ -8655,7 +2356,12 @@ window.CONTRATOS_DATA = [
     "fechaInicio": "2026-01-01 00:00:00",
     "fechaFin": "2026-12-31 00:00:00",
     "poblacion": 173,
-    "coberturas": [],
+    "coberturas": [
+      {
+        "tipo": "VADEMECUM ABIERTO",
+        "descripcion": "MEDICAMENTOS"
+      }
+    ],
     "vihHeader": "NO",
     "vihSub": "EPS",
     "oncoHeader": "SI",
@@ -8765,349 +2471,6 @@ window.CONTRATOS_DATA = [
     }
   },
   {
-    "id": "C-18",
-    "actividadValidada": "",
-    "contratista": "Sin Contratista",
-    "objeto": "Sin Objeto",
-    "valor": 0.0,
-    "estado": "En Ejecución",
-    "tipo": "Servicios",
-    "contratante": "COLSANITAS (10)",
-    "colectivo": "ZOETIS",
-    "colectivoBeneficiado": "General",
-    "plan": "INTEGRAL",
-    "fechaInicio": "",
-    "fechaFin": "",
-    "poblacion": 116,
-    "coberturas": [],
-    "vihHeader": "N/A",
-    "vihSub": "N/A",
-    "oncoHeader": "N/A",
-    "oncoSub": "N/A",
-    "prePostHeader": "N/A",
-    "prePostSub": "N/A",
-    "ortesisHeader": "N/A",
-    "ortesisSub": "N/A",
-    "poblacionCompartida": 77,
-    "poblacionSoloMP": 39,
-    "poblacionDane": {
-      "76520": {
-        "total": 6,
-        "compartida": 1,
-        "solo_mp": 5
-      },
-      "05318": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "47001": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "68001": {
-        "total": 5,
-        "compartida": 1,
-        "solo_mp": 4
-      },
-      "66170": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "66001": {
-        "total": 4,
-        "compartida": 3,
-        "solo_mp": 1
-      },
-      "76001": {
-        "total": 4,
-        "compartida": 4,
-        "solo_mp": 0
-      },
-      "25754": {
-        "total": 4,
-        "compartida": 4,
-        "solo_mp": 0
-      },
-      "18001": {
-        "total": 2,
-        "compartida": 1,
-        "solo_mp": 1
-      },
-      "11001": {
-        "total": 56,
-        "compartida": 42,
-        "solo_mp": 14
-      },
-      "68276": {
-        "total": 3,
-        "compartida": 2,
-        "solo_mp": 1
-      },
-      "05001": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "05088": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "05360": {
-        "total": 6,
-        "compartida": 4,
-        "solo_mp": 2
-      },
-      "05615": {
-        "total": 6,
-        "compartida": 4,
-        "solo_mp": 2
-      },
-      "23001": {
-        "total": 4,
-        "compartida": 4,
-        "solo_mp": 0
-      },
-      "25269": {
-        "total": 4,
-        "compartida": 4,
-        "solo_mp": 0
-      },
-      "15238": {
-        "total": 2,
-        "compartida": 2,
-        "solo_mp": 0
-      },
-      "19001": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      }
-    }
-  },
-  {
-    "id": "C-19",
-    "actividadValidada": "",
-    "contratista": "Sin Contratista",
-    "objeto": "Sin Objeto",
-    "valor": 0.0,
-    "estado": "EN REVISIÓN",
-    "tipo": "Servicios",
-    "contratante": "COLSANITAS (10)",
-    "colectivo": "CERROMATOSO",
-    "colectivoBeneficiado": "General",
-    "plan": "INTEGRAL",
-    "fechaInicio": "",
-    "fechaFin": "",
-    "poblacion": 3889,
-    "coberturas": [],
-    "vihHeader": "N/A",
-    "vihSub": "N/A",
-    "oncoHeader": "N/A",
-    "oncoSub": "N/A",
-    "prePostHeader": "N/A",
-    "prePostSub": "N/A",
-    "ortesisHeader": "N/A",
-    "ortesisSub": "N/A",
-    "poblacionCompartida": 3440,
-    "poblacionSoloMP": 449,
-    "poblacionDane": {
-      "23466": {
-        "total": 3401,
-        "compartida": 3121,
-        "solo_mp": 280
-      },
-      "05001": {
-        "total": 136,
-        "compartida": 97,
-        "solo_mp": 39
-      },
-      "23555": {
-        "total": 44,
-        "compartida": 0,
-        "solo_mp": 44
-      },
-      "23580": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "11001": {
-        "total": 72,
-        "compartida": 46,
-        "solo_mp": 26
-      },
-      "05440": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "25214": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "08001": {
-        "total": 24,
-        "compartida": 16,
-        "solo_mp": 8
-      },
-      "23001": {
-        "total": 91,
-        "compartida": 79,
-        "solo_mp": 12
-      },
-      "70001": {
-        "total": 9,
-        "compartida": 8,
-        "solo_mp": 1
-      },
-      "25899": {
-        "total": 5,
-        "compartida": 1,
-        "solo_mp": 4
-      },
-      "44430": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "68001": {
-        "total": 10,
-        "compartida": 8,
-        "solo_mp": 2
-      },
-      "13001": {
-        "total": 11,
-        "compartida": 8,
-        "solo_mp": 3
-      },
-      "76001": {
-        "total": 2,
-        "compartida": 1,
-        "solo_mp": 1
-      },
-      "05376": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "05631": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "20001": {
-        "total": 4,
-        "compartida": 3,
-        "solo_mp": 1
-      },
-      "05088": {
-        "total": 13,
-        "compartida": 9,
-        "solo_mp": 4
-      },
-      "08758": {
-        "total": 5,
-        "compartida": 4,
-        "solo_mp": 1
-      },
-      "76834": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "25758": {
-        "total": 3,
-        "compartida": 3,
-        "solo_mp": 0
-      },
-      "25175": {
-        "total": 4,
-        "compartida": 4,
-        "solo_mp": 0
-      },
-      "17001": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      },
-      "50001": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      },
-      "05360": {
-        "total": 9,
-        "compartida": 6,
-        "solo_mp": 3
-      },
-      "68276": {
-        "total": 4,
-        "compartida": 3,
-        "solo_mp": 1
-      },
-      "05059": {
-        "total": 2,
-        "compartida": 1,
-        "solo_mp": 1
-      },
-      "13430": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "23660": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "25126": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "70473": {
-        "total": 3,
-        "compartida": 3,
-        "solo_mp": 0
-      },
-      "05266": {
-        "total": 6,
-        "compartida": 6,
-        "solo_mp": 0
-      },
-      "15001": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      },
-      "47001": {
-        "total": 6,
-        "compartida": 6,
-        "solo_mp": 0
-      },
-      "68081": {
-        "total": 3,
-        "compartida": 3,
-        "solo_mp": 0
-      },
-      "54001": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "91001": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      }
-    }
-  },
-  {
     "id": "10108097821",
     "actividadValidada": "",
     "contratista": "Sin Contratista",
@@ -9122,7 +2485,12 @@ window.CONTRATOS_DATA = [
     "fechaInicio": "2026-10-01 00:00:00",
     "fechaFin": "2026-09-30 00:00:00",
     "poblacion": 24,
-    "coberturas": [],
+    "coberturas": [
+      {
+        "tipo": "VADEMECUM ABIERTO",
+        "descripcion": "MEDICAMENTOS AMBULATORIOS COMERCIALES"
+      }
+    ],
     "vihHeader": "NO",
     "vihSub": "EPS",
     "oncoHeader": "SI",
@@ -9167,16 +2535,21 @@ window.CONTRATOS_DATA = [
     "contratista": "Sin Contratista",
     "objeto": "CUPO USUARIOS CONTRATO",
     "valor": 25000000.0,
-    "estado": "EN REVISIÓN",
+    "estado": "ACTUALIZADO",
     "tipo": "BOLSA CERRADA",
     "contratante": "COLSANITAS (10)",
     "colectivo": "ACCENTURE",
     "colectivoBeneficiado": "ACCENTURE LTDA",
     "plan": "INTEGRAL",
-    "fechaInicio": "2025-06-01 00:00:00",
-    "fechaFin": "2026-05-01 00:00:00",
+    "fechaInicio": "2026-08-01 00:00:00",
+    "fechaFin": "2026-07-31 00:00:00",
     "poblacion": 3243,
-    "coberturas": [],
+    "coberturas": [
+      {
+        "tipo": "VADEMECUM ABIERTO",
+        "descripcion": "MEDICAMENTOS PSIQUIATRICOS"
+      }
+    ],
     "vihHeader": "SI",
     "vihSub": "ILIMITADO",
     "oncoHeader": "SI",
@@ -9671,6430 +3044,212 @@ window.CONTRATOS_DATA = [
     }
   },
   {
-    "id": "C-22",
+    "id": "10108201725",
     "actividadValidada": "",
     "contratista": "Sin Contratista",
-    "objeto": "Sin Objeto",
+    "objeto": "NINGUNO",
     "valor": 0.0,
-    "estado": "En Ejecución",
+    "estado": "ACTUALIZADO",
     "tipo": "PRIMA",
     "contratante": "COLSANITAS (10)",
-    "colectivo": "ROSEN",
-    "colectivoBeneficiado": "General",
-    "plan": "INTEGRAL",
-    "fechaInicio": "",
-    "fechaFin": "",
-    "poblacion": 77,
-    "coberturas": [],
-    "vihHeader": "N/A",
-    "vihSub": "N/A",
-    "oncoHeader": "N/A",
-    "oncoSub": "N/A",
-    "prePostHeader": "N/A",
-    "prePostSub": "N/A",
-    "ortesisHeader": "N/A",
-    "ortesisSub": "N/A",
-    "poblacionCompartida": 58,
-    "poblacionSoloMP": 19,
-    "poblacionDane": {
-      "25286": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "68001": {
-        "total": 7,
-        "compartida": 6,
-        "solo_mp": 1
-      },
-      "25740": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "25899": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "05001": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "25214": {
-        "total": 6,
-        "compartida": 6,
-        "solo_mp": 0
-      },
-      "68276": {
-        "total": 2,
-        "compartida": 2,
-        "solo_mp": 0
-      },
-      "85001": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      },
-      "25175": {
-        "total": 3,
-        "compartida": 3,
-        "solo_mp": 0
-      },
-      "25473": {
-        "total": 2,
-        "compartida": 2,
-        "solo_mp": 0
-      },
-      "15001": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      },
-      "11001": {
-        "total": 43,
-        "compartida": 31,
-        "solo_mp": 12
-      },
-      "73001": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "08001": {
-        "total": 2,
-        "compartida": 2,
-        "solo_mp": 0
-      },
-      "19001": {
-        "total": 2,
-        "compartida": 2,
-        "solo_mp": 0
-      },
-      "50001": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      },
-      "25126": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      }
-    }
-  },
-  {
-    "id": "C-23",
-    "actividadValidada": "",
-    "contratista": "Sin Contratista",
-    "objeto": "Sin Objeto",
-    "valor": 0.0,
-    "estado": "En Ejecución",
-    "tipo": "Servicios",
-    "contratante": "COLSANITAS (10)",
-    "colectivo": "COLSUBSIDIO",
-    "colectivoBeneficiado": "General",
-    "plan": "INTEGRAL",
-    "fechaInicio": "",
-    "fechaFin": "",
-    "poblacion": 5406,
-    "coberturas": [],
-    "vihHeader": "N/A",
-    "vihSub": "N/A",
-    "oncoHeader": "N/A",
-    "oncoSub": "N/A",
-    "prePostHeader": "N/A",
-    "prePostSub": "N/A",
-    "ortesisHeader": "N/A",
-    "ortesisSub": "N/A",
-    "poblacionCompartida": 2582,
-    "poblacionSoloMP": 2824,
-    "poblacionDane": {
-      "25307": {
-        "total": 107,
-        "compartida": 16,
-        "solo_mp": 91
-      },
-      "76001": {
-        "total": 63,
-        "compartida": 28,
-        "solo_mp": 35
-      },
-      "25175": {
-        "total": 67,
-        "compartida": 49,
-        "solo_mp": 18
-      },
-      "25290": {
-        "total": 36,
-        "compartida": 9,
-        "solo_mp": 27
-      },
-      "13001": {
-        "total": 9,
-        "compartida": 1,
-        "solo_mp": 8
-      },
-      "25899": {
-        "total": 27,
-        "compartida": 15,
-        "solo_mp": 12
-      },
-      "25473": {
-        "total": 95,
-        "compartida": 30,
-        "solo_mp": 65
-      },
-      "05380": {
-        "total": 6,
-        "compartida": 0,
-        "solo_mp": 6
-      },
-      "25754": {
-        "total": 186,
-        "compartida": 81,
-        "solo_mp": 105
-      },
-      "25200": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "68276": {
-        "total": 7,
-        "compartida": 4,
-        "solo_mp": 3
-      },
-      "25126": {
-        "total": 37,
-        "compartida": 22,
-        "solo_mp": 15
-      },
-      "66001": {
-        "total": 15,
-        "compartida": 1,
-        "solo_mp": 14
-      },
-      "25286": {
-        "total": 94,
-        "compartida": 14,
-        "solo_mp": 80
-      },
-      "25430": {
-        "total": 43,
-        "compartida": 12,
-        "solo_mp": 31
-      },
-      "05001": {
-        "total": 69,
-        "compartida": 5,
-        "solo_mp": 64
-      },
-      "50001": {
-        "total": 47,
-        "compartida": 31,
-        "solo_mp": 16
-      },
-      "68001": {
-        "total": 17,
-        "compartida": 10,
-        "solo_mp": 7
-      },
-      "15516": {
-        "total": 29,
-        "compartida": 0,
-        "solo_mp": 29
-      },
-      "25743": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "05088": {
-        "total": 10,
-        "compartida": 0,
-        "solo_mp": 10
-      },
-      "25817": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "08001": {
-        "total": 6,
-        "compartida": 5,
-        "solo_mp": 1
-      },
-      "25386": {
-        "total": 10,
-        "compartida": 0,
-        "solo_mp": 10
-      },
-      "15238": {
-        "total": 9,
-        "compartida": 8,
-        "solo_mp": 1
-      },
-      "05360": {
-        "total": 4,
-        "compartida": 1,
-        "solo_mp": 3
-      },
-      "05059": {
-        "total": 6,
-        "compartida": 1,
-        "solo_mp": 5
-      },
-      "25214": {
-        "total": 3,
-        "compartida": 2,
-        "solo_mp": 1
-      },
-      "85001": {
-        "total": 3,
-        "compartida": 3,
-        "solo_mp": 0
-      },
-      "73001": {
-        "total": 11,
-        "compartida": 3,
-        "solo_mp": 8
-      },
-      "27050": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      },
-      "15001": {
-        "total": 7,
-        "compartida": 5,
-        "solo_mp": 2
-      },
-      "15759": {
-        "total": 2,
-        "compartida": 2,
-        "solo_mp": 0
-      },
-      "54001": {
-        "total": 2,
-        "compartida": 2,
-        "solo_mp": 0
-      },
-      "52001": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      },
-      "76364": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      },
-      "11001": {
-        "total": 4210,
-        "compartida": 2192,
-        "solo_mp": 2018
-      },
-      "41206": {
-        "total": 6,
-        "compartida": 0,
-        "solo_mp": 6
-      },
-      "19110": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "17001": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "23001": {
-        "total": 4,
-        "compartida": 3,
-        "solo_mp": 1
-      },
-      "13549": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "05615": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "05190": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "66170": {
-        "total": 6,
-        "compartida": 2,
-        "solo_mp": 4
-      },
-      "05145": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "05761": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "27001": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "18094": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "66456": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "73443": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "05234": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "52838": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "76377": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "05212": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "05887": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "44078": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "27205": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "63470": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "05837": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "25488": {
-        "total": 11,
-        "compartida": 0,
-        "solo_mp": 11
-      },
-      "73275": {
-        "total": 16,
-        "compartida": 0,
-        "solo_mp": 16
-      },
-      "25001": {
-        "total": 14,
-        "compartida": 0,
-        "solo_mp": 14
-      },
-      "25269": {
-        "total": 14,
-        "compartida": 1,
-        "solo_mp": 13
-      },
-      "19698": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "25245": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "25120": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "15097": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "05631": {
-        "total": 5,
-        "compartida": 0,
-        "solo_mp": 5
-      },
-      "25612": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "05002": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "25040": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "76892": {
-        "total": 2,
-        "compartida": 1,
-        "solo_mp": 1
-      },
-      "25785": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "25740": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "68406": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "73449": {
-        "total": 2,
-        "compartida": 1,
-        "solo_mp": 1
-      },
-      "50573": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "25815": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "68081": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "25099": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "25322": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "25183": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "05376": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "25377": {
-        "total": 12,
-        "compartida": 12,
-        "solo_mp": 0
-      },
-      "08758": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      },
-      "63130": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      },
-      "41001": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      },
-      "25799": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      },
-      "25758": {
-        "total": 2,
-        "compartida": 2,
-        "solo_mp": 0
-      },
-      "25875": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      }
-    }
-  },
-  {
-    "id": "C-24",
-    "actividadValidada": "",
-    "contratista": "Sin Contratista",
-    "objeto": "Sin Objeto",
-    "valor": 0.0,
-    "estado": "En Ejecución",
-    "tipo": "Servicios",
-    "contratante": "COLSANITAS (10)",
     "colectivo": "CONTINENTAL GOLD",
-    "colectivoBeneficiado": "General",
+    "colectivoBeneficiado": "CONTINENTAL GOLD LIMITED",
     "plan": "INTEGRAL",
-    "fechaInicio": "",
-    "fechaFin": "",
-    "poblacion": 463959,
-    "coberturas": [],
-    "vihHeader": "N/A",
-    "vihSub": "N/A",
-    "oncoHeader": "N/A",
-    "oncoSub": "N/A",
-    "prePostHeader": "N/A",
-    "prePostSub": "N/A",
-    "ortesisHeader": "N/A",
-    "ortesisSub": "N/A",
-    "poblacionCompartida": 349113,
-    "poblacionSoloMP": 114844,
-    "poblacionDane": {
-      "11001": {
-        "total": 252886,
-        "compartida": 197132,
-        "solo_mp": 55754
-      },
-      "68276": {
-        "total": 3455,
-        "compartida": 2713,
-        "solo_mp": 742
-      },
-      "05615": {
-        "total": 1673,
-        "compartida": 1146,
-        "solo_mp": 527
-      },
-      "05001": {
-        "total": 17260,
-        "compartida": 10707,
-        "solo_mp": 6553
-      },
-      "25126": {
-        "total": 5970,
-        "compartida": 4815,
-        "solo_mp": 1155
-      },
-      "76001": {
-        "total": 27130,
-        "compartida": 21062,
-        "solo_mp": 6068
-      },
-      "25377": {
-        "total": 977,
-        "compartida": 782,
-        "solo_mp": 195
-      },
-      "23001": {
-        "total": 2272,
-        "compartida": 1499,
-        "solo_mp": 773
-      },
-      "08558": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "05360": {
-        "total": 1009,
-        "compartida": 453,
-        "solo_mp": 556
-      },
-      "13001": {
-        "total": 9620,
-        "compartida": 6377,
-        "solo_mp": 3243
-      },
-      "05266": {
-        "total": 4449,
-        "compartida": 2956,
-        "solo_mp": 1493
-      },
-      "50568": {
-        "total": 227,
-        "compartida": 71,
-        "solo_mp": 156
-      },
-      "50001": {
-        "total": 12787,
-        "compartida": 10146,
-        "solo_mp": 2641
-      },
-      "47001": {
-        "total": 7532,
-        "compartida": 5955,
-        "solo_mp": 1577
-      },
-      "68001": {
-        "total": 8654,
-        "compartida": 6946,
-        "solo_mp": 1708
-      },
-      "54405": {
-        "total": 51,
-        "compartida": 6,
-        "solo_mp": 45
-      },
-      "08001": {
-        "total": 19743,
-        "compartida": 13859,
-        "solo_mp": 5884
-      },
-      "17001": {
-        "total": 2825,
-        "compartida": 1958,
-        "solo_mp": 867
-      },
-      "25175": {
-        "total": 10911,
-        "compartida": 9022,
-        "solo_mp": 1889
-      },
-      "05607": {
-        "total": 79,
-        "compartida": 5,
-        "solo_mp": 74
-      },
-      "44430": {
-        "total": 333,
-        "compartida": 220,
-        "solo_mp": 113
-      },
-      "25430": {
-        "total": 1124,
-        "compartida": 661,
-        "solo_mp": 463
-      },
-      "05059": {
-        "total": 2445,
-        "compartida": 1926,
-        "solo_mp": 519
-      },
-      "66001": {
-        "total": 4225,
-        "compartida": 3117,
-        "solo_mp": 1108
-      },
-      "73001": {
-        "total": 4223,
-        "compartida": 3305,
-        "solo_mp": 918
-      },
-      "25386": {
-        "total": 35,
-        "compartida": 8,
-        "solo_mp": 27
-      },
-      "05088": {
-        "total": 959,
-        "compartida": 280,
-        "solo_mp": 679
-      },
-      "05148": {
-        "total": 73,
-        "compartida": 0,
-        "solo_mp": 73
-      },
-      "88001": {
-        "total": 1051,
-        "compartida": 888,
-        "solo_mp": 163
-      },
-      "05631": {
-        "total": 727,
-        "compartida": 23,
-        "solo_mp": 704
-      },
-      "05376": {
-        "total": 112,
-        "compartida": 1,
-        "solo_mp": 111
-      },
-      "05380": {
-        "total": 227,
-        "compartida": 3,
-        "solo_mp": 224
-      },
-      "25799": {
-        "total": 191,
-        "compartida": 108,
-        "solo_mp": 83
-      },
-      "44001": {
-        "total": 1120,
-        "compartida": 836,
-        "solo_mp": 284
-      },
-      "76892": {
-        "total": 474,
-        "compartida": 312,
-        "solo_mp": 162
-      },
-      "15293": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "19001": {
-        "total": 1166,
-        "compartida": 898,
-        "solo_mp": 268
-      },
-      "85001": {
-        "total": 2932,
-        "compartida": 2444,
-        "solo_mp": 488
-      },
-      "25899": {
-        "total": 2397,
-        "compartida": 1728,
-        "solo_mp": 669
-      },
-      "25214": {
-        "total": 1646,
-        "compartida": 1293,
-        "solo_mp": 353
-      },
-      "25758": {
-        "total": 665,
-        "compartida": 518,
-        "solo_mp": 147
-      },
-      "54001": {
-        "total": 2928,
-        "compartida": 2186,
-        "solo_mp": 742
-      },
-      "25317": {
-        "total": 12,
-        "compartida": 0,
-        "solo_mp": 12
-      },
-      "25290": {
-        "total": 842,
-        "compartida": 685,
-        "solo_mp": 157
-      },
-      "41001": {
-        "total": 3965,
-        "compartida": 3223,
-        "solo_mp": 742
-      },
-      "50006": {
-        "total": 987,
-        "compartida": 730,
-        "solo_mp": 257
-      },
-      "25224": {
-        "total": 3,
-        "compartida": 1,
-        "solo_mp": 2
-      },
-      "81736": {
-        "total": 34,
-        "compartida": 14,
-        "solo_mp": 20
-      },
-      "15759": {
-        "total": 1296,
-        "compartida": 1043,
-        "solo_mp": 253
-      },
-      "25269": {
-        "total": 896,
-        "compartida": 611,
-        "solo_mp": 285
-      },
-      "18001": {
-        "total": 620,
-        "compartida": 507,
-        "solo_mp": 113
-      },
-      "25473": {
-        "total": 2217,
-        "compartida": 1491,
-        "solo_mp": 726
-      },
-      "76520": {
-        "total": 1875,
-        "compartida": 1419,
-        "solo_mp": 456
-      },
-      "25754": {
-        "total": 1852,
-        "compartida": 1146,
-        "solo_mp": 706
-      },
-      "15835": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "25843": {
-        "total": 95,
-        "compartida": 10,
-        "solo_mp": 85
-      },
-      "25286": {
-        "total": 770,
-        "compartida": 466,
-        "solo_mp": 304
-      },
-      "15238": {
-        "total": 1284,
-        "compartida": 979,
-        "solo_mp": 305
-      },
-      "68547": {
-        "total": 727,
-        "compartida": 528,
-        "solo_mp": 199
-      },
-      "23162": {
-        "total": 56,
-        "compartida": 3,
-        "solo_mp": 53
-      },
-      "15491": {
-        "total": 15,
-        "compartida": 8,
-        "solo_mp": 7
-      },
-      "76109": {
-        "total": 87,
-        "compartida": 3,
-        "solo_mp": 84
-      },
-      "15455": {
-        "total": 5,
-        "compartida": 0,
-        "solo_mp": 5
-      },
-      "70713": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "25740": {
-        "total": 48,
-        "compartida": 16,
-        "solo_mp": 32
-      },
-      "68679": {
-        "total": 357,
-        "compartida": 285,
-        "solo_mp": 72
-      },
-      "99001": {
-        "total": 9,
-        "compartida": 0,
-        "solo_mp": 9
-      },
-      "05318": {
-        "total": 86,
-        "compartida": 3,
-        "solo_mp": 83
-      },
-      "15599": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "23466": {
-        "total": 922,
-        "compartida": 772,
-        "solo_mp": 150
-      },
-      "68406": {
-        "total": 9,
-        "compartida": 4,
-        "solo_mp": 5
-      },
-      "05313": {
-        "total": 84,
-        "compartida": 31,
-        "solo_mp": 53
-      },
-      "20001": {
-        "total": 3146,
-        "compartida": 2463,
-        "solo_mp": 683
-      },
-      "70001": {
-        "total": 1851,
-        "compartida": 1291,
-        "solo_mp": 560
-      },
-      "73671": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "25035": {
-        "total": 26,
-        "compartida": 8,
-        "solo_mp": 18
-      },
-      "76306": {
-        "total": 11,
-        "compartida": 0,
-        "solo_mp": 11
-      },
-      "73443": {
-        "total": 13,
-        "compartida": 0,
-        "solo_mp": 13
-      },
-      "41551": {
-        "total": 281,
-        "compartida": 213,
-        "solo_mp": 68
-      },
-      "73349": {
-        "total": 166,
-        "compartida": 143,
-        "solo_mp": 23
-      },
-      "47555": {
-        "total": 19,
-        "compartida": 2,
-        "solo_mp": 17
-      },
-      "66170": {
-        "total": 557,
-        "compartida": 317,
-        "solo_mp": 240
-      },
-      "13836": {
-        "total": 107,
-        "compartida": 0,
-        "solo_mp": 107
-      },
-      "81001": {
-        "total": 302,
-        "compartida": 231,
-        "solo_mp": 71
-      },
-      "47318": {
-        "total": 35,
-        "compartida": 1,
-        "solo_mp": 34
-      },
-      "19548": {
-        "total": 15,
-        "compartida": 6,
-        "solo_mp": 9
-      },
-      "15516": {
-        "total": 177,
-        "compartida": 133,
-        "solo_mp": 44
-      },
-      "08573": {
-        "total": 837,
-        "compartida": 542,
-        "solo_mp": 295
-      },
-      "99624": {
-        "total": 7,
-        "compartida": 0,
-        "solo_mp": 7
-      },
-      "68081": {
-        "total": 1250,
-        "compartida": 931,
-        "solo_mp": 319
-      },
-      "85139": {
-        "total": 26,
-        "compartida": 8,
-        "solo_mp": 18
-      },
-      "76364": {
-        "total": 1642,
-        "compartida": 1182,
-        "solo_mp": 460
-      },
-      "23660": {
-        "total": 83,
-        "compartida": 1,
-        "solo_mp": 82
-      },
-      "73352": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "76275": {
-        "total": 36,
-        "compartida": 10,
-        "solo_mp": 26
-      },
-      "23555": {
-        "total": 31,
-        "compartida": 0,
-        "solo_mp": 31
-      },
-      "76834": {
-        "total": 435,
-        "compartida": 310,
-        "solo_mp": 125
-      },
-      "70215": {
-        "total": 29,
-        "compartida": 0,
-        "solo_mp": 29
-      },
-      "15001": {
-        "total": 3130,
-        "compartida": 2531,
-        "solo_mp": 599
-      },
-      "70235": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "95001": {
-        "total": 42,
-        "compartida": 0,
-        "solo_mp": 42
-      },
-      "23417": {
-        "total": 30,
-        "compartida": 0,
-        "solo_mp": 30
-      },
-      "76736": {
-        "total": 11,
-        "compartida": 0,
-        "solo_mp": 11
-      },
-      "25307": {
-        "total": 641,
-        "compartida": 506,
-        "solo_mp": 135
-      },
-      "25785": {
-        "total": 55,
-        "compartida": 2,
-        "solo_mp": 53
-      },
-      "25841": {
-        "total": 24,
-        "compartida": 0,
-        "solo_mp": 24
-      },
-      "68432": {
-        "total": 11,
-        "compartida": 4,
-        "solo_mp": 7
-      },
-      "94001": {
-        "total": 24,
-        "compartida": 0,
-        "solo_mp": 24
-      },
-      "25402": {
-        "total": 33,
-        "compartida": 10,
-        "solo_mp": 23
-      },
-      "25612": {
-        "total": 30,
-        "compartida": 7,
-        "solo_mp": 23
-      },
-      "47288": {
-        "total": 46,
-        "compartida": 0,
-        "solo_mp": 46
-      },
-      "05212": {
-        "total": 124,
-        "compartida": 0,
-        "solo_mp": 124
-      },
-      "23182": {
-        "total": 12,
-        "compartida": 0,
-        "solo_mp": 12
-      },
-      "08433": {
-        "total": 35,
-        "compartida": 0,
-        "solo_mp": 35
-      },
-      "13873": {
-        "total": 87,
-        "compartida": 56,
-        "solo_mp": 31
-      },
-      "05129": {
-        "total": 72,
-        "compartida": 1,
-        "solo_mp": 71
-      },
-      "52001": {
-        "total": 1756,
-        "compartida": 1466,
-        "solo_mp": 288
-      },
-      "91001": {
-        "total": 161,
-        "compartida": 132,
-        "solo_mp": 29
-      },
-      "73449": {
-        "total": 130,
-        "compartida": 44,
-        "solo_mp": 86
-      },
-      "05079": {
-        "total": 34,
-        "compartida": 0,
-        "solo_mp": 34
-      },
-      "54498": {
-        "total": 215,
-        "compartida": 184,
-        "solo_mp": 31
-      },
-      "17877": {
-        "total": 11,
-        "compartida": 0,
-        "solo_mp": 11
-      },
-      "20621": {
-        "total": 6,
-        "compartida": 0,
-        "solo_mp": 6
-      },
-      "54874": {
-        "total": 90,
-        "compartida": 36,
-        "solo_mp": 54
-      },
-      "05893": {
-        "total": 7,
-        "compartida": 0,
-        "solo_mp": 7
-      },
-      "17777": {
-        "total": 11,
-        "compartida": 0,
-        "solo_mp": 11
-      },
-      "91430": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "17873": {
-        "total": 61,
-        "compartida": 1,
-        "solo_mp": 60
-      },
-      "68307": {
-        "total": 254,
-        "compartida": 179,
-        "solo_mp": 75
-      },
-      "15469": {
-        "total": 21,
-        "compartida": 0,
-        "solo_mp": 21
-      },
-      "76111": {
-        "total": 92,
-        "compartida": 22,
-        "solo_mp": 70
-      },
-      "70508": {
-        "total": 11,
-        "compartida": 0,
-        "solo_mp": 11
-      },
-      "05045": {
-        "total": 23,
-        "compartida": 1,
-        "solo_mp": 22
-      },
-      "44078": {
-        "total": 71,
-        "compartida": 49,
-        "solo_mp": 22
-      },
-      "18029": {
-        "total": 51,
-        "compartida": 35,
-        "solo_mp": 16
-      },
-      "17272": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "05541": {
-        "total": 9,
-        "compartida": 0,
-        "solo_mp": 9
-      },
-      "44650": {
-        "total": 129,
-        "compartida": 98,
-        "solo_mp": 31
-      },
-      "54518": {
-        "total": 66,
-        "compartida": 22,
-        "solo_mp": 44
-      },
-      "73024": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "05440": {
-        "total": 67,
-        "compartida": 3,
-        "solo_mp": 64
-      },
-      "25817": {
-        "total": 635,
-        "compartida": 434,
-        "solo_mp": 201
-      },
-      "76828": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "25572": {
-        "total": 13,
-        "compartida": 0,
-        "solo_mp": 13
-      },
-      "76622": {
-        "total": 26,
-        "compartida": 1,
-        "solo_mp": 25
-      },
-      "68755": {
-        "total": 43,
-        "compartida": 23,
-        "solo_mp": 20
-      },
-      "15572": {
-        "total": 24,
-        "compartida": 3,
-        "solo_mp": 21
-      },
-      "05837": {
-        "total": 10,
-        "compartida": 1,
-        "solo_mp": 9
-      },
-      "08758": {
-        "total": 866,
-        "compartida": 512,
-        "solo_mp": 354
-      },
-      "66682": {
-        "total": 52,
-        "compartida": 11,
-        "solo_mp": 41
-      },
-      "18756": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "25288": {
-        "total": 10,
-        "compartida": 0,
-        "solo_mp": 10
-      },
-      "52435": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "73268": {
-        "total": 63,
-        "compartida": 22,
-        "solo_mp": 41
-      },
-      "05308": {
-        "total": 60,
-        "compartida": 0,
-        "solo_mp": 60
-      },
-      "15600": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "68655": {
-        "total": 18,
-        "compartida": 0,
-        "solo_mp": 18
-      },
-      "86568": {
-        "total": 18,
-        "compartida": 0,
-        "solo_mp": 18
-      },
-      "08296": {
-        "total": 26,
-        "compartida": 0,
-        "solo_mp": 26
-      },
-      "76113": {
-        "total": 29,
-        "compartida": 1,
-        "solo_mp": 28
-      },
-      "76147": {
-        "total": 431,
-        "compartida": 333,
-        "solo_mp": 98
-      },
-      "41396": {
-        "total": 38,
-        "compartida": 26,
-        "solo_mp": 12
-      },
-      "15761": {
-        "total": 6,
-        "compartida": 0,
-        "solo_mp": 6
-      },
-      "15367": {
-        "total": 7,
-        "compartida": 0,
-        "solo_mp": 7
-      },
-      "13657": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "73226": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "20770": {
-        "total": 22,
-        "compartida": 3,
-        "solo_mp": 19
-      },
-      "20238": {
-        "total": 9,
-        "compartida": 0,
-        "solo_mp": 9
-      },
-      "05154": {
-        "total": 20,
-        "compartida": 0,
-        "solo_mp": 20
-      },
-      "85010": {
-        "total": 92,
-        "compartida": 58,
-        "solo_mp": 34
-      },
-      "05652": {
-        "total": 2,
-        "compartida": 1,
-        "solo_mp": 1
-      },
-      "25743": {
-        "total": 13,
-        "compartida": 2,
-        "solo_mp": 11
-      },
-      "08638": {
-        "total": 18,
-        "compartida": 0,
-        "solo_mp": 18
-      },
-      "50573": {
-        "total": 90,
-        "compartida": 33,
-        "solo_mp": 57
-      },
-      "25875": {
-        "total": 208,
-        "compartida": 181,
-        "solo_mp": 27
-      },
-      "85300": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "85440": {
-        "total": 48,
-        "compartida": 32,
-        "solo_mp": 16
-      },
-      "25151": {
-        "total": 32,
-        "compartida": 14,
-        "solo_mp": 18
-      },
-      "15176": {
-        "total": 374,
-        "compartida": 307,
-        "solo_mp": 67
-      },
-      "50150": {
-        "total": 50,
-        "compartida": 15,
-        "solo_mp": 35
-      },
-      "08685": {
-        "total": 16,
-        "compartida": 0,
-        "solo_mp": 16
-      },
-      "00000": {
-        "total": 27,
-        "compartida": 2,
-        "solo_mp": 25
-      },
-      "52356": {
-        "total": 162,
-        "compartida": 134,
-        "solo_mp": 28
-      },
-      "44279": {
-        "total": 110,
-        "compartida": 92,
-        "solo_mp": 18
-      },
-      "19785": {
-        "total": 9,
-        "compartida": 0,
-        "solo_mp": 9
-      },
-      "86571": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "08634": {
-        "total": 14,
-        "compartida": 0,
-        "solo_mp": 14
-      },
-      "50330": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "47189": {
-        "total": 63,
-        "compartida": 2,
-        "solo_mp": 61
-      },
-      "76318": {
-        "total": 18,
-        "compartida": 0,
-        "solo_mp": 18
-      },
-      "85430": {
-        "total": 7,
-        "compartida": 4,
-        "solo_mp": 3
-      },
-      "05240": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "85410": {
-        "total": 129,
-        "compartida": 91,
-        "solo_mp": 38
-      },
-      "63401": {
-        "total": 13,
-        "compartida": 3,
-        "solo_mp": 10
-      },
-      "19418": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "52835": {
-        "total": 26,
-        "compartida": 6,
-        "solo_mp": 20
-      },
-      "25530": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "86001": {
-        "total": 18,
-        "compartida": 0,
-        "solo_mp": 18
-      },
-      "15189": {
-        "total": 10,
-        "compartida": 0,
-        "solo_mp": 10
-      },
-      "85250": {
-        "total": 40,
-        "compartida": 27,
-        "solo_mp": 13
-      },
-      "17380": {
-        "total": 27,
-        "compartida": 3,
-        "solo_mp": 24
-      },
-      "70221": {
-        "total": 18,
-        "compartida": 0,
-        "solo_mp": 18
-      },
-      "13140": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "13468": {
-        "total": 7,
-        "compartida": 0,
-        "solo_mp": 7
-      },
-      "19455": {
-        "total": 7,
-        "compartida": 0,
-        "solo_mp": 7
-      },
-      "18592": {
-        "total": 5,
-        "compartida": 3,
-        "solo_mp": 2
-      },
-      "15776": {
-        "total": 8,
-        "compartida": 0,
-        "solo_mp": 8
-      },
-      "08141": {
-        "total": 54,
-        "compartida": 1,
-        "solo_mp": 53
-      },
-      "23807": {
-        "total": 10,
-        "compartida": 0,
-        "solo_mp": 10
-      },
-      "47053": {
-        "total": 6,
-        "compartida": 0,
-        "solo_mp": 6
-      },
-      "20060": {
-        "total": 12,
-        "compartida": 0,
-        "solo_mp": 12
-      },
-      "50711": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "50124": {
-        "total": 8,
-        "compartida": 0,
-        "solo_mp": 8
-      },
-      "76248": {
-        "total": 27,
-        "compartida": 3,
-        "solo_mp": 24
-      },
-      "63190": {
-        "total": 38,
-        "compartida": 8,
-        "solo_mp": 30
-      },
-      "05656": {
-        "total": 20,
-        "compartida": 2,
-        "solo_mp": 18
-      },
-      "70473": {
-        "total": 8,
-        "compartida": 1,
-        "solo_mp": 7
-      },
-      "76895": {
-        "total": 8,
-        "compartida": 0,
-        "solo_mp": 8
-      },
-      "25322": {
-        "total": 22,
-        "compartida": 5,
-        "solo_mp": 17
-      },
-      "25295": {
-        "total": 33,
-        "compartida": 0,
-        "solo_mp": 33
-      },
-      "25718": {
-        "total": 7,
-        "compartida": 2,
-        "solo_mp": 5
-      },
-      "25769": {
-        "total": 29,
-        "compartida": 10,
-        "solo_mp": 19
-      },
-      "25488": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "19573": {
-        "total": 13,
-        "compartida": 0,
-        "solo_mp": 13
-      },
-      "15407": {
-        "total": 66,
-        "compartida": 48,
-        "solo_mp": 18
-      },
-      "81591": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "05628": {
-        "total": 38,
-        "compartida": 1,
-        "solo_mp": 37
-      },
-      "50606": {
-        "total": 39,
-        "compartida": 1,
-        "solo_mp": 38
-      },
-      "25513": {
-        "total": 7,
-        "compartida": 0,
-        "solo_mp": 7
-      },
-      "25001": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "25772": {
-        "total": 7,
-        "compartida": 0,
-        "solo_mp": 7
-      },
-      "15806": {
-        "total": 10,
-        "compartida": 2,
-        "solo_mp": 8
-      },
-      "18753": {
-        "total": 8,
-        "compartida": 3,
-        "solo_mp": 5
-      },
-      "25745": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "41298": {
-        "total": 161,
-        "compartida": 146,
-        "solo_mp": 15
-      },
-      "15753": {
-        "total": 16,
-        "compartida": 7,
-        "solo_mp": 9
-      },
-      "54245": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "25491": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "63272": {
-        "total": 4,
-        "compartida": 2,
-        "solo_mp": 2
-      },
-      "54172": {
-        "total": 11,
-        "compartida": 4,
-        "solo_mp": 7
-      },
-      "17541": {
-        "total": 5,
-        "compartida": 0,
-        "solo_mp": 5
-      },
-      "25123": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "05051": {
-        "total": 7,
-        "compartida": 0,
-        "solo_mp": 7
-      },
-      "41770": {
-        "total": 3,
-        "compartida": 1,
-        "solo_mp": 2
-      },
-      "25797": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "20787": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "73483": {
-        "total": 6,
-        "compartida": 3,
-        "solo_mp": 3
-      },
-      "05647": {
-        "total": 188,
-        "compartida": 148,
-        "solo_mp": 40
-      },
-      "05250": {
-        "total": 7,
-        "compartida": 0,
-        "solo_mp": 7
-      },
-      "73585": {
-        "total": 17,
-        "compartida": 5,
-        "solo_mp": 12
-      },
-      "17013": {
-        "total": 5,
-        "compartida": 0,
-        "solo_mp": 5
-      },
-      "68572": {
-        "total": 5,
-        "compartida": 0,
-        "solo_mp": 5
-      },
-      "25181": {
-        "total": 16,
-        "compartida": 4,
-        "solo_mp": 12
-      },
-      "15276": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "08520": {
-        "total": 8,
-        "compartida": 0,
-        "solo_mp": 8
-      },
-      "25898": {
-        "total": 5,
-        "compartida": 0,
-        "solo_mp": 5
-      },
-      "73563": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "44847": {
-        "total": 8,
-        "compartida": 4,
-        "solo_mp": 4
-      },
-      "19698": {
-        "total": 232,
-        "compartida": 177,
-        "solo_mp": 55
-      },
-      "13188": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "25320": {
-        "total": 14,
-        "compartida": 2,
-        "solo_mp": 12
-      },
-      "41797": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "50223": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "50110": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "15204": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "41524": {
-        "total": 14,
-        "compartida": 11,
-        "solo_mp": 3
-      },
-      "25312": {
-        "total": 65,
-        "compartida": 31,
-        "solo_mp": 34
-      },
-      "17513": {
-        "total": 5,
-        "compartida": 0,
-        "solo_mp": 5
-      },
-      "76233": {
-        "total": 5,
-        "compartida": 0,
-        "solo_mp": 5
-      },
-      "81794": {
-        "total": 27,
-        "compartida": 17,
-        "solo_mp": 10
-      },
-      "25040": {
-        "total": 6,
-        "compartida": 3,
-        "solo_mp": 3
-      },
-      "25851": {
-        "total": 3,
-        "compartida": 2,
-        "solo_mp": 1
-      },
-      "05400": {
-        "total": 22,
-        "compartida": 1,
-        "solo_mp": 21
-      },
-      "76563": {
-        "total": 28,
-        "compartida": 4,
-        "solo_mp": 24
-      },
-      "76036": {
-        "total": 8,
-        "compartida": 0,
-        "solo_mp": 8
-      },
-      "25779": {
-        "total": 7,
-        "compartida": 1,
-        "solo_mp": 6
-      },
-      "73275": {
-        "total": 8,
-        "compartida": 0,
-        "solo_mp": 8
-      },
-      "25178": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "68861": {
-        "total": 25,
-        "compartida": 12,
-        "solo_mp": 13
-      },
-      "70702": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "08372": {
-        "total": 5,
-        "compartida": 0,
-        "solo_mp": 5
-      },
-      "97001": {
-        "total": 8,
-        "compartida": 0,
-        "solo_mp": 8
-      },
-      "88564": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "23580": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "66594": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "41615": {
-        "total": 18,
-        "compartida": 15,
-        "solo_mp": 3
-      },
-      "68575": {
-        "total": 21,
-        "compartida": 4,
-        "solo_mp": 17
-      },
-      "25486": {
-        "total": 24,
-        "compartida": 5,
-        "solo_mp": 19
-      },
-      "25183": {
-        "total": 11,
-        "compartida": 4,
-        "solo_mp": 7
-      },
-      "25658": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "25200": {
-        "total": 35,
-        "compartida": 5,
-        "solo_mp": 30
-      },
-      "25873": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "05002": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "25326": {
-        "total": 5,
-        "compartida": 0,
-        "solo_mp": 5
-      },
-      "13052": {
-        "total": 14,
-        "compartida": 0,
-        "solo_mp": 14
-      },
-      "70820": {
-        "total": 9,
-        "compartida": 2,
-        "solo_mp": 7
-      },
-      "05361": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "73217": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "17174": {
-        "total": 17,
-        "compartida": 1,
-        "solo_mp": 16
-      },
-      "73152": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "15322": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "05483": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "05697": {
-        "total": 9,
-        "compartida": 0,
-        "solo_mp": 9
-      },
-      "13430": {
-        "total": 12,
-        "compartida": 0,
-        "solo_mp": 12
-      },
-      "08137": {
-        "total": 3,
-        "compartida": 1,
-        "solo_mp": 2
-      },
-      "15646": {
-        "total": 24,
-        "compartida": 15,
-        "solo_mp": 9
-      },
-      "15087": {
-        "total": 5,
-        "compartida": 1,
-        "solo_mp": 4
-      },
-      "73319": {
-        "total": 6,
-        "compartida": 2,
-        "solo_mp": 4
-      },
-      "27450": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "25260": {
-        "total": 36,
-        "compartida": 10,
-        "solo_mp": 26
-      },
-      "25736": {
-        "total": 12,
-        "compartida": 0,
-        "solo_mp": 12
-      },
-      "05789": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "05237": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "05467": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "15466": {
-        "total": 5,
-        "compartida": 0,
-        "solo_mp": 5
-      },
-      "08832": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "70708": {
-        "total": 21,
-        "compartida": 0,
-        "solo_mp": 21
-      },
-      "05579": {
-        "total": 10,
-        "compartida": 0,
-        "solo_mp": 10
-      },
-      "41668": {
-        "total": 9,
-        "compartida": 5,
-        "solo_mp": 4
-      },
-      "08849": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "50226": {
-        "total": 41,
-        "compartida": 20,
-        "solo_mp": 21
-      },
-      "15820": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "15693": {
-        "total": 5,
-        "compartida": 0,
-        "solo_mp": 5
-      },
-      "15187": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "73411": {
-        "total": 8,
-        "compartida": 0,
-        "solo_mp": 8
-      },
-      "05679": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "20443": {
-        "total": 5,
-        "compartida": 2,
-        "solo_mp": 3
-      },
-      "44378": {
-        "total": 18,
-        "compartida": 11,
-        "solo_mp": 7
-      },
-      "63130": {
-        "total": 99,
-        "compartida": 65,
-        "solo_mp": 34
-      },
-      "25324": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "25815": {
-        "total": 6,
-        "compartida": 2,
-        "solo_mp": 4
-      },
-      "73148": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "15272": {
-        "total": 9,
-        "compartida": 2,
-        "solo_mp": 7
-      },
-      "63470": {
-        "total": 12,
-        "compartida": 0,
-        "solo_mp": 12
-      },
-      "20178": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "76126": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "27001": {
-        "total": 89,
-        "compartida": 70,
-        "solo_mp": 19
-      },
-      "85162": {
-        "total": 23,
-        "compartida": 14,
-        "solo_mp": 9
-      },
-      "47551": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "68500": {
-        "total": 5,
-        "compartida": 3,
-        "solo_mp": 2
-      },
-      "20011": {
-        "total": 89,
-        "compartida": 74,
-        "solo_mp": 15
-      },
-      "20400": {
-        "total": 136,
-        "compartida": 0,
-        "solo_mp": 136
-      },
-      "50287": {
-        "total": 2,
-        "compartida": 1,
-        "solo_mp": 1
-      },
-      "50683": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "44855": {
-        "total": 5,
-        "compartida": 2,
-        "solo_mp": 3
-      },
-      "15757": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "15104": {
-        "total": 4,
-        "compartida": 2,
-        "solo_mp": 2
-      },
-      "44110": {
-        "total": 15,
-        "compartida": 10,
-        "solo_mp": 5
-      },
-      "23350": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "15299": {
-        "total": 7,
-        "compartida": 1,
-        "solo_mp": 6
-      },
-      "20032": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "23855": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "19290": {
-        "total": 9,
-        "compartida": 7,
-        "solo_mp": 2
-      },
-      "76890": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "47245": {
-        "total": 5,
-        "compartida": 1,
-        "solo_mp": 4
-      },
-      "05664": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "41807": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "05660": {
-        "total": 9,
-        "compartida": 0,
-        "solo_mp": 9
-      },
-      "17042": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "05034": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "15476": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "20228": {
-        "total": 5,
-        "compartida": 0,
-        "solo_mp": 5
-      },
-      "76869": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "05674": {
-        "total": 6,
-        "compartida": 1,
-        "solo_mp": 5
-      },
-      "68464": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "15667": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "70670": {
-        "total": 5,
-        "compartida": 0,
-        "solo_mp": 5
-      },
-      "68079": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "73283": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "05172": {
-        "total": 5,
-        "compartida": 0,
-        "solo_mp": 5
-      },
-      "17442": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "05264": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "25293": {
-        "total": 3,
-        "compartida": 1,
-        "solo_mp": 2
-      },
-      "25328": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "25398": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "15638": {
-        "total": 4,
-        "compartida": 2,
-        "solo_mp": 2
-      },
-      "15537": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "15325": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "68770": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "18150": {
-        "total": 6,
-        "compartida": 4,
-        "solo_mp": 2
-      },
-      "52240": {
-        "total": 3,
-        "compartida": 2,
-        "solo_mp": 1
-      },
-      "15185": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "68549": {
-        "total": 2,
-        "compartida": 2,
-        "solo_mp": 0
-      },
-      "25297": {
-        "total": 5,
-        "compartida": 4,
-        "solo_mp": 1
-      },
-      "85325": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "41885": {
-        "total": 11,
-        "compartida": 2,
-        "solo_mp": 9
-      },
-      "41016": {
-        "total": 3,
-        "compartida": 2,
-        "solo_mp": 1
-      },
-      "15814": {
-        "total": 6,
-        "compartida": 6,
-        "solo_mp": 0
-      },
-      "73168": {
-        "total": 18,
-        "compartida": 7,
-        "solo_mp": 11
-      },
-      "25245": {
-        "total": 13,
-        "compartida": 3,
-        "solo_mp": 10
-      },
-      "73504": {
-        "total": 4,
-        "compartida": 4,
-        "solo_mp": 0
-      },
-      "25592": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      },
-      "68162": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      },
-      "41548": {
-        "total": 7,
-        "compartida": 7,
-        "solo_mp": 0
-      },
-      "52838": {
-        "total": 9,
-        "compartida": 3,
-        "solo_mp": 6
-      },
-      "68418": {
-        "total": 10,
-        "compartida": 4,
-        "solo_mp": 6
-      },
-      "13670": {
-        "total": 3,
-        "compartida": 3,
-        "solo_mp": 0
-      },
-      "41801": {
-        "total": 2,
-        "compartida": 2,
-        "solo_mp": 0
-      },
-      "41483": {
-        "total": 2,
-        "compartida": 2,
-        "solo_mp": 0
-      },
-      "73408": {
-        "total": 9,
-        "compartida": 2,
-        "solo_mp": 7
-      },
-      "41306": {
-        "total": 9,
-        "compartida": 9,
-        "solo_mp": 0
-      },
-      "25839": {
-        "total": 4,
-        "compartida": 4,
-        "solo_mp": 0
-      },
-      "63594": {
-        "total": 6,
-        "compartida": 3,
-        "solo_mp": 3
-      },
-      "25662": {
-        "total": 2,
-        "compartida": 1,
-        "solo_mp": 1
-      },
-      "18247": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      },
-      "44098": {
-        "total": 10,
-        "compartida": 4,
-        "solo_mp": 6
-      },
-      "41132": {
-        "total": 14,
-        "compartida": 10,
-        "solo_mp": 4
-      },
-      "15542": {
-        "total": 2,
-        "compartida": 2,
-        "solo_mp": 0
-      },
-      "15051": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      },
-      "85230": {
-        "total": 11,
-        "compartida": 4,
-        "solo_mp": 7
-      },
-      "15798": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      },
-      "52694": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      },
-      "23300": {
-        "total": 3,
-        "compartida": 2,
-        "solo_mp": 1
-      },
-      "68468": {
-        "total": 2,
-        "compartida": 2,
-        "solo_mp": 0
-      },
-      "05113": {
-        "total": 89,
-        "compartida": 0,
-        "solo_mp": 89
-      },
-      "15215": {
-        "total": 7,
-        "compartida": 1,
-        "solo_mp": 6
-      },
-      "17614": {
-        "total": 12,
-        "compartida": 0,
-        "solo_mp": 12
-      },
-      "23670": {
-        "total": 7,
-        "compartida": 0,
-        "solo_mp": 7
-      },
-      "86885": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "86573": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "19100": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "13160": {
-        "total": 7,
-        "compartida": 0,
-        "solo_mp": 7
-      },
-      "68190": {
-        "total": 5,
-        "compartida": 0,
-        "solo_mp": 5
-      },
-      "41518": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "25777": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "20013": {
-        "total": 12,
-        "compartida": 0,
-        "solo_mp": 12
-      },
-      "41357": {
-        "total": 3,
-        "compartida": 1,
-        "solo_mp": 2
-      },
-      "05604": {
-        "total": 5,
-        "compartida": 0,
-        "solo_mp": 5
-      },
-      "17088": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "86865": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "47707": {
-        "total": 7,
-        "compartida": 0,
-        "solo_mp": 7
-      },
-      "25878": {
-        "total": 4,
-        "compartida": 1,
-        "solo_mp": 3
-      },
-      "05306": {
-        "total": 29,
-        "compartida": 0,
-        "solo_mp": 29
-      },
-      "47268": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "05591": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "73555": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "47980": {
-        "total": 6,
-        "compartida": 0,
-        "solo_mp": 6
-      },
-      "13442": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "54003": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "25279": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "68271": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "25053": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "25099": {
-        "total": 7,
-        "compartida": 1,
-        "solo_mp": 6
-      },
-      "81065": {
-        "total": 8,
-        "compartida": 2,
-        "solo_mp": 6
-      },
-      "15514": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "05890": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "25483": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "08421": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "76020": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "05321": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "25426": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "66400": {
-        "total": 5,
-        "compartida": 0,
-        "solo_mp": 5
-      },
-      "15047": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "15808": {
-        "total": 2,
-        "compartida": 1,
-        "solo_mp": 1
-      },
-      "08078": {
-        "total": 8,
-        "compartida": 0,
-        "solo_mp": 8
-      },
-      "41872": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "17662": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "17616": {
-        "total": 5,
-        "compartida": 0,
-        "solo_mp": 5
-      },
-      "13433": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "70418": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "15183": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "05284": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "19845": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "73624": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "47058": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "73861": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "54261": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "05761": {
-        "total": 5,
-        "compartida": 0,
-        "solo_mp": 5
-      },
-      "15774": {
-        "total": 2,
-        "compartida": 1,
-        "solo_mp": 1
-      },
-      "05030": {
-        "total": 9,
-        "compartida": 0,
-        "solo_mp": 9
-      },
-      "23079": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "70823": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "05147": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "08560": {
-        "total": 9,
-        "compartida": 0,
-        "solo_mp": 9
-      },
-      "68152": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "05031": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "73547": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "41006": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "52079": {
-        "total": 13,
-        "compartida": 0,
-        "solo_mp": 13
-      },
-      "54810": {
-        "total": 16,
-        "compartida": 4,
-        "solo_mp": 12
-      },
-      "73026": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "86320": {
-        "total": 5,
-        "compartida": 0,
-        "solo_mp": 5
-      },
-      "15690": {
-        "total": 5,
-        "compartida": 0,
-        "solo_mp": 5
-      },
-      "18610": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "81300": {
-        "total": 2,
-        "compartida": 1,
-        "solo_mp": 1
-      },
-      "81220": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "52354": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "15494": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "23189": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "20750": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "41020": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "15879": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "15223": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "05847": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "05667": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "76823": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "19110": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "20250": {
-        "total": 6,
-        "compartida": 0,
-        "solo_mp": 6
-      },
-      "15480": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "05895": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "25781": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "05282": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "05686": {
-        "total": 10,
-        "compartida": 0,
-        "solo_mp": 10
-      },
-      "05364": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "05790": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "76122": {
-        "total": 3,
-        "compartida": 1,
-        "solo_mp": 2
-      },
-      "13212": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "86569": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "17486": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "20045": {
-        "total": 60,
-        "compartida": 9,
-        "solo_mp": 51
-      },
-      "85263": {
-        "total": 6,
-        "compartida": 6,
-        "solo_mp": 0
-      },
-      "41503": {
-        "total": 4,
-        "compartida": 3,
-        "solo_mp": 1
-      },
-      "52352": {
-        "total": 3,
-        "compartida": 2,
-        "solo_mp": 1
-      },
-      "52678": {
-        "total": 2,
-        "compartida": 2,
-        "solo_mp": 0
-      },
-      "15861": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      },
-      "05315": {
-        "total": 5,
-        "compartida": 2,
-        "solo_mp": 3
-      },
-      "05649": {
-        "total": 3,
-        "compartida": 2,
-        "solo_mp": 1
-      },
-      "15362": {
-        "total": 2,
-        "compartida": 1,
-        "solo_mp": 1
-      },
-      "41078": {
-        "total": 2,
-        "compartida": 2,
-        "solo_mp": 0
-      },
-      "41013": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      },
-      "25805": {
-        "total": 2,
-        "compartida": 2,
-        "solo_mp": 0
-      },
-      "76377": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "25807": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "15686": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "19212": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "23464": {
-        "total": 5,
-        "compartida": 0,
-        "solo_mp": 5
-      },
-      "70742": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "63690": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "05887": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "17444": {
-        "total": 4,
-        "compartida": 2,
-        "solo_mp": 2
-      },
-      "52203": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "13074": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "68229": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "68524": {
-        "total": 4,
-        "compartida": 3,
-        "solo_mp": 1
-      },
-      "15097": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "05819": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "19397": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "15172": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "05809": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "47460": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "25645": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "05659": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "15664": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "54720": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "54051": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      },
-      "73067": {
-        "total": 4,
-        "compartida": 4,
-        "solo_mp": 0
-      },
-      "41359": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      },
-      "25019": {
-        "total": 2,
-        "compartida": 2,
-        "solo_mp": 0
-      },
-      "52687": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      },
-      "52573": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      },
-      "05368": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      },
-      "15673": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      },
-      "25438": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      },
-      "25120": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      },
-      "05197": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "15804": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "52378": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "13244": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "25596": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "19701": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "19256": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "25368": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "68855": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "05411": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "52320": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "15377": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "54670": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "66440": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "23570": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "05042": {
-        "total": 5,
-        "compartida": 0,
-        "solo_mp": 5
-      },
-      "05138": {
-        "total": 6,
-        "compartida": 0,
-        "solo_mp": 6
-      },
-      "05190": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "05736": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "05101": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "05858": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "15244": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "20175": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "15696": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "23068": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "41660": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "76497": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "20614": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "13654": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "66456": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "05854": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "19743": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      },
-      "85225": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      },
-      "54313": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      },
-      "15755": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
+    "fechaInicio": "2026-08-01 00:00:00",
+    "fechaFin": "2026-07-31 00:00:00",
+    "poblacion": 1239,
+    "coberturas": [
+      {
+        "tipo": "VADEMECUM ABIERTO",
+        "descripcion": "MEDICAMENTOS ANEXOS VIH, CANCER, PRE Y POST EGRESO"
+      },
+      {
+        "tipo": "VADEMÉCUM SILVER",
+        "descripcion": ""
       }
-    }
-  },
-  {
-    "id": "C-25",
-    "actividadValidada": "",
-    "contratista": "Sin Contratista",
-    "objeto": "Sin Objeto",
-    "valor": 0.0,
-    "estado": "En Ejecución",
-    "tipo": "NO APLICA",
-    "contratante": "COLSANITAS (10)",
-    "colectivo": "VISA",
-    "colectivoBeneficiado": "VISA",
-    "plan": "INTEGRAL",
-    "fechaInicio": "2026-03-01 00:00:00",
-    "fechaFin": "2026-02-28 00:00:00",
-    "poblacion": 463959,
-    "coberturas": [],
+    ],
     "vihHeader": "SI",
-    "vihSub": "N/A",
+    "vihSub": "150000000",
     "oncoHeader": "SI",
-    "oncoSub": "N/A",
-    "prePostHeader": "N/A",
-    "prePostSub": "N/A",
-    "ortesisHeader": "N/A",
-    "ortesisSub": "N/A",
-    "poblacionCompartida": 349113,
-    "poblacionSoloMP": 114844,
+    "oncoSub": "ILIMITADO",
+    "prePostHeader": "SI",
+    "prePostSub": "3",
+    "ortesisHeader": "SI",
+    "ortesisSub": "REQUIERE VOLANTE",
+    "poblacionCompartida": 393,
+    "poblacionSoloMP": 846,
     "poblacionDane": {
       "11001": {
-        "total": 252886,
-        "compartida": 197132,
-        "solo_mp": 55754
-      },
-      "68276": {
-        "total": 3455,
-        "compartida": 2713,
-        "solo_mp": 742
-      },
-      "05615": {
-        "total": 1673,
-        "compartida": 1146,
-        "solo_mp": 527
-      },
-      "05001": {
-        "total": 17260,
-        "compartida": 10707,
-        "solo_mp": 6553
-      },
-      "25126": {
-        "total": 5970,
-        "compartida": 4815,
-        "solo_mp": 1155
-      },
-      "76001": {
-        "total": 27130,
-        "compartida": 21062,
-        "solo_mp": 6068
-      },
-      "25377": {
-        "total": 977,
-        "compartida": 782,
-        "solo_mp": 195
-      },
-      "23001": {
-        "total": 2272,
-        "compartida": 1499,
-        "solo_mp": 773
-      },
-      "08558": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "05360": {
-        "total": 1009,
-        "compartida": 453,
-        "solo_mp": 556
-      },
-      "13001": {
-        "total": 9620,
-        "compartida": 6377,
-        "solo_mp": 3243
-      },
-      "05266": {
-        "total": 4449,
-        "compartida": 2956,
-        "solo_mp": 1493
-      },
-      "50568": {
-        "total": 227,
-        "compartida": 71,
-        "solo_mp": 156
-      },
-      "50001": {
-        "total": 12787,
-        "compartida": 10146,
-        "solo_mp": 2641
-      },
-      "47001": {
-        "total": 7532,
-        "compartida": 5955,
-        "solo_mp": 1577
-      },
-      "68001": {
-        "total": 8654,
-        "compartida": 6946,
-        "solo_mp": 1708
-      },
-      "54405": {
-        "total": 51,
-        "compartida": 6,
-        "solo_mp": 45
-      },
-      "08001": {
-        "total": 19743,
-        "compartida": 13859,
-        "solo_mp": 5884
-      },
-      "17001": {
-        "total": 2825,
-        "compartida": 1958,
-        "solo_mp": 867
-      },
-      "25175": {
-        "total": 10911,
-        "compartida": 9022,
-        "solo_mp": 1889
-      },
-      "05607": {
-        "total": 79,
-        "compartida": 5,
-        "solo_mp": 74
-      },
-      "44430": {
-        "total": 333,
-        "compartida": 220,
-        "solo_mp": 113
-      },
-      "25430": {
-        "total": 1124,
-        "compartida": 661,
-        "solo_mp": 463
-      },
-      "05059": {
-        "total": 2445,
-        "compartida": 1926,
-        "solo_mp": 519
-      },
-      "66001": {
-        "total": 4225,
-        "compartida": 3117,
-        "solo_mp": 1108
-      },
-      "73001": {
-        "total": 4223,
-        "compartida": 3305,
-        "solo_mp": 918
-      },
-      "25386": {
-        "total": 35,
-        "compartida": 8,
-        "solo_mp": 27
+        "total": 48,
+        "compartida": 22,
+        "solo_mp": 26
       },
       "05088": {
-        "total": 959,
-        "compartida": 280,
-        "solo_mp": 679
-      },
-      "05148": {
-        "total": 73,
-        "compartida": 0,
-        "solo_mp": 73
-      },
-      "88001": {
-        "total": 1051,
-        "compartida": 888,
-        "solo_mp": 163
-      },
-      "05631": {
-        "total": 727,
-        "compartida": 23,
-        "solo_mp": 704
-      },
-      "05376": {
-        "total": 112,
-        "compartida": 1,
-        "solo_mp": 111
-      },
-      "05380": {
-        "total": 227,
-        "compartida": 3,
-        "solo_mp": 224
-      },
-      "25799": {
-        "total": 191,
-        "compartida": 108,
-        "solo_mp": 83
-      },
-      "44001": {
-        "total": 1120,
-        "compartida": 836,
-        "solo_mp": 284
-      },
-      "76892": {
-        "total": 474,
-        "compartida": 312,
-        "solo_mp": 162
-      },
-      "15293": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "19001": {
-        "total": 1166,
-        "compartida": 898,
-        "solo_mp": 268
-      },
-      "85001": {
-        "total": 2932,
-        "compartida": 2444,
-        "solo_mp": 488
-      },
-      "25899": {
-        "total": 2397,
-        "compartida": 1728,
-        "solo_mp": 669
-      },
-      "25214": {
-        "total": 1646,
-        "compartida": 1293,
-        "solo_mp": 353
-      },
-      "25758": {
-        "total": 665,
-        "compartida": 518,
-        "solo_mp": 147
-      },
-      "54001": {
-        "total": 2928,
-        "compartida": 2186,
-        "solo_mp": 742
-      },
-      "25317": {
-        "total": 12,
-        "compartida": 0,
-        "solo_mp": 12
-      },
-      "25290": {
-        "total": 842,
-        "compartida": 685,
-        "solo_mp": 157
-      },
-      "41001": {
-        "total": 3965,
-        "compartida": 3223,
-        "solo_mp": 742
-      },
-      "50006": {
-        "total": 987,
-        "compartida": 730,
-        "solo_mp": 257
-      },
-      "25224": {
-        "total": 3,
-        "compartida": 1,
-        "solo_mp": 2
-      },
-      "81736": {
-        "total": 34,
-        "compartida": 14,
-        "solo_mp": 20
-      },
-      "15759": {
-        "total": 1296,
-        "compartida": 1043,
-        "solo_mp": 253
-      },
-      "25269": {
-        "total": 896,
-        "compartida": 611,
-        "solo_mp": 285
-      },
-      "18001": {
-        "total": 620,
-        "compartida": 507,
-        "solo_mp": 113
-      },
-      "25473": {
-        "total": 2217,
-        "compartida": 1491,
-        "solo_mp": 726
-      },
-      "76520": {
-        "total": 1875,
-        "compartida": 1419,
-        "solo_mp": 456
-      },
-      "25754": {
-        "total": 1852,
-        "compartida": 1146,
-        "solo_mp": 706
-      },
-      "15835": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "25843": {
-        "total": 95,
-        "compartida": 10,
-        "solo_mp": 85
-      },
-      "25286": {
-        "total": 770,
-        "compartida": 466,
-        "solo_mp": 304
-      },
-      "15238": {
-        "total": 1284,
-        "compartida": 979,
-        "solo_mp": 305
-      },
-      "68547": {
-        "total": 727,
-        "compartida": 528,
-        "solo_mp": 199
-      },
-      "23162": {
-        "total": 56,
-        "compartida": 3,
-        "solo_mp": 53
-      },
-      "15491": {
-        "total": 15,
-        "compartida": 8,
-        "solo_mp": 7
-      },
-      "76109": {
-        "total": 87,
-        "compartida": 3,
-        "solo_mp": 84
-      },
-      "15455": {
-        "total": 5,
-        "compartida": 0,
-        "solo_mp": 5
-      },
-      "70713": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "25740": {
-        "total": 48,
-        "compartida": 16,
-        "solo_mp": 32
-      },
-      "68679": {
-        "total": 357,
-        "compartida": 285,
-        "solo_mp": 72
-      },
-      "99001": {
-        "total": 9,
-        "compartida": 0,
-        "solo_mp": 9
-      },
-      "05318": {
-        "total": 86,
-        "compartida": 3,
-        "solo_mp": 83
-      },
-      "15599": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "23466": {
-        "total": 922,
-        "compartida": 772,
-        "solo_mp": 150
-      },
-      "68406": {
-        "total": 9,
+        "total": 46,
         "compartida": 4,
-        "solo_mp": 5
-      },
-      "05313": {
-        "total": 84,
-        "compartida": 31,
-        "solo_mp": 53
-      },
-      "20001": {
-        "total": 3146,
-        "compartida": 2463,
-        "solo_mp": 683
-      },
-      "70001": {
-        "total": 1851,
-        "compartida": 1291,
-        "solo_mp": 560
-      },
-      "73671": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "25035": {
-        "total": 26,
-        "compartida": 8,
-        "solo_mp": 18
-      },
-      "76306": {
-        "total": 11,
-        "compartida": 0,
-        "solo_mp": 11
-      },
-      "73443": {
-        "total": 13,
-        "compartida": 0,
-        "solo_mp": 13
-      },
-      "41551": {
-        "total": 281,
-        "compartida": 213,
-        "solo_mp": 68
-      },
-      "73349": {
-        "total": 166,
-        "compartida": 143,
-        "solo_mp": 23
-      },
-      "47555": {
-        "total": 19,
-        "compartida": 2,
-        "solo_mp": 17
-      },
-      "66170": {
-        "total": 557,
-        "compartida": 317,
-        "solo_mp": 240
-      },
-      "13836": {
-        "total": 107,
-        "compartida": 0,
-        "solo_mp": 107
-      },
-      "81001": {
-        "total": 302,
-        "compartida": 231,
-        "solo_mp": 71
-      },
-      "47318": {
-        "total": 35,
-        "compartida": 1,
-        "solo_mp": 34
-      },
-      "19548": {
-        "total": 15,
-        "compartida": 6,
-        "solo_mp": 9
-      },
-      "15516": {
-        "total": 177,
-        "compartida": 133,
-        "solo_mp": 44
-      },
-      "08573": {
-        "total": 837,
-        "compartida": 542,
-        "solo_mp": 295
-      },
-      "99624": {
-        "total": 7,
-        "compartida": 0,
-        "solo_mp": 7
-      },
-      "68081": {
-        "total": 1250,
-        "compartida": 931,
-        "solo_mp": 319
-      },
-      "85139": {
-        "total": 26,
-        "compartida": 8,
-        "solo_mp": 18
-      },
-      "76364": {
-        "total": 1642,
-        "compartida": 1182,
-        "solo_mp": 460
-      },
-      "23660": {
-        "total": 83,
-        "compartida": 1,
-        "solo_mp": 82
-      },
-      "73352": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "76275": {
-        "total": 36,
-        "compartida": 10,
-        "solo_mp": 26
-      },
-      "23555": {
-        "total": 31,
-        "compartida": 0,
-        "solo_mp": 31
-      },
-      "76834": {
-        "total": 435,
-        "compartida": 310,
-        "solo_mp": 125
-      },
-      "70215": {
-        "total": 29,
-        "compartida": 0,
-        "solo_mp": 29
-      },
-      "15001": {
-        "total": 3130,
-        "compartida": 2531,
-        "solo_mp": 599
-      },
-      "70235": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "95001": {
-        "total": 42,
-        "compartida": 0,
         "solo_mp": 42
       },
-      "23417": {
-        "total": 30,
-        "compartida": 0,
-        "solo_mp": 30
-      },
-      "76736": {
-        "total": 11,
-        "compartida": 0,
-        "solo_mp": 11
-      },
-      "25307": {
-        "total": 641,
-        "compartida": 506,
-        "solo_mp": 135
-      },
-      "25785": {
-        "total": 55,
-        "compartida": 2,
-        "solo_mp": 53
-      },
-      "25841": {
-        "total": 24,
-        "compartida": 0,
-        "solo_mp": 24
-      },
-      "68432": {
-        "total": 11,
-        "compartida": 4,
-        "solo_mp": 7
-      },
-      "94001": {
-        "total": 24,
-        "compartida": 0,
-        "solo_mp": 24
-      },
-      "25402": {
-        "total": 33,
-        "compartida": 10,
-        "solo_mp": 23
-      },
-      "25612": {
-        "total": 30,
-        "compartida": 7,
-        "solo_mp": 23
-      },
-      "47288": {
-        "total": 46,
-        "compartida": 0,
-        "solo_mp": 46
-      },
-      "05212": {
-        "total": 124,
-        "compartida": 0,
-        "solo_mp": 124
-      },
-      "23182": {
-        "total": 12,
-        "compartida": 0,
-        "solo_mp": 12
-      },
-      "08433": {
-        "total": 35,
-        "compartida": 0,
-        "solo_mp": 35
-      },
-      "13873": {
-        "total": 87,
-        "compartida": 56,
-        "solo_mp": 31
-      },
-      "05129": {
-        "total": 72,
-        "compartida": 1,
-        "solo_mp": 71
-      },
-      "52001": {
-        "total": 1756,
-        "compartida": 1466,
-        "solo_mp": 288
-      },
-      "91001": {
-        "total": 161,
-        "compartida": 132,
-        "solo_mp": 29
-      },
-      "73449": {
-        "total": 130,
-        "compartida": 44,
-        "solo_mp": 86
-      },
-      "05079": {
-        "total": 34,
-        "compartida": 0,
-        "solo_mp": 34
-      },
-      "54498": {
-        "total": 215,
-        "compartida": 184,
-        "solo_mp": 31
-      },
-      "17877": {
-        "total": 11,
-        "compartida": 0,
-        "solo_mp": 11
-      },
-      "20621": {
-        "total": 6,
-        "compartida": 0,
-        "solo_mp": 6
-      },
-      "54874": {
-        "total": 90,
-        "compartida": 36,
-        "solo_mp": 54
-      },
-      "05893": {
-        "total": 7,
-        "compartida": 0,
-        "solo_mp": 7
-      },
-      "17777": {
-        "total": 11,
-        "compartida": 0,
-        "solo_mp": 11
-      },
-      "91430": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "17873": {
-        "total": 61,
-        "compartida": 1,
-        "solo_mp": 60
-      },
-      "68307": {
-        "total": 254,
-        "compartida": 179,
-        "solo_mp": 75
-      },
-      "15469": {
-        "total": 21,
-        "compartida": 0,
-        "solo_mp": 21
-      },
-      "76111": {
-        "total": 92,
-        "compartida": 22,
-        "solo_mp": 70
-      },
-      "70508": {
-        "total": 11,
-        "compartida": 0,
-        "solo_mp": 11
-      },
-      "05045": {
-        "total": 23,
-        "compartida": 1,
-        "solo_mp": 22
-      },
-      "44078": {
-        "total": 71,
-        "compartida": 49,
-        "solo_mp": 22
-      },
-      "18029": {
-        "total": 51,
-        "compartida": 35,
-        "solo_mp": 16
-      },
-      "17272": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "05541": {
-        "total": 9,
-        "compartida": 0,
-        "solo_mp": 9
-      },
-      "44650": {
-        "total": 129,
-        "compartida": 98,
-        "solo_mp": 31
-      },
-      "54518": {
-        "total": 66,
-        "compartida": 22,
-        "solo_mp": 44
-      },
-      "73024": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "05440": {
-        "total": 67,
-        "compartida": 3,
-        "solo_mp": 64
-      },
-      "25817": {
-        "total": 635,
-        "compartida": 434,
-        "solo_mp": 201
-      },
-      "76828": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "25572": {
-        "total": 13,
-        "compartida": 0,
-        "solo_mp": 13
-      },
-      "76622": {
-        "total": 26,
-        "compartida": 1,
-        "solo_mp": 25
-      },
-      "68755": {
-        "total": 43,
-        "compartida": 23,
-        "solo_mp": 20
-      },
-      "15572": {
-        "total": 24,
-        "compartida": 3,
-        "solo_mp": 21
-      },
-      "05837": {
-        "total": 10,
-        "compartida": 1,
-        "solo_mp": 9
-      },
-      "08758": {
-        "total": 866,
-        "compartida": 512,
-        "solo_mp": 354
-      },
-      "66682": {
-        "total": 52,
-        "compartida": 11,
-        "solo_mp": 41
-      },
-      "18756": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "25288": {
-        "total": 10,
-        "compartida": 0,
-        "solo_mp": 10
-      },
-      "52435": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "73268": {
-        "total": 63,
-        "compartida": 22,
-        "solo_mp": 41
-      },
-      "05308": {
-        "total": 60,
-        "compartida": 0,
-        "solo_mp": 60
-      },
-      "15600": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "68655": {
-        "total": 18,
-        "compartida": 0,
-        "solo_mp": 18
-      },
-      "86568": {
-        "total": 18,
-        "compartida": 0,
-        "solo_mp": 18
-      },
-      "08296": {
-        "total": 26,
-        "compartida": 0,
-        "solo_mp": 26
-      },
-      "76113": {
-        "total": 29,
-        "compartida": 1,
-        "solo_mp": 28
-      },
-      "76147": {
-        "total": 431,
-        "compartida": 333,
-        "solo_mp": 98
-      },
-      "41396": {
-        "total": 38,
-        "compartida": 26,
-        "solo_mp": 12
-      },
-      "15761": {
-        "total": 6,
-        "compartida": 0,
-        "solo_mp": 6
-      },
-      "15367": {
-        "total": 7,
-        "compartida": 0,
-        "solo_mp": 7
-      },
-      "13657": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "73226": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "20770": {
-        "total": 22,
-        "compartida": 3,
-        "solo_mp": 19
-      },
-      "20238": {
-        "total": 9,
-        "compartida": 0,
-        "solo_mp": 9
-      },
-      "05154": {
+      "20001": {
         "total": 20,
-        "compartida": 0,
-        "solo_mp": 20
+        "compartida": 13,
+        "solo_mp": 7
       },
-      "85010": {
-        "total": 92,
-        "compartida": 58,
-        "solo_mp": 34
-      },
-      "05652": {
-        "total": 2,
-        "compartida": 1,
-        "solo_mp": 1
-      },
-      "25743": {
-        "total": 13,
-        "compartida": 2,
+      "15238": {
+        "total": 21,
+        "compartida": 10,
         "solo_mp": 11
       },
-      "08638": {
-        "total": 18,
-        "compartida": 0,
-        "solo_mp": 18
-      },
-      "50573": {
-        "total": 90,
-        "compartida": 33,
-        "solo_mp": 57
-      },
-      "25875": {
-        "total": 208,
-        "compartida": 181,
-        "solo_mp": 27
-      },
-      "85300": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "85440": {
-        "total": 48,
-        "compartida": 32,
-        "solo_mp": 16
-      },
-      "25151": {
-        "total": 32,
-        "compartida": 14,
-        "solo_mp": 18
-      },
-      "15176": {
-        "total": 374,
-        "compartida": 307,
-        "solo_mp": 67
-      },
-      "50150": {
-        "total": 50,
-        "compartida": 15,
-        "solo_mp": 35
-      },
-      "08685": {
-        "total": 16,
-        "compartida": 0,
-        "solo_mp": 16
-      },
-      "00000": {
-        "total": 27,
-        "compartida": 2,
-        "solo_mp": 25
-      },
-      "52356": {
-        "total": 162,
-        "compartida": 134,
-        "solo_mp": 28
-      },
-      "44279": {
-        "total": 110,
-        "compartida": 92,
-        "solo_mp": 18
-      },
-      "19785": {
-        "total": 9,
-        "compartida": 0,
-        "solo_mp": 9
-      },
-      "86571": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "08634": {
-        "total": 14,
-        "compartida": 0,
-        "solo_mp": 14
-      },
-      "50330": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "47189": {
-        "total": 63,
-        "compartida": 2,
-        "solo_mp": 61
-      },
-      "76318": {
-        "total": 18,
-        "compartida": 0,
-        "solo_mp": 18
-      },
-      "85430": {
-        "total": 7,
-        "compartida": 4,
-        "solo_mp": 3
-      },
-      "05240": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "85410": {
-        "total": 129,
-        "compartida": 91,
-        "solo_mp": 38
-      },
-      "63401": {
-        "total": 13,
-        "compartida": 3,
-        "solo_mp": 10
-      },
-      "19418": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "52835": {
-        "total": 26,
-        "compartida": 6,
-        "solo_mp": 20
-      },
-      "25530": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "86001": {
-        "total": 18,
-        "compartida": 0,
-        "solo_mp": 18
-      },
-      "15189": {
-        "total": 10,
-        "compartida": 0,
-        "solo_mp": 10
-      },
-      "85250": {
-        "total": 40,
-        "compartida": 27,
-        "solo_mp": 13
-      },
-      "17380": {
-        "total": 27,
-        "compartida": 3,
-        "solo_mp": 24
-      },
-      "70221": {
-        "total": 18,
-        "compartida": 0,
-        "solo_mp": 18
-      },
-      "13140": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "13468": {
-        "total": 7,
-        "compartida": 0,
-        "solo_mp": 7
-      },
-      "19455": {
-        "total": 7,
-        "compartida": 0,
-        "solo_mp": 7
-      },
-      "18592": {
-        "total": 5,
-        "compartida": 3,
-        "solo_mp": 2
-      },
-      "15776": {
-        "total": 8,
-        "compartida": 0,
-        "solo_mp": 8
-      },
-      "08141": {
-        "total": 54,
-        "compartida": 1,
-        "solo_mp": 53
-      },
-      "23807": {
-        "total": 10,
-        "compartida": 0,
-        "solo_mp": 10
-      },
-      "47053": {
-        "total": 6,
-        "compartida": 0,
-        "solo_mp": 6
-      },
-      "20060": {
-        "total": 12,
-        "compartida": 0,
-        "solo_mp": 12
-      },
-      "50711": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "50124": {
-        "total": 8,
-        "compartida": 0,
-        "solo_mp": 8
-      },
-      "76248": {
-        "total": 27,
-        "compartida": 3,
-        "solo_mp": 24
-      },
-      "63190": {
-        "total": 38,
-        "compartida": 8,
-        "solo_mp": 30
-      },
-      "05656": {
-        "total": 20,
-        "compartida": 2,
-        "solo_mp": 18
-      },
-      "70473": {
-        "total": 8,
-        "compartida": 1,
-        "solo_mp": 7
-      },
-      "76895": {
-        "total": 8,
-        "compartida": 0,
-        "solo_mp": 8
-      },
-      "25322": {
-        "total": 22,
-        "compartida": 5,
-        "solo_mp": 17
-      },
-      "25295": {
-        "total": 33,
-        "compartida": 0,
-        "solo_mp": 33
-      },
-      "25718": {
-        "total": 7,
-        "compartida": 2,
-        "solo_mp": 5
-      },
-      "25769": {
-        "total": 29,
-        "compartida": 10,
-        "solo_mp": 19
-      },
-      "25488": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "19573": {
-        "total": 13,
-        "compartida": 0,
-        "solo_mp": 13
-      },
-      "15407": {
-        "total": 66,
-        "compartida": 48,
-        "solo_mp": 18
-      },
-      "81591": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "05628": {
-        "total": 38,
-        "compartida": 1,
-        "solo_mp": 37
-      },
-      "50606": {
-        "total": 39,
-        "compartida": 1,
-        "solo_mp": 38
-      },
-      "25513": {
-        "total": 7,
-        "compartida": 0,
-        "solo_mp": 7
-      },
-      "25001": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "25772": {
-        "total": 7,
-        "compartida": 0,
-        "solo_mp": 7
-      },
-      "15806": {
-        "total": 10,
-        "compartida": 2,
-        "solo_mp": 8
-      },
-      "18753": {
-        "total": 8,
-        "compartida": 3,
-        "solo_mp": 5
-      },
-      "25745": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "41298": {
-        "total": 161,
-        "compartida": 146,
-        "solo_mp": 15
-      },
-      "15753": {
-        "total": 16,
-        "compartida": 7,
-        "solo_mp": 9
-      },
-      "54245": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "25491": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "63272": {
-        "total": 4,
-        "compartida": 2,
-        "solo_mp": 2
-      },
-      "54172": {
-        "total": 11,
-        "compartida": 4,
-        "solo_mp": 7
-      },
-      "17541": {
-        "total": 5,
-        "compartida": 0,
-        "solo_mp": 5
-      },
-      "25123": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "05051": {
-        "total": 7,
-        "compartida": 0,
-        "solo_mp": 7
-      },
-      "41770": {
-        "total": 3,
-        "compartida": 1,
-        "solo_mp": 2
-      },
-      "25797": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "20787": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "73483": {
-        "total": 6,
-        "compartida": 3,
-        "solo_mp": 3
-      },
-      "05647": {
-        "total": 188,
-        "compartida": 148,
-        "solo_mp": 40
-      },
-      "05250": {
-        "total": 7,
-        "compartida": 0,
-        "solo_mp": 7
-      },
-      "73585": {
-        "total": 17,
-        "compartida": 5,
-        "solo_mp": 12
-      },
-      "17013": {
-        "total": 5,
-        "compartida": 0,
-        "solo_mp": 5
-      },
-      "68572": {
-        "total": 5,
-        "compartida": 0,
-        "solo_mp": 5
-      },
-      "25181": {
-        "total": 16,
-        "compartida": 4,
-        "solo_mp": 12
-      },
-      "15276": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "08520": {
-        "total": 8,
-        "compartida": 0,
-        "solo_mp": 8
-      },
-      "25898": {
-        "total": 5,
-        "compartida": 0,
-        "solo_mp": 5
-      },
-      "73563": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "44847": {
-        "total": 8,
-        "compartida": 4,
-        "solo_mp": 4
-      },
-      "19698": {
-        "total": 232,
-        "compartida": 177,
-        "solo_mp": 55
-      },
-      "13188": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "25320": {
-        "total": 14,
-        "compartida": 2,
-        "solo_mp": 12
-      },
-      "41797": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "50223": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "50110": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "15204": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "41524": {
-        "total": 14,
-        "compartida": 11,
-        "solo_mp": 3
-      },
-      "25312": {
-        "total": 65,
-        "compartida": 31,
-        "solo_mp": 34
-      },
-      "17513": {
-        "total": 5,
-        "compartida": 0,
-        "solo_mp": 5
-      },
-      "76233": {
-        "total": 5,
-        "compartida": 0,
-        "solo_mp": 5
-      },
-      "81794": {
-        "total": 27,
-        "compartida": 17,
-        "solo_mp": 10
-      },
-      "25040": {
-        "total": 6,
-        "compartida": 3,
-        "solo_mp": 3
-      },
-      "25851": {
-        "total": 3,
-        "compartida": 2,
-        "solo_mp": 1
-      },
-      "05400": {
-        "total": 22,
-        "compartida": 1,
-        "solo_mp": 21
-      },
-      "76563": {
-        "total": 28,
-        "compartida": 4,
-        "solo_mp": 24
-      },
-      "76036": {
-        "total": 8,
-        "compartida": 0,
-        "solo_mp": 8
-      },
-      "25779": {
-        "total": 7,
-        "compartida": 1,
-        "solo_mp": 6
-      },
-      "73275": {
-        "total": 8,
-        "compartida": 0,
-        "solo_mp": 8
-      },
-      "25178": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "68861": {
-        "total": 25,
-        "compartida": 12,
-        "solo_mp": 13
-      },
-      "70702": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "08372": {
-        "total": 5,
-        "compartida": 0,
-        "solo_mp": 5
-      },
-      "97001": {
-        "total": 8,
-        "compartida": 0,
-        "solo_mp": 8
-      },
-      "88564": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "23580": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "66594": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "41615": {
-        "total": 18,
-        "compartida": 15,
-        "solo_mp": 3
-      },
-      "68575": {
-        "total": 21,
-        "compartida": 4,
-        "solo_mp": 17
-      },
-      "25486": {
-        "total": 24,
-        "compartida": 5,
-        "solo_mp": 19
-      },
-      "25183": {
-        "total": 11,
-        "compartida": 4,
-        "solo_mp": 7
-      },
-      "25658": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "25200": {
-        "total": 35,
-        "compartida": 5,
-        "solo_mp": 30
-      },
-      "25873": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "05002": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "25326": {
-        "total": 5,
-        "compartida": 0,
-        "solo_mp": 5
-      },
-      "13052": {
-        "total": 14,
-        "compartida": 0,
-        "solo_mp": 14
-      },
-      "70820": {
-        "total": 9,
-        "compartida": 2,
-        "solo_mp": 7
-      },
-      "05361": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "73217": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "17174": {
-        "total": 17,
-        "compartida": 1,
-        "solo_mp": 16
-      },
-      "73152": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "15322": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "05483": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "05697": {
-        "total": 9,
-        "compartida": 0,
-        "solo_mp": 9
-      },
-      "13430": {
-        "total": 12,
-        "compartida": 0,
-        "solo_mp": 12
-      },
-      "08137": {
-        "total": 3,
-        "compartida": 1,
-        "solo_mp": 2
-      },
-      "15646": {
-        "total": 24,
-        "compartida": 15,
-        "solo_mp": 9
-      },
-      "15087": {
-        "total": 5,
-        "compartida": 1,
-        "solo_mp": 4
-      },
-      "73319": {
-        "total": 6,
-        "compartida": 2,
-        "solo_mp": 4
-      },
-      "27450": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "25260": {
-        "total": 36,
-        "compartida": 10,
-        "solo_mp": 26
-      },
-      "25736": {
-        "total": 12,
-        "compartida": 0,
-        "solo_mp": 12
-      },
-      "05789": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "05237": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "05467": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "15466": {
-        "total": 5,
-        "compartida": 0,
-        "solo_mp": 5
-      },
-      "08832": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "70708": {
-        "total": 21,
-        "compartida": 0,
-        "solo_mp": 21
-      },
-      "05579": {
-        "total": 10,
-        "compartida": 0,
-        "solo_mp": 10
-      },
-      "41668": {
-        "total": 9,
-        "compartida": 5,
-        "solo_mp": 4
-      },
-      "08849": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "50226": {
-        "total": 41,
-        "compartida": 20,
-        "solo_mp": 21
-      },
-      "15820": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "15693": {
-        "total": 5,
-        "compartida": 0,
-        "solo_mp": 5
-      },
-      "15187": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "73411": {
-        "total": 8,
-        "compartida": 0,
-        "solo_mp": 8
-      },
-      "05679": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "20443": {
-        "total": 5,
-        "compartida": 2,
-        "solo_mp": 3
-      },
-      "44378": {
-        "total": 18,
-        "compartida": 11,
-        "solo_mp": 7
-      },
-      "63130": {
-        "total": 99,
-        "compartida": 65,
-        "solo_mp": 34
-      },
-      "25324": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "25815": {
-        "total": 6,
-        "compartida": 2,
-        "solo_mp": 4
-      },
-      "73148": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "15272": {
-        "total": 9,
-        "compartida": 2,
-        "solo_mp": 7
-      },
-      "63470": {
-        "total": 12,
-        "compartida": 0,
-        "solo_mp": 12
-      },
-      "20178": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "76126": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "27001": {
-        "total": 89,
-        "compartida": 70,
-        "solo_mp": 19
-      },
-      "85162": {
-        "total": 23,
-        "compartida": 14,
-        "solo_mp": 9
-      },
-      "47551": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "68500": {
-        "total": 5,
-        "compartida": 3,
-        "solo_mp": 2
-      },
-      "20011": {
-        "total": 89,
-        "compartida": 74,
-        "solo_mp": 15
-      },
-      "20400": {
-        "total": 136,
-        "compartida": 0,
-        "solo_mp": 136
-      },
-      "50287": {
-        "total": 2,
-        "compartida": 1,
-        "solo_mp": 1
-      },
-      "50683": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "44855": {
-        "total": 5,
-        "compartida": 2,
-        "solo_mp": 3
-      },
-      "15757": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "15104": {
-        "total": 4,
-        "compartida": 2,
-        "solo_mp": 2
-      },
-      "44110": {
-        "total": 15,
-        "compartida": 10,
-        "solo_mp": 5
-      },
-      "23350": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "15299": {
-        "total": 7,
-        "compartida": 1,
-        "solo_mp": 6
-      },
-      "20032": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "23855": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "19290": {
-        "total": 9,
-        "compartida": 7,
-        "solo_mp": 2
-      },
-      "76890": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "47245": {
-        "total": 5,
-        "compartida": 1,
-        "solo_mp": 4
-      },
-      "05664": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "41807": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "05660": {
-        "total": 9,
-        "compartida": 0,
-        "solo_mp": 9
-      },
-      "17042": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "05034": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "15476": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "20228": {
-        "total": 5,
-        "compartida": 0,
-        "solo_mp": 5
-      },
-      "76869": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "05674": {
-        "total": 6,
-        "compartida": 1,
-        "solo_mp": 5
-      },
-      "68464": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "15667": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "70670": {
-        "total": 5,
-        "compartida": 0,
-        "solo_mp": 5
-      },
-      "68079": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "73283": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "05172": {
-        "total": 5,
-        "compartida": 0,
-        "solo_mp": 5
-      },
-      "17442": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "05264": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "25293": {
-        "total": 3,
-        "compartida": 1,
-        "solo_mp": 2
-      },
-      "25328": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "25398": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "15638": {
-        "total": 4,
-        "compartida": 2,
-        "solo_mp": 2
-      },
-      "15537": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "15325": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "68770": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "18150": {
-        "total": 6,
-        "compartida": 4,
-        "solo_mp": 2
-      },
-      "52240": {
-        "total": 3,
-        "compartida": 2,
-        "solo_mp": 1
-      },
-      "15185": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "68549": {
-        "total": 2,
-        "compartida": 2,
-        "solo_mp": 0
-      },
-      "25297": {
-        "total": 5,
-        "compartida": 4,
-        "solo_mp": 1
-      },
-      "85325": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "41885": {
-        "total": 11,
-        "compartida": 2,
-        "solo_mp": 9
-      },
-      "41016": {
-        "total": 3,
-        "compartida": 2,
-        "solo_mp": 1
-      },
-      "15814": {
-        "total": 6,
-        "compartida": 6,
-        "solo_mp": 0
-      },
-      "73168": {
-        "total": 18,
-        "compartida": 7,
-        "solo_mp": 11
-      },
-      "25245": {
-        "total": 13,
-        "compartida": 3,
-        "solo_mp": 10
-      },
-      "73504": {
-        "total": 4,
-        "compartida": 4,
-        "solo_mp": 0
-      },
-      "25592": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      },
-      "68162": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      },
-      "41548": {
-        "total": 7,
-        "compartida": 7,
-        "solo_mp": 0
-      },
-      "52838": {
-        "total": 9,
-        "compartida": 3,
-        "solo_mp": 6
-      },
-      "68418": {
-        "total": 10,
-        "compartida": 4,
-        "solo_mp": 6
-      },
-      "13670": {
-        "total": 3,
-        "compartida": 3,
-        "solo_mp": 0
-      },
-      "41801": {
-        "total": 2,
-        "compartida": 2,
-        "solo_mp": 0
-      },
-      "41483": {
-        "total": 2,
-        "compartida": 2,
-        "solo_mp": 0
-      },
-      "73408": {
-        "total": 9,
-        "compartida": 2,
-        "solo_mp": 7
-      },
-      "41306": {
-        "total": 9,
-        "compartida": 9,
-        "solo_mp": 0
-      },
-      "25839": {
-        "total": 4,
-        "compartida": 4,
-        "solo_mp": 0
-      },
-      "63594": {
-        "total": 6,
-        "compartida": 3,
-        "solo_mp": 3
-      },
-      "25662": {
-        "total": 2,
-        "compartida": 1,
-        "solo_mp": 1
-      },
-      "18247": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      },
-      "44098": {
-        "total": 10,
-        "compartida": 4,
-        "solo_mp": 6
-      },
-      "41132": {
-        "total": 14,
-        "compartida": 10,
-        "solo_mp": 4
-      },
-      "15542": {
-        "total": 2,
-        "compartida": 2,
-        "solo_mp": 0
-      },
-      "15051": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      },
-      "85230": {
-        "total": 11,
-        "compartida": 4,
-        "solo_mp": 7
-      },
-      "15798": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      },
-      "52694": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      },
-      "23300": {
-        "total": 3,
-        "compartida": 2,
-        "solo_mp": 1
-      },
-      "68468": {
-        "total": 2,
-        "compartida": 2,
-        "solo_mp": 0
+      "05001": {
+        "total": 436,
+        "compartida": 182,
+        "solo_mp": 254
       },
       "05113": {
-        "total": 89,
+        "total": 82,
         "compartida": 0,
-        "solo_mp": 89
+        "solo_mp": 82
       },
-      "15215": {
-        "total": 7,
-        "compartida": 1,
-        "solo_mp": 6
+      "73001": {
+        "total": 20,
+        "compartida": 10,
+        "solo_mp": 10
       },
-      "17614": {
-        "total": 12,
+      "05212": {
+        "total": 11,
         "compartida": 0,
+        "solo_mp": 11
+      },
+      "54001": {
+        "total": 25,
+        "compartida": 13,
         "solo_mp": 12
       },
-      "23670": {
-        "total": 7,
-        "compartida": 0,
-        "solo_mp": 7
-      },
-      "86885": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "86573": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "19100": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "13160": {
-        "total": 7,
-        "compartida": 0,
-        "solo_mp": 7
-      },
-      "68190": {
-        "total": 5,
-        "compartida": 0,
-        "solo_mp": 5
-      },
-      "41518": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "25777": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "20013": {
-        "total": 12,
-        "compartida": 0,
-        "solo_mp": 12
-      },
-      "41357": {
-        "total": 3,
-        "compartida": 1,
-        "solo_mp": 2
-      },
-      "05604": {
-        "total": 5,
-        "compartida": 0,
-        "solo_mp": 5
-      },
-      "17088": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "86865": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "47707": {
-        "total": 7,
-        "compartida": 0,
-        "solo_mp": 7
-      },
-      "25878": {
-        "total": 4,
-        "compartida": 1,
-        "solo_mp": 3
+      "05360": {
+        "total": 39,
+        "compartida": 9,
+        "solo_mp": 30
       },
       "05306": {
-        "total": 29,
+        "total": 24,
         "compartida": 0,
-        "solo_mp": 29
+        "solo_mp": 24
       },
-      "47268": {
-        "total": 2,
+      "05615": {
+        "total": 17,
+        "compartida": 2,
+        "solo_mp": 15
+      },
+      "05631": {
+        "total": 20,
+        "compartida": 1,
+        "solo_mp": 19
+      },
+      "17873": {
+        "total": 9,
         "compartida": 0,
+        "solo_mp": 9
+      },
+      "17001": {
+        "total": 22,
+        "compartida": 1,
+        "solo_mp": 21
+      },
+      "15759": {
+        "total": 14,
+        "compartida": 10,
+        "solo_mp": 4
+      },
+      "23466": {
+        "total": 9,
+        "compartida": 5,
+        "solo_mp": 4
+      },
+      "23001": {
+        "total": 9,
+        "compartida": 0,
+        "solo_mp": 9
+      },
+      "47001": {
+        "total": 10,
+        "compartida": 6,
+        "solo_mp": 4
+      },
+      "68081": {
+        "total": 9,
+        "compartida": 7,
         "solo_mp": 2
       },
-      "05591": {
-        "total": 1,
+      "76109": {
+        "total": 8,
         "compartida": 0,
-        "solo_mp": 1
+        "solo_mp": 8
+      },
+      "50001": {
+        "total": 17,
+        "compartida": 6,
+        "solo_mp": 11
+      },
+      "08001": {
+        "total": 13,
+        "compartida": 11,
+        "solo_mp": 2
+      },
+      "25473": {
+        "total": 8,
+        "compartida": 0,
+        "solo_mp": 8
+      },
+      "68001": {
+        "total": 15,
+        "compartida": 6,
+        "solo_mp": 9
+      },
+      "05266": {
+        "total": 43,
+        "compartida": 17,
+        "solo_mp": 26
+      },
+      "05059": {
+        "total": 7,
+        "compartida": 0,
+        "solo_mp": 7
+      },
+      "05380": {
+        "total": 10,
+        "compartida": 0,
+        "solo_mp": 10
+      },
+      "05656": {
+        "total": 12,
+        "compartida": 2,
+        "solo_mp": 10
+      },
+      "13001": {
+        "total": 7,
+        "compartida": 7,
+        "solo_mp": 0
       },
       "73555": {
         "total": 1,
         "compartida": 0,
         "solo_mp": 1
       },
-      "47980": {
-        "total": 6,
-        "compartida": 0,
-        "solo_mp": 6
-      },
-      "13442": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "54003": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "25279": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "68271": {
+      "25841": {
         "total": 1,
         "compartida": 0,
         "solo_mp": 1
       },
-      "25053": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "25099": {
-        "total": 7,
-        "compartida": 1,
-        "solo_mp": 6
-      },
-      "81065": {
-        "total": 8,
-        "compartida": 2,
-        "solo_mp": 6
-      },
-      "15514": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "05890": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "25483": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "08421": {
+      "41016": {
         "total": 1,
         "compartida": 0,
         "solo_mp": 1
       },
-      "76020": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "05321": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "25426": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "66400": {
-        "total": 5,
-        "compartida": 0,
-        "solo_mp": 5
-      },
-      "15047": {
+      "76275": {
         "total": 1,
         "compartida": 0,
         "solo_mp": 1
       },
-      "15808": {
-        "total": 2,
-        "compartida": 1,
-        "solo_mp": 1
-      },
-      "08078": {
-        "total": 8,
-        "compartida": 0,
-        "solo_mp": 8
-      },
-      "41872": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "17662": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "17616": {
-        "total": 5,
-        "compartida": 0,
-        "solo_mp": 5
-      },
-      "13433": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "70418": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "15183": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "05284": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "19845": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "73624": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "47058": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "73861": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "54261": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "05761": {
-        "total": 5,
-        "compartida": 0,
-        "solo_mp": 5
-      },
-      "15774": {
-        "total": 2,
-        "compartida": 1,
-        "solo_mp": 1
-      },
-      "05030": {
-        "total": 9,
-        "compartida": 0,
-        "solo_mp": 9
-      },
-      "23079": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "70823": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "05147": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "08560": {
-        "total": 9,
-        "compartida": 0,
-        "solo_mp": 9
-      },
-      "68152": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "05031": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "73547": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "41006": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "52079": {
-        "total": 13,
-        "compartida": 0,
-        "solo_mp": 13
-      },
-      "54810": {
-        "total": 16,
-        "compartida": 4,
-        "solo_mp": 12
-      },
-      "73026": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "86320": {
-        "total": 5,
-        "compartida": 0,
-        "solo_mp": 5
-      },
-      "15690": {
-        "total": 5,
-        "compartida": 0,
-        "solo_mp": 5
-      },
-      "18610": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "81300": {
-        "total": 2,
-        "compartida": 1,
-        "solo_mp": 1
-      },
-      "81220": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "52354": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "15494": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "23189": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "20750": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "41020": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "15879": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "15223": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "05847": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "05667": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "76823": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "19110": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "20250": {
-        "total": 6,
-        "compartida": 0,
-        "solo_mp": 6
-      },
-      "15480": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "05895": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "25781": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "05282": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "05686": {
-        "total": 10,
-        "compartida": 0,
-        "solo_mp": 10
-      },
-      "05364": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "05790": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "76122": {
-        "total": 3,
-        "compartida": 1,
-        "solo_mp": 2
-      },
-      "13212": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "86569": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "17486": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "20045": {
-        "total": 60,
-        "compartida": 9,
-        "solo_mp": 51
-      },
-      "85263": {
-        "total": 6,
-        "compartida": 6,
-        "solo_mp": 0
-      },
-      "41503": {
-        "total": 4,
-        "compartida": 3,
-        "solo_mp": 1
-      },
-      "52352": {
-        "total": 3,
-        "compartida": 2,
-        "solo_mp": 1
-      },
-      "52678": {
-        "total": 2,
-        "compartida": 2,
-        "solo_mp": 0
-      },
-      "15861": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      },
-      "05315": {
-        "total": 5,
-        "compartida": 2,
-        "solo_mp": 3
-      },
-      "05649": {
-        "total": 3,
-        "compartida": 2,
-        "solo_mp": 1
-      },
-      "15362": {
-        "total": 2,
-        "compartida": 1,
-        "solo_mp": 1
-      },
-      "41078": {
-        "total": 2,
-        "compartida": 2,
-        "solo_mp": 0
-      },
-      "41013": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      },
-      "25805": {
-        "total": 2,
-        "compartida": 2,
-        "solo_mp": 0
-      },
-      "76377": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "25807": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "15686": {
-        "total": 4,
-        "compartida": 0,
-        "solo_mp": 4
-      },
-      "19212": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "23464": {
-        "total": 5,
-        "compartida": 0,
-        "solo_mp": 5
-      },
-      "70742": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "63690": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "05887": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "17444": {
-        "total": 4,
-        "compartida": 2,
-        "solo_mp": 2
-      },
-      "52203": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "13074": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "68229": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "68524": {
-        "total": 4,
-        "compartida": 3,
-        "solo_mp": 1
-      },
-      "15097": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "05819": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "19397": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "15172": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "05809": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "47460": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "25645": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "05659": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "15664": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "54720": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "54051": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      },
-      "73067": {
-        "total": 4,
-        "compartida": 4,
-        "solo_mp": 0
-      },
-      "41359": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      },
-      "25019": {
-        "total": 2,
-        "compartida": 2,
-        "solo_mp": 0
-      },
-      "52687": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      },
-      "52573": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      },
-      "05368": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      },
-      "15673": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      },
-      "25438": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      },
-      "25120": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      },
-      "05197": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "15804": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "52378": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "13244": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "25596": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "19701": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "19256": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "25368": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "68855": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "05411": {
+      "25175": {
         "total": 1,
         "compartida": 0,
         "solo_mp": 1
@@ -16109,35 +3264,20 @@ window.CONTRATOS_DATA = [
         "compartida": 0,
         "solo_mp": 1
       },
-      "54670": {
-        "total": 4,
+      "17777": {
+        "total": 1,
         "compartida": 0,
-        "solo_mp": 4
+        "solo_mp": 1
       },
-      "66440": {
-        "total": 2,
+      "68276": {
+        "total": 1,
         "compartida": 0,
-        "solo_mp": 2
+        "solo_mp": 1
       },
-      "23570": {
-        "total": 3,
+      "05045": {
+        "total": 1,
         "compartida": 0,
-        "solo_mp": 3
-      },
-      "05042": {
-        "total": 5,
-        "compartida": 0,
-        "solo_mp": 5
-      },
-      "05138": {
-        "total": 6,
-        "compartida": 0,
-        "solo_mp": 6
-      },
-      "05190": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
+        "solo_mp": 1
       },
       "05736": {
         "total": 1,
@@ -16149,79 +3289,299 @@ window.CONTRATOS_DATA = [
         "compartida": 0,
         "solo_mp": 1
       },
-      "05858": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "15244": {
+      "05031": {
         "total": 1,
         "compartida": 0,
         "solo_mp": 1
       },
-      "20175": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "15696": {
+      "68307": {
         "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "23068": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "41660": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "76497": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "20614": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "13654": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "66456": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "05854": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
+        "compartida": 1,
+        "solo_mp": 0
       },
       "19743": {
         "total": 1,
         "compartida": 1,
         "solo_mp": 0
       },
-      "85225": {
+      "18029": {
         "total": 1,
         "compartida": 1,
         "solo_mp": 0
       },
-      "54313": {
+      "73349": {
         "total": 1,
         "compartida": 1,
         "solo_mp": 0
       },
-      "15755": {
+      "68547": {
         "total": 1,
         "compartida": 1,
+        "solo_mp": 0
+      },
+      "15638": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "44001": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "63130": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "66440": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "23570": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "05604": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "05858": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "05761": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "05079": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "05250": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "05147": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "66001": {
+        "total": 2,
+        "compartida": 2,
+        "solo_mp": 0
+      },
+      "19001": {
+        "total": 2,
+        "compartida": 2,
+        "solo_mp": 0
+      },
+      "85001": {
+        "total": 3,
+        "compartida": 2,
+        "solo_mp": 1
+      },
+      "76001": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "15537": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "76318": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "25899": {
+        "total": 3,
+        "compartida": 2,
+        "solo_mp": 1
+      },
+      "15322": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "76520": {
+        "total": 3,
+        "compartida": 2,
+        "solo_mp": 1
+      },
+      "25377": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "05190": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "05284": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "05440": {
+        "total": 3,
+        "compartida": 2,
+        "solo_mp": 1
+      },
+      "05030": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "15001": {
+        "total": 3,
+        "compartida": 3,
+        "solo_mp": 0
+      },
+      "08573": {
+        "total": 3,
+        "compartida": 3,
+        "solo_mp": 0
+      },
+      "52356": {
+        "total": 3,
+        "compartida": 2,
+        "solo_mp": 1
+      },
+      "70508": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "05318": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "25151": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "23464": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "54670": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "25817": {
+        "total": 4,
+        "compartida": 1,
+        "solo_mp": 3
+      },
+      "66170": {
+        "total": 4,
+        "compartida": 1,
+        "solo_mp": 3
+      },
+      "73449": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "73168": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "05042": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "05148": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "05579": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "25290": {
+        "total": 5,
+        "compartida": 2,
+        "solo_mp": 3
+      },
+      "05686": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "25843": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "66682": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "05400": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "15516": {
+        "total": 5,
+        "compartida": 5,
+        "solo_mp": 0
+      },
+      "05308": {
+        "total": 6,
+        "compartida": 0,
+        "solo_mp": 6
+      },
+      "23417": {
+        "total": 6,
+        "compartida": 0,
+        "solo_mp": 6
+      },
+      "54874": {
+        "total": 6,
+        "compartida": 2,
+        "solo_mp": 4
+      },
+      "05138": {
+        "total": 6,
+        "compartida": 0,
+        "solo_mp": 6
+      },
+      "05129": {
+        "total": 6,
+        "compartida": 0,
+        "solo_mp": 6
+      },
+      "08758": {
+        "total": 6,
+        "compartida": 6,
+        "solo_mp": 0
+      },
+      "41001": {
+        "total": 6,
+        "compartida": 6,
         "solo_mp": 0
       }
     }
@@ -17242,7 +4602,12 @@ window.CONTRATOS_DATA = [
     "fechaInicio": "2026-12-01 00:00:00",
     "fechaFin": "2026-11-30 00:00:00",
     "poblacion": 91,
-    "coberturas": [],
+    "coberturas": [
+      {
+        "tipo": "VADEMECUM CERRADO",
+        "descripcion": "VADEMECUM"
+      }
+    ],
     "vihHeader": "N/A",
     "vihSub": "N/A",
     "oncoHeader": "N/A",
@@ -18844,7 +6209,12 @@ window.CONTRATOS_DATA = [
     "fechaInicio": "2026-01-01 00:00:00",
     "fechaFin": "2026-12-31 00:00:00",
     "poblacion": 81,
-    "coberturas": [],
+    "coberturas": [
+      {
+        "tipo": "NO APLICA",
+        "descripcion": "NO APLICA"
+      }
+    ],
     "vihHeader": "NO",
     "vihSub": "EPS",
     "oncoHeader": "SI",
@@ -18895,6 +6265,15596 @@ window.CONTRATOS_DATA = [
         "total": 6,
         "compartida": 6,
         "solo_mp": 0
+      }
+    }
+  },
+  {
+    "id": "20605242621",
+    "actividadValidada": "",
+    "contratista": "Sin Contratista",
+    "objeto": "CUPO USUARIOS CONTRATO",
+    "valor": 0.0,
+    "estado": "ACTUALIZADO",
+    "tipo": "BOLSA ABIERTA",
+    "contratante": "MEDISANITAS (20)",
+    "colectivo": "ENEL",
+    "colectivoBeneficiado": "ENEL COLOMBIA S.A. E.S.P",
+    "plan": "INTEGRAL",
+    "fechaInicio": "2026-02-02 00:00:00",
+    "fechaFin": "2026-01-31 00:00:00",
+    "poblacion": 463959,
+    "coberturas": [
+      {
+        "tipo": "VADEMECUM ABIERTO",
+        "descripcion": "MEDICAMENTOS AMBULATORIOS ONCOLÓGICOS"
+      }
+    ],
+    "vihHeader": "NO",
+    "vihSub": "EPS",
+    "oncoHeader": "SI",
+    "oncoSub": "ILIMITADO",
+    "prePostHeader": "NO",
+    "prePostSub": "NO APLICA",
+    "ortesisHeader": "SI",
+    "ortesisSub": "Requiere autorización",
+    "poblacionCompartida": 349113,
+    "poblacionSoloMP": 114844,
+    "poblacionDane": {
+      "11001": {
+        "total": 252886,
+        "compartida": 197132,
+        "solo_mp": 55754
+      },
+      "68276": {
+        "total": 3455,
+        "compartida": 2713,
+        "solo_mp": 742
+      },
+      "05615": {
+        "total": 1673,
+        "compartida": 1146,
+        "solo_mp": 527
+      },
+      "05001": {
+        "total": 17260,
+        "compartida": 10707,
+        "solo_mp": 6553
+      },
+      "25126": {
+        "total": 5970,
+        "compartida": 4815,
+        "solo_mp": 1155
+      },
+      "76001": {
+        "total": 27130,
+        "compartida": 21062,
+        "solo_mp": 6068
+      },
+      "25377": {
+        "total": 977,
+        "compartida": 782,
+        "solo_mp": 195
+      },
+      "23001": {
+        "total": 2272,
+        "compartida": 1499,
+        "solo_mp": 773
+      },
+      "08558": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "05360": {
+        "total": 1009,
+        "compartida": 453,
+        "solo_mp": 556
+      },
+      "13001": {
+        "total": 9620,
+        "compartida": 6377,
+        "solo_mp": 3243
+      },
+      "05266": {
+        "total": 4449,
+        "compartida": 2956,
+        "solo_mp": 1493
+      },
+      "50568": {
+        "total": 227,
+        "compartida": 71,
+        "solo_mp": 156
+      },
+      "50001": {
+        "total": 12787,
+        "compartida": 10146,
+        "solo_mp": 2641
+      },
+      "47001": {
+        "total": 7532,
+        "compartida": 5955,
+        "solo_mp": 1577
+      },
+      "68001": {
+        "total": 8654,
+        "compartida": 6946,
+        "solo_mp": 1708
+      },
+      "54405": {
+        "total": 51,
+        "compartida": 6,
+        "solo_mp": 45
+      },
+      "08001": {
+        "total": 19743,
+        "compartida": 13859,
+        "solo_mp": 5884
+      },
+      "17001": {
+        "total": 2825,
+        "compartida": 1958,
+        "solo_mp": 867
+      },
+      "25175": {
+        "total": 10911,
+        "compartida": 9022,
+        "solo_mp": 1889
+      },
+      "05607": {
+        "total": 79,
+        "compartida": 5,
+        "solo_mp": 74
+      },
+      "44430": {
+        "total": 333,
+        "compartida": 220,
+        "solo_mp": 113
+      },
+      "25430": {
+        "total": 1124,
+        "compartida": 661,
+        "solo_mp": 463
+      },
+      "05059": {
+        "total": 2445,
+        "compartida": 1926,
+        "solo_mp": 519
+      },
+      "66001": {
+        "total": 4225,
+        "compartida": 3117,
+        "solo_mp": 1108
+      },
+      "73001": {
+        "total": 4223,
+        "compartida": 3305,
+        "solo_mp": 918
+      },
+      "25386": {
+        "total": 35,
+        "compartida": 8,
+        "solo_mp": 27
+      },
+      "05088": {
+        "total": 959,
+        "compartida": 280,
+        "solo_mp": 679
+      },
+      "05148": {
+        "total": 73,
+        "compartida": 0,
+        "solo_mp": 73
+      },
+      "88001": {
+        "total": 1051,
+        "compartida": 888,
+        "solo_mp": 163
+      },
+      "05631": {
+        "total": 727,
+        "compartida": 23,
+        "solo_mp": 704
+      },
+      "05376": {
+        "total": 112,
+        "compartida": 1,
+        "solo_mp": 111
+      },
+      "05380": {
+        "total": 227,
+        "compartida": 3,
+        "solo_mp": 224
+      },
+      "25799": {
+        "total": 191,
+        "compartida": 108,
+        "solo_mp": 83
+      },
+      "44001": {
+        "total": 1120,
+        "compartida": 836,
+        "solo_mp": 284
+      },
+      "76892": {
+        "total": 474,
+        "compartida": 312,
+        "solo_mp": 162
+      },
+      "15293": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "19001": {
+        "total": 1166,
+        "compartida": 898,
+        "solo_mp": 268
+      },
+      "85001": {
+        "total": 2932,
+        "compartida": 2444,
+        "solo_mp": 488
+      },
+      "25899": {
+        "total": 2397,
+        "compartida": 1728,
+        "solo_mp": 669
+      },
+      "25214": {
+        "total": 1646,
+        "compartida": 1293,
+        "solo_mp": 353
+      },
+      "25758": {
+        "total": 665,
+        "compartida": 518,
+        "solo_mp": 147
+      },
+      "54001": {
+        "total": 2928,
+        "compartida": 2186,
+        "solo_mp": 742
+      },
+      "25317": {
+        "total": 12,
+        "compartida": 0,
+        "solo_mp": 12
+      },
+      "25290": {
+        "total": 842,
+        "compartida": 685,
+        "solo_mp": 157
+      },
+      "41001": {
+        "total": 3965,
+        "compartida": 3223,
+        "solo_mp": 742
+      },
+      "50006": {
+        "total": 987,
+        "compartida": 730,
+        "solo_mp": 257
+      },
+      "25224": {
+        "total": 3,
+        "compartida": 1,
+        "solo_mp": 2
+      },
+      "81736": {
+        "total": 34,
+        "compartida": 14,
+        "solo_mp": 20
+      },
+      "15759": {
+        "total": 1296,
+        "compartida": 1043,
+        "solo_mp": 253
+      },
+      "25269": {
+        "total": 896,
+        "compartida": 611,
+        "solo_mp": 285
+      },
+      "18001": {
+        "total": 620,
+        "compartida": 507,
+        "solo_mp": 113
+      },
+      "25473": {
+        "total": 2217,
+        "compartida": 1491,
+        "solo_mp": 726
+      },
+      "76520": {
+        "total": 1875,
+        "compartida": 1419,
+        "solo_mp": 456
+      },
+      "25754": {
+        "total": 1852,
+        "compartida": 1146,
+        "solo_mp": 706
+      },
+      "15835": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "25843": {
+        "total": 95,
+        "compartida": 10,
+        "solo_mp": 85
+      },
+      "25286": {
+        "total": 770,
+        "compartida": 466,
+        "solo_mp": 304
+      },
+      "15238": {
+        "total": 1284,
+        "compartida": 979,
+        "solo_mp": 305
+      },
+      "68547": {
+        "total": 727,
+        "compartida": 528,
+        "solo_mp": 199
+      },
+      "23162": {
+        "total": 56,
+        "compartida": 3,
+        "solo_mp": 53
+      },
+      "15491": {
+        "total": 15,
+        "compartida": 8,
+        "solo_mp": 7
+      },
+      "76109": {
+        "total": 87,
+        "compartida": 3,
+        "solo_mp": 84
+      },
+      "15455": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "70713": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "25740": {
+        "total": 48,
+        "compartida": 16,
+        "solo_mp": 32
+      },
+      "68679": {
+        "total": 357,
+        "compartida": 285,
+        "solo_mp": 72
+      },
+      "99001": {
+        "total": 9,
+        "compartida": 0,
+        "solo_mp": 9
+      },
+      "05318": {
+        "total": 86,
+        "compartida": 3,
+        "solo_mp": 83
+      },
+      "15599": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "23466": {
+        "total": 922,
+        "compartida": 772,
+        "solo_mp": 150
+      },
+      "68406": {
+        "total": 9,
+        "compartida": 4,
+        "solo_mp": 5
+      },
+      "05313": {
+        "total": 84,
+        "compartida": 31,
+        "solo_mp": 53
+      },
+      "20001": {
+        "total": 3146,
+        "compartida": 2463,
+        "solo_mp": 683
+      },
+      "70001": {
+        "total": 1851,
+        "compartida": 1291,
+        "solo_mp": 560
+      },
+      "73671": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "25035": {
+        "total": 26,
+        "compartida": 8,
+        "solo_mp": 18
+      },
+      "76306": {
+        "total": 11,
+        "compartida": 0,
+        "solo_mp": 11
+      },
+      "73443": {
+        "total": 13,
+        "compartida": 0,
+        "solo_mp": 13
+      },
+      "41551": {
+        "total": 281,
+        "compartida": 213,
+        "solo_mp": 68
+      },
+      "73349": {
+        "total": 166,
+        "compartida": 143,
+        "solo_mp": 23
+      },
+      "47555": {
+        "total": 19,
+        "compartida": 2,
+        "solo_mp": 17
+      },
+      "66170": {
+        "total": 557,
+        "compartida": 317,
+        "solo_mp": 240
+      },
+      "13836": {
+        "total": 107,
+        "compartida": 0,
+        "solo_mp": 107
+      },
+      "81001": {
+        "total": 302,
+        "compartida": 231,
+        "solo_mp": 71
+      },
+      "47318": {
+        "total": 35,
+        "compartida": 1,
+        "solo_mp": 34
+      },
+      "19548": {
+        "total": 15,
+        "compartida": 6,
+        "solo_mp": 9
+      },
+      "15516": {
+        "total": 177,
+        "compartida": 133,
+        "solo_mp": 44
+      },
+      "08573": {
+        "total": 837,
+        "compartida": 542,
+        "solo_mp": 295
+      },
+      "99624": {
+        "total": 7,
+        "compartida": 0,
+        "solo_mp": 7
+      },
+      "68081": {
+        "total": 1250,
+        "compartida": 931,
+        "solo_mp": 319
+      },
+      "85139": {
+        "total": 26,
+        "compartida": 8,
+        "solo_mp": 18
+      },
+      "76364": {
+        "total": 1642,
+        "compartida": 1182,
+        "solo_mp": 460
+      },
+      "23660": {
+        "total": 83,
+        "compartida": 1,
+        "solo_mp": 82
+      },
+      "73352": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "76275": {
+        "total": 36,
+        "compartida": 10,
+        "solo_mp": 26
+      },
+      "23555": {
+        "total": 31,
+        "compartida": 0,
+        "solo_mp": 31
+      },
+      "76834": {
+        "total": 435,
+        "compartida": 310,
+        "solo_mp": 125
+      },
+      "70215": {
+        "total": 29,
+        "compartida": 0,
+        "solo_mp": 29
+      },
+      "15001": {
+        "total": 3130,
+        "compartida": 2531,
+        "solo_mp": 599
+      },
+      "70235": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "95001": {
+        "total": 42,
+        "compartida": 0,
+        "solo_mp": 42
+      },
+      "23417": {
+        "total": 30,
+        "compartida": 0,
+        "solo_mp": 30
+      },
+      "76736": {
+        "total": 11,
+        "compartida": 0,
+        "solo_mp": 11
+      },
+      "25307": {
+        "total": 641,
+        "compartida": 506,
+        "solo_mp": 135
+      },
+      "25785": {
+        "total": 55,
+        "compartida": 2,
+        "solo_mp": 53
+      },
+      "25841": {
+        "total": 24,
+        "compartida": 0,
+        "solo_mp": 24
+      },
+      "68432": {
+        "total": 11,
+        "compartida": 4,
+        "solo_mp": 7
+      },
+      "94001": {
+        "total": 24,
+        "compartida": 0,
+        "solo_mp": 24
+      },
+      "25402": {
+        "total": 33,
+        "compartida": 10,
+        "solo_mp": 23
+      },
+      "25612": {
+        "total": 30,
+        "compartida": 7,
+        "solo_mp": 23
+      },
+      "47288": {
+        "total": 46,
+        "compartida": 0,
+        "solo_mp": 46
+      },
+      "05212": {
+        "total": 124,
+        "compartida": 0,
+        "solo_mp": 124
+      },
+      "23182": {
+        "total": 12,
+        "compartida": 0,
+        "solo_mp": 12
+      },
+      "08433": {
+        "total": 35,
+        "compartida": 0,
+        "solo_mp": 35
+      },
+      "13873": {
+        "total": 87,
+        "compartida": 56,
+        "solo_mp": 31
+      },
+      "05129": {
+        "total": 72,
+        "compartida": 1,
+        "solo_mp": 71
+      },
+      "52001": {
+        "total": 1756,
+        "compartida": 1466,
+        "solo_mp": 288
+      },
+      "91001": {
+        "total": 161,
+        "compartida": 132,
+        "solo_mp": 29
+      },
+      "73449": {
+        "total": 130,
+        "compartida": 44,
+        "solo_mp": 86
+      },
+      "05079": {
+        "total": 34,
+        "compartida": 0,
+        "solo_mp": 34
+      },
+      "54498": {
+        "total": 215,
+        "compartida": 184,
+        "solo_mp": 31
+      },
+      "17877": {
+        "total": 11,
+        "compartida": 0,
+        "solo_mp": 11
+      },
+      "20621": {
+        "total": 6,
+        "compartida": 0,
+        "solo_mp": 6
+      },
+      "54874": {
+        "total": 90,
+        "compartida": 36,
+        "solo_mp": 54
+      },
+      "05893": {
+        "total": 7,
+        "compartida": 0,
+        "solo_mp": 7
+      },
+      "17777": {
+        "total": 11,
+        "compartida": 0,
+        "solo_mp": 11
+      },
+      "91430": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "17873": {
+        "total": 61,
+        "compartida": 1,
+        "solo_mp": 60
+      },
+      "68307": {
+        "total": 254,
+        "compartida": 179,
+        "solo_mp": 75
+      },
+      "15469": {
+        "total": 21,
+        "compartida": 0,
+        "solo_mp": 21
+      },
+      "76111": {
+        "total": 92,
+        "compartida": 22,
+        "solo_mp": 70
+      },
+      "70508": {
+        "total": 11,
+        "compartida": 0,
+        "solo_mp": 11
+      },
+      "05045": {
+        "total": 23,
+        "compartida": 1,
+        "solo_mp": 22
+      },
+      "44078": {
+        "total": 71,
+        "compartida": 49,
+        "solo_mp": 22
+      },
+      "18029": {
+        "total": 51,
+        "compartida": 35,
+        "solo_mp": 16
+      },
+      "17272": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "05541": {
+        "total": 9,
+        "compartida": 0,
+        "solo_mp": 9
+      },
+      "44650": {
+        "total": 129,
+        "compartida": 98,
+        "solo_mp": 31
+      },
+      "54518": {
+        "total": 66,
+        "compartida": 22,
+        "solo_mp": 44
+      },
+      "73024": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "05440": {
+        "total": 67,
+        "compartida": 3,
+        "solo_mp": 64
+      },
+      "25817": {
+        "total": 635,
+        "compartida": 434,
+        "solo_mp": 201
+      },
+      "76828": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "25572": {
+        "total": 13,
+        "compartida": 0,
+        "solo_mp": 13
+      },
+      "76622": {
+        "total": 26,
+        "compartida": 1,
+        "solo_mp": 25
+      },
+      "68755": {
+        "total": 43,
+        "compartida": 23,
+        "solo_mp": 20
+      },
+      "15572": {
+        "total": 24,
+        "compartida": 3,
+        "solo_mp": 21
+      },
+      "05837": {
+        "total": 10,
+        "compartida": 1,
+        "solo_mp": 9
+      },
+      "08758": {
+        "total": 866,
+        "compartida": 512,
+        "solo_mp": 354
+      },
+      "66682": {
+        "total": 52,
+        "compartida": 11,
+        "solo_mp": 41
+      },
+      "18756": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "25288": {
+        "total": 10,
+        "compartida": 0,
+        "solo_mp": 10
+      },
+      "52435": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "73268": {
+        "total": 63,
+        "compartida": 22,
+        "solo_mp": 41
+      },
+      "05308": {
+        "total": 60,
+        "compartida": 0,
+        "solo_mp": 60
+      },
+      "15600": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "68655": {
+        "total": 18,
+        "compartida": 0,
+        "solo_mp": 18
+      },
+      "86568": {
+        "total": 18,
+        "compartida": 0,
+        "solo_mp": 18
+      },
+      "08296": {
+        "total": 26,
+        "compartida": 0,
+        "solo_mp": 26
+      },
+      "76113": {
+        "total": 29,
+        "compartida": 1,
+        "solo_mp": 28
+      },
+      "76147": {
+        "total": 431,
+        "compartida": 333,
+        "solo_mp": 98
+      },
+      "41396": {
+        "total": 38,
+        "compartida": 26,
+        "solo_mp": 12
+      },
+      "15761": {
+        "total": 6,
+        "compartida": 0,
+        "solo_mp": 6
+      },
+      "15367": {
+        "total": 7,
+        "compartida": 0,
+        "solo_mp": 7
+      },
+      "13657": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "73226": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "20770": {
+        "total": 22,
+        "compartida": 3,
+        "solo_mp": 19
+      },
+      "20238": {
+        "total": 9,
+        "compartida": 0,
+        "solo_mp": 9
+      },
+      "05154": {
+        "total": 20,
+        "compartida": 0,
+        "solo_mp": 20
+      },
+      "85010": {
+        "total": 92,
+        "compartida": 58,
+        "solo_mp": 34
+      },
+      "05652": {
+        "total": 2,
+        "compartida": 1,
+        "solo_mp": 1
+      },
+      "25743": {
+        "total": 13,
+        "compartida": 2,
+        "solo_mp": 11
+      },
+      "08638": {
+        "total": 18,
+        "compartida": 0,
+        "solo_mp": 18
+      },
+      "50573": {
+        "total": 90,
+        "compartida": 33,
+        "solo_mp": 57
+      },
+      "25875": {
+        "total": 208,
+        "compartida": 181,
+        "solo_mp": 27
+      },
+      "85300": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "85440": {
+        "total": 48,
+        "compartida": 32,
+        "solo_mp": 16
+      },
+      "25151": {
+        "total": 32,
+        "compartida": 14,
+        "solo_mp": 18
+      },
+      "15176": {
+        "total": 374,
+        "compartida": 307,
+        "solo_mp": 67
+      },
+      "50150": {
+        "total": 50,
+        "compartida": 15,
+        "solo_mp": 35
+      },
+      "08685": {
+        "total": 16,
+        "compartida": 0,
+        "solo_mp": 16
+      },
+      "00000": {
+        "total": 27,
+        "compartida": 2,
+        "solo_mp": 25
+      },
+      "52356": {
+        "total": 162,
+        "compartida": 134,
+        "solo_mp": 28
+      },
+      "44279": {
+        "total": 110,
+        "compartida": 92,
+        "solo_mp": 18
+      },
+      "19785": {
+        "total": 9,
+        "compartida": 0,
+        "solo_mp": 9
+      },
+      "86571": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "08634": {
+        "total": 14,
+        "compartida": 0,
+        "solo_mp": 14
+      },
+      "50330": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "47189": {
+        "total": 63,
+        "compartida": 2,
+        "solo_mp": 61
+      },
+      "76318": {
+        "total": 18,
+        "compartida": 0,
+        "solo_mp": 18
+      },
+      "85430": {
+        "total": 7,
+        "compartida": 4,
+        "solo_mp": 3
+      },
+      "05240": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "85410": {
+        "total": 129,
+        "compartida": 91,
+        "solo_mp": 38
+      },
+      "63401": {
+        "total": 13,
+        "compartida": 3,
+        "solo_mp": 10
+      },
+      "19418": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "52835": {
+        "total": 26,
+        "compartida": 6,
+        "solo_mp": 20
+      },
+      "25530": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "86001": {
+        "total": 18,
+        "compartida": 0,
+        "solo_mp": 18
+      },
+      "15189": {
+        "total": 10,
+        "compartida": 0,
+        "solo_mp": 10
+      },
+      "85250": {
+        "total": 40,
+        "compartida": 27,
+        "solo_mp": 13
+      },
+      "17380": {
+        "total": 27,
+        "compartida": 3,
+        "solo_mp": 24
+      },
+      "70221": {
+        "total": 18,
+        "compartida": 0,
+        "solo_mp": 18
+      },
+      "13140": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "13468": {
+        "total": 7,
+        "compartida": 0,
+        "solo_mp": 7
+      },
+      "19455": {
+        "total": 7,
+        "compartida": 0,
+        "solo_mp": 7
+      },
+      "18592": {
+        "total": 5,
+        "compartida": 3,
+        "solo_mp": 2
+      },
+      "15776": {
+        "total": 8,
+        "compartida": 0,
+        "solo_mp": 8
+      },
+      "08141": {
+        "total": 54,
+        "compartida": 1,
+        "solo_mp": 53
+      },
+      "23807": {
+        "total": 10,
+        "compartida": 0,
+        "solo_mp": 10
+      },
+      "47053": {
+        "total": 6,
+        "compartida": 0,
+        "solo_mp": 6
+      },
+      "20060": {
+        "total": 12,
+        "compartida": 0,
+        "solo_mp": 12
+      },
+      "50711": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "50124": {
+        "total": 8,
+        "compartida": 0,
+        "solo_mp": 8
+      },
+      "76248": {
+        "total": 27,
+        "compartida": 3,
+        "solo_mp": 24
+      },
+      "63190": {
+        "total": 38,
+        "compartida": 8,
+        "solo_mp": 30
+      },
+      "05656": {
+        "total": 20,
+        "compartida": 2,
+        "solo_mp": 18
+      },
+      "70473": {
+        "total": 8,
+        "compartida": 1,
+        "solo_mp": 7
+      },
+      "76895": {
+        "total": 8,
+        "compartida": 0,
+        "solo_mp": 8
+      },
+      "25322": {
+        "total": 22,
+        "compartida": 5,
+        "solo_mp": 17
+      },
+      "25295": {
+        "total": 33,
+        "compartida": 0,
+        "solo_mp": 33
+      },
+      "25718": {
+        "total": 7,
+        "compartida": 2,
+        "solo_mp": 5
+      },
+      "25769": {
+        "total": 29,
+        "compartida": 10,
+        "solo_mp": 19
+      },
+      "25488": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "19573": {
+        "total": 13,
+        "compartida": 0,
+        "solo_mp": 13
+      },
+      "15407": {
+        "total": 66,
+        "compartida": 48,
+        "solo_mp": 18
+      },
+      "81591": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "05628": {
+        "total": 38,
+        "compartida": 1,
+        "solo_mp": 37
+      },
+      "50606": {
+        "total": 39,
+        "compartida": 1,
+        "solo_mp": 38
+      },
+      "25513": {
+        "total": 7,
+        "compartida": 0,
+        "solo_mp": 7
+      },
+      "25001": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "25772": {
+        "total": 7,
+        "compartida": 0,
+        "solo_mp": 7
+      },
+      "15806": {
+        "total": 10,
+        "compartida": 2,
+        "solo_mp": 8
+      },
+      "18753": {
+        "total": 8,
+        "compartida": 3,
+        "solo_mp": 5
+      },
+      "25745": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "41298": {
+        "total": 161,
+        "compartida": 146,
+        "solo_mp": 15
+      },
+      "15753": {
+        "total": 16,
+        "compartida": 7,
+        "solo_mp": 9
+      },
+      "54245": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "25491": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "63272": {
+        "total": 4,
+        "compartida": 2,
+        "solo_mp": 2
+      },
+      "54172": {
+        "total": 11,
+        "compartida": 4,
+        "solo_mp": 7
+      },
+      "17541": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "25123": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "05051": {
+        "total": 7,
+        "compartida": 0,
+        "solo_mp": 7
+      },
+      "41770": {
+        "total": 3,
+        "compartida": 1,
+        "solo_mp": 2
+      },
+      "25797": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "20787": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "73483": {
+        "total": 6,
+        "compartida": 3,
+        "solo_mp": 3
+      },
+      "05647": {
+        "total": 188,
+        "compartida": 148,
+        "solo_mp": 40
+      },
+      "05250": {
+        "total": 7,
+        "compartida": 0,
+        "solo_mp": 7
+      },
+      "73585": {
+        "total": 17,
+        "compartida": 5,
+        "solo_mp": 12
+      },
+      "17013": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "68572": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "25181": {
+        "total": 16,
+        "compartida": 4,
+        "solo_mp": 12
+      },
+      "15276": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "08520": {
+        "total": 8,
+        "compartida": 0,
+        "solo_mp": 8
+      },
+      "25898": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "73563": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "44847": {
+        "total": 8,
+        "compartida": 4,
+        "solo_mp": 4
+      },
+      "19698": {
+        "total": 232,
+        "compartida": 177,
+        "solo_mp": 55
+      },
+      "13188": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "25320": {
+        "total": 14,
+        "compartida": 2,
+        "solo_mp": 12
+      },
+      "41797": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "50223": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "50110": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "15204": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "41524": {
+        "total": 14,
+        "compartida": 11,
+        "solo_mp": 3
+      },
+      "25312": {
+        "total": 65,
+        "compartida": 31,
+        "solo_mp": 34
+      },
+      "17513": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "76233": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "81794": {
+        "total": 27,
+        "compartida": 17,
+        "solo_mp": 10
+      },
+      "25040": {
+        "total": 6,
+        "compartida": 3,
+        "solo_mp": 3
+      },
+      "25851": {
+        "total": 3,
+        "compartida": 2,
+        "solo_mp": 1
+      },
+      "05400": {
+        "total": 22,
+        "compartida": 1,
+        "solo_mp": 21
+      },
+      "76563": {
+        "total": 28,
+        "compartida": 4,
+        "solo_mp": 24
+      },
+      "76036": {
+        "total": 8,
+        "compartida": 0,
+        "solo_mp": 8
+      },
+      "25779": {
+        "total": 7,
+        "compartida": 1,
+        "solo_mp": 6
+      },
+      "73275": {
+        "total": 8,
+        "compartida": 0,
+        "solo_mp": 8
+      },
+      "25178": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "68861": {
+        "total": 25,
+        "compartida": 12,
+        "solo_mp": 13
+      },
+      "70702": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "08372": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "97001": {
+        "total": 8,
+        "compartida": 0,
+        "solo_mp": 8
+      },
+      "88564": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "23580": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "66594": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "41615": {
+        "total": 18,
+        "compartida": 15,
+        "solo_mp": 3
+      },
+      "68575": {
+        "total": 21,
+        "compartida": 4,
+        "solo_mp": 17
+      },
+      "25486": {
+        "total": 24,
+        "compartida": 5,
+        "solo_mp": 19
+      },
+      "25183": {
+        "total": 11,
+        "compartida": 4,
+        "solo_mp": 7
+      },
+      "25658": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "25200": {
+        "total": 35,
+        "compartida": 5,
+        "solo_mp": 30
+      },
+      "25873": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "05002": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "25326": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "13052": {
+        "total": 14,
+        "compartida": 0,
+        "solo_mp": 14
+      },
+      "70820": {
+        "total": 9,
+        "compartida": 2,
+        "solo_mp": 7
+      },
+      "05361": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "73217": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "17174": {
+        "total": 17,
+        "compartida": 1,
+        "solo_mp": 16
+      },
+      "73152": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "15322": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "05483": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "05697": {
+        "total": 9,
+        "compartida": 0,
+        "solo_mp": 9
+      },
+      "13430": {
+        "total": 12,
+        "compartida": 0,
+        "solo_mp": 12
+      },
+      "08137": {
+        "total": 3,
+        "compartida": 1,
+        "solo_mp": 2
+      },
+      "15646": {
+        "total": 24,
+        "compartida": 15,
+        "solo_mp": 9
+      },
+      "15087": {
+        "total": 5,
+        "compartida": 1,
+        "solo_mp": 4
+      },
+      "73319": {
+        "total": 6,
+        "compartida": 2,
+        "solo_mp": 4
+      },
+      "27450": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "25260": {
+        "total": 36,
+        "compartida": 10,
+        "solo_mp": 26
+      },
+      "25736": {
+        "total": 12,
+        "compartida": 0,
+        "solo_mp": 12
+      },
+      "05789": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "05237": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "05467": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "15466": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "08832": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "70708": {
+        "total": 21,
+        "compartida": 0,
+        "solo_mp": 21
+      },
+      "05579": {
+        "total": 10,
+        "compartida": 0,
+        "solo_mp": 10
+      },
+      "41668": {
+        "total": 9,
+        "compartida": 5,
+        "solo_mp": 4
+      },
+      "08849": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "50226": {
+        "total": 41,
+        "compartida": 20,
+        "solo_mp": 21
+      },
+      "15820": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "15693": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "15187": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "73411": {
+        "total": 8,
+        "compartida": 0,
+        "solo_mp": 8
+      },
+      "05679": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "20443": {
+        "total": 5,
+        "compartida": 2,
+        "solo_mp": 3
+      },
+      "44378": {
+        "total": 18,
+        "compartida": 11,
+        "solo_mp": 7
+      },
+      "63130": {
+        "total": 99,
+        "compartida": 65,
+        "solo_mp": 34
+      },
+      "25324": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "25815": {
+        "total": 6,
+        "compartida": 2,
+        "solo_mp": 4
+      },
+      "73148": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "15272": {
+        "total": 9,
+        "compartida": 2,
+        "solo_mp": 7
+      },
+      "63470": {
+        "total": 12,
+        "compartida": 0,
+        "solo_mp": 12
+      },
+      "20178": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "76126": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "27001": {
+        "total": 89,
+        "compartida": 70,
+        "solo_mp": 19
+      },
+      "85162": {
+        "total": 23,
+        "compartida": 14,
+        "solo_mp": 9
+      },
+      "47551": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "68500": {
+        "total": 5,
+        "compartida": 3,
+        "solo_mp": 2
+      },
+      "20011": {
+        "total": 89,
+        "compartida": 74,
+        "solo_mp": 15
+      },
+      "20400": {
+        "total": 136,
+        "compartida": 0,
+        "solo_mp": 136
+      },
+      "50287": {
+        "total": 2,
+        "compartida": 1,
+        "solo_mp": 1
+      },
+      "50683": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "44855": {
+        "total": 5,
+        "compartida": 2,
+        "solo_mp": 3
+      },
+      "15757": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "15104": {
+        "total": 4,
+        "compartida": 2,
+        "solo_mp": 2
+      },
+      "44110": {
+        "total": 15,
+        "compartida": 10,
+        "solo_mp": 5
+      },
+      "23350": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "15299": {
+        "total": 7,
+        "compartida": 1,
+        "solo_mp": 6
+      },
+      "20032": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "23855": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "19290": {
+        "total": 9,
+        "compartida": 7,
+        "solo_mp": 2
+      },
+      "76890": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "47245": {
+        "total": 5,
+        "compartida": 1,
+        "solo_mp": 4
+      },
+      "05664": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "41807": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "05660": {
+        "total": 9,
+        "compartida": 0,
+        "solo_mp": 9
+      },
+      "17042": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "05034": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "15476": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "20228": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "76869": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "05674": {
+        "total": 6,
+        "compartida": 1,
+        "solo_mp": 5
+      },
+      "68464": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "15667": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "70670": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "68079": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "73283": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "05172": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "17442": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "05264": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "25293": {
+        "total": 3,
+        "compartida": 1,
+        "solo_mp": 2
+      },
+      "25328": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "25398": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "15638": {
+        "total": 4,
+        "compartida": 2,
+        "solo_mp": 2
+      },
+      "15537": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "15325": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "68770": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "18150": {
+        "total": 6,
+        "compartida": 4,
+        "solo_mp": 2
+      },
+      "52240": {
+        "total": 3,
+        "compartida": 2,
+        "solo_mp": 1
+      },
+      "15185": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "68549": {
+        "total": 2,
+        "compartida": 2,
+        "solo_mp": 0
+      },
+      "25297": {
+        "total": 5,
+        "compartida": 4,
+        "solo_mp": 1
+      },
+      "85325": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "41885": {
+        "total": 11,
+        "compartida": 2,
+        "solo_mp": 9
+      },
+      "41016": {
+        "total": 3,
+        "compartida": 2,
+        "solo_mp": 1
+      },
+      "15814": {
+        "total": 6,
+        "compartida": 6,
+        "solo_mp": 0
+      },
+      "73168": {
+        "total": 18,
+        "compartida": 7,
+        "solo_mp": 11
+      },
+      "25245": {
+        "total": 13,
+        "compartida": 3,
+        "solo_mp": 10
+      },
+      "73504": {
+        "total": 4,
+        "compartida": 4,
+        "solo_mp": 0
+      },
+      "25592": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "68162": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "41548": {
+        "total": 7,
+        "compartida": 7,
+        "solo_mp": 0
+      },
+      "52838": {
+        "total": 9,
+        "compartida": 3,
+        "solo_mp": 6
+      },
+      "68418": {
+        "total": 10,
+        "compartida": 4,
+        "solo_mp": 6
+      },
+      "13670": {
+        "total": 3,
+        "compartida": 3,
+        "solo_mp": 0
+      },
+      "41801": {
+        "total": 2,
+        "compartida": 2,
+        "solo_mp": 0
+      },
+      "41483": {
+        "total": 2,
+        "compartida": 2,
+        "solo_mp": 0
+      },
+      "73408": {
+        "total": 9,
+        "compartida": 2,
+        "solo_mp": 7
+      },
+      "41306": {
+        "total": 9,
+        "compartida": 9,
+        "solo_mp": 0
+      },
+      "25839": {
+        "total": 4,
+        "compartida": 4,
+        "solo_mp": 0
+      },
+      "63594": {
+        "total": 6,
+        "compartida": 3,
+        "solo_mp": 3
+      },
+      "25662": {
+        "total": 2,
+        "compartida": 1,
+        "solo_mp": 1
+      },
+      "18247": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "44098": {
+        "total": 10,
+        "compartida": 4,
+        "solo_mp": 6
+      },
+      "41132": {
+        "total": 14,
+        "compartida": 10,
+        "solo_mp": 4
+      },
+      "15542": {
+        "total": 2,
+        "compartida": 2,
+        "solo_mp": 0
+      },
+      "15051": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "85230": {
+        "total": 11,
+        "compartida": 4,
+        "solo_mp": 7
+      },
+      "15798": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "52694": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "23300": {
+        "total": 3,
+        "compartida": 2,
+        "solo_mp": 1
+      },
+      "68468": {
+        "total": 2,
+        "compartida": 2,
+        "solo_mp": 0
+      },
+      "05113": {
+        "total": 89,
+        "compartida": 0,
+        "solo_mp": 89
+      },
+      "15215": {
+        "total": 7,
+        "compartida": 1,
+        "solo_mp": 6
+      },
+      "17614": {
+        "total": 12,
+        "compartida": 0,
+        "solo_mp": 12
+      },
+      "23670": {
+        "total": 7,
+        "compartida": 0,
+        "solo_mp": 7
+      },
+      "86885": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "86573": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "19100": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "13160": {
+        "total": 7,
+        "compartida": 0,
+        "solo_mp": 7
+      },
+      "68190": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "41518": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "25777": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "20013": {
+        "total": 12,
+        "compartida": 0,
+        "solo_mp": 12
+      },
+      "41357": {
+        "total": 3,
+        "compartida": 1,
+        "solo_mp": 2
+      },
+      "05604": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "17088": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "86865": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "47707": {
+        "total": 7,
+        "compartida": 0,
+        "solo_mp": 7
+      },
+      "25878": {
+        "total": 4,
+        "compartida": 1,
+        "solo_mp": 3
+      },
+      "05306": {
+        "total": 29,
+        "compartida": 0,
+        "solo_mp": 29
+      },
+      "47268": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "05591": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "73555": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "47980": {
+        "total": 6,
+        "compartida": 0,
+        "solo_mp": 6
+      },
+      "13442": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "54003": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "25279": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "68271": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "25053": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "25099": {
+        "total": 7,
+        "compartida": 1,
+        "solo_mp": 6
+      },
+      "81065": {
+        "total": 8,
+        "compartida": 2,
+        "solo_mp": 6
+      },
+      "15514": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "05890": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "25483": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "08421": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "76020": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "05321": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "25426": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "66400": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "15047": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "15808": {
+        "total": 2,
+        "compartida": 1,
+        "solo_mp": 1
+      },
+      "08078": {
+        "total": 8,
+        "compartida": 0,
+        "solo_mp": 8
+      },
+      "41872": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "17662": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "17616": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "13433": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "70418": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "15183": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "05284": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "19845": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "73624": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "47058": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "73861": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "54261": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "05761": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "15774": {
+        "total": 2,
+        "compartida": 1,
+        "solo_mp": 1
+      },
+      "05030": {
+        "total": 9,
+        "compartida": 0,
+        "solo_mp": 9
+      },
+      "23079": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "70823": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "05147": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "08560": {
+        "total": 9,
+        "compartida": 0,
+        "solo_mp": 9
+      },
+      "68152": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "05031": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "73547": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "41006": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "52079": {
+        "total": 13,
+        "compartida": 0,
+        "solo_mp": 13
+      },
+      "54810": {
+        "total": 16,
+        "compartida": 4,
+        "solo_mp": 12
+      },
+      "73026": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "86320": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "15690": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "18610": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "81300": {
+        "total": 2,
+        "compartida": 1,
+        "solo_mp": 1
+      },
+      "81220": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "52354": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "15494": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "23189": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "20750": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "41020": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "15879": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "15223": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "05847": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "05667": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "76823": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "19110": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "20250": {
+        "total": 6,
+        "compartida": 0,
+        "solo_mp": 6
+      },
+      "15480": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "05895": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "25781": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "05282": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "05686": {
+        "total": 10,
+        "compartida": 0,
+        "solo_mp": 10
+      },
+      "05364": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "05790": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "76122": {
+        "total": 3,
+        "compartida": 1,
+        "solo_mp": 2
+      },
+      "13212": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "86569": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "17486": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "20045": {
+        "total": 60,
+        "compartida": 9,
+        "solo_mp": 51
+      },
+      "85263": {
+        "total": 6,
+        "compartida": 6,
+        "solo_mp": 0
+      },
+      "41503": {
+        "total": 4,
+        "compartida": 3,
+        "solo_mp": 1
+      },
+      "52352": {
+        "total": 3,
+        "compartida": 2,
+        "solo_mp": 1
+      },
+      "52678": {
+        "total": 2,
+        "compartida": 2,
+        "solo_mp": 0
+      },
+      "15861": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "05315": {
+        "total": 5,
+        "compartida": 2,
+        "solo_mp": 3
+      },
+      "05649": {
+        "total": 3,
+        "compartida": 2,
+        "solo_mp": 1
+      },
+      "15362": {
+        "total": 2,
+        "compartida": 1,
+        "solo_mp": 1
+      },
+      "41078": {
+        "total": 2,
+        "compartida": 2,
+        "solo_mp": 0
+      },
+      "41013": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "25805": {
+        "total": 2,
+        "compartida": 2,
+        "solo_mp": 0
+      },
+      "76377": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "25807": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "15686": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "19212": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "23464": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "70742": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "63690": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "05887": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "17444": {
+        "total": 4,
+        "compartida": 2,
+        "solo_mp": 2
+      },
+      "52203": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "13074": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "68229": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "68524": {
+        "total": 4,
+        "compartida": 3,
+        "solo_mp": 1
+      },
+      "15097": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "05819": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "19397": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "15172": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "05809": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "47460": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "25645": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "05659": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "15664": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "54720": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "54051": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "73067": {
+        "total": 4,
+        "compartida": 4,
+        "solo_mp": 0
+      },
+      "41359": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "25019": {
+        "total": 2,
+        "compartida": 2,
+        "solo_mp": 0
+      },
+      "52687": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "52573": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "05368": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "15673": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "25438": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "25120": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "05197": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "15804": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "52378": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "13244": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "25596": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "19701": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "19256": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "25368": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "68855": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "05411": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "52320": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "15377": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "54670": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "66440": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "23570": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "05042": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "05138": {
+        "total": 6,
+        "compartida": 0,
+        "solo_mp": 6
+      },
+      "05190": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "05736": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "05101": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "05858": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "15244": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "20175": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "15696": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "23068": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "41660": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "76497": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "20614": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "13654": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "66456": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "05854": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "19743": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "85225": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "54313": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "15755": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      }
+    }
+  },
+  {
+    "id": "20605242627",
+    "actividadValidada": "",
+    "contratista": "Sin Contratista",
+    "objeto": "CUPO USUARIOS CONTRATO",
+    "valor": 0.0,
+    "estado": "ACTUALIZADO",
+    "tipo": "BOLSA ABIERTA",
+    "contratante": "MEDISANITAS (20)",
+    "colectivo": "ENEL",
+    "colectivoBeneficiado": "ENEL COLOMBIA S.A. E.S.P",
+    "plan": "INTEGRAL",
+    "fechaInicio": "2026-02-02 00:00:00",
+    "fechaFin": "2026-01-31 00:00:00",
+    "poblacion": 463959,
+    "coberturas": [
+      {
+        "tipo": "VADEMECUM ABIERTO",
+        "descripcion": "MEDICAMENTOS AMBULATORIOS ONCOLÓGICOS"
+      }
+    ],
+    "vihHeader": "NO",
+    "vihSub": "EPS",
+    "oncoHeader": "SI",
+    "oncoSub": "ILIMITADO",
+    "prePostHeader": "NO",
+    "prePostSub": "NO APLICA",
+    "ortesisHeader": "SI",
+    "ortesisSub": "Requiere autorización",
+    "poblacionCompartida": 349113,
+    "poblacionSoloMP": 114844,
+    "poblacionDane": {
+      "11001": {
+        "total": 252886,
+        "compartida": 197132,
+        "solo_mp": 55754
+      },
+      "68276": {
+        "total": 3455,
+        "compartida": 2713,
+        "solo_mp": 742
+      },
+      "05615": {
+        "total": 1673,
+        "compartida": 1146,
+        "solo_mp": 527
+      },
+      "05001": {
+        "total": 17260,
+        "compartida": 10707,
+        "solo_mp": 6553
+      },
+      "25126": {
+        "total": 5970,
+        "compartida": 4815,
+        "solo_mp": 1155
+      },
+      "76001": {
+        "total": 27130,
+        "compartida": 21062,
+        "solo_mp": 6068
+      },
+      "25377": {
+        "total": 977,
+        "compartida": 782,
+        "solo_mp": 195
+      },
+      "23001": {
+        "total": 2272,
+        "compartida": 1499,
+        "solo_mp": 773
+      },
+      "08558": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "05360": {
+        "total": 1009,
+        "compartida": 453,
+        "solo_mp": 556
+      },
+      "13001": {
+        "total": 9620,
+        "compartida": 6377,
+        "solo_mp": 3243
+      },
+      "05266": {
+        "total": 4449,
+        "compartida": 2956,
+        "solo_mp": 1493
+      },
+      "50568": {
+        "total": 227,
+        "compartida": 71,
+        "solo_mp": 156
+      },
+      "50001": {
+        "total": 12787,
+        "compartida": 10146,
+        "solo_mp": 2641
+      },
+      "47001": {
+        "total": 7532,
+        "compartida": 5955,
+        "solo_mp": 1577
+      },
+      "68001": {
+        "total": 8654,
+        "compartida": 6946,
+        "solo_mp": 1708
+      },
+      "54405": {
+        "total": 51,
+        "compartida": 6,
+        "solo_mp": 45
+      },
+      "08001": {
+        "total": 19743,
+        "compartida": 13859,
+        "solo_mp": 5884
+      },
+      "17001": {
+        "total": 2825,
+        "compartida": 1958,
+        "solo_mp": 867
+      },
+      "25175": {
+        "total": 10911,
+        "compartida": 9022,
+        "solo_mp": 1889
+      },
+      "05607": {
+        "total": 79,
+        "compartida": 5,
+        "solo_mp": 74
+      },
+      "44430": {
+        "total": 333,
+        "compartida": 220,
+        "solo_mp": 113
+      },
+      "25430": {
+        "total": 1124,
+        "compartida": 661,
+        "solo_mp": 463
+      },
+      "05059": {
+        "total": 2445,
+        "compartida": 1926,
+        "solo_mp": 519
+      },
+      "66001": {
+        "total": 4225,
+        "compartida": 3117,
+        "solo_mp": 1108
+      },
+      "73001": {
+        "total": 4223,
+        "compartida": 3305,
+        "solo_mp": 918
+      },
+      "25386": {
+        "total": 35,
+        "compartida": 8,
+        "solo_mp": 27
+      },
+      "05088": {
+        "total": 959,
+        "compartida": 280,
+        "solo_mp": 679
+      },
+      "05148": {
+        "total": 73,
+        "compartida": 0,
+        "solo_mp": 73
+      },
+      "88001": {
+        "total": 1051,
+        "compartida": 888,
+        "solo_mp": 163
+      },
+      "05631": {
+        "total": 727,
+        "compartida": 23,
+        "solo_mp": 704
+      },
+      "05376": {
+        "total": 112,
+        "compartida": 1,
+        "solo_mp": 111
+      },
+      "05380": {
+        "total": 227,
+        "compartida": 3,
+        "solo_mp": 224
+      },
+      "25799": {
+        "total": 191,
+        "compartida": 108,
+        "solo_mp": 83
+      },
+      "44001": {
+        "total": 1120,
+        "compartida": 836,
+        "solo_mp": 284
+      },
+      "76892": {
+        "total": 474,
+        "compartida": 312,
+        "solo_mp": 162
+      },
+      "15293": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "19001": {
+        "total": 1166,
+        "compartida": 898,
+        "solo_mp": 268
+      },
+      "85001": {
+        "total": 2932,
+        "compartida": 2444,
+        "solo_mp": 488
+      },
+      "25899": {
+        "total": 2397,
+        "compartida": 1728,
+        "solo_mp": 669
+      },
+      "25214": {
+        "total": 1646,
+        "compartida": 1293,
+        "solo_mp": 353
+      },
+      "25758": {
+        "total": 665,
+        "compartida": 518,
+        "solo_mp": 147
+      },
+      "54001": {
+        "total": 2928,
+        "compartida": 2186,
+        "solo_mp": 742
+      },
+      "25317": {
+        "total": 12,
+        "compartida": 0,
+        "solo_mp": 12
+      },
+      "25290": {
+        "total": 842,
+        "compartida": 685,
+        "solo_mp": 157
+      },
+      "41001": {
+        "total": 3965,
+        "compartida": 3223,
+        "solo_mp": 742
+      },
+      "50006": {
+        "total": 987,
+        "compartida": 730,
+        "solo_mp": 257
+      },
+      "25224": {
+        "total": 3,
+        "compartida": 1,
+        "solo_mp": 2
+      },
+      "81736": {
+        "total": 34,
+        "compartida": 14,
+        "solo_mp": 20
+      },
+      "15759": {
+        "total": 1296,
+        "compartida": 1043,
+        "solo_mp": 253
+      },
+      "25269": {
+        "total": 896,
+        "compartida": 611,
+        "solo_mp": 285
+      },
+      "18001": {
+        "total": 620,
+        "compartida": 507,
+        "solo_mp": 113
+      },
+      "25473": {
+        "total": 2217,
+        "compartida": 1491,
+        "solo_mp": 726
+      },
+      "76520": {
+        "total": 1875,
+        "compartida": 1419,
+        "solo_mp": 456
+      },
+      "25754": {
+        "total": 1852,
+        "compartida": 1146,
+        "solo_mp": 706
+      },
+      "15835": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "25843": {
+        "total": 95,
+        "compartida": 10,
+        "solo_mp": 85
+      },
+      "25286": {
+        "total": 770,
+        "compartida": 466,
+        "solo_mp": 304
+      },
+      "15238": {
+        "total": 1284,
+        "compartida": 979,
+        "solo_mp": 305
+      },
+      "68547": {
+        "total": 727,
+        "compartida": 528,
+        "solo_mp": 199
+      },
+      "23162": {
+        "total": 56,
+        "compartida": 3,
+        "solo_mp": 53
+      },
+      "15491": {
+        "total": 15,
+        "compartida": 8,
+        "solo_mp": 7
+      },
+      "76109": {
+        "total": 87,
+        "compartida": 3,
+        "solo_mp": 84
+      },
+      "15455": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "70713": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "25740": {
+        "total": 48,
+        "compartida": 16,
+        "solo_mp": 32
+      },
+      "68679": {
+        "total": 357,
+        "compartida": 285,
+        "solo_mp": 72
+      },
+      "99001": {
+        "total": 9,
+        "compartida": 0,
+        "solo_mp": 9
+      },
+      "05318": {
+        "total": 86,
+        "compartida": 3,
+        "solo_mp": 83
+      },
+      "15599": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "23466": {
+        "total": 922,
+        "compartida": 772,
+        "solo_mp": 150
+      },
+      "68406": {
+        "total": 9,
+        "compartida": 4,
+        "solo_mp": 5
+      },
+      "05313": {
+        "total": 84,
+        "compartida": 31,
+        "solo_mp": 53
+      },
+      "20001": {
+        "total": 3146,
+        "compartida": 2463,
+        "solo_mp": 683
+      },
+      "70001": {
+        "total": 1851,
+        "compartida": 1291,
+        "solo_mp": 560
+      },
+      "73671": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "25035": {
+        "total": 26,
+        "compartida": 8,
+        "solo_mp": 18
+      },
+      "76306": {
+        "total": 11,
+        "compartida": 0,
+        "solo_mp": 11
+      },
+      "73443": {
+        "total": 13,
+        "compartida": 0,
+        "solo_mp": 13
+      },
+      "41551": {
+        "total": 281,
+        "compartida": 213,
+        "solo_mp": 68
+      },
+      "73349": {
+        "total": 166,
+        "compartida": 143,
+        "solo_mp": 23
+      },
+      "47555": {
+        "total": 19,
+        "compartida": 2,
+        "solo_mp": 17
+      },
+      "66170": {
+        "total": 557,
+        "compartida": 317,
+        "solo_mp": 240
+      },
+      "13836": {
+        "total": 107,
+        "compartida": 0,
+        "solo_mp": 107
+      },
+      "81001": {
+        "total": 302,
+        "compartida": 231,
+        "solo_mp": 71
+      },
+      "47318": {
+        "total": 35,
+        "compartida": 1,
+        "solo_mp": 34
+      },
+      "19548": {
+        "total": 15,
+        "compartida": 6,
+        "solo_mp": 9
+      },
+      "15516": {
+        "total": 177,
+        "compartida": 133,
+        "solo_mp": 44
+      },
+      "08573": {
+        "total": 837,
+        "compartida": 542,
+        "solo_mp": 295
+      },
+      "99624": {
+        "total": 7,
+        "compartida": 0,
+        "solo_mp": 7
+      },
+      "68081": {
+        "total": 1250,
+        "compartida": 931,
+        "solo_mp": 319
+      },
+      "85139": {
+        "total": 26,
+        "compartida": 8,
+        "solo_mp": 18
+      },
+      "76364": {
+        "total": 1642,
+        "compartida": 1182,
+        "solo_mp": 460
+      },
+      "23660": {
+        "total": 83,
+        "compartida": 1,
+        "solo_mp": 82
+      },
+      "73352": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "76275": {
+        "total": 36,
+        "compartida": 10,
+        "solo_mp": 26
+      },
+      "23555": {
+        "total": 31,
+        "compartida": 0,
+        "solo_mp": 31
+      },
+      "76834": {
+        "total": 435,
+        "compartida": 310,
+        "solo_mp": 125
+      },
+      "70215": {
+        "total": 29,
+        "compartida": 0,
+        "solo_mp": 29
+      },
+      "15001": {
+        "total": 3130,
+        "compartida": 2531,
+        "solo_mp": 599
+      },
+      "70235": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "95001": {
+        "total": 42,
+        "compartida": 0,
+        "solo_mp": 42
+      },
+      "23417": {
+        "total": 30,
+        "compartida": 0,
+        "solo_mp": 30
+      },
+      "76736": {
+        "total": 11,
+        "compartida": 0,
+        "solo_mp": 11
+      },
+      "25307": {
+        "total": 641,
+        "compartida": 506,
+        "solo_mp": 135
+      },
+      "25785": {
+        "total": 55,
+        "compartida": 2,
+        "solo_mp": 53
+      },
+      "25841": {
+        "total": 24,
+        "compartida": 0,
+        "solo_mp": 24
+      },
+      "68432": {
+        "total": 11,
+        "compartida": 4,
+        "solo_mp": 7
+      },
+      "94001": {
+        "total": 24,
+        "compartida": 0,
+        "solo_mp": 24
+      },
+      "25402": {
+        "total": 33,
+        "compartida": 10,
+        "solo_mp": 23
+      },
+      "25612": {
+        "total": 30,
+        "compartida": 7,
+        "solo_mp": 23
+      },
+      "47288": {
+        "total": 46,
+        "compartida": 0,
+        "solo_mp": 46
+      },
+      "05212": {
+        "total": 124,
+        "compartida": 0,
+        "solo_mp": 124
+      },
+      "23182": {
+        "total": 12,
+        "compartida": 0,
+        "solo_mp": 12
+      },
+      "08433": {
+        "total": 35,
+        "compartida": 0,
+        "solo_mp": 35
+      },
+      "13873": {
+        "total": 87,
+        "compartida": 56,
+        "solo_mp": 31
+      },
+      "05129": {
+        "total": 72,
+        "compartida": 1,
+        "solo_mp": 71
+      },
+      "52001": {
+        "total": 1756,
+        "compartida": 1466,
+        "solo_mp": 288
+      },
+      "91001": {
+        "total": 161,
+        "compartida": 132,
+        "solo_mp": 29
+      },
+      "73449": {
+        "total": 130,
+        "compartida": 44,
+        "solo_mp": 86
+      },
+      "05079": {
+        "total": 34,
+        "compartida": 0,
+        "solo_mp": 34
+      },
+      "54498": {
+        "total": 215,
+        "compartida": 184,
+        "solo_mp": 31
+      },
+      "17877": {
+        "total": 11,
+        "compartida": 0,
+        "solo_mp": 11
+      },
+      "20621": {
+        "total": 6,
+        "compartida": 0,
+        "solo_mp": 6
+      },
+      "54874": {
+        "total": 90,
+        "compartida": 36,
+        "solo_mp": 54
+      },
+      "05893": {
+        "total": 7,
+        "compartida": 0,
+        "solo_mp": 7
+      },
+      "17777": {
+        "total": 11,
+        "compartida": 0,
+        "solo_mp": 11
+      },
+      "91430": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "17873": {
+        "total": 61,
+        "compartida": 1,
+        "solo_mp": 60
+      },
+      "68307": {
+        "total": 254,
+        "compartida": 179,
+        "solo_mp": 75
+      },
+      "15469": {
+        "total": 21,
+        "compartida": 0,
+        "solo_mp": 21
+      },
+      "76111": {
+        "total": 92,
+        "compartida": 22,
+        "solo_mp": 70
+      },
+      "70508": {
+        "total": 11,
+        "compartida": 0,
+        "solo_mp": 11
+      },
+      "05045": {
+        "total": 23,
+        "compartida": 1,
+        "solo_mp": 22
+      },
+      "44078": {
+        "total": 71,
+        "compartida": 49,
+        "solo_mp": 22
+      },
+      "18029": {
+        "total": 51,
+        "compartida": 35,
+        "solo_mp": 16
+      },
+      "17272": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "05541": {
+        "total": 9,
+        "compartida": 0,
+        "solo_mp": 9
+      },
+      "44650": {
+        "total": 129,
+        "compartida": 98,
+        "solo_mp": 31
+      },
+      "54518": {
+        "total": 66,
+        "compartida": 22,
+        "solo_mp": 44
+      },
+      "73024": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "05440": {
+        "total": 67,
+        "compartida": 3,
+        "solo_mp": 64
+      },
+      "25817": {
+        "total": 635,
+        "compartida": 434,
+        "solo_mp": 201
+      },
+      "76828": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "25572": {
+        "total": 13,
+        "compartida": 0,
+        "solo_mp": 13
+      },
+      "76622": {
+        "total": 26,
+        "compartida": 1,
+        "solo_mp": 25
+      },
+      "68755": {
+        "total": 43,
+        "compartida": 23,
+        "solo_mp": 20
+      },
+      "15572": {
+        "total": 24,
+        "compartida": 3,
+        "solo_mp": 21
+      },
+      "05837": {
+        "total": 10,
+        "compartida": 1,
+        "solo_mp": 9
+      },
+      "08758": {
+        "total": 866,
+        "compartida": 512,
+        "solo_mp": 354
+      },
+      "66682": {
+        "total": 52,
+        "compartida": 11,
+        "solo_mp": 41
+      },
+      "18756": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "25288": {
+        "total": 10,
+        "compartida": 0,
+        "solo_mp": 10
+      },
+      "52435": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "73268": {
+        "total": 63,
+        "compartida": 22,
+        "solo_mp": 41
+      },
+      "05308": {
+        "total": 60,
+        "compartida": 0,
+        "solo_mp": 60
+      },
+      "15600": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "68655": {
+        "total": 18,
+        "compartida": 0,
+        "solo_mp": 18
+      },
+      "86568": {
+        "total": 18,
+        "compartida": 0,
+        "solo_mp": 18
+      },
+      "08296": {
+        "total": 26,
+        "compartida": 0,
+        "solo_mp": 26
+      },
+      "76113": {
+        "total": 29,
+        "compartida": 1,
+        "solo_mp": 28
+      },
+      "76147": {
+        "total": 431,
+        "compartida": 333,
+        "solo_mp": 98
+      },
+      "41396": {
+        "total": 38,
+        "compartida": 26,
+        "solo_mp": 12
+      },
+      "15761": {
+        "total": 6,
+        "compartida": 0,
+        "solo_mp": 6
+      },
+      "15367": {
+        "total": 7,
+        "compartida": 0,
+        "solo_mp": 7
+      },
+      "13657": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "73226": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "20770": {
+        "total": 22,
+        "compartida": 3,
+        "solo_mp": 19
+      },
+      "20238": {
+        "total": 9,
+        "compartida": 0,
+        "solo_mp": 9
+      },
+      "05154": {
+        "total": 20,
+        "compartida": 0,
+        "solo_mp": 20
+      },
+      "85010": {
+        "total": 92,
+        "compartida": 58,
+        "solo_mp": 34
+      },
+      "05652": {
+        "total": 2,
+        "compartida": 1,
+        "solo_mp": 1
+      },
+      "25743": {
+        "total": 13,
+        "compartida": 2,
+        "solo_mp": 11
+      },
+      "08638": {
+        "total": 18,
+        "compartida": 0,
+        "solo_mp": 18
+      },
+      "50573": {
+        "total": 90,
+        "compartida": 33,
+        "solo_mp": 57
+      },
+      "25875": {
+        "total": 208,
+        "compartida": 181,
+        "solo_mp": 27
+      },
+      "85300": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "85440": {
+        "total": 48,
+        "compartida": 32,
+        "solo_mp": 16
+      },
+      "25151": {
+        "total": 32,
+        "compartida": 14,
+        "solo_mp": 18
+      },
+      "15176": {
+        "total": 374,
+        "compartida": 307,
+        "solo_mp": 67
+      },
+      "50150": {
+        "total": 50,
+        "compartida": 15,
+        "solo_mp": 35
+      },
+      "08685": {
+        "total": 16,
+        "compartida": 0,
+        "solo_mp": 16
+      },
+      "00000": {
+        "total": 27,
+        "compartida": 2,
+        "solo_mp": 25
+      },
+      "52356": {
+        "total": 162,
+        "compartida": 134,
+        "solo_mp": 28
+      },
+      "44279": {
+        "total": 110,
+        "compartida": 92,
+        "solo_mp": 18
+      },
+      "19785": {
+        "total": 9,
+        "compartida": 0,
+        "solo_mp": 9
+      },
+      "86571": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "08634": {
+        "total": 14,
+        "compartida": 0,
+        "solo_mp": 14
+      },
+      "50330": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "47189": {
+        "total": 63,
+        "compartida": 2,
+        "solo_mp": 61
+      },
+      "76318": {
+        "total": 18,
+        "compartida": 0,
+        "solo_mp": 18
+      },
+      "85430": {
+        "total": 7,
+        "compartida": 4,
+        "solo_mp": 3
+      },
+      "05240": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "85410": {
+        "total": 129,
+        "compartida": 91,
+        "solo_mp": 38
+      },
+      "63401": {
+        "total": 13,
+        "compartida": 3,
+        "solo_mp": 10
+      },
+      "19418": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "52835": {
+        "total": 26,
+        "compartida": 6,
+        "solo_mp": 20
+      },
+      "25530": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "86001": {
+        "total": 18,
+        "compartida": 0,
+        "solo_mp": 18
+      },
+      "15189": {
+        "total": 10,
+        "compartida": 0,
+        "solo_mp": 10
+      },
+      "85250": {
+        "total": 40,
+        "compartida": 27,
+        "solo_mp": 13
+      },
+      "17380": {
+        "total": 27,
+        "compartida": 3,
+        "solo_mp": 24
+      },
+      "70221": {
+        "total": 18,
+        "compartida": 0,
+        "solo_mp": 18
+      },
+      "13140": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "13468": {
+        "total": 7,
+        "compartida": 0,
+        "solo_mp": 7
+      },
+      "19455": {
+        "total": 7,
+        "compartida": 0,
+        "solo_mp": 7
+      },
+      "18592": {
+        "total": 5,
+        "compartida": 3,
+        "solo_mp": 2
+      },
+      "15776": {
+        "total": 8,
+        "compartida": 0,
+        "solo_mp": 8
+      },
+      "08141": {
+        "total": 54,
+        "compartida": 1,
+        "solo_mp": 53
+      },
+      "23807": {
+        "total": 10,
+        "compartida": 0,
+        "solo_mp": 10
+      },
+      "47053": {
+        "total": 6,
+        "compartida": 0,
+        "solo_mp": 6
+      },
+      "20060": {
+        "total": 12,
+        "compartida": 0,
+        "solo_mp": 12
+      },
+      "50711": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "50124": {
+        "total": 8,
+        "compartida": 0,
+        "solo_mp": 8
+      },
+      "76248": {
+        "total": 27,
+        "compartida": 3,
+        "solo_mp": 24
+      },
+      "63190": {
+        "total": 38,
+        "compartida": 8,
+        "solo_mp": 30
+      },
+      "05656": {
+        "total": 20,
+        "compartida": 2,
+        "solo_mp": 18
+      },
+      "70473": {
+        "total": 8,
+        "compartida": 1,
+        "solo_mp": 7
+      },
+      "76895": {
+        "total": 8,
+        "compartida": 0,
+        "solo_mp": 8
+      },
+      "25322": {
+        "total": 22,
+        "compartida": 5,
+        "solo_mp": 17
+      },
+      "25295": {
+        "total": 33,
+        "compartida": 0,
+        "solo_mp": 33
+      },
+      "25718": {
+        "total": 7,
+        "compartida": 2,
+        "solo_mp": 5
+      },
+      "25769": {
+        "total": 29,
+        "compartida": 10,
+        "solo_mp": 19
+      },
+      "25488": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "19573": {
+        "total": 13,
+        "compartida": 0,
+        "solo_mp": 13
+      },
+      "15407": {
+        "total": 66,
+        "compartida": 48,
+        "solo_mp": 18
+      },
+      "81591": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "05628": {
+        "total": 38,
+        "compartida": 1,
+        "solo_mp": 37
+      },
+      "50606": {
+        "total": 39,
+        "compartida": 1,
+        "solo_mp": 38
+      },
+      "25513": {
+        "total": 7,
+        "compartida": 0,
+        "solo_mp": 7
+      },
+      "25001": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "25772": {
+        "total": 7,
+        "compartida": 0,
+        "solo_mp": 7
+      },
+      "15806": {
+        "total": 10,
+        "compartida": 2,
+        "solo_mp": 8
+      },
+      "18753": {
+        "total": 8,
+        "compartida": 3,
+        "solo_mp": 5
+      },
+      "25745": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "41298": {
+        "total": 161,
+        "compartida": 146,
+        "solo_mp": 15
+      },
+      "15753": {
+        "total": 16,
+        "compartida": 7,
+        "solo_mp": 9
+      },
+      "54245": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "25491": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "63272": {
+        "total": 4,
+        "compartida": 2,
+        "solo_mp": 2
+      },
+      "54172": {
+        "total": 11,
+        "compartida": 4,
+        "solo_mp": 7
+      },
+      "17541": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "25123": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "05051": {
+        "total": 7,
+        "compartida": 0,
+        "solo_mp": 7
+      },
+      "41770": {
+        "total": 3,
+        "compartida": 1,
+        "solo_mp": 2
+      },
+      "25797": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "20787": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "73483": {
+        "total": 6,
+        "compartida": 3,
+        "solo_mp": 3
+      },
+      "05647": {
+        "total": 188,
+        "compartida": 148,
+        "solo_mp": 40
+      },
+      "05250": {
+        "total": 7,
+        "compartida": 0,
+        "solo_mp": 7
+      },
+      "73585": {
+        "total": 17,
+        "compartida": 5,
+        "solo_mp": 12
+      },
+      "17013": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "68572": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "25181": {
+        "total": 16,
+        "compartida": 4,
+        "solo_mp": 12
+      },
+      "15276": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "08520": {
+        "total": 8,
+        "compartida": 0,
+        "solo_mp": 8
+      },
+      "25898": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "73563": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "44847": {
+        "total": 8,
+        "compartida": 4,
+        "solo_mp": 4
+      },
+      "19698": {
+        "total": 232,
+        "compartida": 177,
+        "solo_mp": 55
+      },
+      "13188": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "25320": {
+        "total": 14,
+        "compartida": 2,
+        "solo_mp": 12
+      },
+      "41797": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "50223": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "50110": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "15204": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "41524": {
+        "total": 14,
+        "compartida": 11,
+        "solo_mp": 3
+      },
+      "25312": {
+        "total": 65,
+        "compartida": 31,
+        "solo_mp": 34
+      },
+      "17513": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "76233": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "81794": {
+        "total": 27,
+        "compartida": 17,
+        "solo_mp": 10
+      },
+      "25040": {
+        "total": 6,
+        "compartida": 3,
+        "solo_mp": 3
+      },
+      "25851": {
+        "total": 3,
+        "compartida": 2,
+        "solo_mp": 1
+      },
+      "05400": {
+        "total": 22,
+        "compartida": 1,
+        "solo_mp": 21
+      },
+      "76563": {
+        "total": 28,
+        "compartida": 4,
+        "solo_mp": 24
+      },
+      "76036": {
+        "total": 8,
+        "compartida": 0,
+        "solo_mp": 8
+      },
+      "25779": {
+        "total": 7,
+        "compartida": 1,
+        "solo_mp": 6
+      },
+      "73275": {
+        "total": 8,
+        "compartida": 0,
+        "solo_mp": 8
+      },
+      "25178": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "68861": {
+        "total": 25,
+        "compartida": 12,
+        "solo_mp": 13
+      },
+      "70702": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "08372": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "97001": {
+        "total": 8,
+        "compartida": 0,
+        "solo_mp": 8
+      },
+      "88564": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "23580": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "66594": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "41615": {
+        "total": 18,
+        "compartida": 15,
+        "solo_mp": 3
+      },
+      "68575": {
+        "total": 21,
+        "compartida": 4,
+        "solo_mp": 17
+      },
+      "25486": {
+        "total": 24,
+        "compartida": 5,
+        "solo_mp": 19
+      },
+      "25183": {
+        "total": 11,
+        "compartida": 4,
+        "solo_mp": 7
+      },
+      "25658": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "25200": {
+        "total": 35,
+        "compartida": 5,
+        "solo_mp": 30
+      },
+      "25873": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "05002": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "25326": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "13052": {
+        "total": 14,
+        "compartida": 0,
+        "solo_mp": 14
+      },
+      "70820": {
+        "total": 9,
+        "compartida": 2,
+        "solo_mp": 7
+      },
+      "05361": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "73217": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "17174": {
+        "total": 17,
+        "compartida": 1,
+        "solo_mp": 16
+      },
+      "73152": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "15322": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "05483": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "05697": {
+        "total": 9,
+        "compartida": 0,
+        "solo_mp": 9
+      },
+      "13430": {
+        "total": 12,
+        "compartida": 0,
+        "solo_mp": 12
+      },
+      "08137": {
+        "total": 3,
+        "compartida": 1,
+        "solo_mp": 2
+      },
+      "15646": {
+        "total": 24,
+        "compartida": 15,
+        "solo_mp": 9
+      },
+      "15087": {
+        "total": 5,
+        "compartida": 1,
+        "solo_mp": 4
+      },
+      "73319": {
+        "total": 6,
+        "compartida": 2,
+        "solo_mp": 4
+      },
+      "27450": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "25260": {
+        "total": 36,
+        "compartida": 10,
+        "solo_mp": 26
+      },
+      "25736": {
+        "total": 12,
+        "compartida": 0,
+        "solo_mp": 12
+      },
+      "05789": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "05237": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "05467": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "15466": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "08832": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "70708": {
+        "total": 21,
+        "compartida": 0,
+        "solo_mp": 21
+      },
+      "05579": {
+        "total": 10,
+        "compartida": 0,
+        "solo_mp": 10
+      },
+      "41668": {
+        "total": 9,
+        "compartida": 5,
+        "solo_mp": 4
+      },
+      "08849": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "50226": {
+        "total": 41,
+        "compartida": 20,
+        "solo_mp": 21
+      },
+      "15820": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "15693": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "15187": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "73411": {
+        "total": 8,
+        "compartida": 0,
+        "solo_mp": 8
+      },
+      "05679": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "20443": {
+        "total": 5,
+        "compartida": 2,
+        "solo_mp": 3
+      },
+      "44378": {
+        "total": 18,
+        "compartida": 11,
+        "solo_mp": 7
+      },
+      "63130": {
+        "total": 99,
+        "compartida": 65,
+        "solo_mp": 34
+      },
+      "25324": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "25815": {
+        "total": 6,
+        "compartida": 2,
+        "solo_mp": 4
+      },
+      "73148": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "15272": {
+        "total": 9,
+        "compartida": 2,
+        "solo_mp": 7
+      },
+      "63470": {
+        "total": 12,
+        "compartida": 0,
+        "solo_mp": 12
+      },
+      "20178": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "76126": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "27001": {
+        "total": 89,
+        "compartida": 70,
+        "solo_mp": 19
+      },
+      "85162": {
+        "total": 23,
+        "compartida": 14,
+        "solo_mp": 9
+      },
+      "47551": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "68500": {
+        "total": 5,
+        "compartida": 3,
+        "solo_mp": 2
+      },
+      "20011": {
+        "total": 89,
+        "compartida": 74,
+        "solo_mp": 15
+      },
+      "20400": {
+        "total": 136,
+        "compartida": 0,
+        "solo_mp": 136
+      },
+      "50287": {
+        "total": 2,
+        "compartida": 1,
+        "solo_mp": 1
+      },
+      "50683": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "44855": {
+        "total": 5,
+        "compartida": 2,
+        "solo_mp": 3
+      },
+      "15757": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "15104": {
+        "total": 4,
+        "compartida": 2,
+        "solo_mp": 2
+      },
+      "44110": {
+        "total": 15,
+        "compartida": 10,
+        "solo_mp": 5
+      },
+      "23350": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "15299": {
+        "total": 7,
+        "compartida": 1,
+        "solo_mp": 6
+      },
+      "20032": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "23855": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "19290": {
+        "total": 9,
+        "compartida": 7,
+        "solo_mp": 2
+      },
+      "76890": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "47245": {
+        "total": 5,
+        "compartida": 1,
+        "solo_mp": 4
+      },
+      "05664": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "41807": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "05660": {
+        "total": 9,
+        "compartida": 0,
+        "solo_mp": 9
+      },
+      "17042": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "05034": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "15476": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "20228": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "76869": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "05674": {
+        "total": 6,
+        "compartida": 1,
+        "solo_mp": 5
+      },
+      "68464": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "15667": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "70670": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "68079": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "73283": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "05172": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "17442": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "05264": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "25293": {
+        "total": 3,
+        "compartida": 1,
+        "solo_mp": 2
+      },
+      "25328": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "25398": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "15638": {
+        "total": 4,
+        "compartida": 2,
+        "solo_mp": 2
+      },
+      "15537": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "15325": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "68770": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "18150": {
+        "total": 6,
+        "compartida": 4,
+        "solo_mp": 2
+      },
+      "52240": {
+        "total": 3,
+        "compartida": 2,
+        "solo_mp": 1
+      },
+      "15185": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "68549": {
+        "total": 2,
+        "compartida": 2,
+        "solo_mp": 0
+      },
+      "25297": {
+        "total": 5,
+        "compartida": 4,
+        "solo_mp": 1
+      },
+      "85325": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "41885": {
+        "total": 11,
+        "compartida": 2,
+        "solo_mp": 9
+      },
+      "41016": {
+        "total": 3,
+        "compartida": 2,
+        "solo_mp": 1
+      },
+      "15814": {
+        "total": 6,
+        "compartida": 6,
+        "solo_mp": 0
+      },
+      "73168": {
+        "total": 18,
+        "compartida": 7,
+        "solo_mp": 11
+      },
+      "25245": {
+        "total": 13,
+        "compartida": 3,
+        "solo_mp": 10
+      },
+      "73504": {
+        "total": 4,
+        "compartida": 4,
+        "solo_mp": 0
+      },
+      "25592": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "68162": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "41548": {
+        "total": 7,
+        "compartida": 7,
+        "solo_mp": 0
+      },
+      "52838": {
+        "total": 9,
+        "compartida": 3,
+        "solo_mp": 6
+      },
+      "68418": {
+        "total": 10,
+        "compartida": 4,
+        "solo_mp": 6
+      },
+      "13670": {
+        "total": 3,
+        "compartida": 3,
+        "solo_mp": 0
+      },
+      "41801": {
+        "total": 2,
+        "compartida": 2,
+        "solo_mp": 0
+      },
+      "41483": {
+        "total": 2,
+        "compartida": 2,
+        "solo_mp": 0
+      },
+      "73408": {
+        "total": 9,
+        "compartida": 2,
+        "solo_mp": 7
+      },
+      "41306": {
+        "total": 9,
+        "compartida": 9,
+        "solo_mp": 0
+      },
+      "25839": {
+        "total": 4,
+        "compartida": 4,
+        "solo_mp": 0
+      },
+      "63594": {
+        "total": 6,
+        "compartida": 3,
+        "solo_mp": 3
+      },
+      "25662": {
+        "total": 2,
+        "compartida": 1,
+        "solo_mp": 1
+      },
+      "18247": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "44098": {
+        "total": 10,
+        "compartida": 4,
+        "solo_mp": 6
+      },
+      "41132": {
+        "total": 14,
+        "compartida": 10,
+        "solo_mp": 4
+      },
+      "15542": {
+        "total": 2,
+        "compartida": 2,
+        "solo_mp": 0
+      },
+      "15051": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "85230": {
+        "total": 11,
+        "compartida": 4,
+        "solo_mp": 7
+      },
+      "15798": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "52694": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "23300": {
+        "total": 3,
+        "compartida": 2,
+        "solo_mp": 1
+      },
+      "68468": {
+        "total": 2,
+        "compartida": 2,
+        "solo_mp": 0
+      },
+      "05113": {
+        "total": 89,
+        "compartida": 0,
+        "solo_mp": 89
+      },
+      "15215": {
+        "total": 7,
+        "compartida": 1,
+        "solo_mp": 6
+      },
+      "17614": {
+        "total": 12,
+        "compartida": 0,
+        "solo_mp": 12
+      },
+      "23670": {
+        "total": 7,
+        "compartida": 0,
+        "solo_mp": 7
+      },
+      "86885": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "86573": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "19100": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "13160": {
+        "total": 7,
+        "compartida": 0,
+        "solo_mp": 7
+      },
+      "68190": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "41518": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "25777": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "20013": {
+        "total": 12,
+        "compartida": 0,
+        "solo_mp": 12
+      },
+      "41357": {
+        "total": 3,
+        "compartida": 1,
+        "solo_mp": 2
+      },
+      "05604": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "17088": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "86865": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "47707": {
+        "total": 7,
+        "compartida": 0,
+        "solo_mp": 7
+      },
+      "25878": {
+        "total": 4,
+        "compartida": 1,
+        "solo_mp": 3
+      },
+      "05306": {
+        "total": 29,
+        "compartida": 0,
+        "solo_mp": 29
+      },
+      "47268": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "05591": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "73555": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "47980": {
+        "total": 6,
+        "compartida": 0,
+        "solo_mp": 6
+      },
+      "13442": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "54003": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "25279": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "68271": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "25053": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "25099": {
+        "total": 7,
+        "compartida": 1,
+        "solo_mp": 6
+      },
+      "81065": {
+        "total": 8,
+        "compartida": 2,
+        "solo_mp": 6
+      },
+      "15514": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "05890": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "25483": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "08421": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "76020": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "05321": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "25426": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "66400": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "15047": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "15808": {
+        "total": 2,
+        "compartida": 1,
+        "solo_mp": 1
+      },
+      "08078": {
+        "total": 8,
+        "compartida": 0,
+        "solo_mp": 8
+      },
+      "41872": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "17662": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "17616": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "13433": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "70418": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "15183": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "05284": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "19845": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "73624": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "47058": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "73861": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "54261": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "05761": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "15774": {
+        "total": 2,
+        "compartida": 1,
+        "solo_mp": 1
+      },
+      "05030": {
+        "total": 9,
+        "compartida": 0,
+        "solo_mp": 9
+      },
+      "23079": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "70823": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "05147": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "08560": {
+        "total": 9,
+        "compartida": 0,
+        "solo_mp": 9
+      },
+      "68152": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "05031": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "73547": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "41006": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "52079": {
+        "total": 13,
+        "compartida": 0,
+        "solo_mp": 13
+      },
+      "54810": {
+        "total": 16,
+        "compartida": 4,
+        "solo_mp": 12
+      },
+      "73026": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "86320": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "15690": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "18610": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "81300": {
+        "total": 2,
+        "compartida": 1,
+        "solo_mp": 1
+      },
+      "81220": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "52354": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "15494": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "23189": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "20750": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "41020": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "15879": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "15223": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "05847": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "05667": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "76823": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "19110": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "20250": {
+        "total": 6,
+        "compartida": 0,
+        "solo_mp": 6
+      },
+      "15480": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "05895": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "25781": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "05282": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "05686": {
+        "total": 10,
+        "compartida": 0,
+        "solo_mp": 10
+      },
+      "05364": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "05790": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "76122": {
+        "total": 3,
+        "compartida": 1,
+        "solo_mp": 2
+      },
+      "13212": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "86569": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "17486": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "20045": {
+        "total": 60,
+        "compartida": 9,
+        "solo_mp": 51
+      },
+      "85263": {
+        "total": 6,
+        "compartida": 6,
+        "solo_mp": 0
+      },
+      "41503": {
+        "total": 4,
+        "compartida": 3,
+        "solo_mp": 1
+      },
+      "52352": {
+        "total": 3,
+        "compartida": 2,
+        "solo_mp": 1
+      },
+      "52678": {
+        "total": 2,
+        "compartida": 2,
+        "solo_mp": 0
+      },
+      "15861": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "05315": {
+        "total": 5,
+        "compartida": 2,
+        "solo_mp": 3
+      },
+      "05649": {
+        "total": 3,
+        "compartida": 2,
+        "solo_mp": 1
+      },
+      "15362": {
+        "total": 2,
+        "compartida": 1,
+        "solo_mp": 1
+      },
+      "41078": {
+        "total": 2,
+        "compartida": 2,
+        "solo_mp": 0
+      },
+      "41013": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "25805": {
+        "total": 2,
+        "compartida": 2,
+        "solo_mp": 0
+      },
+      "76377": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "25807": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "15686": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "19212": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "23464": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "70742": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "63690": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "05887": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "17444": {
+        "total": 4,
+        "compartida": 2,
+        "solo_mp": 2
+      },
+      "52203": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "13074": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "68229": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "68524": {
+        "total": 4,
+        "compartida": 3,
+        "solo_mp": 1
+      },
+      "15097": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "05819": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "19397": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "15172": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "05809": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "47460": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "25645": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "05659": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "15664": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "54720": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "54051": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "73067": {
+        "total": 4,
+        "compartida": 4,
+        "solo_mp": 0
+      },
+      "41359": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "25019": {
+        "total": 2,
+        "compartida": 2,
+        "solo_mp": 0
+      },
+      "52687": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "52573": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "05368": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "15673": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "25438": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "25120": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "05197": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "15804": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "52378": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "13244": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "25596": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "19701": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "19256": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "25368": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "68855": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "05411": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "52320": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "15377": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "54670": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "66440": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "23570": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "05042": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "05138": {
+        "total": 6,
+        "compartida": 0,
+        "solo_mp": 6
+      },
+      "05190": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "05736": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "05101": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "05858": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "15244": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "20175": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "15696": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "23068": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "41660": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "76497": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "20614": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "13654": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "66456": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "05854": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "19743": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "85225": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "54313": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "15755": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      }
+    }
+  },
+  {
+    "id": "1010266145",
+    "actividadValidada": "",
+    "contratista": "Sin Contratista",
+    "objeto": "NINGUNO",
+    "valor": 0.0,
+    "estado": "ACTUALIZADO",
+    "tipo": "PRIMA",
+    "contratante": "COLSANITAS (10)",
+    "colectivo": "ABBOTT LABORATORIES",
+    "colectivoBeneficiado": "ABBOTT LABORATORIES DE COLOMBIA SAS",
+    "plan": "INTEGRAL",
+    "fechaInicio": "2026-01-01 00:00:00",
+    "fechaFin": "2026-12-31 00:00:00",
+    "poblacion": 1109,
+    "coberturas": [
+      {
+        "tipo": "VADEMECUM ABIERTO",
+        "descripcion": "COBERTURA ANEXOS ONCOLÓGICO,PRE Y POST EGRESO"
+      }
+    ],
+    "vihHeader": "N/A",
+    "vihSub": "N/A",
+    "oncoHeader": "SI",
+    "oncoSub": "ILIMITADO",
+    "prePostHeader": "SI",
+    "prePostSub": "2.75",
+    "ortesisHeader": "SI",
+    "ortesisSub": "Requiere autorización",
+    "poblacionCompartida": 859,
+    "poblacionSoloMP": 250,
+    "poblacionDane": {
+      "08001": {
+        "total": 89,
+        "compartida": 62,
+        "solo_mp": 27
+      },
+      "25430": {
+        "total": 8,
+        "compartida": 5,
+        "solo_mp": 3
+      },
+      "13001": {
+        "total": 14,
+        "compartida": 10,
+        "solo_mp": 4
+      },
+      "54001": {
+        "total": 7,
+        "compartida": 4,
+        "solo_mp": 3
+      },
+      "20001": {
+        "total": 7,
+        "compartida": 0,
+        "solo_mp": 7
+      },
+      "25175": {
+        "total": 21,
+        "compartida": 20,
+        "solo_mp": 1
+      },
+      "05001": {
+        "total": 46,
+        "compartida": 26,
+        "solo_mp": 20
+      },
+      "66001": {
+        "total": 12,
+        "compartida": 10,
+        "solo_mp": 2
+      },
+      "76001": {
+        "total": 57,
+        "compartida": 47,
+        "solo_mp": 10
+      },
+      "73001": {
+        "total": 7,
+        "compartida": 7,
+        "solo_mp": 0
+      },
+      "76364": {
+        "total": 8,
+        "compartida": 8,
+        "solo_mp": 0
+      },
+      "25126": {
+        "total": 12,
+        "compartida": 9,
+        "solo_mp": 3
+      },
+      "25754": {
+        "total": 9,
+        "compartida": 6,
+        "solo_mp": 3
+      },
+      "11001": {
+        "total": 697,
+        "compartida": 572,
+        "solo_mp": 125
+      },
+      "23001": {
+        "total": 7,
+        "compartida": 6,
+        "solo_mp": 1
+      },
+      "05266": {
+        "total": 20,
+        "compartida": 12,
+        "solo_mp": 8
+      },
+      "68001": {
+        "total": 8,
+        "compartida": 8,
+        "solo_mp": 0
+      },
+      "05631": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "05360": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "54874": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "15001": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "25290": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "25473": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "05615": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "08573": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "25099": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "50001": {
+        "total": 2,
+        "compartida": 2,
+        "solo_mp": 0
+      },
+      "05059": {
+        "total": 2,
+        "compartida": 2,
+        "solo_mp": 0
+      },
+      "68307": {
+        "total": 2,
+        "compartida": 2,
+        "solo_mp": 0
+      },
+      "25214": {
+        "total": 2,
+        "compartida": 2,
+        "solo_mp": 0
+      },
+      "41001": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "19001": {
+        "total": 3,
+        "compartida": 3,
+        "solo_mp": 0
+      },
+      "66170": {
+        "total": 3,
+        "compartida": 3,
+        "solo_mp": 0
+      },
+      "25817": {
+        "total": 3,
+        "compartida": 3,
+        "solo_mp": 0
+      },
+      "70001": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "08758": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "05376": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "68276": {
+        "total": 4,
+        "compartida": 4,
+        "solo_mp": 0
+      },
+      "05088": {
+        "total": 4,
+        "compartida": 4,
+        "solo_mp": 0
+      },
+      "47001": {
+        "total": 5,
+        "compartida": 2,
+        "solo_mp": 3
+      },
+      "25377": {
+        "total": 6,
+        "compartida": 3,
+        "solo_mp": 3
+      },
+      "76520": {
+        "total": 6,
+        "compartida": 3,
+        "solo_mp": 3
+      },
+      "17001": {
+        "total": 6,
+        "compartida": 3,
+        "solo_mp": 3
+      },
+      "25899": {
+        "total": 6,
+        "compartida": 6,
+        "solo_mp": 0
+      }
+    }
+  },
+  {
+    "id": "1010266335",
+    "actividadValidada": "",
+    "contratista": "Sin Contratista",
+    "objeto": "NINGUNO",
+    "valor": 0.0,
+    "estado": "ACTUALIZADO",
+    "tipo": "PRIMA",
+    "contratante": "COLSANITAS (10)",
+    "colectivo": "ABBOTT LABORATORIES",
+    "colectivoBeneficiado": "ABBOTT LABORATORIES DE COLOMBIA SAS",
+    "plan": "INTEGRAL",
+    "fechaInicio": "2026-01-01 00:00:00",
+    "fechaFin": "2026-12-31 00:00:00",
+    "poblacion": 1,
+    "coberturas": [
+      {
+        "tipo": "VADEMECUM ABIERTO",
+        "descripcion": "COBERTURA ANEXOS ONCOLÓGICO,PRE Y POST EGRESO"
+      }
+    ],
+    "vihHeader": "N/A",
+    "vihSub": "N/A",
+    "oncoHeader": "SI",
+    "oncoSub": "ILIMITADO",
+    "prePostHeader": "SI",
+    "prePostSub": "2.75",
+    "ortesisHeader": "SI",
+    "ortesisSub": "Requiere autorización",
+    "poblacionCompartida": 1,
+    "poblacionSoloMP": 0,
+    "poblacionDane": {
+      "66001": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      }
+    }
+  },
+  {
+    "id": "1010302239",
+    "actividadValidada": "",
+    "contratista": "Sin Contratista",
+    "objeto": "NINGUNO",
+    "valor": 0.0,
+    "estado": "ACTUALIZADO",
+    "tipo": "PRIMA",
+    "contratante": "COLSANITAS (10)",
+    "colectivo": "ABBOTT RAPID",
+    "colectivoBeneficiado": "ABBOTT RAPID DIAGNOSTIC",
+    "plan": "INTEGRAL",
+    "fechaInicio": "2026-01-01 00:00:00",
+    "fechaFin": "2026-12-31 00:00:00",
+    "poblacion": 463959,
+    "coberturas": [
+      {
+        "tipo": "VADEMECUM ABIERTO",
+        "descripcion": "COBERTURA ANEXOS ONCOLÓGICO,PRE Y POST EGRESO"
+      }
+    ],
+    "vihHeader": "N/A",
+    "vihSub": "N/A",
+    "oncoHeader": "SI",
+    "oncoSub": "ILIMITADO",
+    "prePostHeader": "SI",
+    "prePostSub": "2.75",
+    "ortesisHeader": "SI",
+    "ortesisSub": "Requiere autorización",
+    "poblacionCompartida": 349113,
+    "poblacionSoloMP": 114844,
+    "poblacionDane": {
+      "11001": {
+        "total": 252886,
+        "compartida": 197132,
+        "solo_mp": 55754
+      },
+      "68276": {
+        "total": 3455,
+        "compartida": 2713,
+        "solo_mp": 742
+      },
+      "05615": {
+        "total": 1673,
+        "compartida": 1146,
+        "solo_mp": 527
+      },
+      "05001": {
+        "total": 17260,
+        "compartida": 10707,
+        "solo_mp": 6553
+      },
+      "25126": {
+        "total": 5970,
+        "compartida": 4815,
+        "solo_mp": 1155
+      },
+      "76001": {
+        "total": 27130,
+        "compartida": 21062,
+        "solo_mp": 6068
+      },
+      "25377": {
+        "total": 977,
+        "compartida": 782,
+        "solo_mp": 195
+      },
+      "23001": {
+        "total": 2272,
+        "compartida": 1499,
+        "solo_mp": 773
+      },
+      "08558": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "05360": {
+        "total": 1009,
+        "compartida": 453,
+        "solo_mp": 556
+      },
+      "13001": {
+        "total": 9620,
+        "compartida": 6377,
+        "solo_mp": 3243
+      },
+      "05266": {
+        "total": 4449,
+        "compartida": 2956,
+        "solo_mp": 1493
+      },
+      "50568": {
+        "total": 227,
+        "compartida": 71,
+        "solo_mp": 156
+      },
+      "50001": {
+        "total": 12787,
+        "compartida": 10146,
+        "solo_mp": 2641
+      },
+      "47001": {
+        "total": 7532,
+        "compartida": 5955,
+        "solo_mp": 1577
+      },
+      "68001": {
+        "total": 8654,
+        "compartida": 6946,
+        "solo_mp": 1708
+      },
+      "54405": {
+        "total": 51,
+        "compartida": 6,
+        "solo_mp": 45
+      },
+      "08001": {
+        "total": 19743,
+        "compartida": 13859,
+        "solo_mp": 5884
+      },
+      "17001": {
+        "total": 2825,
+        "compartida": 1958,
+        "solo_mp": 867
+      },
+      "25175": {
+        "total": 10911,
+        "compartida": 9022,
+        "solo_mp": 1889
+      },
+      "05607": {
+        "total": 79,
+        "compartida": 5,
+        "solo_mp": 74
+      },
+      "44430": {
+        "total": 333,
+        "compartida": 220,
+        "solo_mp": 113
+      },
+      "25430": {
+        "total": 1124,
+        "compartida": 661,
+        "solo_mp": 463
+      },
+      "05059": {
+        "total": 2445,
+        "compartida": 1926,
+        "solo_mp": 519
+      },
+      "66001": {
+        "total": 4225,
+        "compartida": 3117,
+        "solo_mp": 1108
+      },
+      "73001": {
+        "total": 4223,
+        "compartida": 3305,
+        "solo_mp": 918
+      },
+      "25386": {
+        "total": 35,
+        "compartida": 8,
+        "solo_mp": 27
+      },
+      "05088": {
+        "total": 959,
+        "compartida": 280,
+        "solo_mp": 679
+      },
+      "05148": {
+        "total": 73,
+        "compartida": 0,
+        "solo_mp": 73
+      },
+      "88001": {
+        "total": 1051,
+        "compartida": 888,
+        "solo_mp": 163
+      },
+      "05631": {
+        "total": 727,
+        "compartida": 23,
+        "solo_mp": 704
+      },
+      "05376": {
+        "total": 112,
+        "compartida": 1,
+        "solo_mp": 111
+      },
+      "05380": {
+        "total": 227,
+        "compartida": 3,
+        "solo_mp": 224
+      },
+      "25799": {
+        "total": 191,
+        "compartida": 108,
+        "solo_mp": 83
+      },
+      "44001": {
+        "total": 1120,
+        "compartida": 836,
+        "solo_mp": 284
+      },
+      "76892": {
+        "total": 474,
+        "compartida": 312,
+        "solo_mp": 162
+      },
+      "15293": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "19001": {
+        "total": 1166,
+        "compartida": 898,
+        "solo_mp": 268
+      },
+      "85001": {
+        "total": 2932,
+        "compartida": 2444,
+        "solo_mp": 488
+      },
+      "25899": {
+        "total": 2397,
+        "compartida": 1728,
+        "solo_mp": 669
+      },
+      "25214": {
+        "total": 1646,
+        "compartida": 1293,
+        "solo_mp": 353
+      },
+      "25758": {
+        "total": 665,
+        "compartida": 518,
+        "solo_mp": 147
+      },
+      "54001": {
+        "total": 2928,
+        "compartida": 2186,
+        "solo_mp": 742
+      },
+      "25317": {
+        "total": 12,
+        "compartida": 0,
+        "solo_mp": 12
+      },
+      "25290": {
+        "total": 842,
+        "compartida": 685,
+        "solo_mp": 157
+      },
+      "41001": {
+        "total": 3965,
+        "compartida": 3223,
+        "solo_mp": 742
+      },
+      "50006": {
+        "total": 987,
+        "compartida": 730,
+        "solo_mp": 257
+      },
+      "25224": {
+        "total": 3,
+        "compartida": 1,
+        "solo_mp": 2
+      },
+      "81736": {
+        "total": 34,
+        "compartida": 14,
+        "solo_mp": 20
+      },
+      "15759": {
+        "total": 1296,
+        "compartida": 1043,
+        "solo_mp": 253
+      },
+      "25269": {
+        "total": 896,
+        "compartida": 611,
+        "solo_mp": 285
+      },
+      "18001": {
+        "total": 620,
+        "compartida": 507,
+        "solo_mp": 113
+      },
+      "25473": {
+        "total": 2217,
+        "compartida": 1491,
+        "solo_mp": 726
+      },
+      "76520": {
+        "total": 1875,
+        "compartida": 1419,
+        "solo_mp": 456
+      },
+      "25754": {
+        "total": 1852,
+        "compartida": 1146,
+        "solo_mp": 706
+      },
+      "15835": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "25843": {
+        "total": 95,
+        "compartida": 10,
+        "solo_mp": 85
+      },
+      "25286": {
+        "total": 770,
+        "compartida": 466,
+        "solo_mp": 304
+      },
+      "15238": {
+        "total": 1284,
+        "compartida": 979,
+        "solo_mp": 305
+      },
+      "68547": {
+        "total": 727,
+        "compartida": 528,
+        "solo_mp": 199
+      },
+      "23162": {
+        "total": 56,
+        "compartida": 3,
+        "solo_mp": 53
+      },
+      "15491": {
+        "total": 15,
+        "compartida": 8,
+        "solo_mp": 7
+      },
+      "76109": {
+        "total": 87,
+        "compartida": 3,
+        "solo_mp": 84
+      },
+      "15455": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "70713": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "25740": {
+        "total": 48,
+        "compartida": 16,
+        "solo_mp": 32
+      },
+      "68679": {
+        "total": 357,
+        "compartida": 285,
+        "solo_mp": 72
+      },
+      "99001": {
+        "total": 9,
+        "compartida": 0,
+        "solo_mp": 9
+      },
+      "05318": {
+        "total": 86,
+        "compartida": 3,
+        "solo_mp": 83
+      },
+      "15599": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "23466": {
+        "total": 922,
+        "compartida": 772,
+        "solo_mp": 150
+      },
+      "68406": {
+        "total": 9,
+        "compartida": 4,
+        "solo_mp": 5
+      },
+      "05313": {
+        "total": 84,
+        "compartida": 31,
+        "solo_mp": 53
+      },
+      "20001": {
+        "total": 3146,
+        "compartida": 2463,
+        "solo_mp": 683
+      },
+      "70001": {
+        "total": 1851,
+        "compartida": 1291,
+        "solo_mp": 560
+      },
+      "73671": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "25035": {
+        "total": 26,
+        "compartida": 8,
+        "solo_mp": 18
+      },
+      "76306": {
+        "total": 11,
+        "compartida": 0,
+        "solo_mp": 11
+      },
+      "73443": {
+        "total": 13,
+        "compartida": 0,
+        "solo_mp": 13
+      },
+      "41551": {
+        "total": 281,
+        "compartida": 213,
+        "solo_mp": 68
+      },
+      "73349": {
+        "total": 166,
+        "compartida": 143,
+        "solo_mp": 23
+      },
+      "47555": {
+        "total": 19,
+        "compartida": 2,
+        "solo_mp": 17
+      },
+      "66170": {
+        "total": 557,
+        "compartida": 317,
+        "solo_mp": 240
+      },
+      "13836": {
+        "total": 107,
+        "compartida": 0,
+        "solo_mp": 107
+      },
+      "81001": {
+        "total": 302,
+        "compartida": 231,
+        "solo_mp": 71
+      },
+      "47318": {
+        "total": 35,
+        "compartida": 1,
+        "solo_mp": 34
+      },
+      "19548": {
+        "total": 15,
+        "compartida": 6,
+        "solo_mp": 9
+      },
+      "15516": {
+        "total": 177,
+        "compartida": 133,
+        "solo_mp": 44
+      },
+      "08573": {
+        "total": 837,
+        "compartida": 542,
+        "solo_mp": 295
+      },
+      "99624": {
+        "total": 7,
+        "compartida": 0,
+        "solo_mp": 7
+      },
+      "68081": {
+        "total": 1250,
+        "compartida": 931,
+        "solo_mp": 319
+      },
+      "85139": {
+        "total": 26,
+        "compartida": 8,
+        "solo_mp": 18
+      },
+      "76364": {
+        "total": 1642,
+        "compartida": 1182,
+        "solo_mp": 460
+      },
+      "23660": {
+        "total": 83,
+        "compartida": 1,
+        "solo_mp": 82
+      },
+      "73352": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "76275": {
+        "total": 36,
+        "compartida": 10,
+        "solo_mp": 26
+      },
+      "23555": {
+        "total": 31,
+        "compartida": 0,
+        "solo_mp": 31
+      },
+      "76834": {
+        "total": 435,
+        "compartida": 310,
+        "solo_mp": 125
+      },
+      "70215": {
+        "total": 29,
+        "compartida": 0,
+        "solo_mp": 29
+      },
+      "15001": {
+        "total": 3130,
+        "compartida": 2531,
+        "solo_mp": 599
+      },
+      "70235": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "95001": {
+        "total": 42,
+        "compartida": 0,
+        "solo_mp": 42
+      },
+      "23417": {
+        "total": 30,
+        "compartida": 0,
+        "solo_mp": 30
+      },
+      "76736": {
+        "total": 11,
+        "compartida": 0,
+        "solo_mp": 11
+      },
+      "25307": {
+        "total": 641,
+        "compartida": 506,
+        "solo_mp": 135
+      },
+      "25785": {
+        "total": 55,
+        "compartida": 2,
+        "solo_mp": 53
+      },
+      "25841": {
+        "total": 24,
+        "compartida": 0,
+        "solo_mp": 24
+      },
+      "68432": {
+        "total": 11,
+        "compartida": 4,
+        "solo_mp": 7
+      },
+      "94001": {
+        "total": 24,
+        "compartida": 0,
+        "solo_mp": 24
+      },
+      "25402": {
+        "total": 33,
+        "compartida": 10,
+        "solo_mp": 23
+      },
+      "25612": {
+        "total": 30,
+        "compartida": 7,
+        "solo_mp": 23
+      },
+      "47288": {
+        "total": 46,
+        "compartida": 0,
+        "solo_mp": 46
+      },
+      "05212": {
+        "total": 124,
+        "compartida": 0,
+        "solo_mp": 124
+      },
+      "23182": {
+        "total": 12,
+        "compartida": 0,
+        "solo_mp": 12
+      },
+      "08433": {
+        "total": 35,
+        "compartida": 0,
+        "solo_mp": 35
+      },
+      "13873": {
+        "total": 87,
+        "compartida": 56,
+        "solo_mp": 31
+      },
+      "05129": {
+        "total": 72,
+        "compartida": 1,
+        "solo_mp": 71
+      },
+      "52001": {
+        "total": 1756,
+        "compartida": 1466,
+        "solo_mp": 288
+      },
+      "91001": {
+        "total": 161,
+        "compartida": 132,
+        "solo_mp": 29
+      },
+      "73449": {
+        "total": 130,
+        "compartida": 44,
+        "solo_mp": 86
+      },
+      "05079": {
+        "total": 34,
+        "compartida": 0,
+        "solo_mp": 34
+      },
+      "54498": {
+        "total": 215,
+        "compartida": 184,
+        "solo_mp": 31
+      },
+      "17877": {
+        "total": 11,
+        "compartida": 0,
+        "solo_mp": 11
+      },
+      "20621": {
+        "total": 6,
+        "compartida": 0,
+        "solo_mp": 6
+      },
+      "54874": {
+        "total": 90,
+        "compartida": 36,
+        "solo_mp": 54
+      },
+      "05893": {
+        "total": 7,
+        "compartida": 0,
+        "solo_mp": 7
+      },
+      "17777": {
+        "total": 11,
+        "compartida": 0,
+        "solo_mp": 11
+      },
+      "91430": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "17873": {
+        "total": 61,
+        "compartida": 1,
+        "solo_mp": 60
+      },
+      "68307": {
+        "total": 254,
+        "compartida": 179,
+        "solo_mp": 75
+      },
+      "15469": {
+        "total": 21,
+        "compartida": 0,
+        "solo_mp": 21
+      },
+      "76111": {
+        "total": 92,
+        "compartida": 22,
+        "solo_mp": 70
+      },
+      "70508": {
+        "total": 11,
+        "compartida": 0,
+        "solo_mp": 11
+      },
+      "05045": {
+        "total": 23,
+        "compartida": 1,
+        "solo_mp": 22
+      },
+      "44078": {
+        "total": 71,
+        "compartida": 49,
+        "solo_mp": 22
+      },
+      "18029": {
+        "total": 51,
+        "compartida": 35,
+        "solo_mp": 16
+      },
+      "17272": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "05541": {
+        "total": 9,
+        "compartida": 0,
+        "solo_mp": 9
+      },
+      "44650": {
+        "total": 129,
+        "compartida": 98,
+        "solo_mp": 31
+      },
+      "54518": {
+        "total": 66,
+        "compartida": 22,
+        "solo_mp": 44
+      },
+      "73024": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "05440": {
+        "total": 67,
+        "compartida": 3,
+        "solo_mp": 64
+      },
+      "25817": {
+        "total": 635,
+        "compartida": 434,
+        "solo_mp": 201
+      },
+      "76828": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "25572": {
+        "total": 13,
+        "compartida": 0,
+        "solo_mp": 13
+      },
+      "76622": {
+        "total": 26,
+        "compartida": 1,
+        "solo_mp": 25
+      },
+      "68755": {
+        "total": 43,
+        "compartida": 23,
+        "solo_mp": 20
+      },
+      "15572": {
+        "total": 24,
+        "compartida": 3,
+        "solo_mp": 21
+      },
+      "05837": {
+        "total": 10,
+        "compartida": 1,
+        "solo_mp": 9
+      },
+      "08758": {
+        "total": 866,
+        "compartida": 512,
+        "solo_mp": 354
+      },
+      "66682": {
+        "total": 52,
+        "compartida": 11,
+        "solo_mp": 41
+      },
+      "18756": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "25288": {
+        "total": 10,
+        "compartida": 0,
+        "solo_mp": 10
+      },
+      "52435": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "73268": {
+        "total": 63,
+        "compartida": 22,
+        "solo_mp": 41
+      },
+      "05308": {
+        "total": 60,
+        "compartida": 0,
+        "solo_mp": 60
+      },
+      "15600": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "68655": {
+        "total": 18,
+        "compartida": 0,
+        "solo_mp": 18
+      },
+      "86568": {
+        "total": 18,
+        "compartida": 0,
+        "solo_mp": 18
+      },
+      "08296": {
+        "total": 26,
+        "compartida": 0,
+        "solo_mp": 26
+      },
+      "76113": {
+        "total": 29,
+        "compartida": 1,
+        "solo_mp": 28
+      },
+      "76147": {
+        "total": 431,
+        "compartida": 333,
+        "solo_mp": 98
+      },
+      "41396": {
+        "total": 38,
+        "compartida": 26,
+        "solo_mp": 12
+      },
+      "15761": {
+        "total": 6,
+        "compartida": 0,
+        "solo_mp": 6
+      },
+      "15367": {
+        "total": 7,
+        "compartida": 0,
+        "solo_mp": 7
+      },
+      "13657": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "73226": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "20770": {
+        "total": 22,
+        "compartida": 3,
+        "solo_mp": 19
+      },
+      "20238": {
+        "total": 9,
+        "compartida": 0,
+        "solo_mp": 9
+      },
+      "05154": {
+        "total": 20,
+        "compartida": 0,
+        "solo_mp": 20
+      },
+      "85010": {
+        "total": 92,
+        "compartida": 58,
+        "solo_mp": 34
+      },
+      "05652": {
+        "total": 2,
+        "compartida": 1,
+        "solo_mp": 1
+      },
+      "25743": {
+        "total": 13,
+        "compartida": 2,
+        "solo_mp": 11
+      },
+      "08638": {
+        "total": 18,
+        "compartida": 0,
+        "solo_mp": 18
+      },
+      "50573": {
+        "total": 90,
+        "compartida": 33,
+        "solo_mp": 57
+      },
+      "25875": {
+        "total": 208,
+        "compartida": 181,
+        "solo_mp": 27
+      },
+      "85300": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "85440": {
+        "total": 48,
+        "compartida": 32,
+        "solo_mp": 16
+      },
+      "25151": {
+        "total": 32,
+        "compartida": 14,
+        "solo_mp": 18
+      },
+      "15176": {
+        "total": 374,
+        "compartida": 307,
+        "solo_mp": 67
+      },
+      "50150": {
+        "total": 50,
+        "compartida": 15,
+        "solo_mp": 35
+      },
+      "08685": {
+        "total": 16,
+        "compartida": 0,
+        "solo_mp": 16
+      },
+      "00000": {
+        "total": 27,
+        "compartida": 2,
+        "solo_mp": 25
+      },
+      "52356": {
+        "total": 162,
+        "compartida": 134,
+        "solo_mp": 28
+      },
+      "44279": {
+        "total": 110,
+        "compartida": 92,
+        "solo_mp": 18
+      },
+      "19785": {
+        "total": 9,
+        "compartida": 0,
+        "solo_mp": 9
+      },
+      "86571": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "08634": {
+        "total": 14,
+        "compartida": 0,
+        "solo_mp": 14
+      },
+      "50330": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "47189": {
+        "total": 63,
+        "compartida": 2,
+        "solo_mp": 61
+      },
+      "76318": {
+        "total": 18,
+        "compartida": 0,
+        "solo_mp": 18
+      },
+      "85430": {
+        "total": 7,
+        "compartida": 4,
+        "solo_mp": 3
+      },
+      "05240": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "85410": {
+        "total": 129,
+        "compartida": 91,
+        "solo_mp": 38
+      },
+      "63401": {
+        "total": 13,
+        "compartida": 3,
+        "solo_mp": 10
+      },
+      "19418": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "52835": {
+        "total": 26,
+        "compartida": 6,
+        "solo_mp": 20
+      },
+      "25530": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "86001": {
+        "total": 18,
+        "compartida": 0,
+        "solo_mp": 18
+      },
+      "15189": {
+        "total": 10,
+        "compartida": 0,
+        "solo_mp": 10
+      },
+      "85250": {
+        "total": 40,
+        "compartida": 27,
+        "solo_mp": 13
+      },
+      "17380": {
+        "total": 27,
+        "compartida": 3,
+        "solo_mp": 24
+      },
+      "70221": {
+        "total": 18,
+        "compartida": 0,
+        "solo_mp": 18
+      },
+      "13140": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "13468": {
+        "total": 7,
+        "compartida": 0,
+        "solo_mp": 7
+      },
+      "19455": {
+        "total": 7,
+        "compartida": 0,
+        "solo_mp": 7
+      },
+      "18592": {
+        "total": 5,
+        "compartida": 3,
+        "solo_mp": 2
+      },
+      "15776": {
+        "total": 8,
+        "compartida": 0,
+        "solo_mp": 8
+      },
+      "08141": {
+        "total": 54,
+        "compartida": 1,
+        "solo_mp": 53
+      },
+      "23807": {
+        "total": 10,
+        "compartida": 0,
+        "solo_mp": 10
+      },
+      "47053": {
+        "total": 6,
+        "compartida": 0,
+        "solo_mp": 6
+      },
+      "20060": {
+        "total": 12,
+        "compartida": 0,
+        "solo_mp": 12
+      },
+      "50711": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "50124": {
+        "total": 8,
+        "compartida": 0,
+        "solo_mp": 8
+      },
+      "76248": {
+        "total": 27,
+        "compartida": 3,
+        "solo_mp": 24
+      },
+      "63190": {
+        "total": 38,
+        "compartida": 8,
+        "solo_mp": 30
+      },
+      "05656": {
+        "total": 20,
+        "compartida": 2,
+        "solo_mp": 18
+      },
+      "70473": {
+        "total": 8,
+        "compartida": 1,
+        "solo_mp": 7
+      },
+      "76895": {
+        "total": 8,
+        "compartida": 0,
+        "solo_mp": 8
+      },
+      "25322": {
+        "total": 22,
+        "compartida": 5,
+        "solo_mp": 17
+      },
+      "25295": {
+        "total": 33,
+        "compartida": 0,
+        "solo_mp": 33
+      },
+      "25718": {
+        "total": 7,
+        "compartida": 2,
+        "solo_mp": 5
+      },
+      "25769": {
+        "total": 29,
+        "compartida": 10,
+        "solo_mp": 19
+      },
+      "25488": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "19573": {
+        "total": 13,
+        "compartida": 0,
+        "solo_mp": 13
+      },
+      "15407": {
+        "total": 66,
+        "compartida": 48,
+        "solo_mp": 18
+      },
+      "81591": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "05628": {
+        "total": 38,
+        "compartida": 1,
+        "solo_mp": 37
+      },
+      "50606": {
+        "total": 39,
+        "compartida": 1,
+        "solo_mp": 38
+      },
+      "25513": {
+        "total": 7,
+        "compartida": 0,
+        "solo_mp": 7
+      },
+      "25001": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "25772": {
+        "total": 7,
+        "compartida": 0,
+        "solo_mp": 7
+      },
+      "15806": {
+        "total": 10,
+        "compartida": 2,
+        "solo_mp": 8
+      },
+      "18753": {
+        "total": 8,
+        "compartida": 3,
+        "solo_mp": 5
+      },
+      "25745": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "41298": {
+        "total": 161,
+        "compartida": 146,
+        "solo_mp": 15
+      },
+      "15753": {
+        "total": 16,
+        "compartida": 7,
+        "solo_mp": 9
+      },
+      "54245": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "25491": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "63272": {
+        "total": 4,
+        "compartida": 2,
+        "solo_mp": 2
+      },
+      "54172": {
+        "total": 11,
+        "compartida": 4,
+        "solo_mp": 7
+      },
+      "17541": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "25123": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "05051": {
+        "total": 7,
+        "compartida": 0,
+        "solo_mp": 7
+      },
+      "41770": {
+        "total": 3,
+        "compartida": 1,
+        "solo_mp": 2
+      },
+      "25797": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "20787": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "73483": {
+        "total": 6,
+        "compartida": 3,
+        "solo_mp": 3
+      },
+      "05647": {
+        "total": 188,
+        "compartida": 148,
+        "solo_mp": 40
+      },
+      "05250": {
+        "total": 7,
+        "compartida": 0,
+        "solo_mp": 7
+      },
+      "73585": {
+        "total": 17,
+        "compartida": 5,
+        "solo_mp": 12
+      },
+      "17013": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "68572": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "25181": {
+        "total": 16,
+        "compartida": 4,
+        "solo_mp": 12
+      },
+      "15276": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "08520": {
+        "total": 8,
+        "compartida": 0,
+        "solo_mp": 8
+      },
+      "25898": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "73563": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "44847": {
+        "total": 8,
+        "compartida": 4,
+        "solo_mp": 4
+      },
+      "19698": {
+        "total": 232,
+        "compartida": 177,
+        "solo_mp": 55
+      },
+      "13188": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "25320": {
+        "total": 14,
+        "compartida": 2,
+        "solo_mp": 12
+      },
+      "41797": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "50223": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "50110": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "15204": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "41524": {
+        "total": 14,
+        "compartida": 11,
+        "solo_mp": 3
+      },
+      "25312": {
+        "total": 65,
+        "compartida": 31,
+        "solo_mp": 34
+      },
+      "17513": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "76233": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "81794": {
+        "total": 27,
+        "compartida": 17,
+        "solo_mp": 10
+      },
+      "25040": {
+        "total": 6,
+        "compartida": 3,
+        "solo_mp": 3
+      },
+      "25851": {
+        "total": 3,
+        "compartida": 2,
+        "solo_mp": 1
+      },
+      "05400": {
+        "total": 22,
+        "compartida": 1,
+        "solo_mp": 21
+      },
+      "76563": {
+        "total": 28,
+        "compartida": 4,
+        "solo_mp": 24
+      },
+      "76036": {
+        "total": 8,
+        "compartida": 0,
+        "solo_mp": 8
+      },
+      "25779": {
+        "total": 7,
+        "compartida": 1,
+        "solo_mp": 6
+      },
+      "73275": {
+        "total": 8,
+        "compartida": 0,
+        "solo_mp": 8
+      },
+      "25178": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "68861": {
+        "total": 25,
+        "compartida": 12,
+        "solo_mp": 13
+      },
+      "70702": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "08372": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "97001": {
+        "total": 8,
+        "compartida": 0,
+        "solo_mp": 8
+      },
+      "88564": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "23580": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "66594": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "41615": {
+        "total": 18,
+        "compartida": 15,
+        "solo_mp": 3
+      },
+      "68575": {
+        "total": 21,
+        "compartida": 4,
+        "solo_mp": 17
+      },
+      "25486": {
+        "total": 24,
+        "compartida": 5,
+        "solo_mp": 19
+      },
+      "25183": {
+        "total": 11,
+        "compartida": 4,
+        "solo_mp": 7
+      },
+      "25658": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "25200": {
+        "total": 35,
+        "compartida": 5,
+        "solo_mp": 30
+      },
+      "25873": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "05002": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "25326": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "13052": {
+        "total": 14,
+        "compartida": 0,
+        "solo_mp": 14
+      },
+      "70820": {
+        "total": 9,
+        "compartida": 2,
+        "solo_mp": 7
+      },
+      "05361": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "73217": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "17174": {
+        "total": 17,
+        "compartida": 1,
+        "solo_mp": 16
+      },
+      "73152": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "15322": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "05483": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "05697": {
+        "total": 9,
+        "compartida": 0,
+        "solo_mp": 9
+      },
+      "13430": {
+        "total": 12,
+        "compartida": 0,
+        "solo_mp": 12
+      },
+      "08137": {
+        "total": 3,
+        "compartida": 1,
+        "solo_mp": 2
+      },
+      "15646": {
+        "total": 24,
+        "compartida": 15,
+        "solo_mp": 9
+      },
+      "15087": {
+        "total": 5,
+        "compartida": 1,
+        "solo_mp": 4
+      },
+      "73319": {
+        "total": 6,
+        "compartida": 2,
+        "solo_mp": 4
+      },
+      "27450": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "25260": {
+        "total": 36,
+        "compartida": 10,
+        "solo_mp": 26
+      },
+      "25736": {
+        "total": 12,
+        "compartida": 0,
+        "solo_mp": 12
+      },
+      "05789": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "05237": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "05467": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "15466": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "08832": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "70708": {
+        "total": 21,
+        "compartida": 0,
+        "solo_mp": 21
+      },
+      "05579": {
+        "total": 10,
+        "compartida": 0,
+        "solo_mp": 10
+      },
+      "41668": {
+        "total": 9,
+        "compartida": 5,
+        "solo_mp": 4
+      },
+      "08849": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "50226": {
+        "total": 41,
+        "compartida": 20,
+        "solo_mp": 21
+      },
+      "15820": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "15693": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "15187": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "73411": {
+        "total": 8,
+        "compartida": 0,
+        "solo_mp": 8
+      },
+      "05679": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "20443": {
+        "total": 5,
+        "compartida": 2,
+        "solo_mp": 3
+      },
+      "44378": {
+        "total": 18,
+        "compartida": 11,
+        "solo_mp": 7
+      },
+      "63130": {
+        "total": 99,
+        "compartida": 65,
+        "solo_mp": 34
+      },
+      "25324": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "25815": {
+        "total": 6,
+        "compartida": 2,
+        "solo_mp": 4
+      },
+      "73148": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "15272": {
+        "total": 9,
+        "compartida": 2,
+        "solo_mp": 7
+      },
+      "63470": {
+        "total": 12,
+        "compartida": 0,
+        "solo_mp": 12
+      },
+      "20178": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "76126": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "27001": {
+        "total": 89,
+        "compartida": 70,
+        "solo_mp": 19
+      },
+      "85162": {
+        "total": 23,
+        "compartida": 14,
+        "solo_mp": 9
+      },
+      "47551": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "68500": {
+        "total": 5,
+        "compartida": 3,
+        "solo_mp": 2
+      },
+      "20011": {
+        "total": 89,
+        "compartida": 74,
+        "solo_mp": 15
+      },
+      "20400": {
+        "total": 136,
+        "compartida": 0,
+        "solo_mp": 136
+      },
+      "50287": {
+        "total": 2,
+        "compartida": 1,
+        "solo_mp": 1
+      },
+      "50683": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "44855": {
+        "total": 5,
+        "compartida": 2,
+        "solo_mp": 3
+      },
+      "15757": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "15104": {
+        "total": 4,
+        "compartida": 2,
+        "solo_mp": 2
+      },
+      "44110": {
+        "total": 15,
+        "compartida": 10,
+        "solo_mp": 5
+      },
+      "23350": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "15299": {
+        "total": 7,
+        "compartida": 1,
+        "solo_mp": 6
+      },
+      "20032": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "23855": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "19290": {
+        "total": 9,
+        "compartida": 7,
+        "solo_mp": 2
+      },
+      "76890": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "47245": {
+        "total": 5,
+        "compartida": 1,
+        "solo_mp": 4
+      },
+      "05664": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "41807": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "05660": {
+        "total": 9,
+        "compartida": 0,
+        "solo_mp": 9
+      },
+      "17042": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "05034": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "15476": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "20228": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "76869": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "05674": {
+        "total": 6,
+        "compartida": 1,
+        "solo_mp": 5
+      },
+      "68464": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "15667": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "70670": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "68079": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "73283": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "05172": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "17442": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "05264": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "25293": {
+        "total": 3,
+        "compartida": 1,
+        "solo_mp": 2
+      },
+      "25328": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "25398": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "15638": {
+        "total": 4,
+        "compartida": 2,
+        "solo_mp": 2
+      },
+      "15537": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "15325": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "68770": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "18150": {
+        "total": 6,
+        "compartida": 4,
+        "solo_mp": 2
+      },
+      "52240": {
+        "total": 3,
+        "compartida": 2,
+        "solo_mp": 1
+      },
+      "15185": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "68549": {
+        "total": 2,
+        "compartida": 2,
+        "solo_mp": 0
+      },
+      "25297": {
+        "total": 5,
+        "compartida": 4,
+        "solo_mp": 1
+      },
+      "85325": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "41885": {
+        "total": 11,
+        "compartida": 2,
+        "solo_mp": 9
+      },
+      "41016": {
+        "total": 3,
+        "compartida": 2,
+        "solo_mp": 1
+      },
+      "15814": {
+        "total": 6,
+        "compartida": 6,
+        "solo_mp": 0
+      },
+      "73168": {
+        "total": 18,
+        "compartida": 7,
+        "solo_mp": 11
+      },
+      "25245": {
+        "total": 13,
+        "compartida": 3,
+        "solo_mp": 10
+      },
+      "73504": {
+        "total": 4,
+        "compartida": 4,
+        "solo_mp": 0
+      },
+      "25592": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "68162": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "41548": {
+        "total": 7,
+        "compartida": 7,
+        "solo_mp": 0
+      },
+      "52838": {
+        "total": 9,
+        "compartida": 3,
+        "solo_mp": 6
+      },
+      "68418": {
+        "total": 10,
+        "compartida": 4,
+        "solo_mp": 6
+      },
+      "13670": {
+        "total": 3,
+        "compartida": 3,
+        "solo_mp": 0
+      },
+      "41801": {
+        "total": 2,
+        "compartida": 2,
+        "solo_mp": 0
+      },
+      "41483": {
+        "total": 2,
+        "compartida": 2,
+        "solo_mp": 0
+      },
+      "73408": {
+        "total": 9,
+        "compartida": 2,
+        "solo_mp": 7
+      },
+      "41306": {
+        "total": 9,
+        "compartida": 9,
+        "solo_mp": 0
+      },
+      "25839": {
+        "total": 4,
+        "compartida": 4,
+        "solo_mp": 0
+      },
+      "63594": {
+        "total": 6,
+        "compartida": 3,
+        "solo_mp": 3
+      },
+      "25662": {
+        "total": 2,
+        "compartida": 1,
+        "solo_mp": 1
+      },
+      "18247": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "44098": {
+        "total": 10,
+        "compartida": 4,
+        "solo_mp": 6
+      },
+      "41132": {
+        "total": 14,
+        "compartida": 10,
+        "solo_mp": 4
+      },
+      "15542": {
+        "total": 2,
+        "compartida": 2,
+        "solo_mp": 0
+      },
+      "15051": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "85230": {
+        "total": 11,
+        "compartida": 4,
+        "solo_mp": 7
+      },
+      "15798": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "52694": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "23300": {
+        "total": 3,
+        "compartida": 2,
+        "solo_mp": 1
+      },
+      "68468": {
+        "total": 2,
+        "compartida": 2,
+        "solo_mp": 0
+      },
+      "05113": {
+        "total": 89,
+        "compartida": 0,
+        "solo_mp": 89
+      },
+      "15215": {
+        "total": 7,
+        "compartida": 1,
+        "solo_mp": 6
+      },
+      "17614": {
+        "total": 12,
+        "compartida": 0,
+        "solo_mp": 12
+      },
+      "23670": {
+        "total": 7,
+        "compartida": 0,
+        "solo_mp": 7
+      },
+      "86885": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "86573": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "19100": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "13160": {
+        "total": 7,
+        "compartida": 0,
+        "solo_mp": 7
+      },
+      "68190": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "41518": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "25777": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "20013": {
+        "total": 12,
+        "compartida": 0,
+        "solo_mp": 12
+      },
+      "41357": {
+        "total": 3,
+        "compartida": 1,
+        "solo_mp": 2
+      },
+      "05604": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "17088": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "86865": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "47707": {
+        "total": 7,
+        "compartida": 0,
+        "solo_mp": 7
+      },
+      "25878": {
+        "total": 4,
+        "compartida": 1,
+        "solo_mp": 3
+      },
+      "05306": {
+        "total": 29,
+        "compartida": 0,
+        "solo_mp": 29
+      },
+      "47268": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "05591": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "73555": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "47980": {
+        "total": 6,
+        "compartida": 0,
+        "solo_mp": 6
+      },
+      "13442": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "54003": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "25279": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "68271": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "25053": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "25099": {
+        "total": 7,
+        "compartida": 1,
+        "solo_mp": 6
+      },
+      "81065": {
+        "total": 8,
+        "compartida": 2,
+        "solo_mp": 6
+      },
+      "15514": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "05890": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "25483": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "08421": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "76020": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "05321": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "25426": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "66400": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "15047": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "15808": {
+        "total": 2,
+        "compartida": 1,
+        "solo_mp": 1
+      },
+      "08078": {
+        "total": 8,
+        "compartida": 0,
+        "solo_mp": 8
+      },
+      "41872": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "17662": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "17616": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "13433": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "70418": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "15183": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "05284": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "19845": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "73624": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "47058": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "73861": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "54261": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "05761": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "15774": {
+        "total": 2,
+        "compartida": 1,
+        "solo_mp": 1
+      },
+      "05030": {
+        "total": 9,
+        "compartida": 0,
+        "solo_mp": 9
+      },
+      "23079": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "70823": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "05147": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "08560": {
+        "total": 9,
+        "compartida": 0,
+        "solo_mp": 9
+      },
+      "68152": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "05031": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "73547": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "41006": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "52079": {
+        "total": 13,
+        "compartida": 0,
+        "solo_mp": 13
+      },
+      "54810": {
+        "total": 16,
+        "compartida": 4,
+        "solo_mp": 12
+      },
+      "73026": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "86320": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "15690": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "18610": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "81300": {
+        "total": 2,
+        "compartida": 1,
+        "solo_mp": 1
+      },
+      "81220": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "52354": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "15494": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "23189": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "20750": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "41020": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "15879": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "15223": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "05847": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "05667": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "76823": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "19110": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "20250": {
+        "total": 6,
+        "compartida": 0,
+        "solo_mp": 6
+      },
+      "15480": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "05895": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "25781": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "05282": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "05686": {
+        "total": 10,
+        "compartida": 0,
+        "solo_mp": 10
+      },
+      "05364": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "05790": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "76122": {
+        "total": 3,
+        "compartida": 1,
+        "solo_mp": 2
+      },
+      "13212": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "86569": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "17486": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "20045": {
+        "total": 60,
+        "compartida": 9,
+        "solo_mp": 51
+      },
+      "85263": {
+        "total": 6,
+        "compartida": 6,
+        "solo_mp": 0
+      },
+      "41503": {
+        "total": 4,
+        "compartida": 3,
+        "solo_mp": 1
+      },
+      "52352": {
+        "total": 3,
+        "compartida": 2,
+        "solo_mp": 1
+      },
+      "52678": {
+        "total": 2,
+        "compartida": 2,
+        "solo_mp": 0
+      },
+      "15861": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "05315": {
+        "total": 5,
+        "compartida": 2,
+        "solo_mp": 3
+      },
+      "05649": {
+        "total": 3,
+        "compartida": 2,
+        "solo_mp": 1
+      },
+      "15362": {
+        "total": 2,
+        "compartida": 1,
+        "solo_mp": 1
+      },
+      "41078": {
+        "total": 2,
+        "compartida": 2,
+        "solo_mp": 0
+      },
+      "41013": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "25805": {
+        "total": 2,
+        "compartida": 2,
+        "solo_mp": 0
+      },
+      "76377": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "25807": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "15686": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "19212": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "23464": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "70742": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "63690": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "05887": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "17444": {
+        "total": 4,
+        "compartida": 2,
+        "solo_mp": 2
+      },
+      "52203": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "13074": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "68229": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "68524": {
+        "total": 4,
+        "compartida": 3,
+        "solo_mp": 1
+      },
+      "15097": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "05819": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "19397": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "15172": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "05809": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "47460": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "25645": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "05659": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "15664": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "54720": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "54051": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "73067": {
+        "total": 4,
+        "compartida": 4,
+        "solo_mp": 0
+      },
+      "41359": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "25019": {
+        "total": 2,
+        "compartida": 2,
+        "solo_mp": 0
+      },
+      "52687": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "52573": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "05368": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "15673": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "25438": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "25120": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "05197": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "15804": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "52378": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "13244": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "25596": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "19701": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "19256": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "25368": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "68855": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "05411": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "52320": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "15377": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "54670": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "66440": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "23570": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "05042": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "05138": {
+        "total": 6,
+        "compartida": 0,
+        "solo_mp": 6
+      },
+      "05190": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "05736": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "05101": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "05858": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "15244": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "20175": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "15696": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "23068": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "41660": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "76497": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "20614": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "13654": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "66456": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "05854": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "19743": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "85225": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "54313": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "15755": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      }
+    }
+  },
+  {
+    "id": "101058059",
+    "actividadValidada": "",
+    "contratista": "Sin Contratista",
+    "objeto": "NINGUNO",
+    "valor": 0.0,
+    "estado": "ACTUALIZADO",
+    "tipo": "PRIMA",
+    "contratante": "COLSANITAS (10)",
+    "colectivo": "LA FRANCOL",
+    "colectivoBeneficiado": "LA FRANCOL SAS",
+    "plan": "INTEGRAL",
+    "fechaInicio": "2026-01-01 00:00:00",
+    "fechaFin": "2026-12-31 00:00:00",
+    "poblacion": 945,
+    "coberturas": [
+      {
+        "tipo": "VADEMECUM ABIERTO",
+        "descripcion": "COBERTURA ANEXOS ONCOLÓGICO,PRE Y POST EGRESO"
+      }
+    ],
+    "vihHeader": "N/A",
+    "vihSub": "N/A",
+    "oncoHeader": "SI",
+    "oncoSub": "ILIMITADO",
+    "prePostHeader": "SI",
+    "prePostSub": "2.75",
+    "ortesisHeader": "SI",
+    "ortesisSub": "Requiere autorización",
+    "poblacionCompartida": 686,
+    "poblacionSoloMP": 259,
+    "poblacionDane": {
+      "13001": {
+        "total": 17,
+        "compartida": 9,
+        "solo_mp": 8
+      },
+      "08001": {
+        "total": 74,
+        "compartida": 58,
+        "solo_mp": 16
+      },
+      "05266": {
+        "total": 8,
+        "compartida": 0,
+        "solo_mp": 8
+      },
+      "76001": {
+        "total": 223,
+        "compartida": 157,
+        "solo_mp": 66
+      },
+      "11001": {
+        "total": 287,
+        "compartida": 229,
+        "solo_mp": 58
+      },
+      "25126": {
+        "total": 19,
+        "compartida": 16,
+        "solo_mp": 3
+      },
+      "68001": {
+        "total": 25,
+        "compartida": 20,
+        "solo_mp": 5
+      },
+      "73001": {
+        "total": 23,
+        "compartida": 14,
+        "solo_mp": 9
+      },
+      "05001": {
+        "total": 62,
+        "compartida": 27,
+        "solo_mp": 35
+      },
+      "05631": {
+        "total": 12,
+        "compartida": 0,
+        "solo_mp": 12
+      },
+      "76520": {
+        "total": 10,
+        "compartida": 9,
+        "solo_mp": 1
+      },
+      "66001": {
+        "total": 32,
+        "compartida": 24,
+        "solo_mp": 8
+      },
+      "05615": {
+        "total": 10,
+        "compartida": 8,
+        "solo_mp": 2
+      },
+      "68276": {
+        "total": 13,
+        "compartida": 13,
+        "solo_mp": 0
+      },
+      "76364": {
+        "total": 11,
+        "compartida": 11,
+        "solo_mp": 0
+      },
+      "50001": {
+        "total": 11,
+        "compartida": 10,
+        "solo_mp": 1
+      },
+      "47001": {
+        "total": 9,
+        "compartida": 8,
+        "solo_mp": 1
+      },
+      "52001": {
+        "total": 8,
+        "compartida": 8,
+        "solo_mp": 0
+      },
+      "54001": {
+        "total": 22,
+        "compartida": 18,
+        "solo_mp": 4
+      },
+      "70001": {
+        "total": 9,
+        "compartida": 8,
+        "solo_mp": 1
+      },
+      "25286": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "08758": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "25875": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "19001": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "25430": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "76834": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "25214": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "05212": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "76113": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "05088": {
+        "total": 3,
+        "compartida": 2,
+        "solo_mp": 1
+      },
+      "25754": {
+        "total": 3,
+        "compartida": 3,
+        "solo_mp": 0
+      },
+      "08573": {
+        "total": 3,
+        "compartida": 2,
+        "solo_mp": 1
+      },
+      "25175": {
+        "total": 3,
+        "compartida": 3,
+        "solo_mp": 0
+      },
+      "17001": {
+        "total": 4,
+        "compartida": 3,
+        "solo_mp": 1
+      },
+      "05360": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "66170": {
+        "total": 4,
+        "compartida": 3,
+        "solo_mp": 1
+      },
+      "25473": {
+        "total": 4,
+        "compartida": 4,
+        "solo_mp": 0
+      },
+      "20001": {
+        "total": 4,
+        "compartida": 2,
+        "solo_mp": 2
+      },
+      "23001": {
+        "total": 5,
+        "compartida": 4,
+        "solo_mp": 1
+      },
+      "05059": {
+        "total": 5,
+        "compartida": 2,
+        "solo_mp": 3
+      },
+      "15001": {
+        "total": 6,
+        "compartida": 5,
+        "solo_mp": 1
+      }
+    }
+  },
+  {
+    "id": "10103541",
+    "actividadValidada": "",
+    "contratista": "Sin Contratista",
+    "objeto": "NINGUNO",
+    "valor": 0.0,
+    "estado": "ACTUALIZADO",
+    "tipo": "PRIMA",
+    "contratante": "COLSANITAS (10)",
+    "colectivo": "SYNTHESIS",
+    "colectivoBeneficiado": "LABORATORIOS SYNTHESIS SAS",
+    "plan": "INTEGRAL",
+    "fechaInicio": "2026-01-01 00:00:00",
+    "fechaFin": "2026-12-31 00:00:00",
+    "poblacion": 1,
+    "coberturas": [
+      {
+        "tipo": "VADEMECUM ABIERTO",
+        "descripcion": "COBERTURA ANEXOS ONCOLÓGICO,PRE Y POST EGRESO"
+      }
+    ],
+    "vihHeader": "N/A",
+    "vihSub": "N/A",
+    "oncoHeader": "SI",
+    "oncoSub": "ILIMITADO",
+    "prePostHeader": "SI",
+    "prePostSub": "2.75",
+    "ortesisHeader": "SI",
+    "ortesisSub": "Requiere autorización",
+    "poblacionCompartida": 1,
+    "poblacionSoloMP": 0,
+    "poblacionDane": {
+      "76364": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      }
+    }
+  },
+  {
+    "id": "1010202092",
+    "actividadValidada": "",
+    "contratista": "Sin Contratista",
+    "objeto": "NINGUNO",
+    "valor": 0.0,
+    "estado": "ACTUALIZADO",
+    "tipo": "PRIMA",
+    "contratante": "COLSANITAS (10)",
+    "colectivo": "SYNTHESIS",
+    "colectivoBeneficiado": "LABORATORIOS SYNTHESIS SAS",
+    "plan": "INTEGRAL",
+    "fechaInicio": "2026-01-01 00:00:00",
+    "fechaFin": "2026-12-31 00:00:00",
+    "poblacion": 463959,
+    "coberturas": [
+      {
+        "tipo": "VADEMECUM ABIERTO",
+        "descripcion": "COBERTURA ANEXOS ONCOLÓGICO,PRE Y POST EGRESO"
+      }
+    ],
+    "vihHeader": "N/A",
+    "vihSub": "N/A",
+    "oncoHeader": "SI",
+    "oncoSub": "ILIMITADO",
+    "prePostHeader": "SI",
+    "prePostSub": "2.75",
+    "ortesisHeader": "SI",
+    "ortesisSub": "Requiere autorización",
+    "poblacionCompartida": 349113,
+    "poblacionSoloMP": 114844,
+    "poblacionDane": {
+      "11001": {
+        "total": 252886,
+        "compartida": 197132,
+        "solo_mp": 55754
+      },
+      "68276": {
+        "total": 3455,
+        "compartida": 2713,
+        "solo_mp": 742
+      },
+      "05615": {
+        "total": 1673,
+        "compartida": 1146,
+        "solo_mp": 527
+      },
+      "05001": {
+        "total": 17260,
+        "compartida": 10707,
+        "solo_mp": 6553
+      },
+      "25126": {
+        "total": 5970,
+        "compartida": 4815,
+        "solo_mp": 1155
+      },
+      "76001": {
+        "total": 27130,
+        "compartida": 21062,
+        "solo_mp": 6068
+      },
+      "25377": {
+        "total": 977,
+        "compartida": 782,
+        "solo_mp": 195
+      },
+      "23001": {
+        "total": 2272,
+        "compartida": 1499,
+        "solo_mp": 773
+      },
+      "08558": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "05360": {
+        "total": 1009,
+        "compartida": 453,
+        "solo_mp": 556
+      },
+      "13001": {
+        "total": 9620,
+        "compartida": 6377,
+        "solo_mp": 3243
+      },
+      "05266": {
+        "total": 4449,
+        "compartida": 2956,
+        "solo_mp": 1493
+      },
+      "50568": {
+        "total": 227,
+        "compartida": 71,
+        "solo_mp": 156
+      },
+      "50001": {
+        "total": 12787,
+        "compartida": 10146,
+        "solo_mp": 2641
+      },
+      "47001": {
+        "total": 7532,
+        "compartida": 5955,
+        "solo_mp": 1577
+      },
+      "68001": {
+        "total": 8654,
+        "compartida": 6946,
+        "solo_mp": 1708
+      },
+      "54405": {
+        "total": 51,
+        "compartida": 6,
+        "solo_mp": 45
+      },
+      "08001": {
+        "total": 19743,
+        "compartida": 13859,
+        "solo_mp": 5884
+      },
+      "17001": {
+        "total": 2825,
+        "compartida": 1958,
+        "solo_mp": 867
+      },
+      "25175": {
+        "total": 10911,
+        "compartida": 9022,
+        "solo_mp": 1889
+      },
+      "05607": {
+        "total": 79,
+        "compartida": 5,
+        "solo_mp": 74
+      },
+      "44430": {
+        "total": 333,
+        "compartida": 220,
+        "solo_mp": 113
+      },
+      "25430": {
+        "total": 1124,
+        "compartida": 661,
+        "solo_mp": 463
+      },
+      "05059": {
+        "total": 2445,
+        "compartida": 1926,
+        "solo_mp": 519
+      },
+      "66001": {
+        "total": 4225,
+        "compartida": 3117,
+        "solo_mp": 1108
+      },
+      "73001": {
+        "total": 4223,
+        "compartida": 3305,
+        "solo_mp": 918
+      },
+      "25386": {
+        "total": 35,
+        "compartida": 8,
+        "solo_mp": 27
+      },
+      "05088": {
+        "total": 959,
+        "compartida": 280,
+        "solo_mp": 679
+      },
+      "05148": {
+        "total": 73,
+        "compartida": 0,
+        "solo_mp": 73
+      },
+      "88001": {
+        "total": 1051,
+        "compartida": 888,
+        "solo_mp": 163
+      },
+      "05631": {
+        "total": 727,
+        "compartida": 23,
+        "solo_mp": 704
+      },
+      "05376": {
+        "total": 112,
+        "compartida": 1,
+        "solo_mp": 111
+      },
+      "05380": {
+        "total": 227,
+        "compartida": 3,
+        "solo_mp": 224
+      },
+      "25799": {
+        "total": 191,
+        "compartida": 108,
+        "solo_mp": 83
+      },
+      "44001": {
+        "total": 1120,
+        "compartida": 836,
+        "solo_mp": 284
+      },
+      "76892": {
+        "total": 474,
+        "compartida": 312,
+        "solo_mp": 162
+      },
+      "15293": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "19001": {
+        "total": 1166,
+        "compartida": 898,
+        "solo_mp": 268
+      },
+      "85001": {
+        "total": 2932,
+        "compartida": 2444,
+        "solo_mp": 488
+      },
+      "25899": {
+        "total": 2397,
+        "compartida": 1728,
+        "solo_mp": 669
+      },
+      "25214": {
+        "total": 1646,
+        "compartida": 1293,
+        "solo_mp": 353
+      },
+      "25758": {
+        "total": 665,
+        "compartida": 518,
+        "solo_mp": 147
+      },
+      "54001": {
+        "total": 2928,
+        "compartida": 2186,
+        "solo_mp": 742
+      },
+      "25317": {
+        "total": 12,
+        "compartida": 0,
+        "solo_mp": 12
+      },
+      "25290": {
+        "total": 842,
+        "compartida": 685,
+        "solo_mp": 157
+      },
+      "41001": {
+        "total": 3965,
+        "compartida": 3223,
+        "solo_mp": 742
+      },
+      "50006": {
+        "total": 987,
+        "compartida": 730,
+        "solo_mp": 257
+      },
+      "25224": {
+        "total": 3,
+        "compartida": 1,
+        "solo_mp": 2
+      },
+      "81736": {
+        "total": 34,
+        "compartida": 14,
+        "solo_mp": 20
+      },
+      "15759": {
+        "total": 1296,
+        "compartida": 1043,
+        "solo_mp": 253
+      },
+      "25269": {
+        "total": 896,
+        "compartida": 611,
+        "solo_mp": 285
+      },
+      "18001": {
+        "total": 620,
+        "compartida": 507,
+        "solo_mp": 113
+      },
+      "25473": {
+        "total": 2217,
+        "compartida": 1491,
+        "solo_mp": 726
+      },
+      "76520": {
+        "total": 1875,
+        "compartida": 1419,
+        "solo_mp": 456
+      },
+      "25754": {
+        "total": 1852,
+        "compartida": 1146,
+        "solo_mp": 706
+      },
+      "15835": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "25843": {
+        "total": 95,
+        "compartida": 10,
+        "solo_mp": 85
+      },
+      "25286": {
+        "total": 770,
+        "compartida": 466,
+        "solo_mp": 304
+      },
+      "15238": {
+        "total": 1284,
+        "compartida": 979,
+        "solo_mp": 305
+      },
+      "68547": {
+        "total": 727,
+        "compartida": 528,
+        "solo_mp": 199
+      },
+      "23162": {
+        "total": 56,
+        "compartida": 3,
+        "solo_mp": 53
+      },
+      "15491": {
+        "total": 15,
+        "compartida": 8,
+        "solo_mp": 7
+      },
+      "76109": {
+        "total": 87,
+        "compartida": 3,
+        "solo_mp": 84
+      },
+      "15455": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "70713": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "25740": {
+        "total": 48,
+        "compartida": 16,
+        "solo_mp": 32
+      },
+      "68679": {
+        "total": 357,
+        "compartida": 285,
+        "solo_mp": 72
+      },
+      "99001": {
+        "total": 9,
+        "compartida": 0,
+        "solo_mp": 9
+      },
+      "05318": {
+        "total": 86,
+        "compartida": 3,
+        "solo_mp": 83
+      },
+      "15599": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "23466": {
+        "total": 922,
+        "compartida": 772,
+        "solo_mp": 150
+      },
+      "68406": {
+        "total": 9,
+        "compartida": 4,
+        "solo_mp": 5
+      },
+      "05313": {
+        "total": 84,
+        "compartida": 31,
+        "solo_mp": 53
+      },
+      "20001": {
+        "total": 3146,
+        "compartida": 2463,
+        "solo_mp": 683
+      },
+      "70001": {
+        "total": 1851,
+        "compartida": 1291,
+        "solo_mp": 560
+      },
+      "73671": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "25035": {
+        "total": 26,
+        "compartida": 8,
+        "solo_mp": 18
+      },
+      "76306": {
+        "total": 11,
+        "compartida": 0,
+        "solo_mp": 11
+      },
+      "73443": {
+        "total": 13,
+        "compartida": 0,
+        "solo_mp": 13
+      },
+      "41551": {
+        "total": 281,
+        "compartida": 213,
+        "solo_mp": 68
+      },
+      "73349": {
+        "total": 166,
+        "compartida": 143,
+        "solo_mp": 23
+      },
+      "47555": {
+        "total": 19,
+        "compartida": 2,
+        "solo_mp": 17
+      },
+      "66170": {
+        "total": 557,
+        "compartida": 317,
+        "solo_mp": 240
+      },
+      "13836": {
+        "total": 107,
+        "compartida": 0,
+        "solo_mp": 107
+      },
+      "81001": {
+        "total": 302,
+        "compartida": 231,
+        "solo_mp": 71
+      },
+      "47318": {
+        "total": 35,
+        "compartida": 1,
+        "solo_mp": 34
+      },
+      "19548": {
+        "total": 15,
+        "compartida": 6,
+        "solo_mp": 9
+      },
+      "15516": {
+        "total": 177,
+        "compartida": 133,
+        "solo_mp": 44
+      },
+      "08573": {
+        "total": 837,
+        "compartida": 542,
+        "solo_mp": 295
+      },
+      "99624": {
+        "total": 7,
+        "compartida": 0,
+        "solo_mp": 7
+      },
+      "68081": {
+        "total": 1250,
+        "compartida": 931,
+        "solo_mp": 319
+      },
+      "85139": {
+        "total": 26,
+        "compartida": 8,
+        "solo_mp": 18
+      },
+      "76364": {
+        "total": 1642,
+        "compartida": 1182,
+        "solo_mp": 460
+      },
+      "23660": {
+        "total": 83,
+        "compartida": 1,
+        "solo_mp": 82
+      },
+      "73352": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "76275": {
+        "total": 36,
+        "compartida": 10,
+        "solo_mp": 26
+      },
+      "23555": {
+        "total": 31,
+        "compartida": 0,
+        "solo_mp": 31
+      },
+      "76834": {
+        "total": 435,
+        "compartida": 310,
+        "solo_mp": 125
+      },
+      "70215": {
+        "total": 29,
+        "compartida": 0,
+        "solo_mp": 29
+      },
+      "15001": {
+        "total": 3130,
+        "compartida": 2531,
+        "solo_mp": 599
+      },
+      "70235": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "95001": {
+        "total": 42,
+        "compartida": 0,
+        "solo_mp": 42
+      },
+      "23417": {
+        "total": 30,
+        "compartida": 0,
+        "solo_mp": 30
+      },
+      "76736": {
+        "total": 11,
+        "compartida": 0,
+        "solo_mp": 11
+      },
+      "25307": {
+        "total": 641,
+        "compartida": 506,
+        "solo_mp": 135
+      },
+      "25785": {
+        "total": 55,
+        "compartida": 2,
+        "solo_mp": 53
+      },
+      "25841": {
+        "total": 24,
+        "compartida": 0,
+        "solo_mp": 24
+      },
+      "68432": {
+        "total": 11,
+        "compartida": 4,
+        "solo_mp": 7
+      },
+      "94001": {
+        "total": 24,
+        "compartida": 0,
+        "solo_mp": 24
+      },
+      "25402": {
+        "total": 33,
+        "compartida": 10,
+        "solo_mp": 23
+      },
+      "25612": {
+        "total": 30,
+        "compartida": 7,
+        "solo_mp": 23
+      },
+      "47288": {
+        "total": 46,
+        "compartida": 0,
+        "solo_mp": 46
+      },
+      "05212": {
+        "total": 124,
+        "compartida": 0,
+        "solo_mp": 124
+      },
+      "23182": {
+        "total": 12,
+        "compartida": 0,
+        "solo_mp": 12
+      },
+      "08433": {
+        "total": 35,
+        "compartida": 0,
+        "solo_mp": 35
+      },
+      "13873": {
+        "total": 87,
+        "compartida": 56,
+        "solo_mp": 31
+      },
+      "05129": {
+        "total": 72,
+        "compartida": 1,
+        "solo_mp": 71
+      },
+      "52001": {
+        "total": 1756,
+        "compartida": 1466,
+        "solo_mp": 288
+      },
+      "91001": {
+        "total": 161,
+        "compartida": 132,
+        "solo_mp": 29
+      },
+      "73449": {
+        "total": 130,
+        "compartida": 44,
+        "solo_mp": 86
+      },
+      "05079": {
+        "total": 34,
+        "compartida": 0,
+        "solo_mp": 34
+      },
+      "54498": {
+        "total": 215,
+        "compartida": 184,
+        "solo_mp": 31
+      },
+      "17877": {
+        "total": 11,
+        "compartida": 0,
+        "solo_mp": 11
+      },
+      "20621": {
+        "total": 6,
+        "compartida": 0,
+        "solo_mp": 6
+      },
+      "54874": {
+        "total": 90,
+        "compartida": 36,
+        "solo_mp": 54
+      },
+      "05893": {
+        "total": 7,
+        "compartida": 0,
+        "solo_mp": 7
+      },
+      "17777": {
+        "total": 11,
+        "compartida": 0,
+        "solo_mp": 11
+      },
+      "91430": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "17873": {
+        "total": 61,
+        "compartida": 1,
+        "solo_mp": 60
+      },
+      "68307": {
+        "total": 254,
+        "compartida": 179,
+        "solo_mp": 75
+      },
+      "15469": {
+        "total": 21,
+        "compartida": 0,
+        "solo_mp": 21
+      },
+      "76111": {
+        "total": 92,
+        "compartida": 22,
+        "solo_mp": 70
+      },
+      "70508": {
+        "total": 11,
+        "compartida": 0,
+        "solo_mp": 11
+      },
+      "05045": {
+        "total": 23,
+        "compartida": 1,
+        "solo_mp": 22
+      },
+      "44078": {
+        "total": 71,
+        "compartida": 49,
+        "solo_mp": 22
+      },
+      "18029": {
+        "total": 51,
+        "compartida": 35,
+        "solo_mp": 16
+      },
+      "17272": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "05541": {
+        "total": 9,
+        "compartida": 0,
+        "solo_mp": 9
+      },
+      "44650": {
+        "total": 129,
+        "compartida": 98,
+        "solo_mp": 31
+      },
+      "54518": {
+        "total": 66,
+        "compartida": 22,
+        "solo_mp": 44
+      },
+      "73024": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "05440": {
+        "total": 67,
+        "compartida": 3,
+        "solo_mp": 64
+      },
+      "25817": {
+        "total": 635,
+        "compartida": 434,
+        "solo_mp": 201
+      },
+      "76828": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "25572": {
+        "total": 13,
+        "compartida": 0,
+        "solo_mp": 13
+      },
+      "76622": {
+        "total": 26,
+        "compartida": 1,
+        "solo_mp": 25
+      },
+      "68755": {
+        "total": 43,
+        "compartida": 23,
+        "solo_mp": 20
+      },
+      "15572": {
+        "total": 24,
+        "compartida": 3,
+        "solo_mp": 21
+      },
+      "05837": {
+        "total": 10,
+        "compartida": 1,
+        "solo_mp": 9
+      },
+      "08758": {
+        "total": 866,
+        "compartida": 512,
+        "solo_mp": 354
+      },
+      "66682": {
+        "total": 52,
+        "compartida": 11,
+        "solo_mp": 41
+      },
+      "18756": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "25288": {
+        "total": 10,
+        "compartida": 0,
+        "solo_mp": 10
+      },
+      "52435": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "73268": {
+        "total": 63,
+        "compartida": 22,
+        "solo_mp": 41
+      },
+      "05308": {
+        "total": 60,
+        "compartida": 0,
+        "solo_mp": 60
+      },
+      "15600": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "68655": {
+        "total": 18,
+        "compartida": 0,
+        "solo_mp": 18
+      },
+      "86568": {
+        "total": 18,
+        "compartida": 0,
+        "solo_mp": 18
+      },
+      "08296": {
+        "total": 26,
+        "compartida": 0,
+        "solo_mp": 26
+      },
+      "76113": {
+        "total": 29,
+        "compartida": 1,
+        "solo_mp": 28
+      },
+      "76147": {
+        "total": 431,
+        "compartida": 333,
+        "solo_mp": 98
+      },
+      "41396": {
+        "total": 38,
+        "compartida": 26,
+        "solo_mp": 12
+      },
+      "15761": {
+        "total": 6,
+        "compartida": 0,
+        "solo_mp": 6
+      },
+      "15367": {
+        "total": 7,
+        "compartida": 0,
+        "solo_mp": 7
+      },
+      "13657": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "73226": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "20770": {
+        "total": 22,
+        "compartida": 3,
+        "solo_mp": 19
+      },
+      "20238": {
+        "total": 9,
+        "compartida": 0,
+        "solo_mp": 9
+      },
+      "05154": {
+        "total": 20,
+        "compartida": 0,
+        "solo_mp": 20
+      },
+      "85010": {
+        "total": 92,
+        "compartida": 58,
+        "solo_mp": 34
+      },
+      "05652": {
+        "total": 2,
+        "compartida": 1,
+        "solo_mp": 1
+      },
+      "25743": {
+        "total": 13,
+        "compartida": 2,
+        "solo_mp": 11
+      },
+      "08638": {
+        "total": 18,
+        "compartida": 0,
+        "solo_mp": 18
+      },
+      "50573": {
+        "total": 90,
+        "compartida": 33,
+        "solo_mp": 57
+      },
+      "25875": {
+        "total": 208,
+        "compartida": 181,
+        "solo_mp": 27
+      },
+      "85300": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "85440": {
+        "total": 48,
+        "compartida": 32,
+        "solo_mp": 16
+      },
+      "25151": {
+        "total": 32,
+        "compartida": 14,
+        "solo_mp": 18
+      },
+      "15176": {
+        "total": 374,
+        "compartida": 307,
+        "solo_mp": 67
+      },
+      "50150": {
+        "total": 50,
+        "compartida": 15,
+        "solo_mp": 35
+      },
+      "08685": {
+        "total": 16,
+        "compartida": 0,
+        "solo_mp": 16
+      },
+      "00000": {
+        "total": 27,
+        "compartida": 2,
+        "solo_mp": 25
+      },
+      "52356": {
+        "total": 162,
+        "compartida": 134,
+        "solo_mp": 28
+      },
+      "44279": {
+        "total": 110,
+        "compartida": 92,
+        "solo_mp": 18
+      },
+      "19785": {
+        "total": 9,
+        "compartida": 0,
+        "solo_mp": 9
+      },
+      "86571": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "08634": {
+        "total": 14,
+        "compartida": 0,
+        "solo_mp": 14
+      },
+      "50330": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "47189": {
+        "total": 63,
+        "compartida": 2,
+        "solo_mp": 61
+      },
+      "76318": {
+        "total": 18,
+        "compartida": 0,
+        "solo_mp": 18
+      },
+      "85430": {
+        "total": 7,
+        "compartida": 4,
+        "solo_mp": 3
+      },
+      "05240": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "85410": {
+        "total": 129,
+        "compartida": 91,
+        "solo_mp": 38
+      },
+      "63401": {
+        "total": 13,
+        "compartida": 3,
+        "solo_mp": 10
+      },
+      "19418": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "52835": {
+        "total": 26,
+        "compartida": 6,
+        "solo_mp": 20
+      },
+      "25530": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "86001": {
+        "total": 18,
+        "compartida": 0,
+        "solo_mp": 18
+      },
+      "15189": {
+        "total": 10,
+        "compartida": 0,
+        "solo_mp": 10
+      },
+      "85250": {
+        "total": 40,
+        "compartida": 27,
+        "solo_mp": 13
+      },
+      "17380": {
+        "total": 27,
+        "compartida": 3,
+        "solo_mp": 24
+      },
+      "70221": {
+        "total": 18,
+        "compartida": 0,
+        "solo_mp": 18
+      },
+      "13140": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "13468": {
+        "total": 7,
+        "compartida": 0,
+        "solo_mp": 7
+      },
+      "19455": {
+        "total": 7,
+        "compartida": 0,
+        "solo_mp": 7
+      },
+      "18592": {
+        "total": 5,
+        "compartida": 3,
+        "solo_mp": 2
+      },
+      "15776": {
+        "total": 8,
+        "compartida": 0,
+        "solo_mp": 8
+      },
+      "08141": {
+        "total": 54,
+        "compartida": 1,
+        "solo_mp": 53
+      },
+      "23807": {
+        "total": 10,
+        "compartida": 0,
+        "solo_mp": 10
+      },
+      "47053": {
+        "total": 6,
+        "compartida": 0,
+        "solo_mp": 6
+      },
+      "20060": {
+        "total": 12,
+        "compartida": 0,
+        "solo_mp": 12
+      },
+      "50711": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "50124": {
+        "total": 8,
+        "compartida": 0,
+        "solo_mp": 8
+      },
+      "76248": {
+        "total": 27,
+        "compartida": 3,
+        "solo_mp": 24
+      },
+      "63190": {
+        "total": 38,
+        "compartida": 8,
+        "solo_mp": 30
+      },
+      "05656": {
+        "total": 20,
+        "compartida": 2,
+        "solo_mp": 18
+      },
+      "70473": {
+        "total": 8,
+        "compartida": 1,
+        "solo_mp": 7
+      },
+      "76895": {
+        "total": 8,
+        "compartida": 0,
+        "solo_mp": 8
+      },
+      "25322": {
+        "total": 22,
+        "compartida": 5,
+        "solo_mp": 17
+      },
+      "25295": {
+        "total": 33,
+        "compartida": 0,
+        "solo_mp": 33
+      },
+      "25718": {
+        "total": 7,
+        "compartida": 2,
+        "solo_mp": 5
+      },
+      "25769": {
+        "total": 29,
+        "compartida": 10,
+        "solo_mp": 19
+      },
+      "25488": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "19573": {
+        "total": 13,
+        "compartida": 0,
+        "solo_mp": 13
+      },
+      "15407": {
+        "total": 66,
+        "compartida": 48,
+        "solo_mp": 18
+      },
+      "81591": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "05628": {
+        "total": 38,
+        "compartida": 1,
+        "solo_mp": 37
+      },
+      "50606": {
+        "total": 39,
+        "compartida": 1,
+        "solo_mp": 38
+      },
+      "25513": {
+        "total": 7,
+        "compartida": 0,
+        "solo_mp": 7
+      },
+      "25001": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "25772": {
+        "total": 7,
+        "compartida": 0,
+        "solo_mp": 7
+      },
+      "15806": {
+        "total": 10,
+        "compartida": 2,
+        "solo_mp": 8
+      },
+      "18753": {
+        "total": 8,
+        "compartida": 3,
+        "solo_mp": 5
+      },
+      "25745": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "41298": {
+        "total": 161,
+        "compartida": 146,
+        "solo_mp": 15
+      },
+      "15753": {
+        "total": 16,
+        "compartida": 7,
+        "solo_mp": 9
+      },
+      "54245": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "25491": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "63272": {
+        "total": 4,
+        "compartida": 2,
+        "solo_mp": 2
+      },
+      "54172": {
+        "total": 11,
+        "compartida": 4,
+        "solo_mp": 7
+      },
+      "17541": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "25123": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "05051": {
+        "total": 7,
+        "compartida": 0,
+        "solo_mp": 7
+      },
+      "41770": {
+        "total": 3,
+        "compartida": 1,
+        "solo_mp": 2
+      },
+      "25797": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "20787": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "73483": {
+        "total": 6,
+        "compartida": 3,
+        "solo_mp": 3
+      },
+      "05647": {
+        "total": 188,
+        "compartida": 148,
+        "solo_mp": 40
+      },
+      "05250": {
+        "total": 7,
+        "compartida": 0,
+        "solo_mp": 7
+      },
+      "73585": {
+        "total": 17,
+        "compartida": 5,
+        "solo_mp": 12
+      },
+      "17013": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "68572": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "25181": {
+        "total": 16,
+        "compartida": 4,
+        "solo_mp": 12
+      },
+      "15276": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "08520": {
+        "total": 8,
+        "compartida": 0,
+        "solo_mp": 8
+      },
+      "25898": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "73563": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "44847": {
+        "total": 8,
+        "compartida": 4,
+        "solo_mp": 4
+      },
+      "19698": {
+        "total": 232,
+        "compartida": 177,
+        "solo_mp": 55
+      },
+      "13188": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "25320": {
+        "total": 14,
+        "compartida": 2,
+        "solo_mp": 12
+      },
+      "41797": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "50223": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "50110": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "15204": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "41524": {
+        "total": 14,
+        "compartida": 11,
+        "solo_mp": 3
+      },
+      "25312": {
+        "total": 65,
+        "compartida": 31,
+        "solo_mp": 34
+      },
+      "17513": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "76233": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "81794": {
+        "total": 27,
+        "compartida": 17,
+        "solo_mp": 10
+      },
+      "25040": {
+        "total": 6,
+        "compartida": 3,
+        "solo_mp": 3
+      },
+      "25851": {
+        "total": 3,
+        "compartida": 2,
+        "solo_mp": 1
+      },
+      "05400": {
+        "total": 22,
+        "compartida": 1,
+        "solo_mp": 21
+      },
+      "76563": {
+        "total": 28,
+        "compartida": 4,
+        "solo_mp": 24
+      },
+      "76036": {
+        "total": 8,
+        "compartida": 0,
+        "solo_mp": 8
+      },
+      "25779": {
+        "total": 7,
+        "compartida": 1,
+        "solo_mp": 6
+      },
+      "73275": {
+        "total": 8,
+        "compartida": 0,
+        "solo_mp": 8
+      },
+      "25178": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "68861": {
+        "total": 25,
+        "compartida": 12,
+        "solo_mp": 13
+      },
+      "70702": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "08372": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "97001": {
+        "total": 8,
+        "compartida": 0,
+        "solo_mp": 8
+      },
+      "88564": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "23580": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "66594": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "41615": {
+        "total": 18,
+        "compartida": 15,
+        "solo_mp": 3
+      },
+      "68575": {
+        "total": 21,
+        "compartida": 4,
+        "solo_mp": 17
+      },
+      "25486": {
+        "total": 24,
+        "compartida": 5,
+        "solo_mp": 19
+      },
+      "25183": {
+        "total": 11,
+        "compartida": 4,
+        "solo_mp": 7
+      },
+      "25658": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "25200": {
+        "total": 35,
+        "compartida": 5,
+        "solo_mp": 30
+      },
+      "25873": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "05002": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "25326": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "13052": {
+        "total": 14,
+        "compartida": 0,
+        "solo_mp": 14
+      },
+      "70820": {
+        "total": 9,
+        "compartida": 2,
+        "solo_mp": 7
+      },
+      "05361": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "73217": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "17174": {
+        "total": 17,
+        "compartida": 1,
+        "solo_mp": 16
+      },
+      "73152": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "15322": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "05483": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "05697": {
+        "total": 9,
+        "compartida": 0,
+        "solo_mp": 9
+      },
+      "13430": {
+        "total": 12,
+        "compartida": 0,
+        "solo_mp": 12
+      },
+      "08137": {
+        "total": 3,
+        "compartida": 1,
+        "solo_mp": 2
+      },
+      "15646": {
+        "total": 24,
+        "compartida": 15,
+        "solo_mp": 9
+      },
+      "15087": {
+        "total": 5,
+        "compartida": 1,
+        "solo_mp": 4
+      },
+      "73319": {
+        "total": 6,
+        "compartida": 2,
+        "solo_mp": 4
+      },
+      "27450": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "25260": {
+        "total": 36,
+        "compartida": 10,
+        "solo_mp": 26
+      },
+      "25736": {
+        "total": 12,
+        "compartida": 0,
+        "solo_mp": 12
+      },
+      "05789": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "05237": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "05467": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "15466": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "08832": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "70708": {
+        "total": 21,
+        "compartida": 0,
+        "solo_mp": 21
+      },
+      "05579": {
+        "total": 10,
+        "compartida": 0,
+        "solo_mp": 10
+      },
+      "41668": {
+        "total": 9,
+        "compartida": 5,
+        "solo_mp": 4
+      },
+      "08849": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "50226": {
+        "total": 41,
+        "compartida": 20,
+        "solo_mp": 21
+      },
+      "15820": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "15693": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "15187": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "73411": {
+        "total": 8,
+        "compartida": 0,
+        "solo_mp": 8
+      },
+      "05679": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "20443": {
+        "total": 5,
+        "compartida": 2,
+        "solo_mp": 3
+      },
+      "44378": {
+        "total": 18,
+        "compartida": 11,
+        "solo_mp": 7
+      },
+      "63130": {
+        "total": 99,
+        "compartida": 65,
+        "solo_mp": 34
+      },
+      "25324": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "25815": {
+        "total": 6,
+        "compartida": 2,
+        "solo_mp": 4
+      },
+      "73148": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "15272": {
+        "total": 9,
+        "compartida": 2,
+        "solo_mp": 7
+      },
+      "63470": {
+        "total": 12,
+        "compartida": 0,
+        "solo_mp": 12
+      },
+      "20178": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "76126": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "27001": {
+        "total": 89,
+        "compartida": 70,
+        "solo_mp": 19
+      },
+      "85162": {
+        "total": 23,
+        "compartida": 14,
+        "solo_mp": 9
+      },
+      "47551": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "68500": {
+        "total": 5,
+        "compartida": 3,
+        "solo_mp": 2
+      },
+      "20011": {
+        "total": 89,
+        "compartida": 74,
+        "solo_mp": 15
+      },
+      "20400": {
+        "total": 136,
+        "compartida": 0,
+        "solo_mp": 136
+      },
+      "50287": {
+        "total": 2,
+        "compartida": 1,
+        "solo_mp": 1
+      },
+      "50683": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "44855": {
+        "total": 5,
+        "compartida": 2,
+        "solo_mp": 3
+      },
+      "15757": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "15104": {
+        "total": 4,
+        "compartida": 2,
+        "solo_mp": 2
+      },
+      "44110": {
+        "total": 15,
+        "compartida": 10,
+        "solo_mp": 5
+      },
+      "23350": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "15299": {
+        "total": 7,
+        "compartida": 1,
+        "solo_mp": 6
+      },
+      "20032": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "23855": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "19290": {
+        "total": 9,
+        "compartida": 7,
+        "solo_mp": 2
+      },
+      "76890": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "47245": {
+        "total": 5,
+        "compartida": 1,
+        "solo_mp": 4
+      },
+      "05664": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "41807": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "05660": {
+        "total": 9,
+        "compartida": 0,
+        "solo_mp": 9
+      },
+      "17042": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "05034": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "15476": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "20228": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "76869": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "05674": {
+        "total": 6,
+        "compartida": 1,
+        "solo_mp": 5
+      },
+      "68464": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "15667": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "70670": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "68079": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "73283": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "05172": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "17442": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "05264": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "25293": {
+        "total": 3,
+        "compartida": 1,
+        "solo_mp": 2
+      },
+      "25328": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "25398": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "15638": {
+        "total": 4,
+        "compartida": 2,
+        "solo_mp": 2
+      },
+      "15537": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "15325": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "68770": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "18150": {
+        "total": 6,
+        "compartida": 4,
+        "solo_mp": 2
+      },
+      "52240": {
+        "total": 3,
+        "compartida": 2,
+        "solo_mp": 1
+      },
+      "15185": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "68549": {
+        "total": 2,
+        "compartida": 2,
+        "solo_mp": 0
+      },
+      "25297": {
+        "total": 5,
+        "compartida": 4,
+        "solo_mp": 1
+      },
+      "85325": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "41885": {
+        "total": 11,
+        "compartida": 2,
+        "solo_mp": 9
+      },
+      "41016": {
+        "total": 3,
+        "compartida": 2,
+        "solo_mp": 1
+      },
+      "15814": {
+        "total": 6,
+        "compartida": 6,
+        "solo_mp": 0
+      },
+      "73168": {
+        "total": 18,
+        "compartida": 7,
+        "solo_mp": 11
+      },
+      "25245": {
+        "total": 13,
+        "compartida": 3,
+        "solo_mp": 10
+      },
+      "73504": {
+        "total": 4,
+        "compartida": 4,
+        "solo_mp": 0
+      },
+      "25592": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "68162": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "41548": {
+        "total": 7,
+        "compartida": 7,
+        "solo_mp": 0
+      },
+      "52838": {
+        "total": 9,
+        "compartida": 3,
+        "solo_mp": 6
+      },
+      "68418": {
+        "total": 10,
+        "compartida": 4,
+        "solo_mp": 6
+      },
+      "13670": {
+        "total": 3,
+        "compartida": 3,
+        "solo_mp": 0
+      },
+      "41801": {
+        "total": 2,
+        "compartida": 2,
+        "solo_mp": 0
+      },
+      "41483": {
+        "total": 2,
+        "compartida": 2,
+        "solo_mp": 0
+      },
+      "73408": {
+        "total": 9,
+        "compartida": 2,
+        "solo_mp": 7
+      },
+      "41306": {
+        "total": 9,
+        "compartida": 9,
+        "solo_mp": 0
+      },
+      "25839": {
+        "total": 4,
+        "compartida": 4,
+        "solo_mp": 0
+      },
+      "63594": {
+        "total": 6,
+        "compartida": 3,
+        "solo_mp": 3
+      },
+      "25662": {
+        "total": 2,
+        "compartida": 1,
+        "solo_mp": 1
+      },
+      "18247": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "44098": {
+        "total": 10,
+        "compartida": 4,
+        "solo_mp": 6
+      },
+      "41132": {
+        "total": 14,
+        "compartida": 10,
+        "solo_mp": 4
+      },
+      "15542": {
+        "total": 2,
+        "compartida": 2,
+        "solo_mp": 0
+      },
+      "15051": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "85230": {
+        "total": 11,
+        "compartida": 4,
+        "solo_mp": 7
+      },
+      "15798": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "52694": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "23300": {
+        "total": 3,
+        "compartida": 2,
+        "solo_mp": 1
+      },
+      "68468": {
+        "total": 2,
+        "compartida": 2,
+        "solo_mp": 0
+      },
+      "05113": {
+        "total": 89,
+        "compartida": 0,
+        "solo_mp": 89
+      },
+      "15215": {
+        "total": 7,
+        "compartida": 1,
+        "solo_mp": 6
+      },
+      "17614": {
+        "total": 12,
+        "compartida": 0,
+        "solo_mp": 12
+      },
+      "23670": {
+        "total": 7,
+        "compartida": 0,
+        "solo_mp": 7
+      },
+      "86885": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "86573": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "19100": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "13160": {
+        "total": 7,
+        "compartida": 0,
+        "solo_mp": 7
+      },
+      "68190": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "41518": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "25777": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "20013": {
+        "total": 12,
+        "compartida": 0,
+        "solo_mp": 12
+      },
+      "41357": {
+        "total": 3,
+        "compartida": 1,
+        "solo_mp": 2
+      },
+      "05604": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "17088": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "86865": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "47707": {
+        "total": 7,
+        "compartida": 0,
+        "solo_mp": 7
+      },
+      "25878": {
+        "total": 4,
+        "compartida": 1,
+        "solo_mp": 3
+      },
+      "05306": {
+        "total": 29,
+        "compartida": 0,
+        "solo_mp": 29
+      },
+      "47268": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "05591": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "73555": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "47980": {
+        "total": 6,
+        "compartida": 0,
+        "solo_mp": 6
+      },
+      "13442": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "54003": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "25279": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "68271": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "25053": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "25099": {
+        "total": 7,
+        "compartida": 1,
+        "solo_mp": 6
+      },
+      "81065": {
+        "total": 8,
+        "compartida": 2,
+        "solo_mp": 6
+      },
+      "15514": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "05890": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "25483": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "08421": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "76020": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "05321": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "25426": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "66400": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "15047": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "15808": {
+        "total": 2,
+        "compartida": 1,
+        "solo_mp": 1
+      },
+      "08078": {
+        "total": 8,
+        "compartida": 0,
+        "solo_mp": 8
+      },
+      "41872": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "17662": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "17616": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "13433": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "70418": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "15183": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "05284": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "19845": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "73624": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "47058": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "73861": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "54261": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "05761": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "15774": {
+        "total": 2,
+        "compartida": 1,
+        "solo_mp": 1
+      },
+      "05030": {
+        "total": 9,
+        "compartida": 0,
+        "solo_mp": 9
+      },
+      "23079": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "70823": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "05147": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "08560": {
+        "total": 9,
+        "compartida": 0,
+        "solo_mp": 9
+      },
+      "68152": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "05031": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "73547": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "41006": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "52079": {
+        "total": 13,
+        "compartida": 0,
+        "solo_mp": 13
+      },
+      "54810": {
+        "total": 16,
+        "compartida": 4,
+        "solo_mp": 12
+      },
+      "73026": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "86320": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "15690": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "18610": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "81300": {
+        "total": 2,
+        "compartida": 1,
+        "solo_mp": 1
+      },
+      "81220": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "52354": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "15494": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "23189": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "20750": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "41020": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "15879": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "15223": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "05847": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "05667": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "76823": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "19110": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "20250": {
+        "total": 6,
+        "compartida": 0,
+        "solo_mp": 6
+      },
+      "15480": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "05895": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "25781": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "05282": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "05686": {
+        "total": 10,
+        "compartida": 0,
+        "solo_mp": 10
+      },
+      "05364": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "05790": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "76122": {
+        "total": 3,
+        "compartida": 1,
+        "solo_mp": 2
+      },
+      "13212": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "86569": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "17486": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "20045": {
+        "total": 60,
+        "compartida": 9,
+        "solo_mp": 51
+      },
+      "85263": {
+        "total": 6,
+        "compartida": 6,
+        "solo_mp": 0
+      },
+      "41503": {
+        "total": 4,
+        "compartida": 3,
+        "solo_mp": 1
+      },
+      "52352": {
+        "total": 3,
+        "compartida": 2,
+        "solo_mp": 1
+      },
+      "52678": {
+        "total": 2,
+        "compartida": 2,
+        "solo_mp": 0
+      },
+      "15861": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "05315": {
+        "total": 5,
+        "compartida": 2,
+        "solo_mp": 3
+      },
+      "05649": {
+        "total": 3,
+        "compartida": 2,
+        "solo_mp": 1
+      },
+      "15362": {
+        "total": 2,
+        "compartida": 1,
+        "solo_mp": 1
+      },
+      "41078": {
+        "total": 2,
+        "compartida": 2,
+        "solo_mp": 0
+      },
+      "41013": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "25805": {
+        "total": 2,
+        "compartida": 2,
+        "solo_mp": 0
+      },
+      "76377": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "25807": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "15686": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "19212": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "23464": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "70742": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "63690": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "05887": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "17444": {
+        "total": 4,
+        "compartida": 2,
+        "solo_mp": 2
+      },
+      "52203": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "13074": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "68229": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "68524": {
+        "total": 4,
+        "compartida": 3,
+        "solo_mp": 1
+      },
+      "15097": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "05819": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "19397": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "15172": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "05809": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "47460": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "25645": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "05659": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "15664": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "54720": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "54051": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "73067": {
+        "total": 4,
+        "compartida": 4,
+        "solo_mp": 0
+      },
+      "41359": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "25019": {
+        "total": 2,
+        "compartida": 2,
+        "solo_mp": 0
+      },
+      "52687": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "52573": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "05368": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "15673": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "25438": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "25120": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "05197": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "15804": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "52378": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "13244": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "25596": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "19701": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "19256": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "25368": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "68855": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "05411": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "52320": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "15377": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "54670": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "66440": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "23570": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "05042": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "05138": {
+        "total": 6,
+        "compartida": 0,
+        "solo_mp": 6
+      },
+      "05190": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "05736": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "05101": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "05858": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "15244": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "20175": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "15696": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "23068": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "41660": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "76497": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "20614": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "13654": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "66456": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "05854": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "19743": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "85225": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "54313": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "15755": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      }
+    }
+  },
+  {
+    "id": "1010237693",
+    "actividadValidada": "",
+    "contratista": "Sin Contratista",
+    "objeto": "NINGUNO",
+    "valor": 0.0,
+    "estado": "ACTUALIZADO",
+    "tipo": "PRIMA",
+    "contratante": "COLSANITAS (10)",
+    "colectivo": "SYNTHESIS",
+    "colectivoBeneficiado": "LABORATORIOS SYNTHESIS SAS",
+    "plan": "INTEGRAL",
+    "fechaInicio": "2026-01-01 00:00:00",
+    "fechaFin": "2026-12-31 00:00:00",
+    "poblacion": 463959,
+    "coberturas": [
+      {
+        "tipo": "VADEMECUM ABIERTO",
+        "descripcion": "COBERTURA ANEXOS ONCOLÓGICO,PRE Y POST EGRESO"
+      }
+    ],
+    "vihHeader": "N/A",
+    "vihSub": "N/A",
+    "oncoHeader": "SI",
+    "oncoSub": "ILIMITADO",
+    "prePostHeader": "SI",
+    "prePostSub": "2.75",
+    "ortesisHeader": "SI",
+    "ortesisSub": "Requiere autorización",
+    "poblacionCompartida": 349113,
+    "poblacionSoloMP": 114844,
+    "poblacionDane": {
+      "11001": {
+        "total": 252886,
+        "compartida": 197132,
+        "solo_mp": 55754
+      },
+      "68276": {
+        "total": 3455,
+        "compartida": 2713,
+        "solo_mp": 742
+      },
+      "05615": {
+        "total": 1673,
+        "compartida": 1146,
+        "solo_mp": 527
+      },
+      "05001": {
+        "total": 17260,
+        "compartida": 10707,
+        "solo_mp": 6553
+      },
+      "25126": {
+        "total": 5970,
+        "compartida": 4815,
+        "solo_mp": 1155
+      },
+      "76001": {
+        "total": 27130,
+        "compartida": 21062,
+        "solo_mp": 6068
+      },
+      "25377": {
+        "total": 977,
+        "compartida": 782,
+        "solo_mp": 195
+      },
+      "23001": {
+        "total": 2272,
+        "compartida": 1499,
+        "solo_mp": 773
+      },
+      "08558": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "05360": {
+        "total": 1009,
+        "compartida": 453,
+        "solo_mp": 556
+      },
+      "13001": {
+        "total": 9620,
+        "compartida": 6377,
+        "solo_mp": 3243
+      },
+      "05266": {
+        "total": 4449,
+        "compartida": 2956,
+        "solo_mp": 1493
+      },
+      "50568": {
+        "total": 227,
+        "compartida": 71,
+        "solo_mp": 156
+      },
+      "50001": {
+        "total": 12787,
+        "compartida": 10146,
+        "solo_mp": 2641
+      },
+      "47001": {
+        "total": 7532,
+        "compartida": 5955,
+        "solo_mp": 1577
+      },
+      "68001": {
+        "total": 8654,
+        "compartida": 6946,
+        "solo_mp": 1708
+      },
+      "54405": {
+        "total": 51,
+        "compartida": 6,
+        "solo_mp": 45
+      },
+      "08001": {
+        "total": 19743,
+        "compartida": 13859,
+        "solo_mp": 5884
+      },
+      "17001": {
+        "total": 2825,
+        "compartida": 1958,
+        "solo_mp": 867
+      },
+      "25175": {
+        "total": 10911,
+        "compartida": 9022,
+        "solo_mp": 1889
+      },
+      "05607": {
+        "total": 79,
+        "compartida": 5,
+        "solo_mp": 74
+      },
+      "44430": {
+        "total": 333,
+        "compartida": 220,
+        "solo_mp": 113
+      },
+      "25430": {
+        "total": 1124,
+        "compartida": 661,
+        "solo_mp": 463
+      },
+      "05059": {
+        "total": 2445,
+        "compartida": 1926,
+        "solo_mp": 519
+      },
+      "66001": {
+        "total": 4225,
+        "compartida": 3117,
+        "solo_mp": 1108
+      },
+      "73001": {
+        "total": 4223,
+        "compartida": 3305,
+        "solo_mp": 918
+      },
+      "25386": {
+        "total": 35,
+        "compartida": 8,
+        "solo_mp": 27
+      },
+      "05088": {
+        "total": 959,
+        "compartida": 280,
+        "solo_mp": 679
+      },
+      "05148": {
+        "total": 73,
+        "compartida": 0,
+        "solo_mp": 73
+      },
+      "88001": {
+        "total": 1051,
+        "compartida": 888,
+        "solo_mp": 163
+      },
+      "05631": {
+        "total": 727,
+        "compartida": 23,
+        "solo_mp": 704
+      },
+      "05376": {
+        "total": 112,
+        "compartida": 1,
+        "solo_mp": 111
+      },
+      "05380": {
+        "total": 227,
+        "compartida": 3,
+        "solo_mp": 224
+      },
+      "25799": {
+        "total": 191,
+        "compartida": 108,
+        "solo_mp": 83
+      },
+      "44001": {
+        "total": 1120,
+        "compartida": 836,
+        "solo_mp": 284
+      },
+      "76892": {
+        "total": 474,
+        "compartida": 312,
+        "solo_mp": 162
+      },
+      "15293": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "19001": {
+        "total": 1166,
+        "compartida": 898,
+        "solo_mp": 268
+      },
+      "85001": {
+        "total": 2932,
+        "compartida": 2444,
+        "solo_mp": 488
+      },
+      "25899": {
+        "total": 2397,
+        "compartida": 1728,
+        "solo_mp": 669
+      },
+      "25214": {
+        "total": 1646,
+        "compartida": 1293,
+        "solo_mp": 353
+      },
+      "25758": {
+        "total": 665,
+        "compartida": 518,
+        "solo_mp": 147
+      },
+      "54001": {
+        "total": 2928,
+        "compartida": 2186,
+        "solo_mp": 742
+      },
+      "25317": {
+        "total": 12,
+        "compartida": 0,
+        "solo_mp": 12
+      },
+      "25290": {
+        "total": 842,
+        "compartida": 685,
+        "solo_mp": 157
+      },
+      "41001": {
+        "total": 3965,
+        "compartida": 3223,
+        "solo_mp": 742
+      },
+      "50006": {
+        "total": 987,
+        "compartida": 730,
+        "solo_mp": 257
+      },
+      "25224": {
+        "total": 3,
+        "compartida": 1,
+        "solo_mp": 2
+      },
+      "81736": {
+        "total": 34,
+        "compartida": 14,
+        "solo_mp": 20
+      },
+      "15759": {
+        "total": 1296,
+        "compartida": 1043,
+        "solo_mp": 253
+      },
+      "25269": {
+        "total": 896,
+        "compartida": 611,
+        "solo_mp": 285
+      },
+      "18001": {
+        "total": 620,
+        "compartida": 507,
+        "solo_mp": 113
+      },
+      "25473": {
+        "total": 2217,
+        "compartida": 1491,
+        "solo_mp": 726
+      },
+      "76520": {
+        "total": 1875,
+        "compartida": 1419,
+        "solo_mp": 456
+      },
+      "25754": {
+        "total": 1852,
+        "compartida": 1146,
+        "solo_mp": 706
+      },
+      "15835": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "25843": {
+        "total": 95,
+        "compartida": 10,
+        "solo_mp": 85
+      },
+      "25286": {
+        "total": 770,
+        "compartida": 466,
+        "solo_mp": 304
+      },
+      "15238": {
+        "total": 1284,
+        "compartida": 979,
+        "solo_mp": 305
+      },
+      "68547": {
+        "total": 727,
+        "compartida": 528,
+        "solo_mp": 199
+      },
+      "23162": {
+        "total": 56,
+        "compartida": 3,
+        "solo_mp": 53
+      },
+      "15491": {
+        "total": 15,
+        "compartida": 8,
+        "solo_mp": 7
+      },
+      "76109": {
+        "total": 87,
+        "compartida": 3,
+        "solo_mp": 84
+      },
+      "15455": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "70713": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "25740": {
+        "total": 48,
+        "compartida": 16,
+        "solo_mp": 32
+      },
+      "68679": {
+        "total": 357,
+        "compartida": 285,
+        "solo_mp": 72
+      },
+      "99001": {
+        "total": 9,
+        "compartida": 0,
+        "solo_mp": 9
+      },
+      "05318": {
+        "total": 86,
+        "compartida": 3,
+        "solo_mp": 83
+      },
+      "15599": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "23466": {
+        "total": 922,
+        "compartida": 772,
+        "solo_mp": 150
+      },
+      "68406": {
+        "total": 9,
+        "compartida": 4,
+        "solo_mp": 5
+      },
+      "05313": {
+        "total": 84,
+        "compartida": 31,
+        "solo_mp": 53
+      },
+      "20001": {
+        "total": 3146,
+        "compartida": 2463,
+        "solo_mp": 683
+      },
+      "70001": {
+        "total": 1851,
+        "compartida": 1291,
+        "solo_mp": 560
+      },
+      "73671": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "25035": {
+        "total": 26,
+        "compartida": 8,
+        "solo_mp": 18
+      },
+      "76306": {
+        "total": 11,
+        "compartida": 0,
+        "solo_mp": 11
+      },
+      "73443": {
+        "total": 13,
+        "compartida": 0,
+        "solo_mp": 13
+      },
+      "41551": {
+        "total": 281,
+        "compartida": 213,
+        "solo_mp": 68
+      },
+      "73349": {
+        "total": 166,
+        "compartida": 143,
+        "solo_mp": 23
+      },
+      "47555": {
+        "total": 19,
+        "compartida": 2,
+        "solo_mp": 17
+      },
+      "66170": {
+        "total": 557,
+        "compartida": 317,
+        "solo_mp": 240
+      },
+      "13836": {
+        "total": 107,
+        "compartida": 0,
+        "solo_mp": 107
+      },
+      "81001": {
+        "total": 302,
+        "compartida": 231,
+        "solo_mp": 71
+      },
+      "47318": {
+        "total": 35,
+        "compartida": 1,
+        "solo_mp": 34
+      },
+      "19548": {
+        "total": 15,
+        "compartida": 6,
+        "solo_mp": 9
+      },
+      "15516": {
+        "total": 177,
+        "compartida": 133,
+        "solo_mp": 44
+      },
+      "08573": {
+        "total": 837,
+        "compartida": 542,
+        "solo_mp": 295
+      },
+      "99624": {
+        "total": 7,
+        "compartida": 0,
+        "solo_mp": 7
+      },
+      "68081": {
+        "total": 1250,
+        "compartida": 931,
+        "solo_mp": 319
+      },
+      "85139": {
+        "total": 26,
+        "compartida": 8,
+        "solo_mp": 18
+      },
+      "76364": {
+        "total": 1642,
+        "compartida": 1182,
+        "solo_mp": 460
+      },
+      "23660": {
+        "total": 83,
+        "compartida": 1,
+        "solo_mp": 82
+      },
+      "73352": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "76275": {
+        "total": 36,
+        "compartida": 10,
+        "solo_mp": 26
+      },
+      "23555": {
+        "total": 31,
+        "compartida": 0,
+        "solo_mp": 31
+      },
+      "76834": {
+        "total": 435,
+        "compartida": 310,
+        "solo_mp": 125
+      },
+      "70215": {
+        "total": 29,
+        "compartida": 0,
+        "solo_mp": 29
+      },
+      "15001": {
+        "total": 3130,
+        "compartida": 2531,
+        "solo_mp": 599
+      },
+      "70235": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "95001": {
+        "total": 42,
+        "compartida": 0,
+        "solo_mp": 42
+      },
+      "23417": {
+        "total": 30,
+        "compartida": 0,
+        "solo_mp": 30
+      },
+      "76736": {
+        "total": 11,
+        "compartida": 0,
+        "solo_mp": 11
+      },
+      "25307": {
+        "total": 641,
+        "compartida": 506,
+        "solo_mp": 135
+      },
+      "25785": {
+        "total": 55,
+        "compartida": 2,
+        "solo_mp": 53
+      },
+      "25841": {
+        "total": 24,
+        "compartida": 0,
+        "solo_mp": 24
+      },
+      "68432": {
+        "total": 11,
+        "compartida": 4,
+        "solo_mp": 7
+      },
+      "94001": {
+        "total": 24,
+        "compartida": 0,
+        "solo_mp": 24
+      },
+      "25402": {
+        "total": 33,
+        "compartida": 10,
+        "solo_mp": 23
+      },
+      "25612": {
+        "total": 30,
+        "compartida": 7,
+        "solo_mp": 23
+      },
+      "47288": {
+        "total": 46,
+        "compartida": 0,
+        "solo_mp": 46
+      },
+      "05212": {
+        "total": 124,
+        "compartida": 0,
+        "solo_mp": 124
+      },
+      "23182": {
+        "total": 12,
+        "compartida": 0,
+        "solo_mp": 12
+      },
+      "08433": {
+        "total": 35,
+        "compartida": 0,
+        "solo_mp": 35
+      },
+      "13873": {
+        "total": 87,
+        "compartida": 56,
+        "solo_mp": 31
+      },
+      "05129": {
+        "total": 72,
+        "compartida": 1,
+        "solo_mp": 71
+      },
+      "52001": {
+        "total": 1756,
+        "compartida": 1466,
+        "solo_mp": 288
+      },
+      "91001": {
+        "total": 161,
+        "compartida": 132,
+        "solo_mp": 29
+      },
+      "73449": {
+        "total": 130,
+        "compartida": 44,
+        "solo_mp": 86
+      },
+      "05079": {
+        "total": 34,
+        "compartida": 0,
+        "solo_mp": 34
+      },
+      "54498": {
+        "total": 215,
+        "compartida": 184,
+        "solo_mp": 31
+      },
+      "17877": {
+        "total": 11,
+        "compartida": 0,
+        "solo_mp": 11
+      },
+      "20621": {
+        "total": 6,
+        "compartida": 0,
+        "solo_mp": 6
+      },
+      "54874": {
+        "total": 90,
+        "compartida": 36,
+        "solo_mp": 54
+      },
+      "05893": {
+        "total": 7,
+        "compartida": 0,
+        "solo_mp": 7
+      },
+      "17777": {
+        "total": 11,
+        "compartida": 0,
+        "solo_mp": 11
+      },
+      "91430": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "17873": {
+        "total": 61,
+        "compartida": 1,
+        "solo_mp": 60
+      },
+      "68307": {
+        "total": 254,
+        "compartida": 179,
+        "solo_mp": 75
+      },
+      "15469": {
+        "total": 21,
+        "compartida": 0,
+        "solo_mp": 21
+      },
+      "76111": {
+        "total": 92,
+        "compartida": 22,
+        "solo_mp": 70
+      },
+      "70508": {
+        "total": 11,
+        "compartida": 0,
+        "solo_mp": 11
+      },
+      "05045": {
+        "total": 23,
+        "compartida": 1,
+        "solo_mp": 22
+      },
+      "44078": {
+        "total": 71,
+        "compartida": 49,
+        "solo_mp": 22
+      },
+      "18029": {
+        "total": 51,
+        "compartida": 35,
+        "solo_mp": 16
+      },
+      "17272": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "05541": {
+        "total": 9,
+        "compartida": 0,
+        "solo_mp": 9
+      },
+      "44650": {
+        "total": 129,
+        "compartida": 98,
+        "solo_mp": 31
+      },
+      "54518": {
+        "total": 66,
+        "compartida": 22,
+        "solo_mp": 44
+      },
+      "73024": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "05440": {
+        "total": 67,
+        "compartida": 3,
+        "solo_mp": 64
+      },
+      "25817": {
+        "total": 635,
+        "compartida": 434,
+        "solo_mp": 201
+      },
+      "76828": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "25572": {
+        "total": 13,
+        "compartida": 0,
+        "solo_mp": 13
+      },
+      "76622": {
+        "total": 26,
+        "compartida": 1,
+        "solo_mp": 25
+      },
+      "68755": {
+        "total": 43,
+        "compartida": 23,
+        "solo_mp": 20
+      },
+      "15572": {
+        "total": 24,
+        "compartida": 3,
+        "solo_mp": 21
+      },
+      "05837": {
+        "total": 10,
+        "compartida": 1,
+        "solo_mp": 9
+      },
+      "08758": {
+        "total": 866,
+        "compartida": 512,
+        "solo_mp": 354
+      },
+      "66682": {
+        "total": 52,
+        "compartida": 11,
+        "solo_mp": 41
+      },
+      "18756": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "25288": {
+        "total": 10,
+        "compartida": 0,
+        "solo_mp": 10
+      },
+      "52435": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "73268": {
+        "total": 63,
+        "compartida": 22,
+        "solo_mp": 41
+      },
+      "05308": {
+        "total": 60,
+        "compartida": 0,
+        "solo_mp": 60
+      },
+      "15600": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "68655": {
+        "total": 18,
+        "compartida": 0,
+        "solo_mp": 18
+      },
+      "86568": {
+        "total": 18,
+        "compartida": 0,
+        "solo_mp": 18
+      },
+      "08296": {
+        "total": 26,
+        "compartida": 0,
+        "solo_mp": 26
+      },
+      "76113": {
+        "total": 29,
+        "compartida": 1,
+        "solo_mp": 28
+      },
+      "76147": {
+        "total": 431,
+        "compartida": 333,
+        "solo_mp": 98
+      },
+      "41396": {
+        "total": 38,
+        "compartida": 26,
+        "solo_mp": 12
+      },
+      "15761": {
+        "total": 6,
+        "compartida": 0,
+        "solo_mp": 6
+      },
+      "15367": {
+        "total": 7,
+        "compartida": 0,
+        "solo_mp": 7
+      },
+      "13657": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "73226": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "20770": {
+        "total": 22,
+        "compartida": 3,
+        "solo_mp": 19
+      },
+      "20238": {
+        "total": 9,
+        "compartida": 0,
+        "solo_mp": 9
+      },
+      "05154": {
+        "total": 20,
+        "compartida": 0,
+        "solo_mp": 20
+      },
+      "85010": {
+        "total": 92,
+        "compartida": 58,
+        "solo_mp": 34
+      },
+      "05652": {
+        "total": 2,
+        "compartida": 1,
+        "solo_mp": 1
+      },
+      "25743": {
+        "total": 13,
+        "compartida": 2,
+        "solo_mp": 11
+      },
+      "08638": {
+        "total": 18,
+        "compartida": 0,
+        "solo_mp": 18
+      },
+      "50573": {
+        "total": 90,
+        "compartida": 33,
+        "solo_mp": 57
+      },
+      "25875": {
+        "total": 208,
+        "compartida": 181,
+        "solo_mp": 27
+      },
+      "85300": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "85440": {
+        "total": 48,
+        "compartida": 32,
+        "solo_mp": 16
+      },
+      "25151": {
+        "total": 32,
+        "compartida": 14,
+        "solo_mp": 18
+      },
+      "15176": {
+        "total": 374,
+        "compartida": 307,
+        "solo_mp": 67
+      },
+      "50150": {
+        "total": 50,
+        "compartida": 15,
+        "solo_mp": 35
+      },
+      "08685": {
+        "total": 16,
+        "compartida": 0,
+        "solo_mp": 16
+      },
+      "00000": {
+        "total": 27,
+        "compartida": 2,
+        "solo_mp": 25
+      },
+      "52356": {
+        "total": 162,
+        "compartida": 134,
+        "solo_mp": 28
+      },
+      "44279": {
+        "total": 110,
+        "compartida": 92,
+        "solo_mp": 18
+      },
+      "19785": {
+        "total": 9,
+        "compartida": 0,
+        "solo_mp": 9
+      },
+      "86571": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "08634": {
+        "total": 14,
+        "compartida": 0,
+        "solo_mp": 14
+      },
+      "50330": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "47189": {
+        "total": 63,
+        "compartida": 2,
+        "solo_mp": 61
+      },
+      "76318": {
+        "total": 18,
+        "compartida": 0,
+        "solo_mp": 18
+      },
+      "85430": {
+        "total": 7,
+        "compartida": 4,
+        "solo_mp": 3
+      },
+      "05240": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "85410": {
+        "total": 129,
+        "compartida": 91,
+        "solo_mp": 38
+      },
+      "63401": {
+        "total": 13,
+        "compartida": 3,
+        "solo_mp": 10
+      },
+      "19418": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "52835": {
+        "total": 26,
+        "compartida": 6,
+        "solo_mp": 20
+      },
+      "25530": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "86001": {
+        "total": 18,
+        "compartida": 0,
+        "solo_mp": 18
+      },
+      "15189": {
+        "total": 10,
+        "compartida": 0,
+        "solo_mp": 10
+      },
+      "85250": {
+        "total": 40,
+        "compartida": 27,
+        "solo_mp": 13
+      },
+      "17380": {
+        "total": 27,
+        "compartida": 3,
+        "solo_mp": 24
+      },
+      "70221": {
+        "total": 18,
+        "compartida": 0,
+        "solo_mp": 18
+      },
+      "13140": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "13468": {
+        "total": 7,
+        "compartida": 0,
+        "solo_mp": 7
+      },
+      "19455": {
+        "total": 7,
+        "compartida": 0,
+        "solo_mp": 7
+      },
+      "18592": {
+        "total": 5,
+        "compartida": 3,
+        "solo_mp": 2
+      },
+      "15776": {
+        "total": 8,
+        "compartida": 0,
+        "solo_mp": 8
+      },
+      "08141": {
+        "total": 54,
+        "compartida": 1,
+        "solo_mp": 53
+      },
+      "23807": {
+        "total": 10,
+        "compartida": 0,
+        "solo_mp": 10
+      },
+      "47053": {
+        "total": 6,
+        "compartida": 0,
+        "solo_mp": 6
+      },
+      "20060": {
+        "total": 12,
+        "compartida": 0,
+        "solo_mp": 12
+      },
+      "50711": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "50124": {
+        "total": 8,
+        "compartida": 0,
+        "solo_mp": 8
+      },
+      "76248": {
+        "total": 27,
+        "compartida": 3,
+        "solo_mp": 24
+      },
+      "63190": {
+        "total": 38,
+        "compartida": 8,
+        "solo_mp": 30
+      },
+      "05656": {
+        "total": 20,
+        "compartida": 2,
+        "solo_mp": 18
+      },
+      "70473": {
+        "total": 8,
+        "compartida": 1,
+        "solo_mp": 7
+      },
+      "76895": {
+        "total": 8,
+        "compartida": 0,
+        "solo_mp": 8
+      },
+      "25322": {
+        "total": 22,
+        "compartida": 5,
+        "solo_mp": 17
+      },
+      "25295": {
+        "total": 33,
+        "compartida": 0,
+        "solo_mp": 33
+      },
+      "25718": {
+        "total": 7,
+        "compartida": 2,
+        "solo_mp": 5
+      },
+      "25769": {
+        "total": 29,
+        "compartida": 10,
+        "solo_mp": 19
+      },
+      "25488": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "19573": {
+        "total": 13,
+        "compartida": 0,
+        "solo_mp": 13
+      },
+      "15407": {
+        "total": 66,
+        "compartida": 48,
+        "solo_mp": 18
+      },
+      "81591": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "05628": {
+        "total": 38,
+        "compartida": 1,
+        "solo_mp": 37
+      },
+      "50606": {
+        "total": 39,
+        "compartida": 1,
+        "solo_mp": 38
+      },
+      "25513": {
+        "total": 7,
+        "compartida": 0,
+        "solo_mp": 7
+      },
+      "25001": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "25772": {
+        "total": 7,
+        "compartida": 0,
+        "solo_mp": 7
+      },
+      "15806": {
+        "total": 10,
+        "compartida": 2,
+        "solo_mp": 8
+      },
+      "18753": {
+        "total": 8,
+        "compartida": 3,
+        "solo_mp": 5
+      },
+      "25745": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "41298": {
+        "total": 161,
+        "compartida": 146,
+        "solo_mp": 15
+      },
+      "15753": {
+        "total": 16,
+        "compartida": 7,
+        "solo_mp": 9
+      },
+      "54245": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "25491": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "63272": {
+        "total": 4,
+        "compartida": 2,
+        "solo_mp": 2
+      },
+      "54172": {
+        "total": 11,
+        "compartida": 4,
+        "solo_mp": 7
+      },
+      "17541": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "25123": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "05051": {
+        "total": 7,
+        "compartida": 0,
+        "solo_mp": 7
+      },
+      "41770": {
+        "total": 3,
+        "compartida": 1,
+        "solo_mp": 2
+      },
+      "25797": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "20787": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "73483": {
+        "total": 6,
+        "compartida": 3,
+        "solo_mp": 3
+      },
+      "05647": {
+        "total": 188,
+        "compartida": 148,
+        "solo_mp": 40
+      },
+      "05250": {
+        "total": 7,
+        "compartida": 0,
+        "solo_mp": 7
+      },
+      "73585": {
+        "total": 17,
+        "compartida": 5,
+        "solo_mp": 12
+      },
+      "17013": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "68572": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "25181": {
+        "total": 16,
+        "compartida": 4,
+        "solo_mp": 12
+      },
+      "15276": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "08520": {
+        "total": 8,
+        "compartida": 0,
+        "solo_mp": 8
+      },
+      "25898": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "73563": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "44847": {
+        "total": 8,
+        "compartida": 4,
+        "solo_mp": 4
+      },
+      "19698": {
+        "total": 232,
+        "compartida": 177,
+        "solo_mp": 55
+      },
+      "13188": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "25320": {
+        "total": 14,
+        "compartida": 2,
+        "solo_mp": 12
+      },
+      "41797": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "50223": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "50110": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "15204": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "41524": {
+        "total": 14,
+        "compartida": 11,
+        "solo_mp": 3
+      },
+      "25312": {
+        "total": 65,
+        "compartida": 31,
+        "solo_mp": 34
+      },
+      "17513": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "76233": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "81794": {
+        "total": 27,
+        "compartida": 17,
+        "solo_mp": 10
+      },
+      "25040": {
+        "total": 6,
+        "compartida": 3,
+        "solo_mp": 3
+      },
+      "25851": {
+        "total": 3,
+        "compartida": 2,
+        "solo_mp": 1
+      },
+      "05400": {
+        "total": 22,
+        "compartida": 1,
+        "solo_mp": 21
+      },
+      "76563": {
+        "total": 28,
+        "compartida": 4,
+        "solo_mp": 24
+      },
+      "76036": {
+        "total": 8,
+        "compartida": 0,
+        "solo_mp": 8
+      },
+      "25779": {
+        "total": 7,
+        "compartida": 1,
+        "solo_mp": 6
+      },
+      "73275": {
+        "total": 8,
+        "compartida": 0,
+        "solo_mp": 8
+      },
+      "25178": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "68861": {
+        "total": 25,
+        "compartida": 12,
+        "solo_mp": 13
+      },
+      "70702": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "08372": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "97001": {
+        "total": 8,
+        "compartida": 0,
+        "solo_mp": 8
+      },
+      "88564": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "23580": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "66594": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "41615": {
+        "total": 18,
+        "compartida": 15,
+        "solo_mp": 3
+      },
+      "68575": {
+        "total": 21,
+        "compartida": 4,
+        "solo_mp": 17
+      },
+      "25486": {
+        "total": 24,
+        "compartida": 5,
+        "solo_mp": 19
+      },
+      "25183": {
+        "total": 11,
+        "compartida": 4,
+        "solo_mp": 7
+      },
+      "25658": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "25200": {
+        "total": 35,
+        "compartida": 5,
+        "solo_mp": 30
+      },
+      "25873": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "05002": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "25326": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "13052": {
+        "total": 14,
+        "compartida": 0,
+        "solo_mp": 14
+      },
+      "70820": {
+        "total": 9,
+        "compartida": 2,
+        "solo_mp": 7
+      },
+      "05361": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "73217": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "17174": {
+        "total": 17,
+        "compartida": 1,
+        "solo_mp": 16
+      },
+      "73152": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "15322": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "05483": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "05697": {
+        "total": 9,
+        "compartida": 0,
+        "solo_mp": 9
+      },
+      "13430": {
+        "total": 12,
+        "compartida": 0,
+        "solo_mp": 12
+      },
+      "08137": {
+        "total": 3,
+        "compartida": 1,
+        "solo_mp": 2
+      },
+      "15646": {
+        "total": 24,
+        "compartida": 15,
+        "solo_mp": 9
+      },
+      "15087": {
+        "total": 5,
+        "compartida": 1,
+        "solo_mp": 4
+      },
+      "73319": {
+        "total": 6,
+        "compartida": 2,
+        "solo_mp": 4
+      },
+      "27450": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "25260": {
+        "total": 36,
+        "compartida": 10,
+        "solo_mp": 26
+      },
+      "25736": {
+        "total": 12,
+        "compartida": 0,
+        "solo_mp": 12
+      },
+      "05789": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "05237": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "05467": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "15466": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "08832": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "70708": {
+        "total": 21,
+        "compartida": 0,
+        "solo_mp": 21
+      },
+      "05579": {
+        "total": 10,
+        "compartida": 0,
+        "solo_mp": 10
+      },
+      "41668": {
+        "total": 9,
+        "compartida": 5,
+        "solo_mp": 4
+      },
+      "08849": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "50226": {
+        "total": 41,
+        "compartida": 20,
+        "solo_mp": 21
+      },
+      "15820": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "15693": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "15187": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "73411": {
+        "total": 8,
+        "compartida": 0,
+        "solo_mp": 8
+      },
+      "05679": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "20443": {
+        "total": 5,
+        "compartida": 2,
+        "solo_mp": 3
+      },
+      "44378": {
+        "total": 18,
+        "compartida": 11,
+        "solo_mp": 7
+      },
+      "63130": {
+        "total": 99,
+        "compartida": 65,
+        "solo_mp": 34
+      },
+      "25324": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "25815": {
+        "total": 6,
+        "compartida": 2,
+        "solo_mp": 4
+      },
+      "73148": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "15272": {
+        "total": 9,
+        "compartida": 2,
+        "solo_mp": 7
+      },
+      "63470": {
+        "total": 12,
+        "compartida": 0,
+        "solo_mp": 12
+      },
+      "20178": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "76126": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "27001": {
+        "total": 89,
+        "compartida": 70,
+        "solo_mp": 19
+      },
+      "85162": {
+        "total": 23,
+        "compartida": 14,
+        "solo_mp": 9
+      },
+      "47551": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "68500": {
+        "total": 5,
+        "compartida": 3,
+        "solo_mp": 2
+      },
+      "20011": {
+        "total": 89,
+        "compartida": 74,
+        "solo_mp": 15
+      },
+      "20400": {
+        "total": 136,
+        "compartida": 0,
+        "solo_mp": 136
+      },
+      "50287": {
+        "total": 2,
+        "compartida": 1,
+        "solo_mp": 1
+      },
+      "50683": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "44855": {
+        "total": 5,
+        "compartida": 2,
+        "solo_mp": 3
+      },
+      "15757": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "15104": {
+        "total": 4,
+        "compartida": 2,
+        "solo_mp": 2
+      },
+      "44110": {
+        "total": 15,
+        "compartida": 10,
+        "solo_mp": 5
+      },
+      "23350": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "15299": {
+        "total": 7,
+        "compartida": 1,
+        "solo_mp": 6
+      },
+      "20032": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "23855": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "19290": {
+        "total": 9,
+        "compartida": 7,
+        "solo_mp": 2
+      },
+      "76890": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "47245": {
+        "total": 5,
+        "compartida": 1,
+        "solo_mp": 4
+      },
+      "05664": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "41807": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "05660": {
+        "total": 9,
+        "compartida": 0,
+        "solo_mp": 9
+      },
+      "17042": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "05034": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "15476": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "20228": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "76869": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "05674": {
+        "total": 6,
+        "compartida": 1,
+        "solo_mp": 5
+      },
+      "68464": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "15667": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "70670": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "68079": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "73283": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "05172": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "17442": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "05264": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "25293": {
+        "total": 3,
+        "compartida": 1,
+        "solo_mp": 2
+      },
+      "25328": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "25398": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "15638": {
+        "total": 4,
+        "compartida": 2,
+        "solo_mp": 2
+      },
+      "15537": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "15325": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "68770": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "18150": {
+        "total": 6,
+        "compartida": 4,
+        "solo_mp": 2
+      },
+      "52240": {
+        "total": 3,
+        "compartida": 2,
+        "solo_mp": 1
+      },
+      "15185": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "68549": {
+        "total": 2,
+        "compartida": 2,
+        "solo_mp": 0
+      },
+      "25297": {
+        "total": 5,
+        "compartida": 4,
+        "solo_mp": 1
+      },
+      "85325": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "41885": {
+        "total": 11,
+        "compartida": 2,
+        "solo_mp": 9
+      },
+      "41016": {
+        "total": 3,
+        "compartida": 2,
+        "solo_mp": 1
+      },
+      "15814": {
+        "total": 6,
+        "compartida": 6,
+        "solo_mp": 0
+      },
+      "73168": {
+        "total": 18,
+        "compartida": 7,
+        "solo_mp": 11
+      },
+      "25245": {
+        "total": 13,
+        "compartida": 3,
+        "solo_mp": 10
+      },
+      "73504": {
+        "total": 4,
+        "compartida": 4,
+        "solo_mp": 0
+      },
+      "25592": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "68162": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "41548": {
+        "total": 7,
+        "compartida": 7,
+        "solo_mp": 0
+      },
+      "52838": {
+        "total": 9,
+        "compartida": 3,
+        "solo_mp": 6
+      },
+      "68418": {
+        "total": 10,
+        "compartida": 4,
+        "solo_mp": 6
+      },
+      "13670": {
+        "total": 3,
+        "compartida": 3,
+        "solo_mp": 0
+      },
+      "41801": {
+        "total": 2,
+        "compartida": 2,
+        "solo_mp": 0
+      },
+      "41483": {
+        "total": 2,
+        "compartida": 2,
+        "solo_mp": 0
+      },
+      "73408": {
+        "total": 9,
+        "compartida": 2,
+        "solo_mp": 7
+      },
+      "41306": {
+        "total": 9,
+        "compartida": 9,
+        "solo_mp": 0
+      },
+      "25839": {
+        "total": 4,
+        "compartida": 4,
+        "solo_mp": 0
+      },
+      "63594": {
+        "total": 6,
+        "compartida": 3,
+        "solo_mp": 3
+      },
+      "25662": {
+        "total": 2,
+        "compartida": 1,
+        "solo_mp": 1
+      },
+      "18247": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "44098": {
+        "total": 10,
+        "compartida": 4,
+        "solo_mp": 6
+      },
+      "41132": {
+        "total": 14,
+        "compartida": 10,
+        "solo_mp": 4
+      },
+      "15542": {
+        "total": 2,
+        "compartida": 2,
+        "solo_mp": 0
+      },
+      "15051": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "85230": {
+        "total": 11,
+        "compartida": 4,
+        "solo_mp": 7
+      },
+      "15798": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "52694": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "23300": {
+        "total": 3,
+        "compartida": 2,
+        "solo_mp": 1
+      },
+      "68468": {
+        "total": 2,
+        "compartida": 2,
+        "solo_mp": 0
+      },
+      "05113": {
+        "total": 89,
+        "compartida": 0,
+        "solo_mp": 89
+      },
+      "15215": {
+        "total": 7,
+        "compartida": 1,
+        "solo_mp": 6
+      },
+      "17614": {
+        "total": 12,
+        "compartida": 0,
+        "solo_mp": 12
+      },
+      "23670": {
+        "total": 7,
+        "compartida": 0,
+        "solo_mp": 7
+      },
+      "86885": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "86573": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "19100": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "13160": {
+        "total": 7,
+        "compartida": 0,
+        "solo_mp": 7
+      },
+      "68190": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "41518": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "25777": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "20013": {
+        "total": 12,
+        "compartida": 0,
+        "solo_mp": 12
+      },
+      "41357": {
+        "total": 3,
+        "compartida": 1,
+        "solo_mp": 2
+      },
+      "05604": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "17088": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "86865": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "47707": {
+        "total": 7,
+        "compartida": 0,
+        "solo_mp": 7
+      },
+      "25878": {
+        "total": 4,
+        "compartida": 1,
+        "solo_mp": 3
+      },
+      "05306": {
+        "total": 29,
+        "compartida": 0,
+        "solo_mp": 29
+      },
+      "47268": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "05591": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "73555": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "47980": {
+        "total": 6,
+        "compartida": 0,
+        "solo_mp": 6
+      },
+      "13442": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "54003": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "25279": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "68271": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "25053": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "25099": {
+        "total": 7,
+        "compartida": 1,
+        "solo_mp": 6
+      },
+      "81065": {
+        "total": 8,
+        "compartida": 2,
+        "solo_mp": 6
+      },
+      "15514": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "05890": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "25483": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "08421": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "76020": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "05321": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "25426": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "66400": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "15047": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "15808": {
+        "total": 2,
+        "compartida": 1,
+        "solo_mp": 1
+      },
+      "08078": {
+        "total": 8,
+        "compartida": 0,
+        "solo_mp": 8
+      },
+      "41872": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "17662": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "17616": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "13433": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "70418": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "15183": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "05284": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "19845": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "73624": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "47058": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "73861": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "54261": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "05761": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "15774": {
+        "total": 2,
+        "compartida": 1,
+        "solo_mp": 1
+      },
+      "05030": {
+        "total": 9,
+        "compartida": 0,
+        "solo_mp": 9
+      },
+      "23079": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "70823": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "05147": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "08560": {
+        "total": 9,
+        "compartida": 0,
+        "solo_mp": 9
+      },
+      "68152": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "05031": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "73547": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "41006": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "52079": {
+        "total": 13,
+        "compartida": 0,
+        "solo_mp": 13
+      },
+      "54810": {
+        "total": 16,
+        "compartida": 4,
+        "solo_mp": 12
+      },
+      "73026": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "86320": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "15690": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "18610": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "81300": {
+        "total": 2,
+        "compartida": 1,
+        "solo_mp": 1
+      },
+      "81220": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "52354": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "15494": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "23189": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "20750": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "41020": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "15879": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "15223": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "05847": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "05667": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "76823": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "19110": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "20250": {
+        "total": 6,
+        "compartida": 0,
+        "solo_mp": 6
+      },
+      "15480": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "05895": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "25781": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "05282": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "05686": {
+        "total": 10,
+        "compartida": 0,
+        "solo_mp": 10
+      },
+      "05364": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "05790": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "76122": {
+        "total": 3,
+        "compartida": 1,
+        "solo_mp": 2
+      },
+      "13212": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "86569": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "17486": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "20045": {
+        "total": 60,
+        "compartida": 9,
+        "solo_mp": 51
+      },
+      "85263": {
+        "total": 6,
+        "compartida": 6,
+        "solo_mp": 0
+      },
+      "41503": {
+        "total": 4,
+        "compartida": 3,
+        "solo_mp": 1
+      },
+      "52352": {
+        "total": 3,
+        "compartida": 2,
+        "solo_mp": 1
+      },
+      "52678": {
+        "total": 2,
+        "compartida": 2,
+        "solo_mp": 0
+      },
+      "15861": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "05315": {
+        "total": 5,
+        "compartida": 2,
+        "solo_mp": 3
+      },
+      "05649": {
+        "total": 3,
+        "compartida": 2,
+        "solo_mp": 1
+      },
+      "15362": {
+        "total": 2,
+        "compartida": 1,
+        "solo_mp": 1
+      },
+      "41078": {
+        "total": 2,
+        "compartida": 2,
+        "solo_mp": 0
+      },
+      "41013": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "25805": {
+        "total": 2,
+        "compartida": 2,
+        "solo_mp": 0
+      },
+      "76377": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "25807": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "15686": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "19212": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "23464": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "70742": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "63690": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "05887": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "17444": {
+        "total": 4,
+        "compartida": 2,
+        "solo_mp": 2
+      },
+      "52203": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "13074": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "68229": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "68524": {
+        "total": 4,
+        "compartida": 3,
+        "solo_mp": 1
+      },
+      "15097": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "05819": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "19397": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "15172": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "05809": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "47460": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "25645": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "05659": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "15664": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "54720": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "54051": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "73067": {
+        "total": 4,
+        "compartida": 4,
+        "solo_mp": 0
+      },
+      "41359": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "25019": {
+        "total": 2,
+        "compartida": 2,
+        "solo_mp": 0
+      },
+      "52687": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "52573": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "05368": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "15673": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "25438": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "25120": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "05197": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "15804": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "52378": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "13244": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "25596": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "19701": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "19256": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "25368": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "68855": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "05411": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "52320": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "15377": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "54670": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "66440": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "23570": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "05042": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      },
+      "05138": {
+        "total": 6,
+        "compartida": 0,
+        "solo_mp": 6
+      },
+      "05190": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "05736": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "05101": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "05858": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "15244": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "20175": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "15696": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "23068": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "41660": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "76497": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "20614": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "13654": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "66456": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "05854": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "19743": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "85225": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "54313": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "15755": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      }
+    }
+  },
+  {
+    "id": "10108023348",
+    "actividadValidada": "",
+    "contratista": "Sin Contratista",
+    "objeto": "NINGUNO",
+    "valor": 0.0,
+    "estado": "ACTUALIZADO",
+    "tipo": "PRIMA",
+    "contratante": "COLSANITAS (10)",
+    "colectivo": "ST JUDEL MEDICAL",
+    "colectivoBeneficiado": "ST JUDE MEDICAL COLOMBIA LTDA.",
+    "plan": "INTEGRAL",
+    "fechaInicio": "2026-01-01 00:00:00",
+    "fechaFin": "2026-12-31 00:00:00",
+    "poblacion": 129,
+    "coberturas": [
+      {
+        "tipo": "VADEMECUM ABIERTO",
+        "descripcion": "COBERTURA ANEXOS ONCOLÓGICO,PRE Y POST EGRESO"
+      }
+    ],
+    "vihHeader": "N/A",
+    "vihSub": "N/A",
+    "oncoHeader": "SI",
+    "oncoSub": "ILIMITADO",
+    "prePostHeader": "SI",
+    "prePostSub": "2.75",
+    "ortesisHeader": "SI",
+    "ortesisSub": "Requiere autorización",
+    "poblacionCompartida": 85,
+    "poblacionSoloMP": 44,
+    "poblacionDane": {
+      "05001": {
+        "total": 34,
+        "compartida": 7,
+        "solo_mp": 27
+      },
+      "08001": {
+        "total": 7,
+        "compartida": 7,
+        "solo_mp": 0
+      },
+      "11001": {
+        "total": 49,
+        "compartida": 36,
+        "solo_mp": 13
+      },
+      "76001": {
+        "total": 10,
+        "compartida": 9,
+        "solo_mp": 1
+      },
+      "05266": {
+        "total": 7,
+        "compartida": 7,
+        "solo_mp": 0
+      },
+      "25430": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "68001": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "05088": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "05360": {
+        "total": 2,
+        "compartida": 2,
+        "solo_mp": 0
+      },
+      "17001": {
+        "total": 3,
+        "compartida": 3,
+        "solo_mp": 0
+      },
+      "25126": {
+        "total": 4,
+        "compartida": 4,
+        "solo_mp": 0
+      },
+      "25175": {
+        "total": 4,
+        "compartida": 4,
+        "solo_mp": 0
+      },
+      "13001": {
+        "total": 5,
+        "compartida": 4,
+        "solo_mp": 1
       }
     }
   }

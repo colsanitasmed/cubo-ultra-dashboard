@@ -109,7 +109,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // Filtros
         filterContratante: document.getElementById('filter-contratante'),
         filterColectivo: document.getElementById('filter-colectivo'),
-        filterPlan: document.getElementById('filter-plan'),
+        displayPlan: document.getElementById('display-plan'),
         filterTipoContratacion: document.getElementById('filter-tipo-contratacion'),
         resetFiltersBtn: document.getElementById('reset-filters-btn'),
         
@@ -273,12 +273,15 @@ document.addEventListener('DOMContentLoaded', () => {
     function initDataLoader() {
         if (window.CONTRATOS_DATA && Array.isArray(window.CONTRATOS_DATA) && window.CONTRATOS_DATA.length > 0) {
             const jsonData = window.CONTRATOS_DATA;
-            // Parsear las fechas a objetos Date reales para que los cálculos matemáticos funcionen
-            state.contratosBase = jsonData.map(c => ({
-                ...c,
-                fechaInicio: parseDate(c.fechaInicio),
-                fechaFin: parseDate(c.fechaFin)
-            }));
+            state.contratosBase = jsonData.map(c => {
+                let cob = c.coberturas || [];
+                return {
+                    ...c,
+                    coberturas: cob,
+                    fechaInicio: parseDate(c.fechaInicio),
+                    fechaFin: parseDate(c.fechaFin)
+                };
+            });
             state.contratosFiltrados = [...state.contratosBase];
             state.isDemo = false;
             state.selectedContractId = null;
@@ -420,7 +423,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 prePostHeader: row["PRE Y POST HOSPITALARIO"] ? String(row["PRE Y POST HOSPITALARIO"]).trim() : "N/A",
                 prePostSub: row["TOPE POST EGRESO SMMLV\n*AÑO CALENDARIO"] ? String(row["TOPE POST EGRESO SMMLV\n*AÑO CALENDARIO"]).trim() : "N/A",
                 ortesisHeader: row["ÓRTESIS"] ? String(row["ÓRTESIS"]).trim() : "N/A",
-                ortesisSub: row["REQUISITO COBERTURA"] ? String(row["REQUISITO COBERTURA"]).trim() : "N/A"
+                ortesisSub: row["REQUISITO COBERTURA"] ? String(row["REQUISITO COBERTURA"]).trim() : "N/A",
+                coberturas: row["coberturas"] || []
             };
         });
 
@@ -428,10 +432,11 @@ document.addEventListener('DOMContentLoaded', () => {
         const contractMap = new Map();
         processedContracts.forEach(c => {
             if (!c.id) return;
+            
             if (!contractMap.has(c.id)) {
                 contractMap.set(c.id, { 
                     ...c,
-                    coberturas: (c.tipoCobertura || c.descripcionCobertura) ? [{ tipo: c.tipoCobertura, descripcion: c.descripcionCobertura }] : []
+                    coberturas: c.coberturas.length > 0 ? [...c.coberturas] : ((c.tipoCobertura || c.descripcionCobertura) ? [{ tipo: c.tipoCobertura, descripcion: c.descripcionCobertura }] : [])
                 });
             } else {
                 const existing = contractMap.get(c.id);
@@ -441,7 +446,14 @@ document.addEventListener('DOMContentLoaded', () => {
                 existing.bolsaComplementaria = Math.max(existing.bolsaComplementaria, c.bolsaComplementaria);
                 
                 // Agregar detalles de coberturas dinámicas únicas del contrato
-                if (c.tipoCobertura || c.descripcionCobertura) {
+                if (c.coberturas && c.coberturas.length > 0) {
+                    c.coberturas.forEach(newCov => {
+                        const isDup = existing.coberturas.some(cov => cov.tipo === newCov.tipo && cov.descripcion === newCov.descripcion);
+                        if (!isDup) {
+                            existing.coberturas.push({ tipo: newCov.tipo, descripcion: newCov.descripcion });
+                        }
+                    });
+                } else if (c.tipoCobertura || c.descripcionCobertura) {
                     const isDup = existing.coberturas.some(cov => cov.tipo === c.tipoCobertura && cov.descripcion === c.descripcionCobertura);
                     if (!isDup) {
                         existing.coberturas.push({ tipo: c.tipoCobertura, descripcion: c.descripcionCobertura });
@@ -485,13 +497,11 @@ document.addEventListener('DOMContentLoaded', () => {
     // ----------------------------------------------------
     elements.filterContratante.addEventListener('change', applyExecutiveFilters);
     elements.filterColectivo.addEventListener('change', applyExecutiveFilters);
-    elements.filterPlan.addEventListener('change', applyExecutiveFilters);
     elements.filterTipoContratacion.addEventListener('change', applyExecutiveFilters);
 
     elements.resetFiltersBtn.addEventListener('click', () => {
         elements.filterContratante.value = "";
         elements.filterColectivo.value = "";
-        elements.filterPlan.value = "";
         elements.filterTipoContratacion.value = "";
         
         clearIndividualFilter();
@@ -501,16 +511,26 @@ document.addEventListener('DOMContentLoaded', () => {
     function applyExecutiveFilters() {
         const valContratante = elements.filterContratante.value;
         const valColectivo = elements.filterColectivo.value;
-        const valPlan = elements.filterPlan.value;
         const valTipoContr = elements.filterTipoContratacion.value;
 
         state.contratosFiltrados = state.contratosBase.filter(c => {
             const matchContratante = !valContratante || c.contratante === valContratante;
             const matchColectivo = !valColectivo || c.colectivo === valColectivo;
-            const matchPlan = !valPlan || c.plan === valPlan;
             const matchTipo = !valTipoContr || c.tipoContratacion === valTipoContr;
-            return matchContratante && matchColectivo && matchPlan && matchTipo;
+            return matchContratante && matchColectivo && matchTipo;
         });
+
+        // Actualizar la tarjeta de PLAN dinámicamente
+        if (elements.displayPlan) {
+            const currentPlans = [...new Set(state.contratosFiltrados.map(c => c.plan).filter(Boolean))];
+            if (currentPlans.length === 1) {
+                elements.displayPlan.textContent = currentPlans[0].toUpperCase();
+            } else if (currentPlans.length > 1) {
+                elements.displayPlan.textContent = "MÚLTIPLE";
+            } else {
+                elements.displayPlan.textContent = "N/A";
+            }
+        }
 
         if (state.selectedContractId) {
             const exists = state.contratosFiltrados.some(c => c.id === state.selectedContractId);
@@ -525,12 +545,10 @@ document.addEventListener('DOMContentLoaded', () => {
     function populateFilterDropdowns() {
         const contratantes = [...new Set(state.contratosBase.map(c => c.contratante).filter(Boolean))].sort();
         const colectivos = [...new Set(state.contratosBase.map(c => c.colectivo).filter(Boolean))].sort();
-        const planes = [...new Set(state.contratosBase.map(c => c.plan).filter(Boolean))].sort();
         const tiposContr = [...new Set(state.contratosBase.map(c => c.tipoContratacion).filter(Boolean))].sort();
 
         updateDropdown(elements.filterContratante, contratantes);
         updateDropdown(elements.filterColectivo, colectivos);
-        updateDropdown(elements.filterPlan, planes);
         updateDropdown(elements.filterTipoContratacion, tiposContr);
     }
 
