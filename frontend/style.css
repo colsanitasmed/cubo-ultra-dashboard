@@ -81,8 +81,9 @@ h1 {
 h2 {
     font-family: var(--font-display);
     font-weight: 600;
-    font-size: 1.15rem;
+    font-size: 0.95rem;
     color: var(--color-text-main);
+    line-height: 1.2;
 }
 
 h3 {
@@ -348,7 +349,7 @@ h3 {
 /* MAIN LAYOUT */
 .app-main {
     display: grid;
-    grid-template-columns: 310px 1fr;
+    grid-template-columns: 215px 1fr;
     flex: 1;
     gap: 20px;
     min-height: 0;
@@ -597,7 +598,7 @@ h3 {
 .metric-card-vertical {
     background: rgba(255, 255, 255, 0.012);
     border: 1px solid var(--color-border);
-    padding: 14px 16px;
+    padding: 10px 12px;
     border-radius: var(--radius-md);
     display: flex;
     flex-direction: column;
@@ -611,8 +612,8 @@ h3 {
 }
 
 .metric-card-vertical .label {
-    font-size: 0.62rem;
-    letter-spacing: 0.06em;
+    font-size: 0.58rem;
+    letter-spacing: 0.04em;
     color: var(--color-text-muted);
 }
 
@@ -623,9 +624,9 @@ h3 {
 }
 
 .metric-card-vertical .value {
-    font-size: 1.6rem;
+    font-size: 0.95rem;
     font-weight: 700;
-    letter-spacing: -0.02em;
+    letter-spacing: -0.01em;
 }
 
 .trendUp {
@@ -635,7 +636,7 @@ h3 {
 }
 
 .metric-card-vertical .desc {
-    font-size: 0.68rem;
+    font-size: 0.62rem;
     color: var(--color-text-muted);
 }
 

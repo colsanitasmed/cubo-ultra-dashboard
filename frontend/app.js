@@ -111,6 +111,7 @@ document.addEventListener('DOMContentLoaded', () => {
         filterColectivo: document.getElementById('filter-colectivo'),
         displayPlan: document.getElementById('display-plan'),
         filterTipoContratacion: document.getElementById('filter-tipo-contratacion'),
+        filterRegional: document.getElementById('filter-regional'),
         resetFiltersBtn: document.getElementById('reset-filters-btn'),
         
         // Métricas
@@ -424,7 +425,11 @@ document.addEventListener('DOMContentLoaded', () => {
                 prePostSub: row["TOPE POST EGRESO SMMLV\n*AÑO CALENDARIO"] ? String(row["TOPE POST EGRESO SMMLV\n*AÑO CALENDARIO"]).trim() : "N/A",
                 ortesisHeader: row["ÓRTESIS"] ? String(row["ÓRTESIS"]).trim() : "N/A",
                 ortesisSub: row["REQUISITO COBERTURA"] ? String(row["REQUISITO COBERTURA"]).trim() : "N/A",
-                coberturas: row["coberturas"] || []
+                coberturas: row["coberturas"] || [],
+                poblacion: row["poblacion"] || 0,
+                poblacionCompartida: row["poblacionCompartida"] || 0,
+                poblacionSoloMP: row["poblacionSoloMP"] || 0,
+                poblacionDane: row["poblacionDane"] || {}
             };
         });
 
@@ -444,6 +449,24 @@ document.addEventListener('DOMContentLoaded', () => {
                 existing.valor = Math.max(existing.valor, c.valor);
                 existing.cupoUsuarioBolsaGral = Math.max(existing.cupoUsuarioBolsaGral, c.cupoUsuarioBolsaGral);
                 existing.bolsaComplementaria = Math.max(existing.bolsaComplementaria, c.bolsaComplementaria);
+                
+                // Consolidar Población: usar Math.max para evitar duplicar si la fila se repite en Excel
+                existing.poblacion = Math.max(existing.poblacion || 0, c.poblacion || 0);
+                existing.poblacionCompartida = Math.max(existing.poblacionCompartida || 0, c.poblacionCompartida || 0);
+                existing.poblacionSoloMP = Math.max(existing.poblacionSoloMP || 0, c.poblacionSoloMP || 0);
+                
+                // Consolidar DANEs
+                if (c.poblacionDane) {
+                    for (const [dane, stats] of Object.entries(c.poblacionDane)) {
+                        if (!existing.poblacionDane[dane]) {
+                            existing.poblacionDane[dane] = { total: 0, compartida: 0, solo_mp: 0 };
+                        }
+                        // Usar Math.max en lugar de sumar para evitar inflación por filas duplicadas
+                        existing.poblacionDane[dane].total = Math.max(existing.poblacionDane[dane].total || 0, stats.total || 0);
+                        existing.poblacionDane[dane].compartida = Math.max(existing.poblacionDane[dane].compartida || 0, stats.compartida || 0);
+                        existing.poblacionDane[dane].solo_mp = Math.max(existing.poblacionDane[dane].solo_mp || 0, stats.solo_mp || 0);
+                    }
+                }
                 
                 // Agregar detalles de coberturas dinámicas únicas del contrato
                 if (c.coberturas && c.coberturas.length > 0) {
@@ -498,11 +521,13 @@ document.addEventListener('DOMContentLoaded', () => {
     elements.filterContratante.addEventListener('change', applyExecutiveFilters);
     elements.filterColectivo.addEventListener('change', applyExecutiveFilters);
     elements.filterTipoContratacion.addEventListener('change', applyExecutiveFilters);
+    if (elements.filterRegional) elements.filterRegional.addEventListener('change', applyExecutiveFilters);
 
     elements.resetFiltersBtn.addEventListener('click', () => {
         elements.filterContratante.value = "";
         elements.filterColectivo.value = "";
         elements.filterTipoContratacion.value = "";
+        if (elements.filterRegional) elements.filterRegional.value = "";
         
         clearIndividualFilter();
         applyExecutiveFilters();
@@ -512,12 +537,21 @@ document.addEventListener('DOMContentLoaded', () => {
         const valContratante = elements.filterContratante.value;
         const valColectivo = elements.filterColectivo.value;
         const valTipoContr = elements.filterTipoContratacion.value;
+        const valRegional = elements.filterRegional ? elements.filterRegional.value : "";
 
         state.contratosFiltrados = state.contratosBase.filter(c => {
             const matchContratante = !valContratante || c.contratante === valContratante;
             const matchColectivo = !valColectivo || c.colectivo === valColectivo;
             const matchTipo = !valTipoContr || c.tipoContratacion === valTipoContr;
-            return matchContratante && matchColectivo && matchTipo;
+            
+            let matchRegional = true;
+            if (valRegional && window.DANE_TO_REGIONAL && c.poblacionDane) {
+                // Verificar si alguno de los DANEs del contrato pertenece a la regional seleccionada
+                const danes = Object.keys(c.poblacionDane);
+                matchRegional = danes.some(d => window.DANE_TO_REGIONAL[d] === valRegional);
+            }
+            
+            return matchContratante && matchColectivo && matchTipo && matchRegional;
         });
 
         // Actualizar la tarjeta de PLAN dinámicamente
@@ -546,10 +580,12 @@ document.addEventListener('DOMContentLoaded', () => {
         const contratantes = [...new Set(state.contratosBase.map(c => c.contratante).filter(Boolean))].sort();
         const colectivos = [...new Set(state.contratosBase.map(c => c.colectivo).filter(Boolean))].sort();
         const tiposContr = [...new Set(state.contratosBase.map(c => c.tipoContratacion).filter(Boolean))].sort();
+        const regionales = window.DANE_TO_REGIONAL ? [...new Set(Object.values(window.DANE_TO_REGIONAL))].filter(Boolean).sort() : [];
 
         updateDropdown(elements.filterContratante, contratantes);
         updateDropdown(elements.filterColectivo, colectivos);
         updateDropdown(elements.filterTipoContratacion, tiposContr);
+        if (elements.filterRegional) updateDropdown(elements.filterRegional, regionales);
     }
 
     function updateDropdown(selectElement, valuesList) {
@@ -560,11 +596,12 @@ document.addEventListener('DOMContentLoaded', () => {
         else if (selectElement.id === 'filter-plan') placeholder = "-- Plan --";
         else if (selectElement.id === 'filter-tipo-contratacion') placeholder = "-- Tipo --";
 
-        selectElement.innerHTML = `<option value="">${placeholder}</option>`;
+        selectElement.innerHTML = `<option value="" style="color: #000;">${placeholder}</option>`;
         valuesList.forEach(v => {
             const opt = document.createElement('option');
             opt.value = v;
             opt.textContent = v;
+            opt.style.color = "#000"; // Asegurar que el texto sea visible
             selectElement.appendChild(opt);
         });
         if (valuesList.includes(prev)) selectElement.value = prev;
@@ -728,26 +765,37 @@ document.addEventListener('DOMContentLoaded', () => {
             elements.metricBolsaComplementaria.textContent = formatCOP(totalBolsaComp);
         }
         
-        // 2c. Población (Total, MP, Compartidos) - Deduplicada por colectivo
-        const colectivosUnicos = new Map();
-        contracts.forEach(c => {
-            const key = (c.colectivo || c.colectivoBeneficiado || c.id).trim().toLowerCase();
-            if (key && !colectivosUnicos.has(key)) {
-                colectivosUnicos.set(key, {
-                    pob: c.poblacion || 0,
-                    mp: c.poblacionSoloMP || 0,
-                    comp: c.poblacionCompartida || 0
-                });
-            }
-        });
-
+        // 2c. Población (Total, MP, Compartidos) - Suma directa de contratos filtrados
+        const valRegional = elements.filterRegional ? elements.filterRegional.value : "";
+        
         let totalPoblacion = 0;
         let totalPoblacionMP = 0;
         let totalPoblacionComp = 0;
-        colectivosUnicos.forEach(val => {
-            totalPoblacion += val.pob;
-            totalPoblacionMP += val.mp;
-            totalPoblacionComp += val.comp;
+        
+        contracts.forEach(c => {
+            let pob = 0;
+            let mp = 0;
+            let comp = 0;
+            
+            if (valRegional && window.DANE_TO_REGIONAL && c.poblacionDane) {
+                // Filtrar la población exacta que pertenece a la regional seleccionada
+                for (const [dane, stats] of Object.entries(c.poblacionDane)) {
+                    if (window.DANE_TO_REGIONAL[dane] === valRegional) {
+                        pob += (stats.total || 0);
+                        mp += (stats.solo_mp || 0);
+                        comp += (stats.compartida || 0);
+                    }
+                }
+            } else {
+                // Población nacional del contrato
+                pob = c.poblacion || 0;
+                mp = c.poblacionSoloMP || 0;
+                comp = c.poblacionCompartida || 0;
+            }
+            
+            totalPoblacion += pob;
+            totalPoblacionMP += mp;
+            totalPoblacionComp += comp;
         });
 
         if (elements.metricPoblacionTotal) elements.metricPoblacionTotal.textContent = totalPoblacion.toLocaleString('es-CO');
@@ -775,6 +823,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 row.innerHTML = `
                     <td>${c.colectivoBeneficiado}</td>
                     <td class="font-mono text-primary">${c.id}</td>
+                    <td class="font-mono text-success">${(c.poblacionSoloMP || 0).toLocaleString('es-CO')}</td>
+                    <td class="font-mono text-secondary">${(c.poblacionCompartida || 0).toLocaleString('es-CO')}</td>
+                    <td class="font-mono text-primary" style="font-weight:600;">${(c.poblacion || 0).toLocaleString('es-CO')}</td>
                 `;
                 tableBody.appendChild(row);
             });
@@ -1020,8 +1071,28 @@ document.addEventListener('DOMContentLoaded', () => {
             }).setView([4.5709, -74.2973], 5);
             
             L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                maxZoom: 18
+                maxZoom: 18,
+                attribution: '&copy; OpenStreetMap contributors'
             }).addTo(leafletMap);
+
+            // Cargar GeoJSON de Colombia (Se corrigió URL rota que generaba 404)
+            fetch('https://gist.githubusercontent.com/john-guerra/43c7656821069d00dcbc/raw/be6a6e239cd5b5b803c6e7c2ec405b793a9064dd/Colombia.geo.json')
+                .then(res => res.json())
+                .then(data => {
+                    window.colombiaGeoJsonData = data;
+                    if (window.colombiaGeoJsonLayer) leafletMap.removeLayer(window.colombiaGeoJsonLayer);
+                    window.colombiaGeoJsonLayer = L.geoJSON(data, {
+                        style: {
+                            color: '#10b981',
+                            weight: 1,
+                            fillOpacity: 0.1
+                        }
+                    }).addTo(leafletMap);
+                    
+                    updatePharmaciesMapAndList();
+                })
+                .catch(err => console.error('Error al cargar GeoJSON de Colombia:', err));
+
         } catch (e) {
             console.error("No se pudo iniciar el mapa de Leaflet:", e);
         }
@@ -1151,19 +1222,49 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function updatePharmaciesMapAndList() {
-        // Aggregate DANE population from filtered contracts
+        // Re-calcular agregaciones basadas en contratos filtrados
         const daneAggregation = {};
+        const regionalAggregation = {};
+        const valRegional = elements.filterRegional ? elements.filterRegional.value : "";
         
+        // CONGELAR LA VERDAD ABSOLUTA
+        const colectivoTruth = new Map();
+        state.contratosBase.forEach(c => {
+            const key = (c.colectivo || c.colectivoBeneficiado || c.id).trim().toLowerCase();
+            if (key && !colectivoTruth.has(key)) {
+                colectivoTruth.set(key, c);
+            }
+        });
+
         if (state.contratosFiltrados && state.contratosFiltrados.length > 0) {
+            const procesados = new Set();
             state.contratosFiltrados.forEach(c => {
-                if (c.poblacionDane) {
-                    for (const [daneCode, stats] of Object.entries(c.poblacionDane)) {
-                        if (!daneAggregation[daneCode]) {
-                            daneAggregation[daneCode] = { total: 0, compartida: 0, solo_mp: 0 };
+                const key = (c.colectivo || c.colectivoBeneficiado || c.id).trim().toLowerCase();
+                if (key && !procesados.has(key)) {
+                    procesados.add(key);
+                    const trueContract = colectivoTruth.get(key) || c;
+
+                    if (trueContract.poblacionDane) {
+                        for (const [daneCode, stats] of Object.entries(trueContract.poblacionDane)) {
+                            // Si hay filtro regional, omitir DANEs que no pertenecen
+                            if (valRegional && window.DANE_TO_REGIONAL && window.DANE_TO_REGIONAL[daneCode] !== valRegional) {
+                                continue;
+                            }
+                            if (!daneAggregation[daneCode]) {
+                                daneAggregation[daneCode] = { total: 0, compartida: 0, solo_mp: 0 };
+                            }
+                            daneAggregation[daneCode].total += stats.total || 0;
+                            daneAggregation[daneCode].compartida += stats.compartida || 0;
+                            daneAggregation[daneCode].solo_mp += stats.solo_mp || 0;
+                            
+                            const regional = window.DANE_TO_REGIONAL ? window.DANE_TO_REGIONAL[daneCode] : null;
+                            if (regional) {
+                                if (!regionalAggregation[regional]) {
+                                    regionalAggregation[regional] = 0;
+                                }
+                                regionalAggregation[regional] += (stats.total || 0);
+                            }
                         }
-                        daneAggregation[daneCode].total += stats.total || 0;
-                        daneAggregation[daneCode].compartida += stats.compartida || 0;
-                        daneAggregation[daneCode].solo_mp += stats.solo_mp || 0;
                     }
                 }
             });
@@ -1171,11 +1272,19 @@ document.addEventListener('DOMContentLoaded', () => {
         
         const activeDanes = Object.keys(daneAggregation);
         
+        // Calcular la población total para el encabezado
+        let totalMapPopulation = 0;
+        let maxTotal = 0;
+        for (const code of activeDanes) {
+            const tot = daneAggregation[code].total;
+            totalMapPopulation += tot;
+            if (tot > maxTotal) maxTotal = tot;
+        }
+        
         const phCounter = document.getElementById('pharmacies-counter');
         const validityPhVal = document.getElementById('validity-pharmacies-val');
         
-        // Update labels (was pharmacies, now municipalities)
-        if (phCounter) phCounter.textContent = `${activeDanes.length} Municipios Impactados`;
+        if (phCounter) phCounter.innerHTML = `<span style="color: var(--color-text-main); font-weight: 600;">${totalMapPopulation.toLocaleString('es-CO')}</span> Usuarios en <span style="color: var(--color-primary);">${activeDanes.length}</span> Municipios`;
         if (validityPhVal) validityPhVal.textContent = activeDanes.length;
 
         if (leafletMap) {
@@ -1183,11 +1292,105 @@ document.addEventListener('DOMContentLoaded', () => {
             mapMarkers = [];
             
             const pointsForBounds = [];
-            let maxTotal = 0;
             
-            // Calculate max population to normalize circle sizes
-            for (const code of activeDanes) {
-                if (daneAggregation[code].total > maxTotal) maxTotal = daneAggregation[code].total;
+            const showPins = !!valRegional || !window.colombiaGeoJsonLayer;
+
+            // Update GeoJSON layer if it exists
+            if (window.colombiaGeoJsonLayer) {
+                // Generar paleta de colores para regionales dinámicamente
+                const palette = ['#3b82f6', '#10b981', '#f59e0b', '#8b5cf6', '#ef4444', '#ec4899', '#06b6d4', '#eab308'];
+                const regColorMap = {};
+                let cIndex = 0;
+                
+                // Mapear Departamentos a Regional (usando la regional que más población tenga en ese departamento)
+                const deptoRegPop = {};
+                if (window.DANE_TO_REGIONAL) {
+                    for (const code of activeDanes) {
+                        const deptoStr = String(code).padStart(5, '0').substring(0, 2);
+                        const reg = window.DANE_TO_REGIONAL[code];
+                        if (reg) {
+                            if (!deptoRegPop[deptoStr]) deptoRegPop[deptoStr] = {};
+                            if (!deptoRegPop[deptoStr][reg]) deptoRegPop[deptoStr][reg] = 0;
+                            deptoRegPop[deptoStr][reg] += daneAggregation[code].total;
+                            
+                            if (!regColorMap[reg]) {
+                                regColorMap[reg] = palette[cIndex % palette.length];
+                                cIndex++;
+                            }
+                        }
+                    }
+                }
+                
+                // Asignar cada departamento a su regional dominante
+                const dominantRegByDepto = {};
+                for (const depto in deptoRegPop) {
+                    let maxPob = -1;
+                    let domReg = "";
+                    for (const reg in deptoRegPop[depto]) {
+                        if (deptoRegPop[depto][reg] > maxPob) {
+                            maxPob = deptoRegPop[depto][reg];
+                            domReg = reg;
+                        }
+                    }
+                    dominantRegByDepto[depto] = domReg;
+                }
+
+                // Fallback de nombres a códigos DANE de departamento por si el GeoJSON no trae ID
+                const nameToDeptoCode = {
+                    "antioquia": "05", "atlantico": "08", "bogota": "11", "bogota dc": "11", "bolivar": "13", "boyaca": "15",
+                    "caldas": "17", "caqueta": "18", "cauca": "19", "cesar": "20", "cordoba": "23",
+                    "cundinamarca": "25", "choco": "27", "huila": "41", "la guajira": "44", "magdalena": "47",
+                    "meta": "50", "narino": "52", "norte de santander": "54", "quindio": "63", "risaralda": "66",
+                    "santander": "68", "sucre": "70", "tolima": "73", "valle del cauca": "76", "arauca": "81",
+                    "casanare": "85", "putumayo": "86", "archipielago de san andres providencia y santa catalina": "88",
+                    "san andres": "88", "amazonas": "91", "guainia": "94", "guaviare": "95", "vaupes": "97", "vichada": "99"
+                };
+
+                window.colombiaGeoJsonLayer.eachLayer(layer => {
+                    const props = layer.feature.properties;
+                    const depName = normalizeString(props.DPTO_CNMBR || props.NOMBRE_DPT || props.name || "");
+                    const dptoCode = props.DPTO_CCDGO || props.codigo_dane || nameToDeptoCode[depName] || "";
+                    
+                    let dominantReg = dominantRegByDepto[dptoCode];
+                    
+                    // Fallback si no funcionó el mapeo por código
+                    if (!dominantReg) {
+                        for (const reg in regionalAggregation) {
+                            if (normalizeString(reg).includes(depName) || depName.includes(normalizeString(reg))) {
+                                dominantReg = reg;
+                            }
+                        }
+                    }
+
+                    if (!valRegional) {
+                        // Vista global: coloreado por REGIONAL
+                        if (dominantReg && regionalAggregation[dominantReg] > 0) {
+                            const color = regColorMap[dominantReg] || '#10b981';
+                            layer.setStyle({
+                                fillColor: color,
+                                fillOpacity: 0.45,
+                                weight: 1,
+                                color: '#ffffff',
+                                opacity: 0.6
+                            });
+                            
+                            let totalDepto = 0;
+                            if (deptoRegPop[dptoCode]) {
+                                for(let r in deptoRegPop[dptoCode]) totalDepto += deptoRegPop[dptoCode][r];
+                            }
+                            
+                            layer.bindTooltip(`<b>${props.DPTO_CNMBR || depName.toUpperCase()}</b><br>Regional: ${dominantReg}<br>Población: ${totalDepto.toLocaleString('es-CO')}`, { sticky: true });
+                        } else {
+                            layer.setStyle({ fillColor: '#070b17', fillOpacity: 0.7, weight: 1, color: '#333', opacity: 0.5 });
+                            layer.unbindTooltip();
+                        }
+                    } else {
+                        // Si hay filtro de regional, quitar todos los colores y dejar el mapa oscuro
+                        // para que resalten únicamente las tachuelas (droguerías)
+                        layer.setStyle({ fillColor: '#070b17', fillOpacity: 0.7, weight: 1, color: '#333', opacity: 0.5 });
+                        layer.unbindTooltip();
+                    }
+                });
             }
             
             activeDanes.forEach(code => {
@@ -1195,41 +1398,106 @@ document.addEventListener('DOMContentLoaded', () => {
                 const loc = window.daneCoords && window.daneCoords[code];
                 
                 if (loc && !isNaN(loc.lat) && !isNaN(loc.lng)) {
-                    // Determine color: Green for Solo MP, Blue for Compartido
-                    const color = stats.solo_mp > stats.compartida ? '#10b981' : '#3b82f6';
-                    
-                    // Dynamic radius calculation (min 4, max 20)
-                    const radius = maxTotal > 0 ? 4 + (16 * Math.sqrt(stats.total / maxTotal)) : 4;
-                    
-                    const marker = L.circleMarker([loc.lat, loc.lng], {
-                        radius: radius,
-                        fillColor: color,
-                        color: '#ffffff',
-                        weight: 1.5,
-                        opacity: 1,
-                        fillOpacity: 0.8
-                    }).addTo(leafletMap);
-                    
-                    marker.bindPopup(`
-                        <div style="font-family: var(--font-body); font-size: 0.75rem; color: #fff; padding: 4px; line-height: 1.4;">
-                            <strong style="color: ${color}; display:block; margin-bottom: 6px; font-family: var(--font-display); font-size: 0.9rem;">${loc.nombre}</strong>
-                            <div><strong>Código DANE:</strong> ${code}</div>
-                            <div style="margin-top: 4px; padding-top: 4px; border-top: 1px solid rgba(255,255,255,0.1);">
-                                <strong>Total Pacientes:</strong> ${stats.total.toLocaleString('es-CO')}
+                    if (showPins) {
+                        const color = stats.solo_mp >= stats.compartida ? '#10b981' : '#3b82f6';
+                        const radius = maxTotal > 0 ? 4 + (16 * Math.sqrt(stats.total / maxTotal)) : 4;
+                        
+                        const marker = L.circleMarker([loc.lat, loc.lng], {
+                            radius: radius,
+                            fillColor: color,
+                            color: '#ffffff',
+                            weight: 1.5,
+                            opacity: 1,
+                            fillOpacity: 0.8
+                        }).addTo(leafletMap);
+                        
+                        marker.bindPopup(`
+                            <div style="font-family: var(--font-body); font-size: 0.75rem; color: #fff; padding: 4px; line-height: 1.4;">
+                                <strong style="color: ${color}; display:block; margin-bottom: 6px; font-family: var(--font-display); font-size: 0.9rem;">${loc.municipio || code}</strong>
+                                <div><strong>Código DANE:</strong> ${code}</div>
+                                <div style="margin-top: 4px; padding-top: 4px; border-top: 1px solid rgba(255,255,255,0.1);">
+                                    <strong>Total Pacientes:</strong> ${stats.total.toLocaleString('es-CO')}
+                                </div>
+                                <div style="display: flex; justify-content: space-between; margin-top: 4px;">
+                                    <span style="color: #3b82f6;">Compartidos: ${stats.compartida.toLocaleString('es-CO')}</span>
+                                    <span style="color: #10b981;">Solo MP: ${stats.solo_mp.toLocaleString('es-CO')}</span>
+                                </div>
                             </div>
-                            <div style="display: flex; justify-content: space-between; margin-top: 4px;">
-                                <span style="color: #3b82f6;">Compartidos: ${stats.compartida.toLocaleString('es-CO')}</span>
-                                <span style="color: #10b981;">Solo MP: ${stats.solo_mp.toLocaleString('es-CO')}</span>
-                            </div>
-                        </div>
-                    `);
-                    
-                    mapMarkers.push(marker);
-                    pointsForBounds.push([loc.lat, loc.lng]);
+                        `);
+                        mapMarkers.push(marker);
+                        pointsForBounds.push([loc.lat, loc.lng]);
+                    }
                 }
             });
+
+            // Leyenda
+            const mapEl = document.getElementById('pharmacies-map');
+            if (mapEl && !document.getElementById('map-legend') && showPins) {
+                const legendEl = document.createElement('div');
+                legendEl.id = 'map-legend';
+                legendEl.style.position = 'absolute';
+                legendEl.style.bottom = '15px';
+                legendEl.style.left = '15px';
+                legendEl.style.zIndex = '1000';
+                legendEl.style.background = 'rgba(7, 11, 23, 0.9)';
+                legendEl.style.border = '1px solid var(--color-border)';
+                legendEl.style.padding = '8px 12px';
+                legendEl.style.borderRadius = 'var(--radius-sm)';
+                legendEl.style.display = 'flex';
+                legendEl.style.flexDirection = 'column';
+                legendEl.style.gap = '6px';
+                legendEl.style.fontSize = '0.65rem';
+                legendEl.style.color = '#fff';
+                legendEl.style.pointerEvents = 'none';
+                legendEl.style.boxShadow = '0 4px 12px rgba(0,0,0,0.5)';
+                
+                legendEl.innerHTML = `
+                    <div style="font-weight: 600; margin-bottom: 2px; color: var(--color-text-main);">Tipos de Población</div>
+                    <div style="display: flex; align-items: center; gap: 6px;">
+                        <span style="display: inline-block; width: 10px; height: 10px; background: #10b981; border-radius: 50%;"></span>
+                        Mayoría Solo MP
+                    </div>
+                    <div style="display: flex; align-items: center; gap: 6px;">
+                        <span style="display: inline-block; width: 10px; height: 10px; background: #3b82f6; border-radius: 50%;"></span>
+                        Mayoría Compartidos
+                    </div>
+                `;
+                mapEl.appendChild(legendEl);
+            } else if (!showPins && document.getElementById('map-legend')) {
+                document.getElementById('map-legend').remove();
+            }
+
+            // Total Population Overlay (Siempre visible dentro del mapa)
+            let totalPopEl = document.getElementById('map-total-pop');
+            if (!totalPopEl) {
+                totalPopEl = document.createElement('div');
+                totalPopEl.id = 'map-total-pop';
+                totalPopEl.style.position = 'absolute';
+                totalPopEl.style.top = '10px';
+                totalPopEl.style.right = '10px';
+                totalPopEl.style.zIndex = '1000';
+                totalPopEl.style.background = 'rgba(7, 11, 23, 0.9)';
+                totalPopEl.style.border = '1px solid var(--color-primary)';
+                totalPopEl.style.borderRadius = '8px';
+                totalPopEl.style.padding = '8px 15px';
+                totalPopEl.style.color = '#fff';
+                totalPopEl.style.textAlign = 'right';
+                totalPopEl.style.boxShadow = '0 6px 12px rgba(0,0,0,0.5)';
+                totalPopEl.style.pointerEvents = 'none';
+                mapEl.appendChild(totalPopEl);
+            }
             
-            if (pointsForBounds.length > 0) {
+            totalPopEl.innerHTML = `
+                <div style="font-size: 0.55rem; color: var(--color-text-muted); margin-bottom: 2px; text-transform: uppercase; font-weight: 600; letter-spacing: 0.05em;">Población Filtrada</div>
+                <div style="font-size: 0.95rem; font-weight: bold; color: var(--color-text-main); font-family: monospace;">${totalMapPopulation.toLocaleString('es-CO')}</div>
+            `;
+
+            if (showPins && pointsForBounds.length > 0) {
+                leafletMap.fitBounds(pointsForBounds, { padding: [30, 30] });
+            } else if (!showPins && window.colombiaGeoJsonLayer) {
+                // If global view, zoom to Colombia
+                leafletMap.setView([4.5709, -74.2973], 5);
+            } else if (pointsForBounds.length > 0) {
                 leafletMap.fitBounds(pointsForBounds, { padding: [30, 30] });
             } else {
                 leafletMap.setView([4.5709, -74.2973], 5);
