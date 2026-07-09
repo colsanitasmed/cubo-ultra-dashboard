@@ -12,7 +12,8 @@ app.secret_key = 'super-secret-key-contratos360'  # En producción debe ser una 
 USERS = {
     "admin": "admin123",
     "gerencia": "gerencia2026",
-    "milton": "milton2026"
+    "milton": "milton2026",
+    "dfbeltran":dfbeltran2026"	
 }
 
 # ----------------------------------------------------
