@@ -13,7 +13,7 @@ USERS = {
     "admin": "admin123",
     "gerencia": "gerencia2026",
     "milton": "milton2026",
-    "dfbeltran":dfbeltran2026"	
+    "dfbeltran":"dfbeltran2026"	
 }
 
 # ----------------------------------------------------
