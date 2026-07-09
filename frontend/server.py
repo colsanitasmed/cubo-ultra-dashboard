@@ -113,13 +113,15 @@ def check_session():
 @app.route('/api/contratos', methods=['GET'])
 @login_required
 def get_contratos():
-    json_str = f'{{"contratos": {CONTRATOS_CACHE_STR}, "droguerias": {DROGUERIAS_CACHE_STR}, "daneToRegional": {DANE_TO_REGIONAL_CACHE_STR}}}'
+    contratos, droguerias, dane_to_regional = load_data()
+    json_str = f'{{"contratos": {contratos}, "droguerias": {droguerias}, "daneToRegional": {dane_to_regional}}}'
     return Response(json_str, mimetype='application/json')
 
 @app.route('/api/droguerias', methods=['GET'])
 @login_required
 def get_droguerias():
-    json_str = f'{{"droguerias": {DROGUERIAS_CACHE_STR}}}'
+    _, droguerias, _ = load_data()
+    json_str = f'{{"droguerias": {droguerias}}}'
     return Response(json_str, mimetype='application/json')
 
 @app.route('/api/debug', methods=['GET'])

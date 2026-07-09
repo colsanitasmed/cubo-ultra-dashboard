@@ -781,11 +781,14 @@ document.addEventListener('DOMContentLoaded', () => {
         const formatOptions = { year: 'numeric', month: 'short', day: 'numeric' };
         const oneDay = 24 * 60 * 60 * 1000;
         
+        console.log("updateValidityBar: contracts count =", contracts.length, "selectedContract =", selectedContract);
+
         if (selectedContract) {
             // Caso: Contrato individual seleccionado
             const c = selectedContract;
             startVal.textContent = c.fechaInicio ? c.fechaInicio.toLocaleDateString('es-CO', formatOptions) : 'N/A';
             endVal.textContent = c.fechaFin ? c.fechaFin.toLocaleDateString('es-CO', formatOptions) : 'N/A';
+            console.log("Selected contract dates: start =", c.fechaInicio, "end =", c.fechaFin);
             
             if (c.fechaFin) {
                 const diffTime = c.fechaFin - state.today;
@@ -817,9 +820,13 @@ document.addEventListener('DOMContentLoaded', () => {
             const activeEndDates = contracts
                 .filter(c => c.fechaFin && c.estado === 'En Ejecución')
                 .map(c => c.fechaFin);
+            
+            console.log("General view activeEndDates:", activeEndDates);
                 
             const nextEnd = activeEndDates.length > 0 ? new Date(Math.min(...activeEndDates)) : null;
             
+            console.log("General view minStart:", minStart, "nextEnd:", nextEnd);
+
             startVal.textContent = minStart ? minStart.toLocaleDateString('es-CO', formatOptions) : 'N/A';
             endVal.textContent = nextEnd ? nextEnd.toLocaleDateString('es-CO', formatOptions) : 'N/A';
             
