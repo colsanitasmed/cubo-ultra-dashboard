@@ -1,11 +1,11 @@
 window.CONTRATOS_DATA = [
   {
-    "id": "1055",
+    "id": "105520000",
     "actividadValidada": "",
     "contratista": "Sin Contratista",
     "objeto": "NINGUNO",
-    "valor": 14809010175.0,
-    "estado": "En Ejecución",
+    "valor": 29618020350.0,
+    "estado": "ACTUALIZADO",
     "tipo": "BOLSA CERRADA",
     "contratante": "COLSANITAS (10)",
     "colectivo": "BANCO DE LA REPÚBLICA",
@@ -13,207 +13,77 @@ window.CONTRATOS_DATA = [
     "plan": "MODULAR",
     "fechaInicio": "2026-01-09 00:00:00",
     "fechaFin": "2026-01-08 00:00:00",
-    "poblacion": 11957,
+    "poblacion": 10658,
     "coberturas": [
       {
         "tipo": "VADEMECUM CERRADO",
         "descripcion": "MEDICAMENTOS,FITOTERAPEUTICOS,"
       },
       {
-        "tipo": "FUERA DE VADEMECUM",
-        "descripcion": "FUERA DE VADEMECUM"
+        "tipo": "EXCEPCIONES/EXCESOS",
+        "descripcion": "MEDIAS ANTIVARICE, LECHE MATERNIZADA Y PLANTILLAS"
       }
     ],
-    "vihHeader": "N/A",
-    "vihSub": "N/A",
-    "oncoHeader": "N/A",
-    "oncoSub": "N/A",
+    "vihHeader": "NO APLICA",
+    "vihSub": "NO APLICA",
+    "oncoHeader": "NO",
+    "oncoSub": "NO APLICA",
     "prePostHeader": "NO APLICA",
     "prePostSub": "N/A",
-    "ortesisHeader": "N/A",
-    "ortesisSub": "N/A",
-    "poblacionCompartida": 9712,
-    "poblacionSoloMP": 2194,
+    "ortesisHeader": "SI",
+    "ortesisSub": "REQUIERE VOLANTE",
+    "poblacionCompartida": 8613,
+    "poblacionSoloMP": 2045,
     "poblacionDane": {
-      "11001": {
-        "total": 6975,
-        "compartida": 5917,
-        "solo_mp": 1058
-      },
-      "05001": {
-        "total": 553,
-        "compartida": 394,
-        "solo_mp": 158
-      },
-      "05266": {
-        "total": 66,
-        "compartida": 59,
-        "solo_mp": 7
-      },
-      "70001": {
-        "total": 74,
-        "compartida": 37,
-        "solo_mp": 37
-      },
-      "54001": {
-        "total": 134,
-        "compartida": 94,
-        "solo_mp": 40
-      },
       "73001": {
-        "total": 645,
-        "compartida": 420,
-        "solo_mp": 218
-      },
-      "25214": {
-        "total": 17,
-        "compartida": 17,
-        "solo_mp": 0
-      },
-      "25175": {
-        "total": 119,
-        "compartida": 110,
-        "solo_mp": 9
-      },
-      "68001": {
-        "total": 209,
-        "compartida": 188,
-        "solo_mp": 21
-      },
-      "05615": {
-        "total": 12,
-        "compartida": 9,
-        "solo_mp": 3
-      },
-      "76001": {
-        "total": 513,
-        "compartida": 420,
-        "solo_mp": 88
-      },
-      "13001": {
-        "total": 191,
-        "compartida": 142,
-        "solo_mp": 49
-      },
-      "76563": {
-        "total": 2,
-        "compartida": 2,
-        "solo_mp": 0
-      },
-      "68276": {
-        "total": 37,
-        "compartida": 37,
-        "solo_mp": 0
-      },
-      "05059": {
-        "total": 181,
-        "compartida": 155,
-        "solo_mp": 26
-      },
-      "25126": {
-        "total": 48,
-        "compartida": 47,
-        "solo_mp": 1
-      },
-      "25290": {
-        "total": 37,
-        "compartida": 36,
-        "solo_mp": 1
-      },
-      "23001": {
-        "total": 72,
-        "compartida": 52,
-        "solo_mp": 20
-      },
-      "08001": {
-        "total": 369,
-        "compartida": 311,
-        "solo_mp": 58
-      },
-      "50001": {
-        "total": 114,
-        "compartida": 98,
-        "solo_mp": 16
-      },
-      "05360": {
-        "total": 19,
-        "compartida": 14,
-        "solo_mp": 5
-      },
-      "25377": {
-        "total": 11,
-        "compartida": 10,
-        "solo_mp": 1
-      },
-      "17001": {
-        "total": 162,
-        "compartida": 124,
-        "solo_mp": 37
-      },
-      "20001": {
-        "total": 59,
-        "compartida": 45,
-        "solo_mp": 13
-      },
-      "15001": {
-        "total": 76,
-        "compartida": 65,
-        "solo_mp": 11
-      },
-      "88001": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      },
-      "25307": {
-        "total": 57,
-        "compartida": 42,
-        "solo_mp": 14
-      },
-      "66001": {
-        "total": 153,
-        "compartida": 117,
-        "solo_mp": 35
-      },
-      "05647": {
-        "total": 41,
-        "compartida": 38,
-        "solo_mp": 3
-      },
-      "15238": {
-        "total": 4,
-        "compartida": 3,
-        "solo_mp": 1
-      },
-      "19001": {
-        "total": 78,
-        "compartida": 64,
-        "solo_mp": 8
-      },
-      "05088": {
-        "total": 28,
-        "compartida": 18,
-        "solo_mp": 10
-      },
-      "52001": {
-        "total": 114,
-        "compartida": 91,
-        "solo_mp": 23
+        "total": 619,
+        "compartida": 404,
+        "solo_mp": 215
       },
       "76109": {
         "total": 15,
         "compartida": 5,
         "solo_mp": 10
       },
+      "17001": {
+        "total": 148,
+        "compartida": 113,
+        "solo_mp": 35
+      },
+      "13001": {
+        "total": 179,
+        "compartida": 130,
+        "solo_mp": 49
+      },
+      "08001": {
+        "total": 338,
+        "compartida": 281,
+        "solo_mp": 57
+      },
       "91001": {
-        "total": 24,
+        "total": 22,
         "compartida": 15,
         "solo_mp": 7
       },
+      "76001": {
+        "total": 448,
+        "compartida": 367,
+        "solo_mp": 81
+      },
       "27001": {
-        "total": 34,
+        "total": 32,
         "compartida": 8,
-        "solo_mp": 25
+        "solo_mp": 24
+      },
+      "66001": {
+        "total": 142,
+        "compartida": 107,
+        "solo_mp": 35
+      },
+      "05001": {
+        "total": 494,
+        "compartida": 350,
+        "solo_mp": 144
       },
       "08078": {
         "total": 8,
@@ -221,93 +91,118 @@ window.CONTRATOS_DATA = [
         "solo_mp": 8
       },
       "25754": {
-        "total": 90,
-        "compartida": 70,
+        "total": 89,
+        "compartida": 69,
         "solo_mp": 20
       },
       "47001": {
-        "total": 102,
-        "compartida": 72,
-        "solo_mp": 30
+        "total": 100,
+        "compartida": 71,
+        "solo_mp": 29
       },
-      "13873": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
+      "68001": {
+        "total": 197,
+        "compartida": 176,
+        "solo_mp": 21
+      },
+      "05059": {
+        "total": 168,
+        "compartida": 142,
+        "solo_mp": 26
       },
       "68547": {
         "total": 10,
         "compartida": 8,
         "solo_mp": 2
       },
-      "85250": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "23466": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
+      "25307": {
+        "total": 55,
+        "compartida": 41,
+        "solo_mp": 14
       },
       "76364": {
-        "total": 17,
-        "compartida": 9,
-        "solo_mp": 8
+        "total": 14,
+        "compartida": 7,
+        "solo_mp": 7
       },
-      "54874": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
+      "50001": {
+        "total": 99,
+        "compartida": 84,
+        "solo_mp": 15
+      },
+      "15001": {
+        "total": 73,
+        "compartida": 62,
+        "solo_mp": 11
+      },
+      "54001": {
+        "total": 128,
+        "compartida": 89,
+        "solo_mp": 39
       },
       "25286": {
-        "total": 16,
+        "total": 15,
         "compartida": 12,
-        "solo_mp": 4
-      },
-      "76892": {
-        "total": 6,
-        "compartida": 5,
-        "solo_mp": 1
-      },
-      "05631": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
+        "solo_mp": 3
       },
       "76520": {
-        "total": 11,
-        "compartida": 9,
+        "total": 7,
+        "compartida": 5,
         "solo_mp": 2
       },
-      "15516": {
-        "total": 2,
-        "compartida": 2,
-        "solo_mp": 0
+      "05266": {
+        "total": 50,
+        "compartida": 46,
+        "solo_mp": 4
+      },
+      "25175": {
+        "total": 97,
+        "compartida": 91,
+        "solo_mp": 6
       },
       "25430": {
         "total": 20,
         "compartida": 15,
         "solo_mp": 5
       },
+      "20001": {
+        "total": 55,
+        "compartida": 43,
+        "solo_mp": 12
+      },
+      "05647": {
+        "total": 38,
+        "compartida": 35,
+        "solo_mp": 3
+      },
       "44001": {
-        "total": 43,
-        "compartida": 23,
+        "total": 42,
+        "compartida": 22,
         "solo_mp": 20
       },
-      "27205": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
+      "70001": {
+        "total": 70,
+        "compartida": 35,
+        "solo_mp": 35
+      },
+      "23001": {
+        "total": 68,
+        "compartida": 48,
+        "solo_mp": 20
       },
       "08573": {
         "total": 8,
         "compartida": 8,
         "solo_mp": 0
       },
+      "52001": {
+        "total": 106,
+        "compartida": 84,
+        "solo_mp": 22
+      },
       "25473": {
-        "total": 36,
-        "compartida": 33,
+        "total": 35,
+        "compartida": 32,
         "solo_mp": 3
       },
       "66170": {
@@ -326,13 +221,8 @@ window.CONTRATOS_DATA = [
         "solo_mp": 12
       },
       "63130": {
-        "total": 15,
+        "total": 14,
         "compartida": 13,
-        "solo_mp": 2
-      },
-      "25269": {
-        "total": 6,
-        "compartida": 5,
         "solo_mp": 1
       },
       "08758": {
@@ -340,34 +230,79 @@ window.CONTRATOS_DATA = [
         "compartida": 7,
         "solo_mp": 1
       },
+      "25126": {
+        "total": 37,
+        "compartida": 36,
+        "solo_mp": 1
+      },
       "41001": {
         "total": 75,
         "compartida": 67,
         "solo_mp": 8
       },
-      "25740": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "05079": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
+      "19001": {
+        "total": 71,
+        "compartida": 63,
+        "solo_mp": 8
       },
       "25899": {
         "total": 20,
         "compartida": 18,
         "solo_mp": 2
       },
-      "25658": {
+      "25290": {
+        "total": 29,
+        "compartida": 28,
+        "solo_mp": 1
+      },
+      "73349": {
+        "total": 28,
+        "compartida": 22,
+        "solo_mp": 6
+      },
+      "05088": {
+        "total": 27,
+        "compartida": 18,
+        "solo_mp": 9
+      },
+      "25214": {
+        "total": 10,
+        "compartida": 10,
+        "solo_mp": 0
+      },
+      "68276": {
+        "total": 28,
+        "compartida": 28,
+        "solo_mp": 0
+      },
+      "11001": {
+        "total": 6107,
+        "compartida": 5153,
+        "solo_mp": 954
+      },
+      "05615": {
+        "total": 10,
+        "compartida": 7,
+        "solo_mp": 3
+      },
+      "05360": {
+        "total": 17,
+        "compartida": 12,
+        "solo_mp": 5
+      },
+      "13873": {
         "total": 1,
         "compartida": 1,
         "solo_mp": 0
       },
-      "68307": {
-        "total": 5,
-        "compartida": 5,
+      "25740": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "25658": {
+        "total": 1,
+        "compartida": 1,
         "solo_mp": 0
       },
       "19548": {
@@ -385,24 +320,9 @@ window.CONTRATOS_DATA = [
         "compartida": 1,
         "solo_mp": 0
       },
-      "50006": {
-        "total": 2,
-        "compartida": 2,
-        "solo_mp": 0
-      },
-      "73349": {
-        "total": 28,
-        "compartida": 22,
-        "solo_mp": 6
-      },
       "76834": {
         "total": 1,
         "compartida": 1,
-        "solo_mp": 0
-      },
-      "15759": {
-        "total": 4,
-        "compartida": 4,
         "solo_mp": 0
       },
       "73585": {
@@ -415,60 +335,20 @@ window.CONTRATOS_DATA = [
         "compartida": 0,
         "solo_mp": 1
       },
-      "00000": {
-        "total": 25,
-        "compartida": 0,
-        "solo_mp": 0
-      },
-      "76147": {
-        "total": 3,
-        "compartida": 3,
-        "solo_mp": 0
-      },
-      "23555": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
       "13836": {
         "total": 1,
         "compartida": 0,
         "solo_mp": 1
-      },
-      "17873": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
       },
       "54405": {
         "total": 1,
         "compartida": 0,
         "solo_mp": 1
       },
-      "73055": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "05380": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
-      "08296": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
-      },
       "73547": {
         "total": 1,
         "compartida": 0,
         "solo_mp": 1
-      },
-      "05212": {
-        "total": 2,
-        "compartida": 0,
-        "solo_mp": 2
       },
       "41298": {
         "total": 1,
@@ -500,24 +380,9 @@ window.CONTRATOS_DATA = [
         "compartida": 0,
         "solo_mp": 1
       },
-      "25758": {
-        "total": 6,
-        "compartida": 6,
-        "solo_mp": 0
-      },
       "63190": {
         "total": 1,
         "compartida": 1,
-        "solo_mp": 0
-      },
-      "25817": {
-        "total": 4,
-        "compartida": 3,
-        "solo_mp": 1
-      },
-      "68679": {
-        "total": 2,
-        "compartida": 2,
         "solo_mp": 0
       },
       "25815": {
@@ -540,24 +405,9 @@ window.CONTRATOS_DATA = [
         "compartida": 1,
         "solo_mp": 0
       },
-      "05607": {
-        "total": 2,
-        "compartida": 2,
-        "solo_mp": 0
-      },
       "68895": {
         "total": 1,
         "compartida": 1,
-        "solo_mp": 0
-      },
-      "41551": {
-        "total": 2,
-        "compartida": 2,
-        "solo_mp": 0
-      },
-      "25875": {
-        "total": 3,
-        "compartida": 3,
         "solo_mp": 0
       },
       "54172": {
@@ -584,288 +434,15 @@ window.CONTRATOS_DATA = [
         "total": 1,
         "compartida": 1,
         "solo_mp": 0
-      }
-    }
-  },
-  {
-    "id": "1056",
-    "actividadValidada": "",
-    "contratista": "Sin Contratista",
-    "objeto": "NINGUNO",
-    "valor": 14809010175.0,
-    "estado": "En Ejecución",
-    "tipo": "BOLSA CERRADA",
-    "contratante": "COLSANITAS (10)",
-    "colectivo": "BANCO DE LA REPÚBLICA",
-    "colectivoBeneficiado": "BANCO DE LA REPÚBLICA",
-    "plan": "MODULAR",
-    "fechaInicio": "2026-01-09 00:00:00",
-    "fechaFin": "2026-01-08 00:00:00",
-    "poblacion": 11957,
-    "coberturas": [
-      {
-        "tipo": "VADEMECUM CERRADO",
-        "descripcion": "MEDICAMENTOS,FITOTERAPEUTICOS,"
-      },
-      {
-        "tipo": "FUERA DE VADEMECUM",
-        "descripcion": "FUERA DE VADEMECUM"
-      }
-    ],
-    "vihHeader": "N/A",
-    "vihSub": "N/A",
-    "oncoHeader": "N/A",
-    "oncoSub": "N/A",
-    "prePostHeader": "NO APLICA",
-    "prePostSub": "N/A",
-    "ortesisHeader": "N/A",
-    "ortesisSub": "N/A",
-    "poblacionCompartida": 9712,
-    "poblacionSoloMP": 2194,
-    "poblacionDane": {
-      "11001": {
-        "total": 6975,
-        "compartida": 5917,
-        "solo_mp": 1058
-      },
-      "05001": {
-        "total": 553,
-        "compartida": 394,
-        "solo_mp": 158
-      },
-      "05266": {
-        "total": 66,
-        "compartida": 59,
-        "solo_mp": 7
-      },
-      "70001": {
-        "total": 74,
-        "compartida": 37,
-        "solo_mp": 37
-      },
-      "54001": {
-        "total": 134,
-        "compartida": 94,
-        "solo_mp": 40
-      },
-      "73001": {
-        "total": 645,
-        "compartida": 420,
-        "solo_mp": 218
-      },
-      "25214": {
-        "total": 17,
-        "compartida": 17,
-        "solo_mp": 0
-      },
-      "25175": {
-        "total": 119,
-        "compartida": 110,
-        "solo_mp": 9
-      },
-      "68001": {
-        "total": 209,
-        "compartida": 188,
-        "solo_mp": 21
-      },
-      "05615": {
-        "total": 12,
-        "compartida": 9,
-        "solo_mp": 3
-      },
-      "76001": {
-        "total": 513,
-        "compartida": 420,
-        "solo_mp": 88
-      },
-      "13001": {
-        "total": 191,
-        "compartida": 142,
-        "solo_mp": 49
-      },
-      "76563": {
-        "total": 2,
-        "compartida": 2,
-        "solo_mp": 0
-      },
-      "68276": {
-        "total": 37,
-        "compartida": 37,
-        "solo_mp": 0
-      },
-      "05059": {
-        "total": 181,
-        "compartida": 155,
-        "solo_mp": 26
-      },
-      "25126": {
-        "total": 48,
-        "compartida": 47,
-        "solo_mp": 1
-      },
-      "25290": {
-        "total": 37,
-        "compartida": 36,
-        "solo_mp": 1
-      },
-      "23001": {
-        "total": 72,
-        "compartida": 52,
-        "solo_mp": 20
-      },
-      "08001": {
-        "total": 369,
-        "compartida": 311,
-        "solo_mp": 58
-      },
-      "50001": {
-        "total": 114,
-        "compartida": 98,
-        "solo_mp": 16
-      },
-      "05360": {
-        "total": 19,
-        "compartida": 14,
-        "solo_mp": 5
-      },
-      "25377": {
-        "total": 11,
-        "compartida": 10,
-        "solo_mp": 1
-      },
-      "17001": {
-        "total": 162,
-        "compartida": 124,
-        "solo_mp": 37
-      },
-      "20001": {
-        "total": 59,
-        "compartida": 45,
-        "solo_mp": 13
-      },
-      "15001": {
-        "total": 76,
-        "compartida": 65,
-        "solo_mp": 11
-      },
-      "88001": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      },
-      "25307": {
-        "total": 57,
-        "compartida": 42,
-        "solo_mp": 14
-      },
-      "66001": {
-        "total": 153,
-        "compartida": 117,
-        "solo_mp": 35
-      },
-      "05647": {
-        "total": 41,
-        "compartida": 38,
-        "solo_mp": 3
-      },
-      "15238": {
-        "total": 4,
-        "compartida": 3,
-        "solo_mp": 1
-      },
-      "19001": {
-        "total": 78,
-        "compartida": 64,
-        "solo_mp": 8
-      },
-      "05088": {
-        "total": 28,
-        "compartida": 18,
-        "solo_mp": 10
-      },
-      "52001": {
-        "total": 114,
-        "compartida": 91,
-        "solo_mp": 23
-      },
-      "76109": {
-        "total": 15,
-        "compartida": 5,
-        "solo_mp": 10
-      },
-      "91001": {
-        "total": 24,
-        "compartida": 15,
-        "solo_mp": 7
-      },
-      "27001": {
-        "total": 34,
-        "compartida": 8,
-        "solo_mp": 25
-      },
-      "08078": {
-        "total": 8,
-        "compartida": 0,
-        "solo_mp": 8
-      },
-      "25754": {
-        "total": 90,
-        "compartida": 70,
-        "solo_mp": 20
-      },
-      "47001": {
-        "total": 102,
-        "compartida": 72,
-        "solo_mp": 30
-      },
-      "13873": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      },
-      "68547": {
-        "total": 10,
-        "compartida": 8,
-        "solo_mp": 2
-      },
-      "85250": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
       },
       "23466": {
         "total": 2,
         "compartida": 0,
         "solo_mp": 2
       },
-      "76364": {
-        "total": 17,
-        "compartida": 9,
-        "solo_mp": 8
-      },
-      "54874": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "25286": {
-        "total": 16,
-        "compartida": 12,
-        "solo_mp": 4
-      },
-      "76892": {
-        "total": 6,
-        "compartida": 5,
-        "solo_mp": 1
-      },
       "05631": {
         "total": 2,
         "compartida": 0,
-        "solo_mp": 2
-      },
-      "76520": {
-        "total": 11,
-        "compartida": 9,
         "solo_mp": 2
       },
       "15516": {
@@ -873,144 +450,14 @@ window.CONTRATOS_DATA = [
         "compartida": 2,
         "solo_mp": 0
       },
-      "25430": {
-        "total": 20,
-        "compartida": 15,
-        "solo_mp": 5
-      },
-      "44001": {
-        "total": 43,
-        "compartida": 23,
-        "solo_mp": 20
-      },
-      "27205": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
-      },
-      "08573": {
-        "total": 8,
-        "compartida": 8,
-        "solo_mp": 0
-      },
-      "25473": {
-        "total": 36,
-        "compartida": 33,
-        "solo_mp": 3
-      },
-      "66170": {
-        "total": 15,
-        "compartida": 12,
-        "solo_mp": 3
-      },
-      "18001": {
-        "total": 23,
-        "compartida": 20,
-        "solo_mp": 3
-      },
-      "52356": {
-        "total": 39,
-        "compartida": 27,
-        "solo_mp": 12
-      },
-      "63130": {
-        "total": 15,
-        "compartida": 13,
-        "solo_mp": 2
-      },
-      "25269": {
-        "total": 6,
-        "compartida": 5,
-        "solo_mp": 1
-      },
-      "08758": {
-        "total": 8,
-        "compartida": 7,
-        "solo_mp": 1
-      },
-      "41001": {
-        "total": 75,
-        "compartida": 67,
-        "solo_mp": 8
-      },
-      "25740": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
       "05079": {
         "total": 2,
         "compartida": 0,
         "solo_mp": 2
       },
-      "25899": {
-        "total": 20,
-        "compartida": 18,
-        "solo_mp": 2
-      },
-      "25658": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      },
-      "68307": {
-        "total": 5,
-        "compartida": 5,
-        "solo_mp": 0
-      },
-      "19548": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      },
-      "08141": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      },
-      "73449": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      },
       "50006": {
         "total": 2,
         "compartida": 2,
-        "solo_mp": 0
-      },
-      "73349": {
-        "total": 28,
-        "compartida": 22,
-        "solo_mp": 6
-      },
-      "76834": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      },
-      "15759": {
-        "total": 4,
-        "compartida": 4,
-        "solo_mp": 0
-      },
-      "73585": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      },
-      "85001": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "00000": {
-        "total": 25,
-        "compartida": 0,
-        "solo_mp": 0
-      },
-      "76147": {
-        "total": 3,
-        "compartida": 3,
         "solo_mp": 0
       },
       "23555": {
@@ -1018,25 +465,15 @@ window.CONTRATOS_DATA = [
         "compartida": 0,
         "solo_mp": 2
       },
-      "13836": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
       "17873": {
         "total": 2,
         "compartida": 0,
         "solo_mp": 2
       },
-      "54405": {
-        "total": 1,
-        "compartida": 0,
+      "15238": {
+        "total": 2,
+        "compartida": 1,
         "solo_mp": 1
-      },
-      "73055": {
-        "total": 3,
-        "compartida": 0,
-        "solo_mp": 3
       },
       "05380": {
         "total": 2,
@@ -1048,84 +485,14 @@ window.CONTRATOS_DATA = [
         "compartida": 0,
         "solo_mp": 2
       },
-      "73547": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
       "05212": {
         "total": 2,
         "compartida": 0,
         "solo_mp": 2
       },
-      "41298": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "19318": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "05440": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "17174": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "41615": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "08520": {
-        "total": 1,
-        "compartida": 0,
-        "solo_mp": 1
-      },
-      "25758": {
-        "total": 6,
-        "compartida": 6,
-        "solo_mp": 0
-      },
-      "63190": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      },
-      "25817": {
-        "total": 4,
-        "compartida": 3,
-        "solo_mp": 1
-      },
       "68679": {
         "total": 2,
         "compartida": 2,
-        "solo_mp": 0
-      },
-      "25815": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      },
-      "70215": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      },
-      "68190": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      },
-      "25322": {
-        "total": 1,
-        "compartida": 1,
         "solo_mp": 0
       },
       "05607": {
@@ -1133,44 +500,74 @@ window.CONTRATOS_DATA = [
         "compartida": 2,
         "solo_mp": 0
       },
-      "68895": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
-      },
       "41551": {
         "total": 2,
         "compartida": 2,
         "solo_mp": 0
+      },
+      "76147": {
+        "total": 2,
+        "compartida": 2,
+        "solo_mp": 0
+      },
+      "85250": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "54874": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "27205": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "73055": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
       },
       "25875": {
         "total": 3,
         "compartida": 3,
         "solo_mp": 0
       },
-      "54172": {
-        "total": 1,
-        "compartida": 1,
+      "15759": {
+        "total": 4,
+        "compartida": 4,
         "solo_mp": 0
       },
-      "25123": {
-        "total": 1,
-        "compartida": 1,
+      "25817": {
+        "total": 4,
+        "compartida": 3,
+        "solo_mp": 1
+      },
+      "68307": {
+        "total": 5,
+        "compartida": 5,
         "solo_mp": 0
       },
-      "25799": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
+      "76892": {
+        "total": 6,
+        "compartida": 5,
+        "solo_mp": 1
       },
-      "63594": {
-        "total": 1,
-        "compartida": 1,
-        "solo_mp": 0
+      "25269": {
+        "total": 6,
+        "compartida": 5,
+        "solo_mp": 1
       },
-      "25386": {
-        "total": 1,
-        "compartida": 1,
+      "25377": {
+        "total": 6,
+        "compartida": 5,
+        "solo_mp": 1
+      },
+      "25758": {
+        "total": 6,
+        "compartida": 6,
         "solo_mp": 0
       }
     }
@@ -1203,7 +600,7 @@ window.CONTRATOS_DATA = [
     "prePostHeader": "SI",
     "prePostSub": "2.75",
     "ortesisHeader": "SI",
-    "ortesisSub": "CON AUTORIZACIÓN",
+    "ortesisSub": "REQUIERE VOLANTE",
     "poblacionCompartida": 11,
     "poblacionSoloMP": 3,
     "poblacionDane": {
@@ -1229,7 +626,7 @@ window.CONTRATOS_DATA = [
     "actividadValidada": "",
     "contratista": "Sin Contratista",
     "objeto": "CUPO FAMILIAR COMPARTIDO",
-    "valor": 1600000000.0,
+    "valor": 0.0,
     "estado": "ACTUALIZADO",
     "tipo": "BOLSA CERRADA",
     "contratante": "COLSANITAS (10)",
@@ -1252,7 +649,7 @@ window.CONTRATOS_DATA = [
     "prePostHeader": "SI",
     "prePostSub": "2.75",
     "ortesisHeader": "SI",
-    "ortesisSub": "CON AUTORIZACIÓN",
+    "ortesisSub": "REQUIERE VOLANTE",
     "poblacionCompartida": 2,
     "poblacionSoloMP": 8,
     "poblacionDane": {
@@ -1273,7 +670,7 @@ window.CONTRATOS_DATA = [
     "actividadValidada": "",
     "contratista": "Sin Contratista",
     "objeto": "CUPO FAMILIAR COMPARTIDO",
-    "valor": 1600000000.0,
+    "valor": 0.0,
     "estado": "ACTUALIZADO",
     "tipo": "BOLSA CERRADA",
     "contratante": "COLSANITAS (10)",
@@ -1296,7 +693,7 @@ window.CONTRATOS_DATA = [
     "prePostHeader": "SI",
     "prePostSub": "2.75",
     "ortesisHeader": "SI",
-    "ortesisSub": "CON AUTORIZACIÓN",
+    "ortesisSub": "REQUIERE VOLANTE",
     "poblacionCompartida": 992,
     "poblacionSoloMP": 227,
     "poblacionDane": {
@@ -1417,7 +814,7 @@ window.CONTRATOS_DATA = [
     "actividadValidada": "",
     "contratista": "Sin Contratista",
     "objeto": "CUPO FAMILIAR COMPARTIDO",
-    "valor": 1600000000.0,
+    "valor": 0.0,
     "estado": "ACTUALIZADO",
     "tipo": "BOLSA CERRADA",
     "contratante": "COLSANITAS (10)",
@@ -1440,7 +837,7 @@ window.CONTRATOS_DATA = [
     "prePostHeader": "SI",
     "prePostSub": "2.75",
     "ortesisHeader": "SI",
-    "ortesisSub": "CON AUTORIZACIÓN",
+    "ortesisSub": "REQUIERE VOLANTE",
     "poblacionCompartida": 106,
     "poblacionSoloMP": 33,
     "poblacionDane": {
@@ -1476,7 +873,7 @@ window.CONTRATOS_DATA = [
     "actividadValidada": "",
     "contratista": "Sin Contratista",
     "objeto": "CUPO FAMILIAR COMPARTIDO",
-    "valor": 1600000000.0,
+    "valor": 0.0,
     "estado": "ACTUALIZADO",
     "tipo": "BOLSA CERRADA",
     "contratante": "COLSANITAS (10)",
@@ -1499,7 +896,7 @@ window.CONTRATOS_DATA = [
     "prePostHeader": "SI",
     "prePostSub": "2.75",
     "ortesisHeader": "SI",
-    "ortesisSub": "CON AUTORIZACIÓN",
+    "ortesisSub": "REQUIERE VOLANTE",
     "poblacionCompartida": 5,
     "poblacionSoloMP": 0,
     "poblacionDane": {
@@ -1511,6 +908,453 @@ window.CONTRATOS_DATA = [
       "88001": {
         "total": 4,
         "compartida": 4,
+        "solo_mp": 0
+      }
+    }
+  },
+  {
+    "id": "1028",
+    "actividadValidada": "",
+    "contratista": "Sin Contratista",
+    "objeto": "RECOBRAR AL COLECTIVO",
+    "valor": 3500000000.0,
+    "estado": "ACTUALIZADO",
+    "tipo": "RECOBRO",
+    "contratante": "COLSANITAS (10)",
+    "colectivo": "TRANSELCA PIS",
+    "colectivoBeneficiado": "TRANSELCA S.A. ESP",
+    "plan": "MODULAR",
+    "fechaInicio": "2026-06-01 00:00:00",
+    "fechaFin": "2026-05-31 00:00:00",
+    "poblacion": 0,
+    "coberturas": [
+      {
+        "tipo": "VADEMECUM ABIERTO",
+        "descripcion": "AUTORIZADA POR EL COLECTIVO"
+      },
+      {
+        "tipo": "EXCEPCIONES/EXCESOS",
+        "descripcion": "AUTORIZADA POR EL COLECTIVO"
+      }
+    ],
+    "vihHeader": "NO",
+    "vihSub": "NO APLICA",
+    "oncoHeader": "SI",
+    "oncoSub": "ILIMITADO",
+    "prePostHeader": "NO APLICA",
+    "prePostSub": "NO APLICA",
+    "ortesisHeader": "SI",
+    "ortesisSub": "REQUIERE VOLANTE",
+    "poblacionCompartida": 0,
+    "poblacionSoloMP": 0,
+    "poblacionDane": {}
+  },
+  {
+    "id": "1030",
+    "actividadValidada": "",
+    "contratista": "Sin Contratista",
+    "objeto": "RECOBRAR AL COLECTIVO",
+    "valor": 0.0,
+    "estado": "ACTUALIZADO",
+    "tipo": "RECOBRO",
+    "contratante": "COLSANITAS (10)",
+    "colectivo": "TRANSELCA PIS",
+    "colectivoBeneficiado": "ISA INTERCOLOMBIA S.A. E.S.P.",
+    "plan": "MODULAR",
+    "fechaInicio": "2026-06-01 00:00:00",
+    "fechaFin": "2026-05-31 00:00:00",
+    "poblacion": 0,
+    "coberturas": [
+      {
+        "tipo": "VADEMECUM ABIERTO",
+        "descripcion": "AUTORIZADA POR EL COLECTIVO"
+      },
+      {
+        "tipo": "EXCEPCIONES/EXCESOS",
+        "descripcion": "AUTORIZADA POR EL COLECTIVO"
+      }
+    ],
+    "vihHeader": "NO",
+    "vihSub": "NO APLICA",
+    "oncoHeader": "SI",
+    "oncoSub": "ILIMITADO",
+    "prePostHeader": "NO APLICA",
+    "prePostSub": "NO APLICA",
+    "ortesisHeader": "SI",
+    "ortesisSub": "REQUIERE VOLANTE",
+    "poblacionCompartida": 0,
+    "poblacionSoloMP": 0,
+    "poblacionDane": {}
+  },
+  {
+    "id": "1031",
+    "actividadValidada": "",
+    "contratista": "Sin Contratista",
+    "objeto": "RECOBRAR AL COLECTIVO",
+    "valor": 0.0,
+    "estado": "ACTUALIZADO",
+    "tipo": "RECOBRO",
+    "contratante": "COLSANITAS (10)",
+    "colectivo": "TRANSELCA PIS",
+    "colectivoBeneficiado": "HUB DIGITAL DE SERVICIOS ISA S.A.S",
+    "plan": "MODULAR",
+    "fechaInicio": "2026-06-01 00:00:00",
+    "fechaFin": "2026-05-31 00:00:00",
+    "poblacion": 0,
+    "coberturas": [
+      {
+        "tipo": "VADEMECUM ABIERTO",
+        "descripcion": "AUTORIZADA POR EL COLECTIVO"
+      },
+      {
+        "tipo": "EXCEPCIONES/EXCESOS",
+        "descripcion": "AUTORIZADA POR EL COLECTIVO"
+      }
+    ],
+    "vihHeader": "NO",
+    "vihSub": "NO APLICA",
+    "oncoHeader": "SI",
+    "oncoSub": "ILIMITADO",
+    "prePostHeader": "NO APLICA",
+    "prePostSub": "NO APLICA",
+    "ortesisHeader": "SI",
+    "ortesisSub": "REQUIERE VOLANTE",
+    "poblacionCompartida": 0,
+    "poblacionSoloMP": 0,
+    "poblacionDane": {}
+  },
+  {
+    "id": "10108161947",
+    "actividadValidada": "",
+    "contratista": "Sin Contratista",
+    "objeto": "CUPO USUARIOS CONTRATO",
+    "valor": 50000000.0,
+    "estado": "ACTUALIZADO",
+    "tipo": "PRIMA",
+    "contratante": "COLSANITAS (10)",
+    "colectivo": "TRANSELCA FEISA",
+    "colectivoBeneficiado": "FONDO DE EMPLEADOS FEISA",
+    "plan": "INTEGRAL",
+    "fechaInicio": "2026-06-01 00:00:00",
+    "fechaFin": "2026-05-31 00:00:00",
+    "poblacion": 103,
+    "coberturas": [
+      {
+        "tipo": "VADEMECUM ABIERTO",
+        "descripcion": "COBERTURA PARA LISTADO DE PATOLOGÍAS"
+      }
+    ],
+    "vihHeader": "NO",
+    "vihSub": "NO APLICA",
+    "oncoHeader": "SI",
+    "oncoSub": "ILIMITADO",
+    "prePostHeader": "SI",
+    "prePostSub": "2.75",
+    "ortesisHeader": "N/A",
+    "ortesisSub": "N/A",
+    "poblacionCompartida": 64,
+    "poblacionSoloMP": 39,
+    "poblacionDane": {
+      "08001": {
+        "total": 81,
+        "compartida": 55,
+        "solo_mp": 26
+      },
+      "66001": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "23001": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "76113": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "11001": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "08573": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "47001": {
+        "total": 3,
+        "compartida": 2,
+        "solo_mp": 1
+      },
+      "20001": {
+        "total": 3,
+        "compartida": 3,
+        "solo_mp": 0
+      },
+      "13001": {
+        "total": 6,
+        "compartida": 4,
+        "solo_mp": 2
+      }
+    }
+  },
+  {
+    "id": "10108161374",
+    "actividadValidada": "",
+    "contratista": "Sin Contratista",
+    "objeto": "CUPO USUARIOS CONTRATO",
+    "valor": 30000000.0,
+    "estado": "ACTUALIZADO",
+    "tipo": "PRIMA",
+    "contratante": "COLSANITAS (10)",
+    "colectivo": "TRANSELCA ESTÁNDAR",
+    "colectivoBeneficiado": "TRANSELCA S.A. ESP",
+    "plan": "INTEGRAL",
+    "fechaInicio": "2026-06-01 00:00:00",
+    "fechaFin": "2026-05-31 00:00:00",
+    "poblacion": 58,
+    "coberturas": [
+      {
+        "tipo": "VADEMECUM ABIERTO",
+        "descripcion": "COBERTURA PARA LISTADO DE PATOLOGÍAS"
+      }
+    ],
+    "vihHeader": "NO",
+    "vihSub": "NO APLICA",
+    "oncoHeader": "SI",
+    "oncoSub": "ILIMITADO",
+    "prePostHeader": "SI",
+    "prePostSub": "2.75",
+    "ortesisHeader": "N/A",
+    "ortesisSub": "N/A",
+    "poblacionCompartida": 32,
+    "poblacionSoloMP": 26,
+    "poblacionDane": {
+      "08001": {
+        "total": 30,
+        "compartida": 16,
+        "solo_mp": 14
+      },
+      "05001": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "08141": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "54001": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "47001": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "25377": {
+        "total": 2,
+        "compartida": 2,
+        "solo_mp": 0
+      },
+      "76001": {
+        "total": 2,
+        "compartida": 1,
+        "solo_mp": 1
+      },
+      "15001": {
+        "total": 3,
+        "compartida": 3,
+        "solo_mp": 0
+      },
+      "11001": {
+        "total": 3,
+        "compartida": 3,
+        "solo_mp": 0
+      },
+      "08758": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "13001": {
+        "total": 4,
+        "compartida": 3,
+        "solo_mp": 1
+      },
+      "08573": {
+        "total": 6,
+        "compartida": 2,
+        "solo_mp": 4
+      }
+    }
+  },
+  {
+    "id": "10108206932",
+    "actividadValidada": "",
+    "contratista": "Sin Contratista",
+    "objeto": "CUPO USUARIOS CONTRATO",
+    "valor": 0.0,
+    "estado": "ACTUALIZADO",
+    "tipo": "PRIMA",
+    "contratante": "COLSANITAS (10)",
+    "colectivo": "TRANSELCA ESTÁNDAR",
+    "colectivoBeneficiado": "ISA INTERCOLOMBIA S.A. E.S.P.",
+    "plan": "INTEGRAL",
+    "fechaInicio": "2026-06-01 00:00:00",
+    "fechaFin": "2026-05-31 00:00:00",
+    "poblacion": 230,
+    "coberturas": [
+      {
+        "tipo": "VADEMECUM ABIERTO",
+        "descripcion": "COBERTURA PARA LISTADO DE PATOLOGÍAS"
+      }
+    ],
+    "vihHeader": "NO",
+    "vihSub": "NO APLICA",
+    "oncoHeader": "SI",
+    "oncoSub": "ILIMITADO",
+    "prePostHeader": "SI",
+    "prePostSub": "2.75",
+    "ortesisHeader": "N/A",
+    "ortesisSub": "N/A",
+    "poblacionCompartida": 121,
+    "poblacionSoloMP": 109,
+    "poblacionDane": {
+      "20001": {
+        "total": 15,
+        "compartida": 9,
+        "solo_mp": 6
+      },
+      "13001": {
+        "total": 17,
+        "compartida": 4,
+        "solo_mp": 13
+      },
+      "08758": {
+        "total": 24,
+        "compartida": 15,
+        "solo_mp": 9
+      },
+      "08573": {
+        "total": 9,
+        "compartida": 3,
+        "solo_mp": 6
+      },
+      "08001": {
+        "total": 124,
+        "compartida": 82,
+        "solo_mp": 42
+      },
+      "47001": {
+        "total": 15,
+        "compartida": 1,
+        "solo_mp": 14
+      },
+      "70708": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "05001": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "50001": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "23466": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "41001": {
+        "total": 2,
+        "compartida": 2,
+        "solo_mp": 0
+      },
+      "66001": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "23001": {
+        "total": 2,
+        "compartida": 2,
+        "solo_mp": 0
+      },
+      "13836": {
+        "total": 3,
+        "compartida": 0,
+        "solo_mp": 3
+      },
+      "08078": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "47707": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "47288": {
+        "total": 5,
+        "compartida": 0,
+        "solo_mp": 5
+      }
+    }
+  },
+  {
+    "id": "10108206916",
+    "actividadValidada": "",
+    "contratista": "Sin Contratista",
+    "objeto": "CUPO USUARIOS CONTRATO",
+    "valor": 0.0,
+    "estado": "ACTUALIZADO",
+    "tipo": "PRIMA",
+    "contratante": "COLSANITAS (10)",
+    "colectivo": "TRANSELCA ESTÁNDAR",
+    "colectivoBeneficiado": "HUB DIGITAL DE SERVICIOS ISA S.A.S",
+    "plan": "INTEGRAL",
+    "fechaInicio": "2026-01-01 00:00:00",
+    "fechaFin": "2026-12-31 00:00:00",
+    "poblacion": 15,
+    "coberturas": [
+      {
+        "tipo": "VADEMECUM ABIERTO",
+        "descripcion": "COBERTURA PARA LISTADO DE PATOLOGÍAS"
+      }
+    ],
+    "vihHeader": "NO",
+    "vihSub": "NO APLICA",
+    "oncoHeader": "SI",
+    "oncoSub": "ILIMITADO",
+    "prePostHeader": "SI",
+    "prePostSub": "2.75",
+    "ortesisHeader": "N/A",
+    "ortesisSub": "N/A",
+    "poblacionCompartida": 12,
+    "poblacionSoloMP": 3,
+    "poblacionDane": {
+      "08001": {
+        "total": 12,
+        "compartida": 9,
+        "solo_mp": 3
+      },
+      "08758": {
+        "total": 3,
+        "compartida": 3,
         "solo_mp": 0
       }
     }
@@ -2180,7 +2024,7 @@ window.CONTRATOS_DATA = [
     "prePostHeader": "SI",
     "prePostSub": "3",
     "ortesisHeader": "SI",
-    "ortesisSub": "Volante",
+    "ortesisSub": "REQUIERE VOLANTE",
     "poblacionCompartida": 253,
     "poblacionSoloMP": 24,
     "poblacionDane": {
@@ -2369,7 +2213,7 @@ window.CONTRATOS_DATA = [
     "prePostHeader": "SI",
     "prePostSub": "2.75",
     "ortesisHeader": "SI",
-    "ortesisSub": "CON AUTORIZACIÓN",
+    "ortesisSub": "REQUIERE VOLANTE",
     "poblacionCompartida": 117,
     "poblacionSoloMP": 56,
     "poblacionDane": {
@@ -2471,6 +2315,135 @@ window.CONTRATOS_DATA = [
     }
   },
   {
+    "id": "1010305169",
+    "actividadValidada": "",
+    "contratista": "Sin Contratista",
+    "objeto": "CUPO GRUPO FAMILIAR",
+    "valor": 0.0,
+    "estado": "ACTUALIZADO",
+    "tipo": "BOLSA CERRADA",
+    "contratante": "COLSANITAS (10)",
+    "colectivo": "ZOETIS",
+    "colectivoBeneficiado": "ZOETIS COLOMBIA S.A.S.",
+    "plan": "INTEGRAL",
+    "fechaInicio": "2026-01-01 00:00:00",
+    "fechaFin": "2026-12-31 00:00:00",
+    "poblacion": 116,
+    "coberturas": [
+      {
+        "tipo": "VADEMECUM ABIERTO",
+        "descripcion": "MEDICAMENTOS AMBULATORIOS, PRODUCTOS DERMATOLOGICOS Y DERMOCOSMÉTICOS"
+      }
+    ],
+    "vihHeader": "NO",
+    "vihSub": "POR EPS",
+    "oncoHeader": "SI",
+    "oncoSub": "ILIMITADO",
+    "prePostHeader": "SI",
+    "prePostSub": "2.75",
+    "ortesisHeader": "SI",
+    "ortesisSub": "REQUIERE VOLANTE",
+    "poblacionCompartida": 77,
+    "poblacionSoloMP": 39,
+    "poblacionDane": {
+      "11001": {
+        "total": 56,
+        "compartida": 42,
+        "solo_mp": 14
+      },
+      "47001": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "05001": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "05088": {
+        "total": 1,
+        "compartida": 0,
+        "solo_mp": 1
+      },
+      "19001": {
+        "total": 1,
+        "compartida": 1,
+        "solo_mp": 0
+      },
+      "66170": {
+        "total": 2,
+        "compartida": 0,
+        "solo_mp": 2
+      },
+      "18001": {
+        "total": 2,
+        "compartida": 1,
+        "solo_mp": 1
+      },
+      "15238": {
+        "total": 2,
+        "compartida": 2,
+        "solo_mp": 0
+      },
+      "68276": {
+        "total": 3,
+        "compartida": 2,
+        "solo_mp": 1
+      },
+      "05318": {
+        "total": 4,
+        "compartida": 0,
+        "solo_mp": 4
+      },
+      "66001": {
+        "total": 4,
+        "compartida": 3,
+        "solo_mp": 1
+      },
+      "76001": {
+        "total": 4,
+        "compartida": 4,
+        "solo_mp": 0
+      },
+      "25754": {
+        "total": 4,
+        "compartida": 4,
+        "solo_mp": 0
+      },
+      "23001": {
+        "total": 4,
+        "compartida": 4,
+        "solo_mp": 0
+      },
+      "25269": {
+        "total": 4,
+        "compartida": 4,
+        "solo_mp": 0
+      },
+      "68001": {
+        "total": 5,
+        "compartida": 1,
+        "solo_mp": 4
+      },
+      "76520": {
+        "total": 6,
+        "compartida": 1,
+        "solo_mp": 5
+      },
+      "05360": {
+        "total": 6,
+        "compartida": 4,
+        "solo_mp": 2
+      },
+      "05615": {
+        "total": 6,
+        "compartida": 4,
+        "solo_mp": 2
+      }
+    }
+  },
+  {
     "id": "10108097821",
     "actividadValidada": "",
     "contratista": "Sin Contratista",
@@ -2557,7 +2530,7 @@ window.CONTRATOS_DATA = [
     "prePostHeader": "SI",
     "prePostSub": "2.75",
     "ortesisHeader": "SI",
-    "ortesisSub": "ILIMITADO CON AUTORIZACIÓN",
+    "ortesisSub": "REQUIERE VOLANTE",
     "poblacionCompartida": 1430,
     "poblacionSoloMP": 1813,
     "poblacionDane": {
@@ -6222,7 +6195,7 @@ window.CONTRATOS_DATA = [
     "prePostHeader": "SI",
     "prePostSub": "2.75",
     "ortesisHeader": "SI",
-    "ortesisSub": "Requiere autorización",
+    "ortesisSub": "REQUIERE VOLANTE",
     "poblacionCompartida": 57,
     "poblacionSoloMP": 24,
     "poblacionDane": {
@@ -6296,7 +6269,7 @@ window.CONTRATOS_DATA = [
     "prePostHeader": "NO",
     "prePostSub": "NO APLICA",
     "ortesisHeader": "SI",
-    "ortesisSub": "Requiere autorización",
+    "ortesisSub": "REQUIERE VOLANTE",
     "poblacionCompartida": 349113,
     "poblacionSoloMP": 114844,
     "poblacionDane": {
@@ -9280,7 +9253,7 @@ window.CONTRATOS_DATA = [
     "prePostHeader": "NO",
     "prePostSub": "NO APLICA",
     "ortesisHeader": "SI",
-    "ortesisSub": "Requiere autorización",
+    "ortesisSub": "REQUIERE VOLANTE",
     "poblacionCompartida": 349113,
     "poblacionSoloMP": 114844,
     "poblacionDane": {
@@ -12257,14 +12230,14 @@ window.CONTRATOS_DATA = [
         "descripcion": "COBERTURA ANEXOS ONCOLÓGICO,PRE Y POST EGRESO"
       }
     ],
-    "vihHeader": "N/A",
+    "vihHeader": "VERIFICAR COMERCIAL",
     "vihSub": "N/A",
     "oncoHeader": "SI",
     "oncoSub": "ILIMITADO",
     "prePostHeader": "SI",
     "prePostSub": "2.75",
     "ortesisHeader": "SI",
-    "ortesisSub": "Requiere autorización",
+    "ortesisSub": "REQUIERE VOLANTE",
     "poblacionCompartida": 859,
     "poblacionSoloMP": 250,
     "poblacionDane": {
@@ -12511,14 +12484,14 @@ window.CONTRATOS_DATA = [
         "descripcion": "COBERTURA ANEXOS ONCOLÓGICO,PRE Y POST EGRESO"
       }
     ],
-    "vihHeader": "N/A",
+    "vihHeader": "VERIFICAR COMERCIAL",
     "vihSub": "N/A",
     "oncoHeader": "SI",
     "oncoSub": "ILIMITADO",
     "prePostHeader": "SI",
     "prePostSub": "2.75",
     "ortesisHeader": "SI",
-    "ortesisSub": "Requiere autorización",
+    "ortesisSub": "REQUIERE VOLANTE",
     "poblacionCompartida": 1,
     "poblacionSoloMP": 0,
     "poblacionDane": {
@@ -12550,14 +12523,14 @@ window.CONTRATOS_DATA = [
         "descripcion": "COBERTURA ANEXOS ONCOLÓGICO,PRE Y POST EGRESO"
       }
     ],
-    "vihHeader": "N/A",
+    "vihHeader": "VERIFICAR COMERCIAL",
     "vihSub": "N/A",
     "oncoHeader": "SI",
     "oncoSub": "ILIMITADO",
     "prePostHeader": "SI",
     "prePostSub": "2.75",
     "ortesisHeader": "SI",
-    "ortesisSub": "Requiere autorización",
+    "ortesisSub": "REQUIERE VOLANTE",
     "poblacionCompartida": 349113,
     "poblacionSoloMP": 114844,
     "poblacionDane": {
@@ -15534,14 +15507,14 @@ window.CONTRATOS_DATA = [
         "descripcion": "COBERTURA ANEXOS ONCOLÓGICO,PRE Y POST EGRESO"
       }
     ],
-    "vihHeader": "N/A",
+    "vihHeader": "VERIFICAR COMERCIAL",
     "vihSub": "N/A",
     "oncoHeader": "SI",
     "oncoSub": "ILIMITADO",
     "prePostHeader": "SI",
     "prePostSub": "2.75",
     "ortesisHeader": "SI",
-    "ortesisSub": "Requiere autorización",
+    "ortesisSub": "REQUIERE VOLANTE",
     "poblacionCompartida": 686,
     "poblacionSoloMP": 259,
     "poblacionDane": {
@@ -15773,14 +15746,14 @@ window.CONTRATOS_DATA = [
         "descripcion": "COBERTURA ANEXOS ONCOLÓGICO,PRE Y POST EGRESO"
       }
     ],
-    "vihHeader": "N/A",
+    "vihHeader": "VERIFICAR COMERCIAL",
     "vihSub": "N/A",
     "oncoHeader": "SI",
     "oncoSub": "ILIMITADO",
     "prePostHeader": "SI",
     "prePostSub": "2.75",
     "ortesisHeader": "SI",
-    "ortesisSub": "Requiere autorización",
+    "ortesisSub": "REQUIERE VOLANTE",
     "poblacionCompartida": 1,
     "poblacionSoloMP": 0,
     "poblacionDane": {
@@ -15812,14 +15785,14 @@ window.CONTRATOS_DATA = [
         "descripcion": "COBERTURA ANEXOS ONCOLÓGICO,PRE Y POST EGRESO"
       }
     ],
-    "vihHeader": "N/A",
+    "vihHeader": "VERIFICAR COMERCIAL",
     "vihSub": "N/A",
     "oncoHeader": "SI",
     "oncoSub": "ILIMITADO",
     "prePostHeader": "SI",
     "prePostSub": "2.75",
     "ortesisHeader": "SI",
-    "ortesisSub": "Requiere autorización",
+    "ortesisSub": "REQUIERE VOLANTE",
     "poblacionCompartida": 349113,
     "poblacionSoloMP": 114844,
     "poblacionDane": {
@@ -18796,14 +18769,14 @@ window.CONTRATOS_DATA = [
         "descripcion": "COBERTURA ANEXOS ONCOLÓGICO,PRE Y POST EGRESO"
       }
     ],
-    "vihHeader": "N/A",
+    "vihHeader": "VERIFICAR COMERCIAL",
     "vihSub": "N/A",
     "oncoHeader": "SI",
     "oncoSub": "ILIMITADO",
     "prePostHeader": "SI",
     "prePostSub": "2.75",
     "ortesisHeader": "SI",
-    "ortesisSub": "Requiere autorización",
+    "ortesisSub": "REQUIERE VOLANTE",
     "poblacionCompartida": 349113,
     "poblacionSoloMP": 114844,
     "poblacionDane": {
@@ -21780,14 +21753,14 @@ window.CONTRATOS_DATA = [
         "descripcion": "COBERTURA ANEXOS ONCOLÓGICO,PRE Y POST EGRESO"
       }
     ],
-    "vihHeader": "N/A",
+    "vihHeader": "VERIFICAR COMERCIAL",
     "vihSub": "N/A",
     "oncoHeader": "SI",
     "oncoSub": "ILIMITADO",
     "prePostHeader": "SI",
     "prePostSub": "2.75",
     "ortesisHeader": "SI",
-    "ortesisSub": "Requiere autorización",
+    "ortesisSub": "REQUIERE VOLANTE",
     "poblacionCompartida": 85,
     "poblacionSoloMP": 44,
     "poblacionDane": {
