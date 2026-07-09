@@ -369,9 +369,25 @@ document.addEventListener('DOMContentLoaded', () => {
             const jsonData = window.CONTRATOS_DATA;
             state.contratosBase = jsonData.map(c => {
                 let cob = c.coberturas || [];
+                
+                // Normalizar estado
+                let estado = c.estado ? String(c.estado).trim() : "En Ejecución";
+                const cleanEst = estado.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+                if (cleanEst.includes("ejecucion") || cleanEst.includes("activo") || cleanEst.includes("active") || cleanEst === "si" || cleanEst.includes("vigent") || cleanEst.includes("actualizado")) {
+                    estado = "En Ejecución";
+                } else if (cleanEst.includes("liquid") || cleanEst.includes("termin") || cleanEst.includes("finaliz") || cleanEst.includes("complet") || cleanEst.includes("cercan") || cleanEst.includes("no")) {
+                    estado = "Liquidado";
+                } else if (cleanEst.includes("suspend") || cleanEst.includes("pausa") || cleanEst.includes("prorrog")) {
+                    estado = "Suspendido";
+                } else {
+                    estado = estado.charAt(0).toUpperCase() + estado.slice(1);
+                }
+
                 return {
                     ...c,
                     coberturas: cob,
+                    estado: estado,
+                    tipoContratacion: c.tipoContratacion || c.tipo || "Directa",
                     fechaInicio: parseDate(c.fechaInicio),
                     fechaFin: parseDate(c.fechaFin)
                 };
@@ -479,7 +495,7 @@ document.addEventListener('DOMContentLoaded', () => {
             
             let estado = estadoVal ? String(estadoVal).trim() : "En Ejecución";
             const cleanEst = estado.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
-            if (cleanEst.includes("ejecucion") || cleanEst.includes("activo") || cleanEst.includes("active") || cleanEst === "si" || cleanEst.includes("vigent")) {
+            if (cleanEst.includes("ejecucion") || cleanEst.includes("activo") || cleanEst.includes("active") || cleanEst === "si" || cleanEst.includes("vigent") || cleanEst.includes("actualizado")) {
                 estado = "En Ejecución";
             } else if (cleanEst.includes("liquid") || cleanEst.includes("termin") || cleanEst.includes("finaliz") || cleanEst.includes("complet") || cleanEst.includes("cercan") || cleanEst.includes("no")) {
                 estado = "Liquidado";
