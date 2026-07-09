@@ -11,8 +11,7 @@
     <!-- CSS -->
     <link rel="stylesheet" href="style.css?v=16">
     
-    <!-- Carga de datos local convertidos desde Excel -->
-    <script src="data.js?v=3"></script>
+    <!-- La carga de datos ahora se realiza de forma segura mediante API Fetch en app.js -->
     <script src="dane_coords.js"></script>
     
     <!-- Carga de SheetJS (para soporte de mapeo en memoria si se requiere en el futuro) -->
@@ -378,8 +377,41 @@
             </div>
         </div>
     </div>
+    <!-- MODAL DE LOGIN (SEGURIDAD BACKEND) -->
+    <div id="login-modal" class="modal-overlay" style="position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background: rgba(0,0,0,0.95); z-index: 9999; backdrop-filter: blur(10px); display: flex; align-items: center; justify-content: center;">
+        <div class="modal-container" style="background: rgba(13, 19, 39, 0.98); border: 1px solid var(--color-primary); border-radius: var(--radius-lg); width: 90%; max-width: 400px; padding: 40px 30px; display: flex; flex-direction: column; box-shadow: 0 0 50px rgba(59, 130, 246, 0.2);">
+            
+            <div style="text-align: center; margin-bottom: 30px;">
+                <svg viewBox="0 0 24 24" width="48" height="48" style="margin-bottom: 10px;">
+                    <path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z" fill="var(--color-primary)" />
+                </svg>
+                <h2 style="font-size: 1.5rem; color: var(--color-text-main); font-family: var(--font-display); margin: 0; font-weight: 700;">Contratos360</h2>
+                <p style="color: var(--color-text-muted); font-size: 0.85rem; margin-top: 5px;">Acceso Seguro a Información Gerencial</p>
+            </div>
+            
+            <form id="login-form" style="display: flex; flex-direction: column; gap: 20px;">
+                <div style="display: flex; flex-direction: column; gap: 8px;">
+                    <label style="color: var(--color-text-muted); font-size: 0.75rem; text-transform: uppercase; font-weight: 600; letter-spacing: 0.05em;">Usuario</label>
+                    <input type="text" id="login-username" required style="padding: 12px 15px; font-size: 0.95rem; background: rgba(9, 13, 27, 0.8); border: 1px solid var(--color-border); color: #fff; border-radius: var(--radius-sm); outline: none; transition: border-color 0.2s;">
+                </div>
+                
+                <div style="display: flex; flex-direction: column; gap: 8px;">
+                    <label style="color: var(--color-text-muted); font-size: 0.75rem; text-transform: uppercase; font-weight: 600; letter-spacing: 0.05em;">Contraseña</label>
+                    <input type="password" id="login-password" required style="padding: 12px 15px; font-size: 0.95rem; background: rgba(9, 13, 27, 0.8); border: 1px solid var(--color-border); color: #fff; border-radius: var(--radius-sm); outline: none; transition: border-color 0.2s;">
+                </div>
+                
+                <div id="login-error" style="color: var(--color-danger); font-size: 0.8rem; text-align: center; min-height: 20px;"></div>
+                
+                <button type="submit" style="margin-top: 10px; padding: 14px; background: var(--color-primary); color: #fff; border: none; border-radius: var(--radius-md); font-weight: 600; font-size: 0.95rem; cursor: pointer; transition: background 0.2s; letter-spacing: 0.05em;">INICIAR SESIÓN</button>
+            </form>
+            
+            <div style="margin-top: 25px; text-align: center; border-top: 1px solid var(--color-border); padding-top: 20px;">
+                <p style="color: var(--color-text-muted); font-size: 0.7rem;">Subgerencia de Medicamentos MP<br>&copy; 2026 Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </div>
     
     <!-- Lógica de la aplicación -->
-    <script src="app.js?v=17"></script>
+    <script src="app.js?v=24"></script>
 </body>
 </html>

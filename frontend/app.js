@@ -16,6 +16,75 @@ window.onerror = function (msg, url, lineNo, columnNo, error) {
 };
 
 document.addEventListener('DOMContentLoaded', () => {
+    console.log("APP INIT v20");
+    // ----------------------------------------------------
+    // Autenticación Backend Segura
+    // ----------------------------------------------------
+    const loginModal = document.getElementById('login-modal');
+    const loginForm = document.getElementById('login-form');
+    const loginError = document.getElementById('login-error');
+
+    // Verificar si ya hay sesión activa
+    fetch('/api/check-session')
+        .then(res => res.json())
+        .then(data => {
+            console.log("=== TRACE: check-session finished. logged_in:", data.logged_in, "===");
+            if (data.logged_in) {
+                if(loginModal) {
+                    loginModal.style.display = 'none';
+                    loginModal.classList.remove('active');
+                }
+                loadFromAPI();
+            } else {
+                if(loginModal) {
+                    loginModal.style.display = 'flex';
+                    loginModal.style.opacity = '1';
+                    loginModal.style.pointerEvents = 'auto';
+                    loginModal.classList.add('active');
+                }
+                console.log("=== TRACE: Modal set to flex and active ===");
+            }
+        })
+        .catch(err => {
+            console.warn("No se pudo conectar con el servidor backend. Ejecutando en modo local/demo.", err);
+            if(loginModal) {
+                loginModal.style.display = 'none';
+                loginModal.classList.remove('active');
+            }
+            loadFromAPI(); // Intentar API o fallback a Demo
+        });
+
+    if (loginForm) {
+        loginForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            const username = document.getElementById('login-username').value;
+            const password = document.getElementById('login-password').value;
+            loginError.textContent = "Verificando...";
+
+            fetch('/api/login', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ username, password })
+            })
+            .then(res => {
+                if (!res.ok) {
+                    throw new Error("Credenciales inválidas");
+                }
+                return res.json();
+            })
+            .then(data => {
+                if(loginModal) {
+                    loginModal.style.display = 'none';
+                    loginModal.classList.remove('active');
+                }
+                loadFromAPI(); // Cargar datos reales
+            })
+            .catch(err => {
+                loginError.textContent = err.message;
+            });
+        });
+    }
+
     // ----------------------------------------------------
     // Datos de Demostración por Defecto (Mock Data)
     // ----------------------------------------------------
@@ -220,55 +289,79 @@ document.addEventListener('DOMContentLoaded', () => {
             });
     }
 
-    function loadFromDataJs() {
-        if (window.CONTRATOS_DATA && Array.isArray(window.CONTRATOS_DATA) && window.CONTRATOS_DATA.length > 0) {
-            if (elements.dataStatus) {
-                elements.dataStatus.textContent = "DATOS: EXCEL AUTO";
-                if (elements.dataStatus.parentElement) {
-                    elements.dataStatus.parentElement.style.background = "rgba(16, 185, 129, 0.08)";
-                    elements.dataStatus.parentElement.style.borderColor = "rgba(16, 185, 129, 0.2)";
+    function loadFromAPI() {
+        console.log("=== TRACE: loadFromAPI called! Fetching /api/contratos ===");
+        fetch('/api/contratos')
+            .then(response => {
+                console.log("=== TRACE: /api/contratos responded. ok:", response.ok, "===");
+                if (!response.ok) throw new Error("API No autorizada o no disponible");
+                return response.json();
+            })
+            .then(data => {
+                console.log("=== TRACE: /api/contratos parsed JSON. length:", data?.contratos?.length, "===");
+                if (data && data.contratos && Array.isArray(data.contratos) && data.contratos.length > 0) {
+                    window.CONTRATOS_DATA = data.contratos;
+                    if (data.droguerias) {
+                        window.DROGUERIAS_DATA = data.droguerias;
+                    }
+                    if (data.daneToRegional) {
+                        window.DANE_TO_REGIONAL = data.daneToRegional;
+                    }
+                    if (elements.dataStatus) {
+                        elements.dataStatus.textContent = "DATOS: API SEGURA";
+                        if (elements.dataStatus.parentElement) {
+                            elements.dataStatus.parentElement.style.background = "rgba(16, 185, 129, 0.08)";
+                            elements.dataStatus.parentElement.style.borderColor = "rgba(16, 185, 129, 0.2)";
+                        }
+                        elements.dataStatus.style.color = "var(--color-primary)";
+                    }
+                    if (elements.statusDot) elements.statusDot.className = "status-dot pulsing text-primary";
+                    if (elements.uploadIndicator) {
+                        elements.uploadIndicator.textContent = "CONECTADO (API)";
+                        elements.uploadIndicator.className = "value font-mono text-primary";
+                    }
+                    if (elements.xlsxLoadStatus) elements.xlsxLoadStatus.textContent = "SERVIDOR";
+
+                    state.detectedHeaders = Object.keys(window.CONTRATOS_DATA[0]);
+                    populateMappingSelectors();
+                    autoApplyMappingAndClose();
+
+                    addLog(`Datos cargados desde API Segura. ${window.CONTRATOS_DATA.length} registros conectados.`, 'success');
+                    
+                    // Ahora procesamos los datos
+                    initDataLoader();
+                } else {
+                    throw new Error("Datos vacíos en API");
                 }
-                elements.dataStatus.style.color = "var(--color-primary)";
-            }
-            if (elements.statusDot) elements.statusDot.className = "status-dot pulsing text-primary";
-            if (elements.uploadIndicator) {
-                elements.uploadIndicator.textContent = "CONECTADO (DATA.JS)";
-                elements.uploadIndicator.className = "value font-mono text-primary";
-            }
-            if (elements.xlsxLoadStatus) elements.xlsxLoadStatus.textContent = "LOCAL (JS)";
-
-            state.detectedHeaders = Object.keys(window.CONTRATOS_DATA[0]);
-            populateMappingSelectors();
-            autoApplyMappingAndClose();
-
-            addLog(`Datos cargados desde data.js. ${window.CONTRATOS_DATA.length} registros conectados.`, 'success');
-        } else {
-            // Cargar datos demo por defecto sin alertar de errores
-            if (elements.dataStatus) {
-                elements.dataStatus.textContent = "DATOS: DEMO";
-                if (elements.dataStatus.parentElement) {
-                    elements.dataStatus.parentElement.style.background = "rgba(245, 158, 11, 0.06)";
-                    elements.dataStatus.parentElement.style.borderColor = "rgba(245, 158, 11, 0.15)";
+            })
+            .catch(err => {
+                console.error("Error fatal en loadFromAPI o initDataLoader:", err);
+                // Fallback a Demo si la API falla o está vacía
+                if (elements.dataStatus) {
+                    elements.dataStatus.textContent = "DATOS: DEMO";
+                    if (elements.dataStatus.parentElement) {
+                        elements.dataStatus.parentElement.style.background = "rgba(245, 158, 11, 0.06)";
+                        elements.dataStatus.parentElement.style.borderColor = "rgba(245, 158, 11, 0.15)";
+                    }
+                    elements.dataStatus.style.color = "var(--color-warn)";
                 }
-                elements.dataStatus.style.color = "var(--color-warn)";
-            }
-            if (elements.statusDot) elements.statusDot.className = "status-dot pulsing text-warn";
-            if (elements.uploadIndicator) {
-                elements.uploadIndicator.textContent = "MOCK ACTIVO";
-                elements.uploadIndicator.className = "value font-mono text-warn";
-            }
-            if (elements.xlsxLoadStatus) elements.xlsxLoadStatus.textContent = "DEMOSTRACIÓN";
-            
-            state.contratosBase = [...DEFAULT_CONTRATOS];
-            state.contratosFiltrados = [...DEFAULT_CONTRATOS];
-            state.isDemo = true;
-            
-            populateFilterDropdowns();
-            recalculateAnalytics();
-            initCanvasNodes();
+                if (elements.statusDot) elements.statusDot.className = "status-dot pulsing text-warn";
+                if (elements.uploadIndicator) {
+                    elements.uploadIndicator.textContent = "MOCK ACTIVO";
+                    elements.uploadIndicator.className = "value font-mono text-warn";
+                }
+                if (elements.xlsxLoadStatus) elements.xlsxLoadStatus.textContent = "DEMOSTRACIÓN";
+                
+                state.contratosBase = [...DEFAULT_CONTRATOS];
+                state.contratosFiltrados = [...DEFAULT_CONTRATOS];
+                state.isDemo = true;
+                
+                populateFilterDropdowns();
+                recalculateAnalytics();
+                initCanvasNodes();
 
-            addLog("No se detectó Excel directo ni script data.js. Cargando datos de demostración en español.", "warning");
-        }
+                addLog("No se pudo cargar desde API Segura. Cargando datos de demostración en español.", "warning");
+            });
     }
 
     function initDataLoader() {
